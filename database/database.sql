@@ -1,3 +1,17 @@
+DROP TABLE SPEC_DEL_MEDICO;
+DROP TABLE SPECIALIZZAZIONI;
+DROP TABLE CONTRADDIZIONI;
+DROP TABLE CONFERME;
+DROP TABLE DIAGNOSI;
+DROP TABLE MEDICO;
+DROP TABLE SINTOMI;
+DROP TABLE RISCHI_PAZIENTE;
+DROP TABLE FATTORI_RISCHIO;
+DROP TABLE TERAPIE;
+DROP TABLE CARTELLA_CLINICA;
+DROP TABLE PAZIENTE;
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------                                   ----------------------------------------------------------------
@@ -19,7 +33,7 @@ CREATE TABLE PAZIENTE (
     -- varchar per gestire i civici tipo 10/b
     CIVICO              VARCHAR(10)     NOT NULL,
     
-    PRIMARY_KEY(CODSAN)
+    PRIMARY KEY(CODSAN)
 );
 
 
@@ -40,8 +54,7 @@ CREATE TABLE CARTELLA_CLINICA (
     PROGNOSI            VARCHAR(50)             ,
     CODSAN              VARCHAR(10)     REFERENCES PAZIENTE(CODSAN),
 
-    PRIMARY_KEY(ID),
-    REFERENCES         
+    PRIMARY KEY(ID)
 );
 
 
@@ -62,7 +75,7 @@ CREATE TABLE TERAPIE (
     DOSE                FLOAT(5)        NOT NULL,
     FARMACO             VARCHAR(10)     NOT NULL,
     
-    FOREIGN_KEY(ID_CARTELLA) REFERENCES CARTELLA_CLINICA(ID)
+    FOREIGN KEY(ID_CARTELLA) REFERENCES CARTELLA_CLINICA(ID)
 );
 
 
@@ -75,7 +88,7 @@ CREATE TABLE TERAPIE (
 
 CREATE TABLE FATTORI_RISCHIO (
 
-    NOME                VARCHAR(10)     PRIMARY_KEY
+    NOME                VARCHAR(10)     PRIMARY KEY
 
 );
 
@@ -90,9 +103,11 @@ CREATE TABLE FATTORI_RISCHIO (
 
 CREATE TABLE RISCHI_PAZIENTE (
 
-    ID_PAZIENTE         VARCHAR(10)     FOREIGN_KEY REFERENCES PAZIENTE(CODSAN),
-    NOME_FATTORE        VARCHAR(10)     FOREIGN_KEY REFERENCES FATTORI_RISCHIO(NOME) 
+    ID_PAZIENTE         VARCHAR(10)     NOT NULL,
+    NOME_FATTORE        VARCHAR(10)     NOT NULL, 
 
+    FOREIGN KEY(ID_PAZIENTE) REFERENCES PAZIENTE(CODSAN),
+    FOREIGN KEY(NOME_FATTORE) REFERENCES FATTORI_RISCHIO(NOME)
 );
 
 
@@ -106,13 +121,128 @@ CREATE TABLE RISCHI_PAZIENTE (
 
 CREATE TABLE SINTOMI (
 
-    ID_PAZIENTE         VARCHAR(10)     FOREIGN_KEY REFERENCES PAZIENTE(CODSAN),
+    ID_PAZIENTE         VARCHAR(10)     REFERENCES PAZIENTE(CODSAN),
     NOME                VARCHAR(10)     NOT NULL,
-    INTENSITA           VARCHAR(10)       NOT NULL,
+    INTENSITA           VARCHAR(10)     NOT NULL,
 
 
-    PRIMARY_KEY         (NOME),
+    PRIMARY KEY         (NOME, ID_PAZIENTE),
+--    FOREIGN KEY (ID_PAZIENTE) ,
     CHECK(INTENSITA IN  ('bassa', 'media', 'alta'))
 
 );
 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+-------------------------------------             MEDICO                ----------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE MEDICO (
+
+    ID                  VARCHAR(10)     NOT NULL,
+    NOME                VARCHAR(10)     NOT NULL,
+    COGNOME             VARCHAR(10)     NOT NULL,
+    PRIMARIO            VARCHAR(10)     NOT NULL,
+    PSW                 VARCHAR(10)     NOT NULL,
+    INIZIO_ATTIVITA     DATE            NOT NULL,
+
+    PRIMARY KEY(ID)
+);
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+-------------------------------------            DIAGNOSI               ----------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE DIAGNOSI (
+
+    ID_PAZIENTE         VARCHAR(10)     REFERENCES PAZIENTE(CODSAN),
+    DATA                DATE            NOT NULL,
+    ICD10               VARCHAR(10)     NOT NULL,
+    PATOLOGIA           VARCHAR(30)     NOT NULL,
+    ID_MEDICO           VARCHAR(10)     REFERENCES MEDICO(ID),
+
+    PRIMARY KEY (ID_PAZIENTE, DATA)
+);
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+-------------------------------------            CONFERME               ----------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE CONFERME (
+
+    ID_SINTOMO          VARCHAR(10)     NOT NULL,
+    N_PAT               VARCHAR(10)     NOT NULL,
+    ID_DIAGNOSI         VARCHAR(10)     NOT NULL,
+    DATA                DATE            NOT NULL,
+
+    FOREIGN KEY(ID_SINTOMO, N_PAT) REFERENCES SINTOMI(ID_PAZIENTE, NOME),
+    FOREIGN KEY(ID_DIAGNOSI, DATA) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA)
+
+);
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+-------------------------------------          CONTRADDIZIONI           ----------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE CONTRADDIZIONI (
+
+    ID_SINTOMO          VARCHAR(10)     NOT NULL,
+    N_PAT               VARCHAR(10)     NOT NULL,
+    ID_DIAGNOSI         VARCHAR(10)     NOT NULL,
+    DATA                DATE            NOT NULL,
+
+    FOREIGN KEY(ID_SINTOMO, N_PAT) REFERENCES SINTOMI(ID_PAZIENTE, NOME),
+    FOREIGN KEY(ID_DIAGNOSI, DATA) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA)
+
+);
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+-------------------------------------         SPECIALIZZAZIONI          ----------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE SPECIALIZZAZIONI (
+
+    NOME                VARCHAR(10)     PRIMARY KEY   
+
+);
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+-------------------------------------          SPEC_DEL_MEDICO          ----------------------------------------------------------------
+-------------------------------------                                   ----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE SPEC_DEL_MEDICO (
+
+    ID_MEDICO               VARCHAR(10)     NOT NULL,
+    NOME_SPECIALIZZAZIONE   VARCHAR(10)     NOT NULL,
+
+    FOREIGN KEY(ID_MEDICO) REFERENCES MEDICO(ID),
+    FOREIGN KEY(NOME_SPECIALIZZAZIONE) REFERENCES SPECIALIZZAZIONI(NOME)
+);
