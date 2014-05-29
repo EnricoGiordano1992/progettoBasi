@@ -9,6 +9,7 @@ public class Gen {
 
 	Vector<String> cas_cogn;
 	Vector<String> cas_nom;
+	Vector<String> prov;
 	
 	Random r;
 	
@@ -18,6 +19,7 @@ public class Gen {
 		
 		cas_cogn = new Vector<String>();
 		cas_nom = new Vector<String>();
+		prov = new Vector<String>();
 		
 		cas_cogn.add("ba");
 		cas_cogn.add("be");
@@ -316,7 +318,7 @@ public class Gen {
 		cas_nom.add("ANDREA");
 		cas_nom.add("ANDREINA");
 		cas_nom.add("NICOLA");
-		cas_nom.add("NICOLO'");
+		cas_nom.add("NICOLO");
 		cas_nom.add("NICOLE");
 		cas_nom.add("NICOLETTA");
 		cas_nom.add("ALICE");
@@ -422,6 +424,111 @@ public class Gen {
 		cas_nom.add("MARIANNA"); 
 		
 		
+		prov.add("Torino");
+		prov.add("Vercelli");
+		prov.add("Novara");
+		prov.add("Cuneo");
+		prov.add("Asti");
+		prov.add("Alessandria");
+		prov.add("Biella");
+		prov.add("Verbano-Cusio-Ossola");
+		prov.add("Aosta");
+		prov.add("Varese");
+		prov.add("Como");
+		prov.add("Sondrio");
+		prov.add("Milano");
+		prov.add("Bergamo");
+		prov.add("Brescia");
+		prov.add("Pavia");
+		prov.add("Cremona");
+		prov.add("Mantova");
+		prov.add("Lecco");
+		prov.add("Lodi");
+		prov.add("Bolzano");
+		prov.add("Trento");
+		prov.add("Verona");
+		prov.add("Vicenza");
+		prov.add("Belluno");
+		prov.add("Treviso");
+		prov.add("Venezia");
+		prov.add("Padova");
+		prov.add("Rovigo");
+		prov.add("Udine");
+		prov.add("Gorizia");
+		prov.add("Trieste");
+		prov.add("Pordenone");
+		prov.add("Imperia");
+		prov.add("Savona");
+		prov.add("Genova");
+		prov.add("La Spezia");
+		prov.add("Piacenza");
+		prov.add("Parma");
+		prov.add("Reggio nell Emilia");
+		prov.add("Modena");
+		prov.add("Bologna");
+		prov.add("Ferrara");
+		prov.add("Ravenna");
+		prov.add("Forli-Cesena");
+		prov.add("Rimini");
+		prov.add("Massa-Carrara");
+		prov.add("Lucca");
+		prov.add("Pistoia");
+		prov.add("Firenze");
+		prov.add("Livorno");
+		prov.add("Pisa");
+		prov.add("Arezzo");
+		prov.add("Siena");
+		prov.add("Grosseto");
+		prov.add("Prato");
+		prov.add("Perugia");
+		prov.add("Terni");
+		prov.add("Pesaro");
+		prov.add("Urbino");
+		prov.add("Ancona");
+		prov.add("Macerata");
+		prov.add("Ascoli Piceno");
+		prov.add("Viterbo");
+		prov.add("Rieti");
+		prov.add("Roma");
+		prov.add("Latina");
+		prov.add("Frosinone");
+		prov.add("Aquila");
+		prov.add("Teramo");
+		prov.add("Pescara");
+		prov.add("Chieti");
+		prov.add("Campobasso");
+		prov.add("Isernia");
+		prov.add("Caserta");
+		prov.add("Benevento");
+		prov.add("Napoli");
+		prov.add("Avellino");
+		prov.add("Salerno");
+		prov.add("Foggia");
+		prov.add("Bari");
+		prov.add("Taranto");
+		prov.add("Brindisi");
+		prov.add("Lecce");
+		prov.add("Potenza");
+		prov.add("Matera");
+		prov.add("Cosenza");
+		prov.add("Catanzaro");
+		prov.add("Reggio di Calabria");
+		prov.add("Crotone");
+		prov.add("Vibo Valentia");
+		prov.add("Trapani");
+		prov.add("Palermo");
+		prov.add("Messina");
+		prov.add("Agrigento");
+		prov.add("Caltanissetta");
+		prov.add("Enna");
+		prov.add("Catania");
+		prov.add("Ragusa");
+		prov.add("Siracusa");
+		prov.add("Sassari");
+		prov.add("Nuoro");
+		prov.add("Cagliari");
+		prov.add("Oristano");
+		
 		r = new Random();
 
 		
@@ -460,7 +567,14 @@ public class Gen {
 	@SuppressWarnings("deprecation")
 	public String newDate(){
 		
-		String d = (r.nextInt(2013 - 1930) + 1930) + "-" + r.nextInt(12) + "-" + r.nextInt(31);
+		int mese = 1 + r.nextInt(12);
+		
+		String d = (r.nextInt(2013 - 1930) + 1930) + "-" + (1 + r.nextInt(11)) + "-";
+		
+		if(mese == 2)
+			d+= 1 + r.nextInt(30);
+		else
+			d+= 1 + r.nextInt(28);
 		
 		return d;
 	}
@@ -474,8 +588,13 @@ public class Gen {
 		String cognome = "";
 		String data = "";
 		String comune = "";
+		String via = "";
+		String cap = "";
+		String civico = "";
+		String provincia = "";
+		String psw = "";
 		
-		int i = 5000;
+		int i = 1000;
 		
 		comuni c = new comuni();
 		
@@ -488,9 +607,32 @@ public class Gen {
 			cognome = g.newCognome(1 + g.r.nextInt(5));
 			data = g.newDate();
 			comune = c.newComune();
+			via = "via ";
+			via += g.newCognome(1 + g.r.nextInt(4));
+
+			cap = "" + 1 + g.r.nextInt(9);
+			cap += 1 + g.r.nextInt(9);
+			cap += 1 + g.r.nextInt(9);
+			cap += 1 + g.r.nextInt(9);
+			cap += 1 + g.r.nextInt(9);
+			
+			civico = "" + g.r.nextInt(200);
+			if(i % 5 == 0)
+				civico += "/b";
+			else if(i % 12 == 0)
+				civico += "/c";
+			
 			cod = new codfisc(cognome, nome, data, comune, (i%2==0)?"F":"M");
 			
-			System.out.println(nome + " " + cognome + " " + data + " " + comune + " " + cod.calcoloCodiceFiscale() );
+			provincia = g.prov.get(g.r.nextInt(g.prov.size()));
+
+			psw = g.newCognome(1 + g.r.nextInt(2)) + "@" + g.newCognome(1 + g.r.nextInt(1)) + "%";
+			
+			System.out.println("INSERT INTO PAZIENTE VALUES (" + 
+			"'"+cod.calcoloCodiceFiscale()+"'" + ", " + "'"+nome+"'"+ ", " +"'"+cognome+"'" 
+					+ ", " + "'"+data+"'" + ", " + "'"+psw+"'"+ ", " + "'"+comune+"'" 
+			+ ", " + "'"+via+"'" + ", " +"'"+provincia+"'" + ", " + "'"+cap+"'" + ", " 
+					+ "'"+civico+"'" + ");");
 		}
 		
 	}

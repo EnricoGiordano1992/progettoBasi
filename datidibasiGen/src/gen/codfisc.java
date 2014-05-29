@@ -29,6 +29,24 @@ public class codfisc {
 						a += s.substring(i, i+1).toUpperCase();
 		return a;
 	}
+	
+	
+	public String getGiorno(String s){
+		
+		String a  = "";
+		int tratto = 0;
+		
+		for(int i=0; i < s.length(); i++)
+			if ((s.substring(i, i+1).equals("-"))){
+				tratto++;
+			if(tratto >= 2){
+				a = s.substring(i+1, i+2);
+				break;
+				}
+			}
+		
+		return a;
+	}
 
 	public String calcoloCodiceFiscale () {
 		String codFis = "";
@@ -39,21 +57,20 @@ public class codfisc {
 
 		try{
 		codFis += getCons(cognomecf).substring(0,3);
-		codFis += getCons(nomecf).substring(0,3);
 		}catch(Exception e){
 			codFis += getCons(cognomecf).substring(0,1) + "XX";
+		}
+			try{
+		codFis += getCons(nomecf).substring(0,3);
+		}catch(Exception ep){
 			codFis += getCons(nomecf).substring(0,1) + "XX";
 			;}
 		
-		codFis += dataNascitacf.substring(0, 2);
+		codFis += getGiorno(dataNascitacf);
 		
 		codFis += "X";
 		
-		try{
-		codFis += dataNascitacf.substring(7,9);
-		}catch(Exception e){
-			codFis += "94";
-		}
+		codFis += dataNascitacf.substring(2, 4);
 		
 		codFis += "E512X";
 		

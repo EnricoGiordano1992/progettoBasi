@@ -19,7 +19,7 @@ Acerra
 Aci Bonaccorsi
 Aci Castello
 Aci Catena
-Aci Sant'Antonio
+Aci Sant Antonio
 Acireale
 Acquacanina
 Acquafondata
@@ -36,7 +36,7 @@ Acquasanta Terme
 Acquasparta
 Acquaviva Collecroce
 Acquaviva delle Fonti
-Acquaviva d'Isernia
+Acquaviva d Isernia
 Acquaviva Picena
 Acquaviva Platani
 Acquedolci
@@ -106,10 +106,10 @@ Albairate
 Albanella
 Albano di Lucania
 Albano Laziale
-Albano Sant'Alessandro
+Albano Sant Alessandro
 Albano Vercellese
 Albaredo Arnaboldi
-Albaredo d'Adige
+Albaredo d Adige
 Albaredo per San Marco
 Albareto
 Albaretto della Torre
@@ -122,7 +122,7 @@ Albese con Cassano
 Albettone
 Albi
 Albiano
-Albiano d'Ivrea
+Albiano d Ivrea
 Albiate
 Albidona
 Albignasego
@@ -261,8 +261,8 @@ Anzano del Parco
 Anzano di Puglia
 Anzi
 Anzio
-Anzola dell'Emilia
-Anzola d'Ossola
+Anzola dell Emilia
+Anzola d Ossola
 Aosta
 Apecchio
 Apice
@@ -278,7 +278,7 @@ Apricena
 Aprigliano
 Aprilia
 Aquara
-Aquila d'Arroscia
+Aquila d Arroscia
 Aquileia
 Aquilonia
 Aquino
@@ -362,7 +362,7 @@ Artena
 Artogne
 Arvier
 Arzachena
-Arzago d'Adda
+Arzago d Adda
 Arzana
 Arzano
 Arzene
@@ -427,7 +427,7 @@ Ayas
 Aymavilles
 Azeglio
 Azzanello
-Azzano d'Asti
+Azzano d Asti
 Azzano Decimo
 Azzano Mella
 Azzano San Paolo
@@ -475,9 +475,9 @@ Bairo
 Baiso
 Bajardo
 Balangero
-Baldichieri d'Asti
+Baldichieri d Asti
 Baldissero Canavese
-Baldissero d'Alba
+Baldissero d Alba
 Baldissero Torinese
 Balestrate
 Balestrino
@@ -497,7 +497,7 @@ Baone
 Baradili
 Baragiano
 Baranello
-Barano d'Ischia
+Barano d Ischia
 Baranzate
 Barasso
 Baratili San Pietro
@@ -509,7 +509,7 @@ Barbaresco
 Barbariga
 Barbata
 Barberino di Mugello
-Barberino Val d'Elsa
+Barberino Val d Elsa
 Barbianello
 Barbiano
 Barbona
@@ -568,7 +568,7 @@ Bassiano
 Bassignana
 Bastia Mondovì
 Bastia Umbra
-Bastida de' Dossi
+Bastida de  Dossi
 Bastida Pancarana
 Bastiglia
 Battaglia Terme
@@ -590,7 +590,7 @@ Beinasco
 Beinette
 Belcastro
 Belfiore
-Belforte all'Isauro
+Belforte all Isauro
 Belforte del Chienti
 Belforte Monferrato
 Belgioioso
@@ -729,7 +729,7 @@ Bocchigliero
 Boccioleto
 Bocenago
 Bodio Lomnago
-Boffalora d'Adda
+Boffalora d Adda
 Boffalora Sopra Ticino
 Bogliasco
 Bognanco
@@ -783,7 +783,7 @@ Boretto
 Borgarello
 Borgaro Torinese
 Borgetto
-Borghetto d'Arroscia
+Borghetto d Arroscia
 Borghetto di Borbera
 Borghetto di Vara
 Borghetto Lodigiano
@@ -793,7 +793,7 @@ Borgia
 Borgiallo
 Borgio Verezzi
 Borgo a Mozzano
-Borgo d'Ale
+Borgo d Ale
 Borgo di Terzo
 Borgo Pace
 Borgo Priolo
@@ -810,7 +810,7 @@ Borgo Valsugana
 Borgo Velino
 Borgo Vercelli
 Borgoforte
-Borgofranco d'Ivrea
+Borgofranco d Ivrea
 Borgofranco sul Po
 Borgolavezzaro
 Borgomale
@@ -840,7 +840,7 @@ Borutta
 Borzonasca
 Bosa
 Bosaro
-Boschi Sant'Anna
+Boschi Sant Anna
 Bosco Chiesanuova
 Bosco Marengo
 Bosconero
@@ -918,7 +918,7 @@ Brienno
 Brienza
 Briga Alta
 Briga Novarese
-Brignano Gera d'Adda
+Brignano Gera d Adda
 Brignano-Frascata
 Brindisi
 Brindisi Montagna
@@ -1016,9 +1016,9 @@ Butera
 Buti
 Buttapietra
 Buttigliera Alta
-Buttigliera d'Asti
+Buttigliera d Asti
 Buttrio
-Ca' d'Andrea
+Ca  d Andrea
 Cabella Ligure
 Cabiate
 Cabras
@@ -1101,7 +1101,7 @@ Caltavuturo
 Caltignaga
 Calto
 Caltrano
-Calusco d'Adda
+Calusco d Adda
 Caluso
 Calvagese della Riviera
 Calvanico
@@ -1111,7 +1111,7 @@ Calvene
 Calvenzano
 Calvera
 Calvi
-Calvi dell'Umbria
+Calvi dell Umbria
 Calvi Risorta
 Calvignano
 Calvignasco
@@ -1162,14 +1162,14 @@ Campiglia Cervo
 Campiglia dei Berici
 Campiglia Marittima
 Campiglione-Fenile
-Campione d'Italia
+Campione d Italia
 Campitello di Fassa
 Campli
 Campo Calabro
 Campo di Giove
 Campo di Trens
 Campo Ligure
-Campo nell'Elba
+Campo nell Elba
 Campo San Martino
 Campo Tures
 Campobasso
@@ -1214,7 +1214,7 @@ Campotosto
 Camugnano
 Canal San Bovo
 Canale
-Canale d'Agordo
+Canale d Agordo
 Canale Monterano
 Canaro
 Canazei
@@ -1244,11 +1244,11 @@ Cannalonga
 Cannara
 Cannero Riviera
 Canneto Pavese
-Canneto sull'Oglio
+Canneto sull Oglio
 Cannobio
 Cannole
 Canolo
-Canonica d'Adda
+Canonica d Adda
 Canosa di Puglia
 Canosa Sannita
 Canosio
@@ -1285,7 +1285,7 @@ Capitignano
 Capizzi
 Capizzone
 Capo di Ponte
-Capo d'Orlando
+Capo d Orlando
 Capodimonte
 Capodrise
 Capoliveri
@@ -1297,7 +1297,7 @@ Capoterra
 Capovalle
 Cappadocia
 Cappella Cantone
-Cappella de' Picenardi
+Cappella de  Picenardi
 Cappella Maggiore
 Cappelle sul Tavo
 Capracotta
@@ -1315,7 +1315,7 @@ Capri
 Capri Leone
 Capriana
 Capriano del Colle
-Capriata d'Orba
+Capriata d Orba
 Capriate San Gervasio
 Capriati a Volturno
 Caprie
@@ -1509,7 +1509,7 @@ Casarile
 Casarsa della Delizia
 Casarza Ligure
 Casasco
-Casasco d'Intelvi
+Casasco d Intelvi
 Casatenovo
 Casatisma
 Casavatore
@@ -1518,7 +1518,7 @@ Cascia
 Casciago
 Casciana Terme
 Cascina
-Cascinette d'Ivrea
+Cascinette d Ivrea
 Casei Gerola
 Caselette
 Casella
@@ -1530,15 +1530,15 @@ Caserta
 Casier
 Casignana
 Casina
-Casirate d'Adda
-Caslino d'Erba
+Casirate d Adda
+Caslino d Erba
 Casnate con Bernate
 Casnigo
 Casola di Napoli
 Casola in Lunigiana
 Casola Valsenio
 Casole Bruzio
-Casole d'Elsa
+Casole d Elsa
 Casoli
 Casorate Primo
 Casorate Sempione
@@ -1549,8 +1549,8 @@ Casperia
 Caspoggio
 Cassacco
 Cassago Brianza
-Cassano all'Ionio
-Cassano d'Adda
+Cassano all Ionio
+Cassano d Adda
 Cassano delle Murge
 Cassano Irpino
 Cassano Magnago
@@ -1558,7 +1558,7 @@ Cassano Spinola
 Cassano Valcuvia
 Cassaro
 Cassiglio
-Cassina de' Pecchi
+Cassina de  Pecchi
 Cassina Rizzardi
 Cassina Valsassina
 Cassinasco
@@ -1587,9 +1587,9 @@ Castel Campagnano
 Castel Castagna
 Castel Colonna
 Castel Condino
-Castel d'Aiano
-Castel d'Ario
-Castel d'Azzano
+Castel d Aiano
+Castel d Ario
+Castel d Azzano
 Castel del Giudice
 Castel del Monte
 Castel del Piano
@@ -1623,8 +1623,8 @@ Castel San Niccolò
 Castel San Pietro Romano
 Castel San Pietro Terme
 Castel San Vincenzo
-Castel Sant'Angelo
-Castel Sant'Elia
+Castel Sant Angelo
+Castel Sant Elia
 Castel Viscardo
 Castel Vittorio
 Castel Volturno
@@ -1658,7 +1658,7 @@ Castelguglielmo
 Castelguidone
 Castellabate
 Castellafiume
-Castell'Alfero
+Castell Alfero
 Castellalto
 Castellammare del Golfo
 Castellammare di Stabia
@@ -1672,18 +1672,18 @@ Castellar
 Castellar Guidobono
 Castellarano
 Castellaro
-Castell'Arquato
+Castell Arquato
 Castellavazzo
-Castell'Azzara
+Castell Azzara
 Castellazzo Bormida
 Castellazzo Novarese
 Castelleone
 Castelleone di Suasa
 Castellero
 Castelletto Cervo
-Castelletto d'Erro
+Castelletto d Erro
 Castelletto di Branduzzo
-Castelletto d'Orba
+Castelletto d Orba
 Castelletto Merli
 Castelletto Molina
 Castelletto Monferrato
@@ -1699,10 +1699,10 @@ Castellino del Biferno
 Castellino Tanaro
 Castelliri
 Castello Cabiaglio
-Castello d'Agogna
-Castello d'Argile
+Castello d Agogna
+Castello d Argile
 Castello del Matese
-Castello dell'Acqua
+Castello dell Acqua
 Castello di Annone
 Castello di Brianza
 Castello di Cisterna
@@ -1715,7 +1715,7 @@ Castelluccio dei Sauri
 Castelluccio Inferiore
 Castelluccio Superiore
 Castelluccio Valmaggiore
-Castell'Umberto
+Castell Umberto
 Castelmagno
 Castelmarte
 Castelmassa
@@ -1726,11 +1726,11 @@ Castelnovetto
 Castelnovo Bariano
 Castelnovo del Friuli
 Castelnovo di Sotto
-Castelnovo ne' Monti
+Castelnovo ne  Monti
 Castelnuovo
 Castelnuovo Belbo
 Castelnuovo Berardenga
-Castelnuovo Bocca d'Adda
+Castelnuovo Bocca d Adda
 Castelnuovo Bormida
 Castelnuovo Bozzente
 Castelnuovo Calcea
@@ -1784,7 +1784,7 @@ Castiglion Fiorentino
 Castiglione a Casauria
 Castiglione Chiavarese
 Castiglione Cosentino
-Castiglione d'Adda
+Castiglione d Adda
 Castiglione dei Pepoli
 Castiglione del Genovesi
 Castiglione del Lago
@@ -1792,8 +1792,8 @@ Castiglione della Pescaia
 Castiglione delle Stiviere
 Castiglione di Garfagnana
 Castiglione di Sicilia
-Castiglione d'Intelvi
-Castiglione d'Orcia
+Castiglione d Intelvi
+Castiglione d Orcia
 Castiglione Falletto
 Castiglione in Teverina
 Castiglione Messer Marino
@@ -1812,7 +1812,7 @@ Casto
 Castorano
 Castrezzato
 Castri di Lecce
-Castrignano de' Greci
+Castrignano de  Greci
 Castrignano del Capo
 Castro
 Castro
@@ -1823,7 +1823,7 @@ Castrofilippo
 Castrolibero
 Castronno
 Castronovo di Sicilia
-Castronuovo di Sant'Andrea
+Castronuovo di Sant Andrea
 Castropignano
 Castroreale
 Castroregio
@@ -1836,12 +1836,12 @@ Cattolica
 Cattolica Eraclea
 Caulonia
 Cautano
-Cava de' Tirreni
+Cava de  Tirreni
 Cava Manara
 Cavacurta
 Cavaglià
 Cavaglietto
-Cavaglio d'Agogna
+Cavaglio d Agogna
 Cavaglio-Spoccia
 Cavagnolo
 Cavaion Veronese
@@ -1863,7 +1863,7 @@ Cavazzo Carnico
 Cave
 Cavedago
 Cavedine
-Cavenago d'Adda
+Cavenago d Adda
 Cavenago di Brianza
 Cavernago
 Cavezzo
@@ -1875,7 +1875,7 @@ Cavriglia
 Cazzago Brabbia
 Cazzago San Martino
 Cazzano di Tramigna
-Cazzano Sant'Andrea
+Cazzano Sant Andrea
 Ceccano
 Cecima
 Cecina
@@ -1927,7 +1927,7 @@ Ceprano
 Cerami
 Ceranesi
 Cerano
-Cerano d'Intelvi
+Cerano d Intelvi
 Ceranova
 Ceraso
 Cercemaggiore
@@ -1963,8 +1963,8 @@ Cernobbio
 Cernusco Lombardone
 Cernusco sul Naviglio
 Cerreto Castello
-Cerreto d'Asti
-Cerreto d'Esi
+Cerreto d Asti
+Cerreto d Esi
 Cerreto di Spoleto
 Cerreto Grue
 Cerreto Guidi
@@ -1993,7 +1993,7 @@ Cervesina
 Cerveteri
 Cervia
 Cervicati
-Cervignano d'Adda
+Cervignano d Adda
 Cervignano del Friuli
 Cervinara
 Cervino
@@ -2051,14 +2051,14 @@ Chiavenna
 Chiaverano
 Chienes
 Chieri
-Chies d'Alpago
+Chies d Alpago
 Chiesa in Valmalenco
 Chiesanuova
 Chiesina Uzzanese
 Chieti
 Chieuti
 Chieve
-Chignolo d'Isola
+Chignolo d Isola
 Chignolo Po
 Chioggia
 Chiomonte
@@ -2074,7 +2074,7 @@ Chiusa di San Michele
 Chiusa Sclafani
 Chiusaforte
 Chiusanico
-Chiusano d'Asti
+Chiusano d Asti
 Chiusano di San Domenico
 Chiusavecchia
 Chiusdino
@@ -2106,7 +2106,7 @@ Cimolais
 Cimone
 Cinaglio
 Cineto Romano
-Cingia de' Botti
+Cingia de  Botti
 Cingoli
 Cinigiano
 Cinisello Balsamo
@@ -2135,13 +2135,13 @@ Cisliano
 Cismon del Grappa
 Cison di Valmarino
 Cissone
-Cisterna d'Asti
+Cisterna d Asti
 Cisterna di Latina
 Cisternino
 Citerna
 Città della Pieve
 Città di Castello
-Città Sant'Angelo
+Città Sant Angelo
 Cittadella
 Cittaducale
 Cittanova
@@ -2157,7 +2157,7 @@ Cividate al Piano
 Cividate Camuno
 Civita
 Civita Castellana
-Civita d'Antino
+Civita d Antino
 Civitacampomarano
 Civitaluparella
 Civitanova del Sannio
@@ -2166,7 +2166,7 @@ Civitaquana
 Civitavecchia
 Civitella Alfedena
 Civitella Casanova
-Civitella d'Agliano
+Civitella d Agliano
 Civitella del Tronto
 Civitella di Romagna
 Civitella in Val di Chiana
@@ -2216,9 +2216,9 @@ Collalto Sabino
 Collarmele
 Collazzone
 Colle Brianza
-Colle d'Anchise
+Colle d Anchise
 Colle di Tora
-Colle di Val d'Elsa
+Colle di Val d Elsa
 Colle San Magno
 Colle Sannita
 Colle Santa Lucia
@@ -2336,7 +2336,7 @@ Corfinio
 Cori
 Coriano
 Corigliano Calabro
-Corigliano d'Otranto
+Corigliano d Otranto
 Corinaldo
 Corio
 Corleone
@@ -2348,11 +2348,11 @@ Corna Imagna
 Cornalba
 Cornale
 Cornaredo
-Cornate d'Adda
-Cornedo all'Isarco
+Cornate d Adda
+Cornedo all Isarco
 Cornedo Vicentino
 Cornegliano Laudense
-Corneliano d'Alba
+Corneliano d Alba
 Corniglio
 Corno di Rosazzo
 Corno Giovine
@@ -2373,8 +2373,8 @@ Cortandone
 Cortanze
 Cortazzone
 Corte Brugnatella
-Corte de' Cortesi con Cignone
-Corte de' Frati
+Corte de  Cortesi con Cignone
+Corte de  Frati
 Corte Franca
 Corte Palasio
 Cortemaggiore
@@ -2384,7 +2384,7 @@ Cortenova
 Cortenuova
 Corteolona
 Cortiglione
-Cortina d'Ampezzo
+Cortina d Ampezzo
 Cortina sulla Strada del Vino
 Cortino
 Cortona
@@ -2394,7 +2394,7 @@ Corvino San Quirico
 Corzano
 Coseano
 Cosenza
-Cosio d'Arroscia
+Cosio d Arroscia
 Cosio Valtellino
 Cosoleto
 Cossano Belbo
@@ -2405,7 +2405,7 @@ Cossignano
 Cossogno
 Cossoine
 Cossombrato
-Costa de' Nobili
+Costa de  Nobili
 Costa di Mezzate
 Costa di Rovigo
 Costa Masnaga
@@ -2418,7 +2418,7 @@ Costacciaro
 Costanzana
 Costarainera
 Costermano
-Costigliole d'Asti
+Costigliole d Asti
 Costigliole Saluzzo
 Cotignola
 Cotronei
@@ -2467,7 +2467,7 @@ Crosa
 Crosia
 Crosio della Valle
 Crotone
-Crotta d'Adda
+Crotta d Adda
 Crova
 Croviana
 Crucoli
@@ -2551,7 +2551,7 @@ Desulo
 Diamante
 Diano Arentino
 Diano Castello
-Diano d'Alba
+Diano d Alba
 Diano Marina
 Diano San Pietro
 Dicomano
@@ -2701,7 +2701,7 @@ Fanna
 Fano
 Fano Adriano
 Fara Filiorum Petri
-Fara Gera d'Adda
+Fara Gera d Adda
 Fara in Sabina
 Fara Novarese
 Fara Olivana con Sola
@@ -2712,9 +2712,9 @@ Farigliano
 Farindola
 Farini
 Farnese
-Farra d'Alpago
+Farra d Alpago
 Farra di Soligo
-Farra d'Isonzo
+Farra d Isonzo
 Fasano
 Fascia
 Fauglia
@@ -2767,7 +2767,7 @@ Fierozzo
 Fiesco
 Fiesole
 Fiesse
-Fiesso d'Artico
+Fiesso d Artico
 Fiesso Umbertiano
 Figino Serenza
 Figline Valdarno
@@ -2792,7 +2792,7 @@ Fiorano al Serio
 Fiorano Canavese
 Fiorano Modenese
 Fiordimonte
-Fiorenzuola d'Arda
+Fiorenzuola d Arda
 Firenze
 Firenzuola
 Firmo
@@ -2843,7 +2843,7 @@ Fontanelice
 Fontanella
 Fontanellato
 Fontanelle
-Fontaneto d'Agogna
+Fontaneto d Agogna
 Fontanetto Po
 Fontanigorda
 Fontanile
@@ -2890,7 +2890,7 @@ Fornovo San Giovanni
 Forte dei Marmi
 Fortezza
 Fortunago
-Forza d'Agrò
+Forza d Agrò
 Fosciandora
 Fosdinovo
 Fossa
@@ -2908,14 +2908,14 @@ Frabosa Soprana
 Frabosa Sottana
 Fraconalto
 Fragagnano
-Fragneto L'Abate
+Fragneto L Abate
 Fragneto Monforte
 Fraine
 Framura
 Francavilla al Mare
 Francavilla Angitola
 Francavilla Bisio
-Francavilla d'Ete
+Francavilla d Ete
 Francavilla di Sicilia
 Francavilla Fontana
 Francavilla in Sinni
@@ -3101,7 +3101,7 @@ Germignaga
 Gerocarne
 Gerola Alta
 Gerosa
-Gerre de' Caprioli
+Gerre de  Caprioli
 Gesico
 Gessate
 Gessopalena
@@ -3116,7 +3116,7 @@ Ghislarengo
 Giacciano con Baruchella
 Giaglione
 Gianico
-Giano dell'Umbria
+Giano dell Umbria
 Giano Vetusto
 Giardinello
 Giardini-Naxos
@@ -3170,7 +3170,7 @@ Giusvalla
 Givoletto
 Gizzeria
 Glorenza
-Godega di Sant'Urbano
+Godega di Sant Urbano
 Godiasco
 Godrano
 Goito
@@ -3209,7 +3209,7 @@ Gottolengo
 Govone
 Gozzano
 Gradara
-Gradisca d'Isonzo
+Gradisca d Isonzo
 Grado
 Gradoli
 Graffignana
@@ -3220,7 +3220,7 @@ Gragnano Trebbiense
 Grammichele
 Grana
 Granaglione
-Granarolo dell'Emilia
+Granarolo dell Emilia
 Grancona
 Grandate
 Grandola ed Uniti
@@ -3342,7 +3342,7 @@ Imola
 Imperia
 Impruneta
 Inarzo
-Incisa in Val d'Arno
+Incisa in Val d Arno
 Incisa Scapaccino
 Incudine
 Induno Olona
@@ -3372,10 +3372,10 @@ Isera
 Isernia
 Isili
 Isnello
-Isola d'Asti
+Isola d Asti
 Isola del Cantone
 Isola del Giglio
-Isola del Gran Sasso d'Italia
+Isola del Gran Sasso d Italia
 Isola del Liri
 Isola del Piano
 Isola della Scala
@@ -3384,7 +3384,7 @@ Isola di Capo Rizzuto
 Isola di Fondra
 Isola Dovarese
 Isola Rizza
-Isola Sant'Antonio
+Isola Sant Antonio
 Isola Vicentina
 Isolabella
 Isolabona
@@ -3469,12 +3469,12 @@ Langosco
 Lanusei
 Lanuvio
 Lanzada
-Lanzo d'Intelvi
+Lanzo d Intelvi
 Lanzo Torinese
 Lapedona
 Lapio
 Lappano
-L'Aquila
+L Aquila
 Larciano
 Lardaro
 Lardirago
@@ -3552,7 +3552,7 @@ Lerici
 Lerma
 Lesa
 Lesegno
-Lesignano de' Bagni
+Lesignano de  Bagni
 Lesina
 Lesmo
 Lessolo
@@ -3685,7 +3685,7 @@ Lucinasco
 Lucito
 Luco dei Marsi
 Lucoli
-Lugagnano Val D'Arda
+Lugagnano Val D Arda
 Lugnacco
 Lugnano in Teverina
 Lugo
@@ -3702,7 +3702,7 @@ Lungro
 Luogosano
 Luogosanto
 Lupara
-Lurago d'Erba
+Lurago d Erba
 Lurago Marinone
 Lurano
 Luras
@@ -3723,7 +3723,7 @@ Luzzara
 Luzzi
 Maccagno
 Maccastorna
-Macchia d'Isernia
+Macchia d Isernia
 Macchia Valfortore
 Macchiagodena
 Macello
@@ -3750,7 +3750,7 @@ Magione
 Magisano
 Magliano Alfieri
 Magliano Alpi
-Magliano de' Marsi
+Magliano de  Marsi
 Magliano di Tenna
 Magliano in Toscana
 Magliano Romano
@@ -3926,7 +3926,7 @@ Maslianico
 Mason Vicentino
 Masone
 Massa
-Massa d'Albe
+Massa d Albe
 Massa di Somma
 Massa e Cozzile
 Massa Fermana
@@ -3959,7 +3959,7 @@ Mazara del Vallo
 Mazzano
 Mazzano Romano
 Mazzarino
-Mazzarrà Sant'Andrea
+Mazzarrà Sant Andrea
 Mazzarrone
 Mazzè
 Mazzin
@@ -4099,7 +4099,7 @@ Mirandola
 Mirano
 Mirto
 Misano Adriatico
-Misano di Gera d'Adda
+Misano di Gera d Adda
 Misilmeri
 Misinto
 Missaglia
@@ -4124,7 +4124,7 @@ Mogoro
 Moiano
 Moimacco
 Moio Alcantara
-Moio de' Calvi
+Moio de  Calvi
 Moio della Civitella
 Moiola
 Mola di Bari
@@ -4184,7 +4184,7 @@ Mondragone
 Moneglia
 Monesiglio
 Monfalcone
-Monforte d'Alba
+Monforte d Alba
 Monforte San Giorgio
 Monfumo
 Mongardino
@@ -4277,7 +4277,7 @@ Monte San Pietro
 Monte San Savino
 Monte San Vito
 Monte Santa Maria Tiberina
-Monte Sant'Angelo
+Monte Sant Angelo
 Monte Urano
 Monte Vidon Combatte
 Monte Vidon Corrado
@@ -4304,8 +4304,8 @@ Montecchio
 Montecchio Emilia
 Montecchio Maggiore
 Montecchio Precalcino
-Montechiaro d'Acqui
-Montechiaro d'Asti
+Montechiaro d Acqui
+Montechiaro d Asti
 Montechiarugolo
 Monteciccardo
 Montecilfone
@@ -4329,11 +4329,11 @@ Monteferrante
 Montefiascone
 Montefino
 Montefiore Conca
-Montefiore dell'Aso
+Montefiore dell Aso
 Montefiorino
 Monteflavio
 Monteforte Cilento
-Monteforte d'Alpone
+Monteforte d Alpone
 Monteforte Irpino
 Montefortino
 Montefranco
@@ -4349,7 +4349,7 @@ Montegiorgio
 Montegranaro
 Montegridolfo
 Montegrino Valtravaglia
-Montegrosso d'Asti
+Montegrosso d Asti
 Montegrosso Pian Latte
 Montegrotto Terme
 Monteiasi
@@ -4359,7 +4359,7 @@ Montelapiano
 Monteleone di Fermo
 Monteleone di Puglia
 Monteleone di Spoleto
-Monteleone d'Orvieto
+Monteleone d Orvieto
 Monteleone Rocca Doria
 Monteleone Sabino
 Montelepre
@@ -4404,7 +4404,7 @@ Montereale Valcellina
 Monterenzio
 Monteriggioni
 Monteroduni
-Monteroni d'Arbia
+Monteroni d Arbia
 Monteroni di Lecce
 Monterosi
 Monterosso al Mare
@@ -4439,11 +4439,11 @@ Montezemolo
 Monti
 Montiano
 Monticelli Brusati
-Monticelli d'Ongina
+Monticelli d Ongina
 Monticelli Pavese
 Monticello Brianza
 Monticello Conte Otto
-Monticello d'Alba
+Monticello d Alba
 Montichiari
 Monticiano
 Montieri
@@ -4455,7 +4455,7 @@ Montodine
 Montoggio
 Montone
 Montopoli di Sabina
-Montopoli in Val d'Arno
+Montopoli in Val d Arno
 Montorfano
 Montorio al Vomano
 Montorio nei Frentani
@@ -4505,8 +4505,8 @@ Mornico Losana
 Morolo
 Morozzo
 Morra De Sanctis
-Morro d'Alba
-Morro d'Oro
+Morro d Alba
+Morro d Oro
 Morro Reatino
 Morrone del Sannio
 Morrovalle
@@ -4518,7 +4518,7 @@ Morterone
 Moruzzo
 Moscazzano
 Moschiano
-Mosciano Sant'Angelo
+Mosciano Sant Angelo
 Moscufo
 Moso in Passiria
 Mossa
@@ -4526,13 +4526,13 @@ Mossano
 Mosso
 Motta Baluffi
 Motta Camastra
-Motta d'Affermo
-Motta de' Conti
+Motta d Affermo
+Motta de  Conti
 Motta di Livenza
 Motta Montecorvino
 Motta San Giovanni
 Motta Santa Lucia
-Motta Sant'Anastasia
+Motta Sant Anastasia
 Motta Visconti
 Mottafollone
 Mottalciata
@@ -4838,7 +4838,7 @@ Osnago
 Osoppo
 Ospedaletti
 Ospedaletto
-Ospedaletto d'Alpinolo
+Ospedaletto d Alpinolo
 Ospedaletto Euganeo
 Ospedaletto Lodigiano
 Ospitale di Cadore
@@ -4873,7 +4873,7 @@ Ovodda
 Oyace
 Ozegna
 Ozieri
-Ozzano dell'Emilia
+Ozzano dell Emilia
 Ozzano Monferrato
 Ozzero
 Pabillonis
@@ -4885,7 +4885,7 @@ Paciano
 Padenghe sul Garda
 Padergnone
 Paderna
-Paderno d'Adda
+Paderno d Adda
 Paderno del Grappa
 Paderno Dugnano
 Paderno Franciacorta
@@ -4925,7 +4925,7 @@ Palazzo Pignano
 Palazzo San Gervasio
 Palazzolo Acreide
 Palazzolo dello Stella
-Palazzolo sull'Oglio
+Palazzolo sull Oglio
 Palazzolo Vercellese
 Palazzuolo sul Senio
 Palena
@@ -5053,7 +5053,7 @@ Pelugo
 Penango
 Penna in Teverina
 Penna San Giovanni
-Penna Sant'Andrea
+Penna Sant Andrea
 Pennabilli
 Pennadomo
 Pennapiedimonte
@@ -5139,7 +5139,7 @@ Pezzana
 Pezzaze
 Pezzolo Valle Uzzone
 Piacenza
-Piacenza d'Adige
+Piacenza d Adige
 Piadena
 Piagge
 Piaggine
@@ -5189,7 +5189,7 @@ Piedimulera
 Piegaro
 Pienza
 Pieranica
-Pietra de' Giorgi
+Pietra de  Giorgi
 Pietra Ligure
 Pietra Marazzi
 Pietrabbondante
@@ -5217,7 +5217,7 @@ Pietravairano
 Pietrelcina
 Pieve a Nievole
 Pieve Albignola
-Pieve d'Alpago
+Pieve d Alpago
 Pieve del Cairo
 Pieve di Bono
 Pieve di Cadore
@@ -5225,7 +5225,7 @@ Pieve di Cento
 Pieve di Coriano
 Pieve di Soligo
 Pieve di Teco
-Pieve d'Olmi
+Pieve d Olmi
 Pieve Emanuele
 Pieve Fissiraga
 Pieve Fosciana
@@ -5253,13 +5253,13 @@ Pinasca
 Pincara
 Pinerolo
 Pineto
-Pino d'Asti
+Pino d Asti
 Pino sulla Sponda del Lago Maggiore
 Pino Torinese
 Pinzano al Tagliamento
 Pinzolo
 Piobbico
-Piobesi d'Alba
+Piobesi d Alba
 Piobesi Torinese
 Piode
 Pioltello
@@ -5368,7 +5368,7 @@ Pomaro Monferrato
 Pomarolo
 Pombia
 Pomezia
-Pomigliano d'Arco
+Pomigliano d Arco
 Pompei
 Pompeiana
 Pompiano
@@ -5384,7 +5384,7 @@ Pontboset
 Pont-Canavese
 Ponte
 Ponte Buggianese
-Ponte dell'Olio
+Ponte dell Olio
 Ponte di Legno
 Ponte di Piave
 Ponte Gardena
@@ -5450,7 +5450,7 @@ Porto Empedocle
 Porto Mantovano
 Porto Recanati
 Porto San Giorgio
-Porto Sant'Elpidio
+Porto Sant Elpidio
 Porto Tolle
 Porto Torres
 Porto Valtravaglia
@@ -5487,7 +5487,7 @@ Pozzaglia Sabina
 Pozzaglio ed Uniti
 Pozzallo
 Pozzilli
-Pozzo d'Adda
+Pozzo d Adda
 Pozzol Groppo
 Pozzolengo
 Pozzoleone
@@ -5515,7 +5515,7 @@ Prasco
 Prascorsano
 Praso
 Prata Camportaccio
-Prata d'Ansidonia
+Prata d Ansidonia
 Prata di Pordenone
 Prata di Principato Ultra
 Prata Sannita
@@ -5576,7 +5576,7 @@ Procida
 Propata
 Proserpio
 Prossedi
-Provaglio d'Iseo
+Provaglio d Iseo
 Provaglio Val Sabbia
 Proves
 Provvidenti
@@ -5587,7 +5587,7 @@ Pula
 Pulfero
 Pulsano
 Pumenengo
-Puos d'Alpago
+Puos d Alpago
 Pusiano
 Putifigari
 Putignano
@@ -5604,8 +5604,8 @@ Quarona
 Quarrata
 Quart
 Quarto
-Quarto d'Altino
-Quartu Sant'Elena
+Quarto d Altino
+Quartu Sant Elena
 Quartucciu
 Quassolo
 Quattordio
@@ -5619,7 +5619,7 @@ Quintano
 Quinto di Treviso
 Quinto Vercellese
 Quinto Vicentino
-Quinzano d'Oglio
+Quinzano d Oglio
 Quistello
 Quittengo
 Rabbi
@@ -5697,7 +5697,7 @@ Resuttano
 Retorbido
 Revello
 Revere
-Revigliasco d'Asti
+Revigliasco d Asti
 Revine Lago
 Revò
 Rezzago
@@ -5727,7 +5727,7 @@ Rifiano
 Rifreddo
 Rignano Flaminio
 Rignano Garganico
-Rignano sull'Arno
+Rignano sull Arno
 Rigolato
 Rima San Giuseppe
 Rimasco
@@ -5735,7 +5735,7 @@ Rimella
 Rimini
 Rio di Pusteria
 Rio Marina
-Rio nell'Elba
+Rio nell Elba
 Rio Saliceto
 Riofreddo
 Riola Sardo
@@ -5775,7 +5775,7 @@ Rivarolo Mantovano
 Rivarone
 Rivarossa
 Rive
-Rive D'Arcano
+Rive D Arcano
 Rivello
 Rivergaro
 Rivignano
@@ -5783,7 +5783,7 @@ Rivisondoli
 Rivodutri
 Rivoli
 Rivoli Veronese
-Rivolta d'Adda
+Rivolta d Adda
 Rizziconi
 Ro
 Roana
@@ -5795,7 +5795,7 @@ Robassomero
 Robbiate
 Robbio
 Robecchetto con Induno
-Robecco d'Oglio
+Robecco d Oglio
 Robecco Pavese
 Robecco sul Naviglio
 Robella
@@ -5804,11 +5804,11 @@ Roburent
 Rocca Canavese
 Rocca Canterano
 Rocca Cigliè
-Rocca d'Arazzo
-Rocca d'Arce
-Rocca de' Baldi
-Rocca de' Giorgi
-Rocca D'Evandro
+Rocca d Arazzo
+Rocca d Arce
+Rocca de  Baldi
+Rocca de  Giorgi
+Rocca D Evandro
 Rocca di Botte
 Rocca di Cambio
 Rocca di Cave
@@ -5879,7 +5879,7 @@ Rocchetta e Croce
 Rocchetta Ligure
 Rocchetta Nervina
 Rocchetta Palafea
-Rocchetta Sant'Antonio
+Rocchetta Sant Antonio
 Rocchetta Tanaro
 Rodano
 Roddi
@@ -5913,9 +5913,9 @@ Romallo
 Romana
 Romanengo
 Romano Canavese
-Romano d'Ezzelino
+Romano d Ezzelino
 Romano di Lombardia
-Romans d'Isonzo
+Romans d Isonzo
 Rombiolo
 Romeno
 Romentino
@@ -5931,7 +5931,7 @@ Ronchi dei Legionari
 Ronchi Valsugana
 Ronchis
 Ronciglione
-Ronco all'Adige
+Ronco all Adige
 Ronco Biellese
 Ronco Briantino
 Ronco Canavese
@@ -5971,7 +5971,7 @@ Rossano
 Rossano Veneto
 Rossiglione
 Rosta
-Rota d'Imagna
+Rota d Imagna
 Rota Greca
 Rotella
 Rotello
@@ -6128,7 +6128,7 @@ San Bonifacio
 San Buono
 San Calogero
 San Candido
-San Canzian d'Isonzo
+San Canzian d Isonzo
 San Carlo Canavese
 San Casciano dei Bagni
 San Casciano in Val di Pesa
@@ -6140,7 +6140,7 @@ San Cesario sul Panaro
 San Chirico Nuovo
 San Chirico Raparo
 San Cipirello
-San Cipriano d'Aversa
+San Cipriano d Aversa
 San Cipriano Picentino
 San Cipriano Po
 San Clemente
@@ -6154,12 +6154,12 @@ San Costantino Calabro
 San Costanzo
 San Cristoforo
 San Damiano al Colle
-San Damiano d'Asti
+San Damiano d Asti
 San Damiano Macra
 San Daniele del Friuli
 San Daniele Po
 San Demetrio Corone
-San Demetrio ne' Vestini
+San Demetrio ne  Vestini
 San Didero
 San Donà di Piave
 San Donaci
@@ -6227,7 +6227,7 @@ San Giorio di Susa
 San Giovanni a Piro
 San Giovanni al Natisone
 San Giovanni Bianco
-San Giovanni d'Asso
+San Giovanni d Asso
 San Giovanni del Dosso
 San Giovanni di Gerace
 San Giovanni Gemini
@@ -6256,7 +6256,7 @@ San Giusto Canavese
 San Godenzo
 San Gregorio da Sassola
 San Gregorio di Catania
-San Gregorio d'Ippona
+San Gregorio d Ippona
 San Gregorio Magno
 San Gregorio Matese
 San Gregorio nelle Alpi
@@ -6279,14 +6279,14 @@ San Lorenzo Nuovo
 San Luca
 San Lucido
 San Lupo
-San Mango d'Aquino
+San Mango d Aquino
 San Mango Piemonte
 San Mango sul Calore
 San Marcellino
 San Marcello
 San Marcello Pistoiese
 San Marco Argentano
-San Marco D'Alunzio
+San Marco D Alunzio
 San Marco dei Cavoti
 San Marco Evangelista
 San Marco in Lamis
@@ -6295,8 +6295,8 @@ San Martino al Tagliamento
 San Martino Alfieri
 San Martino Buon Albergo
 San Martino Canavese
-San Martino d'Agri
-San Martino dall'Argine
+San Martino d Agri
+San Martino dall Argine
 San Martino del Lago
 San Martino di Finita
 San Martino di Lupari
@@ -6315,7 +6315,7 @@ San Marzano Oliveto
 San Marzano sul Sarno
 San Massimo
 San Maurizio Canavese
-San Maurizio d'Opaglio
+San Maurizio d Opaglio
 San Mauro Castelverde
 San Mauro Cilento
 San Mauro di Saline
@@ -6325,7 +6325,7 @@ San Mauro Marchesato
 San Mauro Pascoli
 San Mauro Torinese
 San Michele al Tagliamento
-San Michele all'Adige
+San Michele all Adige
 San Michele di Ganzaria
 San Michele di Serino
 San Michele Mondovì
@@ -6339,10 +6339,10 @@ San Nicandro Garganico
 San Nicola Arcella
 San Nicola Baronia
 San Nicola da Crissa
-San Nicola dell'Alto
+San Nicola dell Alto
 San Nicola la Strada
 San Nicola Manfredi
-San Nicolò d'Arcidano
+San Nicolò d Arcidano
 San Nicolò di Comelico
 San Nicolò Gerrei
 San Pancrazio
@@ -6351,12 +6351,12 @@ San Paolo
 San Paolo Albanese
 San Paolo Bel Sito
 San Paolo Cervo
-San Paolo d'Argon
+San Paolo d Argon
 San Paolo di Civitate
 San Paolo di Jesi
 San Paolo Solbrito
 San Pellegrino Terme
-San Pier d'Isonzo
+San Pier d Isonzo
 San Pier Niceto
 San Piero a Sieve
 San Piero Patti
@@ -6385,7 +6385,7 @@ San Pietro Vernotico
 San Pietro Viminario
 San Pio delle Camere
 San Polo dei Cavalieri
-San Polo d'Enza
+San Polo d Enza
 San Polo di Piave
 San Polo Matese
 San Ponso
@@ -6395,7 +6395,7 @@ San Potito Ultra
 San Prisco
 San Procopio
 San Prospero
-San Quirico d'Orcia
+San Quirico d Orcia
 San Quirino
 San Raffaele Cimena
 San Roberto
@@ -6460,7 +6460,7 @@ Sangiano
 Sangineto
 Sanguinetto
 Sanluri
-Sannazzaro de' Burgondi
+Sannazzaro de  Burgondi
 Sannicandro di Bari
 Sannicola
 Sanremo
@@ -6470,14 +6470,14 @@ Santa Caterina Albanese
 Santa Caterina dello Ionio
 Santa Caterina Villarmosa
 Santa Cesarea Terme
-Santa Cristina d'Aspromonte
+Santa Cristina d Aspromonte
 Santa Cristina e Bissone
 Santa Cristina Gela
 Santa Cristina Valgardena
 Santa Croce Camerina
 Santa Croce del Sannio
 Santa Croce di Magliano
-Santa Croce sull'Arno
+Santa Croce sull Arno
 Santa Domenica Talao
 Santa Domenica Vittoria
 Santa Elisabetta
@@ -6491,7 +6491,7 @@ Santa Luce
 Santa Lucia del Mela
 Santa Lucia di Piave
 Santa Lucia di Serino
-Santa Margherita d'Adige
+Santa Margherita d Adige
 Santa Margherita di Belice
 Santa Margherita di Staffora
 Santa Margherita Ligure
@@ -6518,93 +6518,93 @@ Santa Ninfa
 Santa Paolina
 Santa Severina
 Santa Sofia
-Santa Sofia D'Epiro
+Santa Sofia D Epiro
 Santa Teresa di Riva
 Santa Teresa Gallura
 Santa Venerina
-Santa Vittoria d'Alba
+Santa Vittoria d Alba
 Santa Vittoria in Matenano
 Santadi
-Sant'Agapito
-Sant'Agata Bolognese
-Sant'Agata De' Goti
-Sant'Agata del Bianco
-Sant'Agata di Esaro
-Sant'Agata di Militello
-Sant'Agata di Puglia
-Sant'Agata Feltria
-Sant'Agata Fossili
-Sant'Agata Li Battiati
-Sant'Agata sul Santerno
-Sant'Agnello
-Sant'Agostino
-Sant'Albano Stura
-Sant'Alessio con Vialone
-Sant'Alessio in Aspromonte
-Sant'Alessio Siculo
-Sant'Alfio
-Sant'Ambrogio di Torino
-Sant'Ambrogio di Valpolicella
-Sant'Ambrogio sul Garigliano
-Sant'Anastasia
-Sant'Anatolia di Narco
-Sant'Andrea Apostolo dello Ionio
-Sant'Andrea del Garigliano
-Sant'Andrea di Conza
-Sant'Andrea Frius
-Sant'Angelo a Cupolo
-Sant'Angelo a Fasanella
-Sant'Angelo a Scala
-Sant'Angelo all'Esca
-Sant'Angelo d'Alife
-Sant'Angelo dei Lombardi
-Sant'Angelo del Pesco
-Sant'Angelo di Brolo
-Sant'Angelo di Piove di Sacco
-Sant'Angelo in Lizzola
-Sant'Angelo in Pontano
-Sant'Angelo in Vado
-Sant'Angelo Le Fratte
-Sant'Angelo Limosano
-Sant'Angelo Lodigiano
-Sant'Angelo Lomellina
-Sant'Angelo Muxaro
-Sant'Angelo Romano
-Sant'Anna Arresi
-Sant'Anna d'Alfaedo
-Sant'Antimo
-Sant'Antioco
-Sant'Antonino di Susa
-Sant'Antonio Abate
-Sant'Antonio di Gallura
-Sant'Apollinare
-Sant'Arcangelo
+Sant Agapito
+Sant Agata Bolognese
+Sant Agata De  Goti
+Sant Agata del Bianco
+Sant Agata di Esaro
+Sant Agata di Militello
+Sant Agata di Puglia
+Sant Agata Feltria
+Sant Agata Fossili
+Sant Agata Li Battiati
+Sant Agata sul Santerno
+Sant Agnello
+Sant Agostino
+Sant Albano Stura
+Sant Alessio con Vialone
+Sant Alessio in Aspromonte
+Sant Alessio Siculo
+Sant Alfio
+Sant Ambrogio di Torino
+Sant Ambrogio di Valpolicella
+Sant Ambrogio sul Garigliano
+Sant Anastasia
+Sant Anatolia di Narco
+Sant Andrea Apostolo dello Ionio
+Sant Andrea del Garigliano
+Sant Andrea di Conza
+Sant Andrea Frius
+Sant Angelo a Cupolo
+Sant Angelo a Fasanella
+Sant Angelo a Scala
+Sant Angelo all Esca
+Sant Angelo d Alife
+Sant Angelo dei Lombardi
+Sant Angelo del Pesco
+Sant Angelo di Brolo
+Sant Angelo di Piove di Sacco
+Sant Angelo in Lizzola
+Sant Angelo in Pontano
+Sant Angelo in Vado
+Sant Angelo Le Fratte
+Sant Angelo Limosano
+Sant Angelo Lodigiano
+Sant Angelo Lomellina
+Sant Angelo Muxaro
+Sant Angelo Romano
+Sant Anna Arresi
+Sant Anna d Alfaedo
+Sant Antimo
+Sant Antioco
+Sant Antonino di Susa
+Sant Antonio Abate
+Sant Antonio di Gallura
+Sant Apollinare
+Sant Arcangelo
 Santarcangelo di Romagna
-Sant'Arcangelo Trimonte
-Sant'Arpino
-Sant'Arsenio
+Sant Arcangelo Trimonte
+Sant Arpino
+Sant Arsenio
 Sante Marie
-Sant'Egidio alla Vibrata
-Sant'Egidio del Monte Albino
-Sant'Elena
-Sant'Elena Sannita
-Sant'Elia a Pianisi
-Sant'Elia Fiumerapido
-Sant'Elpidio a Mare
+Sant Egidio alla Vibrata
+Sant Egidio del Monte Albino
+Sant Elena
+Sant Elena Sannita
+Sant Elia a Pianisi
+Sant Elia Fiumerapido
+Sant Elpidio a Mare
 Santena
 Santeramo in Colle
-Sant'Eufemia a Maiella
-Sant'Eufemia d'Aspromonte
-Sant'Eusanio del Sangro
-Sant'Eusanio Forconese
+Sant Eufemia a Maiella
+Sant Eufemia d Aspromonte
+Sant Eusanio del Sangro
+Sant Eusanio Forconese
 Santhià
 Santi Cosma e Damiano
-Sant'Ilario dello Ionio
-Sant'Ilario d'Enza
-Sant'Ippolito
+Sant Ilario dello Ionio
+Sant Ilario d Enza
+Sant Ippolito
 Santo Stefano al Mare
 Santo Stefano Belbo
-Santo Stefano d'Aveto
+Santo Stefano d Aveto
 Santo Stefano del Sole
 Santo Stefano di Cadore
 Santo Stefano di Camastra
@@ -6617,17 +6617,17 @@ Santo Stefano Quisquina
 Santo Stefano Roero
 Santo Stefano Ticino
 Santo Stino di Livenza
-Sant'Olcese
+Sant Olcese
 Santomenna
-Sant'Omero
-Sant'Omobono Terme
-Sant'Onofrio
+Sant Omero
+Sant Omobono Terme
+Sant Onofrio
 Santopadre
-Sant'Oreste
+Sant Oreste
 Santorso
-Sant'Orsola Terme
+Sant Orsola Terme
 Santu Lussurgiu
-Sant'Urbano
+Sant Urbano
 Sanza
 Sanzeno
 Saonara
@@ -6673,7 +6673,7 @@ Satriano
 Satriano di Lucania
 Sauris
 Sauze di Cesana
-Sauze d'Oulx
+Sauze d Oulx
 Sava
 Savelli
 Saviano
@@ -6683,10 +6683,10 @@ Savignano sul Panaro
 Savignano sul Rubicone
 Savigno
 Savignone
-Saviore dell'Adamello
+Saviore dell Adamello
 Savoca
 Savogna
-Savogna d'Isonzo
+Savogna d Isonzo
 Savoia di Lucania
 Savona
 Scafa
@@ -6703,7 +6703,7 @@ Scandale
 Scandiano
 Scandicci
 Scandolara Ravara
-Scandolara Ripa d'Oglio
+Scandolara Ripa d Oglio
 Scandriglia
 Scanno
 Scano di Montiferro
@@ -6811,16 +6811,16 @@ Sermoneta
 Sernaglia della Battaglia
 Sernio
 Serole
-Serra d'Aiello
-Serra de' Conti
+Serra d Aiello
+Serra de  Conti
 Serra Pedace
 Serra Riccò
 Serra San Bruno
 Serra San Quirico
-Serra Sant'Abbondio
+Serra Sant Abbondio
 Serracapriola
 Serradifalco
-Serralunga d'Alba
+Serralunga d Alba
 Serralunga di Crea
 Serramanna
 Serramazzoni
@@ -6897,7 +6897,7 @@ Siliqua
 Silius
 Sillano
 Sillavengo
-Silvano d'Orba
+Silvano d Orba
 Silvano Pietra
 Silvi
 Simala
@@ -7040,7 +7040,7 @@ Spineda
 Spinete
 Spineto Scrivia
 Spinetoli
-Spino d'Adda
+Spino d Adda
 Spinone al Lago
 Spinoso
 Spirano
@@ -7208,7 +7208,7 @@ Termoli
 Ternate
 Ternengo
 Terni
-Terno d'Isola
+Terno d Isola
 Terracina
 Terragnolo
 Terralba
@@ -7227,7 +7227,7 @@ Terruggia
 Tertenia
 Terzigno
 Terzo
-Terzo d'Aquileia
+Terzo d Aquileia
 Terzolas
 Terzorio
 Tesero
@@ -7312,17 +7312,17 @@ Torre Boldone
 Torre Bormida
 Torre Cajetani
 Torre Canavese
-Torre d'Arese
-Torre de' Busi
-Torre de' Negri
-Torre De' Passeri
-Torre de' Picenardi
-Torre de' Roveri
+Torre d Arese
+Torre de  Busi
+Torre de  Negri
+Torre De  Passeri
+Torre de  Picenardi
+Torre de  Roveri
 Torre del Greco
 Torre di Mosto
 Torre di Ruggiero
 Torre di Santa Maria
-Torre d'Isola
+Torre d Isola
 Torre Le Nocelle
 Torre Mondovì
 Torre Orsaia
@@ -7368,7 +7368,7 @@ Tortorici
 Torviscosa
 Toscolano-Maderno
 Tossicia
-Tovo di Sant'Agata
+Tovo di Sant Agata
 Tovo San Giacomo
 Trabia
 Tradate
@@ -7444,7 +7444,7 @@ Treviso
 Treviso Bresciano
 Trezzano Rosa
 Trezzano sul Naviglio
-Trezzo sull'Adda
+Trezzo sull Adda
 Trezzo Tinella
 Trezzone
 Tribano
@@ -7460,7 +7460,7 @@ Trieste
 Triggiano
 Trigolo
 Trinità
-Trinità d'Agultu e Vignola
+Trinità d Agultu e Vignola
 Trinitapoli
 Trino
 Triora
@@ -7518,7 +7518,7 @@ Ulassai
 Ultimo
 Umbertide
 Umbriatico
-Urago d'Oglio
+Urago d Oglio
 Uras
 Urbana
 Urbania
@@ -7602,7 +7602,7 @@ Vallata
 Valle Agricola
 Valle Aurina
 Valle Castellana
-Valle dell'Angelo
+Valle dell Angelo
 Valle di Cadore
 Valle di Casies
 Valle di Maddaloni
@@ -7660,12 +7660,12 @@ Vandoies
 Vanzaghello
 Vanzago
 Vanzone con San Carlo
-Vaprio d'Adda
-Vaprio d'Agogna
+Vaprio d Adda
+Vaprio d Agogna
 Varallo
 Varallo Pombia
 Varano Borghi
-Varano de' Melegari
+Varano de  Melegari
 Varapodio
 Varazze
 Varco Sabino
@@ -7704,7 +7704,7 @@ Veleso
 Velezzo Lomellina
 Velletri
 Vellezzo Bellini
-Velo d'Astico
+Velo d Astico
 Velo Veronese
 Velturno
 Venafro
@@ -7782,8 +7782,8 @@ Vestone
 Vestreno
 Vetralla
 Vetto
-Vezza d'Alba
-Vezza d'Oglio
+Vezza d Alba
+Vezza d Oglio
 Vezzano
 Vezzano Ligure
 Vezzano sul Crostolo
@@ -7827,9 +7827,9 @@ Vigevano
 Viggianello
 Viggiano
 Viggiù
-Vighizzolo d'Este
+Vighizzolo d Este
 Vigliano Biellese
-Vigliano d'Asti
+Vigliano d Asti
 Vignale Monferrato
 Vignanello
 Vignate
@@ -7858,15 +7858,15 @@ Villa Castelli
 Villa Celiera
 Villa Collemandina
 Villa Cortese
-Villa d'Adda
-Villa d'Almè
+Villa d Adda
+Villa d Almè
 Villa del Bosco
 Villa del Conte
 Villa di Briano
 Villa di Chiavenna
 Villa di Serio
 Villa di Tirano
-Villa d'Ogna
+Villa d Ogna
 Villa Estense
 Villa Faraldi
 Villa Guardia
@@ -7883,8 +7883,8 @@ Villa San Secondo
 Villa Santa Lucia
 Villa Santa Lucia degli Abruzzi
 Villa Santa Maria
-Villa Sant'Angelo
-Villa Sant'Antonio
+Villa Sant Angelo
+Villa Sant Antonio
 Villa Santina
 Villa Santo Stefano
 Villa Verde
@@ -7897,7 +7897,7 @@ Villadeati
 Villadose
 Villadossola
 Villafalletto
-Villafranca d'Asti
+Villafranca d Asti
 Villafranca di Verona
 Villafranca in Lunigiana
 Villafranca Padovana
@@ -7920,9 +7920,9 @@ Villamiroglio
 Villandro
 Villanova Biellese
 Villanova Canavese
-Villanova d'Albenga
-Villanova d'Ardenghi
-Villanova d'Asti
+Villanova d Albenga
+Villanova d Ardenghi
+Villanova d Asti
 Villanova del Battista
 Villanova del Ghebbo
 Villanova del Sillaro
@@ -7932,7 +7932,7 @@ Villanova Mondovì
 Villanova Monferrato
 Villanova Monteleone
 Villanova Solaro
-Villanova sull'Arda
+Villanova sull Arda
 Villanova Truschedu
 Villanova Tulo
 Villanovaforru
@@ -7995,7 +7995,7 @@ Vistrorio
 Vita
 Viterbo
 Viticuso
-Vito d'Asio
+Vito d Asio
 Vitorchiano
 Vittoria
 Vittorio Veneto
@@ -8010,7 +8010,7 @@ Viverone
 Vizzini
 Vizzola Ticino
 Vizzolo Predabissi
-Vo'
+Vo 
 Vobarno
 Vobbia
 Vocca
