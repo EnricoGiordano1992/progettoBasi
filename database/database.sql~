@@ -31,7 +31,7 @@ CREATE TABLE PAZIENTE (
     PROV                VARCHAR(30)     NOT NULL,
     CAP                 INT             NOT NULL,
     -- varchar per gestire i civici tipo 10/b
-    CIVICO              VARCHAR(5)     NOT NULL,
+    CIVICO              VARCHAR(10)     NOT NULL,
     
     PRIMARY KEY(CODSAN)
 );
@@ -50,8 +50,8 @@ CREATE TABLE CARTELLA_CLINICA (
     ID                  VARCHAR(30)     NOT NULL,
     DATA_RICOVERO       DATE            NOT NULL,
     DATA_DIMISSIONE     DATE            NOT NULL,
-    MOTIVO              VARCHAR(50)     NOT NULL,
-    PROGNOSI            VARCHAR(50)             ,
+    MOTIVO              VARCHAR(100)     NOT NULL,
+    PROGNOSI            VARCHAR(100)             ,
     CODSAN              VARCHAR(30)     REFERENCES PAZIENTE(CODSAN),
 
     PRIMARY KEY(ID)

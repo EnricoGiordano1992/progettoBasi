@@ -50,8 +50,8 @@ CREATE TABLE CARTELLA_CLINICA (
     ID                  VARCHAR(30)     NOT NULL,
     DATA_RICOVERO       DATE            NOT NULL,
     DATA_DIMISSIONE     DATE            NOT NULL,
-    MOTIVO              VARCHAR(50)     NOT NULL,
-    PROGNOSI            VARCHAR(50)             ,
+    MOTIVO              VARCHAR(150)     NOT NULL,
+    PROGNOSI            VARCHAR(150)             ,
     CODSAN              VARCHAR(30)     REFERENCES PAZIENTE(CODSAN),
 
     PRIMARY KEY(ID)
