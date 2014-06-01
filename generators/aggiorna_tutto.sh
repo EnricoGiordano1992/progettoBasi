@@ -23,3 +23,12 @@ cd ../..
 
 echo copio le terapie dove serve...
 cp terapie/terapie/terapie.sql ../database
+
+echo genero i medici e le specializzazioni...
+cd Medico_Specializzazioni_SpecDelMedico/bin
+java Medico_Specializzazioni_SpecDelMedico
+cd ../..
+
+echo copio i medici e le specializzazioni...
+cp Medico_Specializzazioni_SpecDelMedico/bin/*.sql ../database
+
