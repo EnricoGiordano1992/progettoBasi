@@ -20,7 +20,7 @@ public class main {
 	public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
 		ArrayList<String> ids = new ArrayList<String>();
 		ArrayList<String> prognosilist = new ArrayList<String>();
-		ArrayList<String> motivolist = new ArrayList<String>();
+		ArrayList<String> malattia = new ArrayList<String>();
 		String line, idCartella, data_ricovero, data_dimissione, motivo, prognosi, codsan;
 		BufferedReader br = new BufferedReader(new FileReader("paziente.sql"));
 		while ((line = br.readLine()) != null) {
@@ -30,7 +30,7 @@ public class main {
 		br.close();
 		BufferedReader buf = new BufferedReader(new FileReader("dolori.txt"));
 		while ((line = buf.readLine()) != null) {
-			motivolist.add(line.replaceAll("\"", "\\\""));
+			malattia.add(line.replaceAll("\"", "\\\""));
 			//			System.out.println(line.split("'")[1]);
 		}
 		buf.close();
@@ -46,7 +46,7 @@ public class main {
 
 		
 		
-		int year, dayOfYear, prognosiid, motivoid, mese;
+		int year, dayOfYear, prognosiid, malattiaId, mese;
 		GregorianCalendar gc = new GregorianCalendar();
 		for(String id : ids){
 			int n_cart = randBetween(1, 10);
@@ -77,18 +77,18 @@ public class main {
 				idCartella = digest1.substring(0,16);
 
 				prognosiid = randBetween(0, prognosilist.size()-1);
-				motivoid = randBetween(0, motivolist.size()-1);
+				malattiaId = randBetween(0, malattia.size()-1);
 				
 				int tipo = randBetween(0, tipologia.size() - 1);
 				
 				if(!prognosilist.get(prognosiid).equals(""))
 					if(!prognosilist.get(prognosiid).equals("Riservata"))
-						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + motivolist.get(motivoid) + "', '" + prognosilist.get(prognosiid) + tipologia.get(tipo) + " guaribile in giorni " + randBetween(1, 200) + "', '" + id + "');");
+						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + prognosilist.get(prognosiid) + tipologia.get(tipo) + "', '" +malattia.get(malattiaId)  + " guaribile in giorni " + randBetween(1, 200) + "', '" + id + "');");
 					else
-						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + motivolist.get(motivoid) + "', '" + prognosilist.get(prognosiid) + "', '" + id + "');");
+						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + "dolore generalizzato" + tipologia.get(tipo) + "', '" + prognosilist.get(prognosiid) + "', '" + id + "');");
 								
 				else
-					System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + motivolist.get(motivoid) + "', NULL, '" + id + "');");
+					System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + malattia.get(malattiaId) + "', NULL, '" + id + "');");
 			}
 		}
 	}
@@ -136,7 +136,10 @@ public class main {
 		prognosilist.add("dolore viscerale ");
 		prognosilist.add("dolore misto ");
 		prognosilist.add("dolore idiopatico ");
-
+		prognosilist.add("grave ferita con dolore");
+		prognosilist.add("perdita di liquido interno con dolore");
+		prognosilist.add("tosse");
+		prognosilist.add("incapacita respiratoria");
 		
 		prognosilist.add("Riservata");
 

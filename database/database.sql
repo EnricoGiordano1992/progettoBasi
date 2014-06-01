@@ -73,7 +73,7 @@ CREATE TABLE TERAPIE (
     FINE                DATE            NOT NULL,
     FREQUENZA           INT             NOT NULL,
     DOSE                FLOAT(5)        NOT NULL,
-    FARMACO             VARCHAR(30)     NOT NULL,
+    FARMACO             VARCHAR(100)     NOT NULL,
     
     FOREIGN KEY(ID_CARTELLA) REFERENCES CARTELLA_CLINICA(ID)
 );
