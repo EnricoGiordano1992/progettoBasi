@@ -1,2 +1,2 @@
 ./genNomi.jar > paziente.sql;
-cp paziente.sql ../database/;
+cp paziente.sql ../../database/;
