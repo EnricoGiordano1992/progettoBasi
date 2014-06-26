@@ -1,5 +1,7 @@
 package gen;
 
+import java.util.Random;
+
 public class codfisc {
 
 	String cognome;
@@ -72,7 +74,7 @@ public class codfisc {
 		
 		codFis += dataNascitacf.substring(2, 4);
 		
-		codFis += "E512X";
+		codFis += "" + Character.toChars(65 + new Random().nextInt(25))[0] + new Random().nextInt(9) + new Random().nextInt(9) + new Random().nextInt(9) + Character.toChars(65 + new Random().nextInt(25))[0];
 		
 		return codFis;
 

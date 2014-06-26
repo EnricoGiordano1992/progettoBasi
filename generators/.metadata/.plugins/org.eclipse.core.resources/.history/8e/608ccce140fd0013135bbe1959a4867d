@@ -1,0 +1,76 @@
+package tuttoRischiPaziente;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class TuttoRischiPaziente {
+
+
+	private String s;
+	private ArrayList<String> nomeRischi;
+
+	public TuttoRischiPaziente(){
+
+		s = "";
+		nomeRischi = new ArrayList<String>();
+
+		nomeRischi.add("età");
+		nomeRischi.add("sesso");
+		nomeRischi.add("familiarità");
+		nomeRischi.add("ereditarietà");
+		nomeRischi.add("alimentazione");
+		nomeRischi.add("tabagismo");
+		nomeRischi.add("assunzione farmaci");
+		nomeRischi.add("ormoni");
+		nomeRischi.add("droghe");
+		nomeRischi.add("consumo alcool");
+		nomeRischi.add("ipertensione");
+		nomeRischi.add("dislipidemia");
+		nomeRischi.add("diabete");
+		nomeRischi.add("agenti biologici");
+		nomeRischi.add("radiazioni ioni");
+		nomeRischi.add("agenti inquinanti");
+	}
+
+	
+	
+	private static void popoloPazieni(ArrayList<String> pazienti, ArrayList<String> data_nascita) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("paziente.sql"));
+        while ((line = br.readLine()) != null) {
+            pazienti.add(line.split("'")[1]);
+            data_nascita.add(line.split("'")[7]);
+            
+        }
+        br.close(); 
+	}
+
+	
+	public static void main(String[] args) throws IOException{
+
+		//FATTORI A RISCHIO
+		TuttoRischiPaziente t = new TuttoRischiPaziente();
+		FileWriter w;
+		w=new FileWriter("fattori_a_rischio.sql");
+		int i = t.nomeRischi.size()-1;
+		do{
+			w.write("INSERT INTO FATTORI_RISCHIO VALUES ('"+t.nomeRischi.get(i)+"');\n");
+		}while(i-- > 0);
+		
+		w.flush();
+
+		
+		//RISCHI PAZIENTE
+		FileWriter w2;
+		FileReader pazienti = new FileReader("paziente.sql");
+		w2=new FileWriter("rischi_paziente.sql");
+		i = t.nomeRischi.size()-1;
+		w2.write("INSERT INTO RISCHI_PAZIENTE VALUES ('"+t.nomeRischi.get(i)+"');\n");
+		
+		w2.flush();
+
+	}
+
+}

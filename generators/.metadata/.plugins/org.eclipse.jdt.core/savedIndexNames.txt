@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+/home/enrico/progettoBasi/generators/.metadata/.plugins/org.eclipse.jdt.core
+1204985699.index

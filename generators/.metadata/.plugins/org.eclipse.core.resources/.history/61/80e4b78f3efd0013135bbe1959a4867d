@@ -1,0 +1,9 @@
+package tuttoRischiPaziente;
+
+public class TuttoRischiPaziente {
+
+	public static void main(String args){
+		
+	}
+	
+}

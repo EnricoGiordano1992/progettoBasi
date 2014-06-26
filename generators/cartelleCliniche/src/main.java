@@ -54,19 +54,13 @@ public class main {
 				
 				year = randBetween(1990, 1999);
 				mese = randBetween(1, 12);
-				if(mese == 2)
-					dayOfYear = randBetween(1, 28);
-				else
-					dayOfYear = randBetween(1, 30);
+				dayOfYear = randBetween(1, 27);
 				
 				data_ricovero = year + "-" + mese + "-" + dayOfYear;
 
 				year = randBetween(2000, 2013);
 				mese = randBetween(1, 12);
-				if(mese == 2)
-					dayOfYear = randBetween(1, 28);
-				else
-					dayOfYear = randBetween(1, 30);
+				dayOfYear = randBetween(1, 27);
 				
 				data_dimissione = year + "-" + mese + "-" + dayOfYear;
 

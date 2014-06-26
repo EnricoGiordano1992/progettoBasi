@@ -1,0 +1,13 @@
+\i database.sql;
+\i paziente.sql;
+\i cartelle_cliniche.sql;
+\i terapie.sql;
+\i medico.sql;
+\i specializzazioni.sql;
+\i spec_del_medico.sql;
+\i diagnosi.sql;
+\i sintomi.sql;
+\i conferme.sql;
+\i contraddizioni.sql;
+\i fattori_a_rischio.sql;
+\i rischi_paziente.sql;

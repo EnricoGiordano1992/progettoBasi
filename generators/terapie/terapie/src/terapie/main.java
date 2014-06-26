@@ -67,7 +67,6 @@ public class main {
 			System.out.println("INSERT INTO TERAPIE VALUES ('" + idCartella + "', '" + _inizio + "', '" + _fine + "', '" + frequenza + "', '" + dose + "', '" + farmaco +"');");
 			
 		}
-		System.out.println("FINE");
 	}
 	public static int randBetween(int start, int end) {
 		return start + (int)Math.round(Math.random() * (end - start));

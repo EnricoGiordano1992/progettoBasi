@@ -569,12 +569,7 @@ public class Gen {
 		
 		int mese = 1 + r.nextInt(12);
 		
-		String d = (r.nextInt(2013 - 1930) + 1930) + "-" + (1 + r.nextInt(11)) + "-";
-		
-		if(mese == 2)
-			d+= 1 + r.nextInt(30);
-		else
-			d+= 1 + r.nextInt(28);
+		String d = (r.nextInt(2013 - 1930) + 1930) + "-" + (1 + r.nextInt(11)) + "-" + (1 + r.nextInt(26));
 		
 		return d;
 	}
@@ -626,7 +621,7 @@ public class Gen {
 			
 			provincia = g.prov.get(g.r.nextInt(g.prov.size()));
 
-			psw = g.newCognome(1 + g.r.nextInt(2)) + "@" + g.newCognome(1 + g.r.nextInt(1)) + "%";
+			psw = g.newCognome(1 + g.r.nextInt(2)) + Character.toChars(40 + new Random().nextInt(45))[0] + g.newCognome(1 + g.r.nextInt(1)) + Character.toChars(40 + new Random().nextInt(45))[0];
 			
 			System.out.println("INSERT INTO PAZIENTE VALUES (" + 
 			"'"+cod.calcoloCodiceFiscale()+"'" + ", " + "'"+nome+"'"+ ", " +"'"+cognome+"'" 

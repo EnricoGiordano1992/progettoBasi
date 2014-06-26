@@ -26,7 +26,7 @@ CREATE TABLE PAZIENTE (
     COGNOME             VARCHAR(30)     NOT NULL,
     NASCITA             DATE            NOT NULL,
     PSW                 VARCHAR(30)     NOT NULL,
-    CITTA               VARCHAR(30)     NOT NULL,
+    CITTA               VARCHAR(60)     NOT NULL,
     VIA                 VARCHAR(30)     NOT NULL,
     PROV                VARCHAR(30)     NOT NULL,
     CAP                 INT             NOT NULL,
@@ -50,8 +50,8 @@ CREATE TABLE CARTELLA_CLINICA (
     ID                  VARCHAR(30)     NOT NULL,
     DATA_RICOVERO       DATE            NOT NULL,
     DATA_DIMISSIONE     DATE            NOT NULL,
-    MOTIVO              VARCHAR(150)     NOT NULL,
-    PROGNOSI            VARCHAR(150)             ,
+    MOTIVO              VARCHAR(200)     NOT NULL,
+    PROGNOSI            VARCHAR(200)             ,
     CODSAN              VARCHAR(30)     REFERENCES PAZIENTE(CODSAN),
 
     PRIMARY KEY(ID)
@@ -167,7 +167,7 @@ CREATE TABLE DIAGNOSI (
     ID_PAZIENTE         VARCHAR(30)     REFERENCES PAZIENTE(CODSAN),
     DATA                DATE            NOT NULL,
     ICD10               VARCHAR(30)     NOT NULL,
-    PATOLOGIA           VARCHAR(100)     NOT NULL,
+    PATOLOGIA           VARCHAR(200)     NOT NULL,
     ID_MEDICO           VARCHAR(30)     REFERENCES MEDICO(ID),
 
     PRIMARY KEY (ID_PAZIENTE, DATA)

@@ -33,7 +33,7 @@ Acalasia idiopatica
 Acalasia - microcefalia
 Acalasia primitiva
 Acanthosis nigricans
-Acanthosis nigricans - resistenza all insulina - crampi muscolari - ingrossamento delle estremit 
+Acanthosis nigricans - resistenza all insulina - crampi muscolari - ingrossamento delle estremità
 Acantoma della matrice ungueale
 Acatalasemia
 Accorciamento congenito del legamento costocoracoide
@@ -82,9 +82,9 @@ Acidosi tubolare renale mista
 Acidosi tubolare renale, tipo 3
 Acidosi tubulare renale distale autosomica dominante
 Acidosi tubulare renale distale autosomica recessiva con perdita di udito
-Acidosi tubulare renale distale autosomica recessiva con sordit 
+Acidosi tubulare renale distale autosomica recessiva con sordità
 Acidosi tubulare renale distale autosomica recessiva senza perdita di udito
-Acidosi tubulare renale distale autosomica recessiva senza sordit 
+Acidosi tubulare renale distale autosomica recessiva senza sordità
 Acidosi tubulare renale distale con anemia
 Acidosi tubulare renale prossimale
 Acidosi tubulare renale prossimale autosomica recessiva
@@ -99,7 +99,7 @@ Aciduria 2-idrossiglutarica
 Aciduria 2-metilbutirrica
 Aciduria 3-idrossi-3-metilglutarica
 Aciduria 3-idrossi-isobutirrica
-Aciduria 3-metilglutaconica con sordit  - encefalopatia - sindrome Leigh-simile
+Aciduria 3-metilglutaconica con sordità - encefalopatia - sindrome Leigh-simile
 Aciduria 3-metilglutaconica, tipo 1
 Aciduria 3-metilglutaconica, tipo 2
 Aciduria 3-metilglutaconica, tipo 3
@@ -108,7 +108,7 @@ Aciduria 3-metilglutaconica, tipo 5
 Aciduria 4-idrossibutirrica
 Aciduria alfa-aminoadipica
 Aciduria argininosuccinica
-Aciduria chetonica - ritardo mentale - atassia - sordit 
+Aciduria chetonica - ritardo mentale - atassia - sordità
 Aciduria D-2-idrossiglutarica
 Aciduria D-glicerica
 Aciduria D,L-2-idrossiglutarica
@@ -315,8 +315,8 @@ Afasia progressiva non fluente
 Afasia progressiva primitiva logopenica
 Afibrinogenemia familiare
 AFLP
-Afonia - sordit  - distrofia retinica - alluci bifidi - deficit cognitivo
-Afonia - sordit  - distrofia retinica - duplicazione degli alluci - deficit cognitivo
+Afonia - sordità - distrofia retinica - alluci bifidi - deficit cognitivo
+Afonia - sordità - distrofia retinica - duplicazione degli alluci - deficit cognitivo
 Agammaglobulinemia autosomica
 Agammaglobulinemia di Bruton
 Agammaglobulinemia isolata
@@ -331,7 +331,7 @@ Agenesia completa isolata del verme cerebellare
 Agenesia congenita del chiasma
 Agenesia congenita del pancreas
 Agenesia del corpo calloso - anomalie corioretiniche
-Agenesia del corpo calloso - bifidit  uretrale - trigonocefalia
+Agenesia del corpo calloso - bifidità uretrale - trigonocefalia
 Agenesia del corpo calloso - blefarofimosi - sequenza di Pierre Robin
 Agenesia del corpo calloso - cataratta - immunodeficienza
 Agenesia del corpo calloso - microcefalia - bassa statura
@@ -401,9 +401,9 @@ AISA
 AKE
 Alacrimia congenita
 Albinismo cutaneo, fenotipo   ermellino  
-Albinismo oculare con sordit  neurosensoriale congenita
+Albinismo oculare con sordità neurosensoriale congenita
 Albinismo oculare recessivo legato all X
-Albinismo oculare - sordit  sensoriale tardiva
+Albinismo oculare - sordità sensoriale tardiva
 Albinismo oculare, tipo 1
 Albinismo oculare, tipo Forsius-Eriksson
 Albinismo oculare, tipo Nettleship-Falls
@@ -424,7 +424,7 @@ Albinismo oculocutaneo, tipo 5
 Albinismo oculocutaneo, tipo Amish
 Albinismo oculocutaneo tirosinasi-negativo
 Albinismo parziale - immunodeficienza
-Albinismo - sordit 
+Albinismo - sordità
 Alcalosi ipokaliemica - ipercalciuria
 Alcaptonuria
 ALCL
@@ -461,7 +461,7 @@ Alluce varo - polisindattilia preassiale
 Alluci bifidi
 Alluci bifidi, forma bilaterale
 Alluci slargati, forma unilaterale
-Alopecia - anosmia - sordit  - ipogonadismo
+Alopecia - anosmia - sordità - ipogonadismo
 Alopecia areata totale
 Alopecia circoscritta - polidattilia
 Alopecia congenita e cheratoderma palmoplantare autosomica recessivo
@@ -655,7 +655,7 @@ Anemia mediterranea
 Anemia megaloblastica costituzionale con malattia neurologica grave
 Anemia megaloblastica familiare
 Anemia megaloblastica giovanile ereditaria da deficit del fattore intrinseco
-Anemia megaloblastica sensibile alla tiamina con diabete mellito e sordit  neurosensoriale
+Anemia megaloblastica sensibile alla tiamina con diabete mellito e sordità neurosensoriale
 Anemia microcitica associata a sovraccarico epatico di ferro
 Anemia perniciosa congenita
 Anemia refrattaria
@@ -677,7 +677,7 @@ Anemia sideropenica refrattaria al trattamento con ferro
 Anencefalia/exencefalia isolata
 Anendocrinosi intestinale congenita da diminuzione delle cellule gangliari enteriche
 Anestesia congenita del nervo trigemino
-Anestesia corneale - sordit  - deficit cognitivo
+Anestesia corneale - sordità - deficit cognitivo
 Anetoderma ereditario
 Anetoderma familiare
 Anetoderma primitivo
@@ -739,7 +739,7 @@ Aniridia - agenesia della rotula
 Aniridia - agenesia renale - ritardo psicomotorio
 Aniridia - atassia cerebellare - ritardo mentale
 Aniridia isolata
-Aniridia - ptosi - ritardo mentale - obesit 
+Aniridia - ptosi - ritardo mentale - obesità
 Anisachiasi
 Anodontia
 Anoftalmia - anomalie cardiache e polmonari - ritardo mentale
@@ -770,7 +770,7 @@ Anomalia della seconda fessura brianchiale
 Anomalia della terza schisi branchiale
 Anomalia della valvola tricuspide di Ebstein
 Anomalia delle corde della valvola tricuspide
-Anomalia delle mani simile all artrogriposi - sordit  neurosensoriale
+Anomalia delle mani simile all artrogriposi - sordità neurosensoriale
 Anomalia del setto atriale (ASD)
 Anomalia di Axenfeld
 Anomalia di Axenfeld-Rieger
@@ -797,7 +797,7 @@ Anomalie degli arti - cardiopatia
 Anomalie degli arti, del cranio e del cuoio capelluto
 Anomalie degli arti inferiori - ipospadia
 Anomalie degli arti superiori - deficit oculoauricolare
-Anomalie dei capelli - fotosensibilit  - ritardo mentale
+Anomalie dei capelli - fotosensibilità - ritardo mentale
 Anomalie dei muscoli del cingolo scapolare - ritardo mentale familiare
 Anomalie del dotto mülleriano - anomalie degli arti
 Anomalie della blastogenesi
@@ -805,7 +805,7 @@ Anomalie dell arco aortico
 Anomalie della tibia e del radio - osteopenia - fratture
 Anomalie delle vie biliari - insufficienza renale
 Anomalie dell ossificazione - ritardo dello sviluppo psicomotorio
-Anomalie dello sviluppo - sordit  - distonia
+Anomalie dello sviluppo - sordità - distonia
 Anomalie di formazione e di percorso delle coronarie
 Anomalie digitali con rime palpebrali corte e atresia dell esofago o del duodeno
 Anomalie digitali - deficit cognitivo - bassa statura
@@ -869,7 +869,7 @@ Apodia
 Apodia bilaterale
 Apodia unilaterale
 Apoplessia ipofisaria
-Appendice caudale - sordit 
+Appendice caudale - sordità
 Aprassia oculomotoria, tipo Cogan
 Aprassia progressiva primitiva del linguaggio
 Aprosencefalia - disgenesia cerebellare
@@ -902,9 +902,9 @@ Arco aortico cervicale
 Arco aortico destro
 Arco aortico doppio circolare
 AR dRTA con perdita di udito
-AR dRTA con sordit 
+AR dRTA con sordità
 AR dRTA senza perdita di udito
-AR dRTA senza sordit 
+AR dRTA senza sordità
 ARDS del bambino
 ARDS dell adulto
 Argininemia
@@ -951,7 +951,7 @@ Artrite ricorrente familiare
 Artrite uretritica
 Artrite venerea
 Artrogriposi congenita multipla, tipo neurogeno
-Artrogriposi con limitazione oculomotoria ed anomalie dell attivit  elettrica della retina
+Artrogriposi con limitazione oculomotoria ed anomalie dell attività elettrica della retina
 Artrogriposi da distrofia muscolare
 Artrogriposi - disfunzione renale - colestasi
 Artrogriposi - displasia ectodermica - altre anomalie
@@ -1071,23 +1071,23 @@ Astrocitoma subependimale a cellule giganti
 Atassia - aprassia oculomotoria
 Atassia - aprassia oculomotoria, tipo 2 (AOA2)
 Atassia - aprassia - ritardo mentale legato all X
-Atassia - atrofia ottica - sordit  - letalit 
+Atassia - atrofia ottica - sordità - letalità
 Atassia autosomica recessiva da deficit del coenzima Q10
 Atassia autosomica recessiva da deficit di PEX10
 Atassia autosomica recessiva da deficit di ubichinone
 Atassia autosomica recessiva, tipo Beauce
-Atassia cerebellare - areflessia - piede cavo - atrofia ottica - sordit  neurosensoriale
+Atassia cerebellare - areflessia - piede cavo - atrofia ottica - sordità neurosensoriale
 Atassia cerebellare autosomica dominante, tipo 1
 Atassia cerebellare autosomica dominante, tipo 3
 Atassia cerebellare autosomica dominante, tipo 4
 Atassia cerebellare autosomica dominante, tipo I
 Atassia cerebellare autosomica dominante, tipo III
 Atassia cerebellare autosomica dominante, tipo IV
-Atassia cerebellare autosomica recessiva a esordio nell et  adulta
+Atassia cerebellare autosomica recessiva a esordio nell età adulta
 Atassia cerebellare autosomica recessiva associata alla spettrina
 Atassia cerebellare autosomica recessiva associata alla spettrina, tipo 1
-Atassia cerebellare autosomica recessiva - cecit  - sordit 
-Atassia cerebellare autosomica recessiva con spasticit  a esordio tardivo
+Atassia cerebellare autosomica recessiva - cecità - sordità
+Atassia cerebellare autosomica recessiva con spasticità a esordio tardivo
 Atassia cerebellare autosomica recessiva da deficit di GBA2
 Atassia cerebellare autosomica recessiva - deficit cognitivo
 Atassia cerebellare autosomica recessiva - epilessia - deficit cognitivo
@@ -1127,14 +1127,14 @@ Atassia episodica, tipo 5
 Atassia episodica, tipo 6
 Atassia episodica, tipo 7
 Atassia episodica - vertigini - ronzii - miochimia
-Atassia - fotosensibilit  - bassa statura
+Atassia - fotosensibilità - bassa statura
 Atassia Friedreich-simile
 Atassia infantile con ipomielinizzazione diffusa del sistema nervoso centrale
 Atassia - ipogonadismo - distrofia coroideale
 Atassia - pancitopenia
 Atassia parossistica familiare
 Atassia - ritardo della dentizione - ipomielinizzazione
-Atassia - sordit  - ritardo mentale
+Atassia - sordità - ritardo mentale
 Atassia spastica - anomalie oculari
 Atassia spastica autosomica dominante
 Atassia spastica autosomica recessiva 4
@@ -1146,7 +1146,7 @@ Atassia spastica autosomica recessiva, tipo 3
 Atassia spastica congenita
 Atassia spastica - distrofia corneale
 Atassia spinocerebellare a esordio infantile
-Atassia spinocerebellare - amiotrofia - sordit 
+Atassia spinocerebellare - amiotrofia - sordità
 Atassia spinocerebellare associata a neuropatia assonale, tipo 1
 Atassia spinocerebellare associata a neuropatia assonale, tipo 2
 Atassia spinocerebellare autosomica dominante, tipo 7
@@ -1194,7 +1194,7 @@ Atassia spinocerebellare, tipo 5
 Atassia spinocerebellare, tipo 6
 Atassia spinocerebellare, tipo 7
 Atassia spinocerebellare, tipo 8
-Atassia sporadica a eziologia non nota e a esordio nell et  adulta
+Atassia sporadica a eziologia non nota e a esordio nell età adulta
 Atassia - telangectasia
 Atassia - telangectasia, variante 1
 Atassia, tipo Cayman
@@ -1206,7 +1206,7 @@ Atelencefalia
 Atelosteogenesi 1
 Atelosteogenesi 2
 Atelosteogenesi 3
-Aterosclerosi - sordit  - diabete - epilessia - nefropatia
+Aterosclerosi - sordità - diabete - epilessia - nefropatia
 Atireosi
 ATLD
 ATLL
@@ -1225,7 +1225,7 @@ Atresia del digiuno
 Atresia della mitrale
 Atresia della tricuspide
 Atresia della valvola aortica
-Atresia delle coane - sordit  - cardiopatia
+Atresia delle coane - sordità - cardiopatia
 Atresia delle orecchie - anomalie congenite multiple - ritardo mentale
 Atresia dell uretra
 Atresia del piccolo intestino
@@ -1264,7 +1264,7 @@ Atrofia multisistemica, tipo parkinsoniano
 Atrofia muscolare - atassia - retinite pigmentosa - diabete mellito
 Atrofia muscolare bulbospinale
 Atrofia muscolare dei cingoli da deficit di FKRP
-Atrofia muscolare distale giovanile dell estremit  superiore
+Atrofia muscolare distale giovanile dell estremità superiore
 Atrofia muscolare giovanile distale dell arto superiore
 Atrofia muscolare spinale benigna congenita autosomica dominante
 Atrofia muscolare spinale benigna congenita con contratture
@@ -1297,7 +1297,7 @@ Atrofia muscolare spinale intermedia
 Atrofia muscolare spinale legata all X, tipo 2
 Atrofia muscolare spinale non progressiva congenita
 Atrofia muscolare spinale prossimale
-Atrofia muscolare spinale prossimale, autosomica dominante, a esordio nell et  adulta
+Atrofia muscolare spinale prossimale, autosomica dominante, a esordio nell età adulta
 Atrofia muscolare spinale prossimale, autosomica dominante, a esordio nell infanzia
 Atrofia muscolare spinale prossimale, tipo 1
 Atrofia muscolare spinale prossimale, tipo 2
@@ -1305,11 +1305,11 @@ Atrofia muscolare spinale prossimale, tipo 3
 Atrofia muscolare spinale prossimale, tipo 4
 Atrofia muscola spinale distale autosomica recessiva, tipo 2
 Atrofia olivo-ponto-cerebellare
-Atrofia olivo-ponto-cerebellare - sordit 
+Atrofia olivo-ponto-cerebellare - sordità
 Atrofia ottica a esordio precoce, tipo non-Leber
 Atrofia ottica autosomica dominante con neuropatia periferica
-Atrofia ottica autosomica dominante e sordit  a esordio tardivo
-Atrofia ottica autosomica dominante - sordit  congenita
+Atrofia ottica autosomica dominante e sordità a esordio tardivo
+Atrofia ottica autosomica dominante - sordità congenita
 Atrofia ottica autosomica dominante, tipo 3
 Atrofia ottica autosomica dominante, tipo classico
 Atrofia ottica autosomica dominante, tipo Kjer
@@ -1323,8 +1323,8 @@ Atrofia ottica e cataratta, autosomica dominante
 Atrofia ottica infantile con corea e paraplegia spastica
 Atrofia ottica isolata autosomica recessiva
 Atrofia ottica legata all X a esordio precoce
-Atrofia ottica - oftalmoplegia - ptosi - sordit  - miopatia
-Atrofia ottica - sordit  - polineuropatia - miopatia
+Atrofia ottica - oftalmoplegia - ptosi - sordità - miopatia
+Atrofia ottica - sordità - polineuropatia - miopatia
 Atrofia ottica, tipo 2
 Atrofia retinocoroidea paravenosa pigmentata
 Atrofia spinale - oftalmoplegia - sindrome piramidale
@@ -1367,7 +1367,7 @@ Autosomal recessive spastic paraplegia type 69
 Autosomal recessive spastic paraplegia type 70
 Autosomal recessive spastic paraplegia type 71
 Autosomal recessive spastic paraplegia type 72
-Autosomal recessive spondylometaphyseal dysplasia, M garban  type
+Autosomal recessive spondylometaphyseal dysplasia, Mégarbané type
 AVED
 Avvelenamento da 5-fluorouracile
 Avvelenamento da Bothrops lanceolatus
@@ -1400,17 +1400,17 @@ Bassa statura da deficit di GHSR
 Bassa statura da deficit isolato dell ormone della crescita associato a ipogammaglobulinemia legata all X
 Bassa statura da deficit parziale del recettore dell ormone della crescita
 Bassa statura da deficit parziale di GHR
-Bassa statura da deficit primitivo della subunit  acido-labile
+Bassa statura da deficit primitivo della subunità acido-labile
 Bassa statura da difetto quantitativo dell ormone della crescita
 Bassa statura da resistenza all ormone della crescita
 Bassa statura - difetti craniofacciali - ipoplasia dei genitali
-Bassa statura - et  ossea ritardata, da deficit degli ormoni tiroidei
+Bassa statura - età ossea ritardata, da deficit degli ormoni tiroidei
 Bassa statura - ossa wormiane - destrocardia
 Bassa statura osteodisplastica microcefalica primitiva, tipo 2
 Bassa statura primitiva - microdontia - denti opalescenti senza radice
 Bassa statura - pterigio del collo - cardiopatia
 Bassa statura SHOX-correlata
-Bassa statura - sordit  - anomalia dei neutrofili
+Bassa statura - sordità - anomalia dei neutrofili
 Bassa statura, tipo Bruxelles
 Bassa statura - valvulopatia cardiaca - facies caratteristica
 Basso peso alla nascita - nanismo - disgammaglobulinemia
@@ -1443,7 +1443,7 @@ Beta talassemia - trombocitopenia legata all X
 BFIE
 BFIS
 BFLS
-Bifidit  dell ugola
+Bifidità dell ugola
 Bipartite talus
 BJHS
 Blastoma pleuropolmonare
@@ -1520,7 +1520,7 @@ BPDCN
 B-PLL
 BPNST
 Brachicefalia isolata
-Brachicefalia - sordit  - cataratta - ritardo mentale
+Brachicefalia - sordità - cataratta - ritardo mentale
 Brachidattialia di Hirschsprung
 Brachidattilia - assenza delle falangi distali
 Brachidattilia bilaterale delle dita dei piedi
@@ -1604,7 +1604,7 @@ CAIS
 Calcificazione arteriosa generalizzata dell infanzia
 Calcificazione arteriosa infantile idiopatica
 Calcificazione cerebrale, tipo Rajab
-Calcificazione del sistema nervosa centrale - sordit  - acidosi tubolare - anemia
+Calcificazione del sistema nervosa centrale - sordità - acidosi tubolare - anemia
 Calcificazione idiopatica dei gangli basali
 Calcificazioni del plesso coroideo, forma infantile
 Calcificazioni talamiche simmetriche
@@ -1616,7 +1616,7 @@ Calcinosi tumorale ipercalcemica
 Calcinosi tumorale normocalcemica
 C-ALCL
 Calcolosi xantinica
-Callosit  dolorose ereditarie
+Callosità dolorose ereditarie
 Calpainopatia primitiva
 Campomelia, tipo Cumming
 Camptobrachidattilia
@@ -1742,7 +1742,7 @@ Carcinoma endocrino scarsamente differenziato della cervice uterina
 Carcinoma endocrino scarsamente differenziato dell endometrio
 Carcinoma epatocellulare
 Carcinoma epatocellulare a esordio infantile
-Carcinoma epatocellulare a esordio nell et  adulta
+Carcinoma epatocellulare a esordio nell età adulta
 Carcinoma ereditario della mammella
 Carcinoma esofageo a cellule squamose
 Carcinoma extracranico embrionale
@@ -1828,7 +1828,7 @@ Cardiomiopatia postparto
 Cardiomiopatia restrittiva idiopatica o familiare
 Cardiomiopatia restrittiva isolata familiare
 Cardiomiopatia restrittiva non familiare
-Cardiomiopatia - sordit , a trasmissione materna
+Cardiomiopatia - sordità, a trasmissione materna
 Cardiomiopatia ventricolare aritmogena isolata familiare
 Cardiomiopatia ventricolare aritmogena isolata familiare con predominanza a destra
 Cardiomiopatia ventricolare aritmogena isolata familiare con predominanza a sinistra
@@ -1845,18 +1845,18 @@ Cardiopatie univentricolari
 Carnosinemia
 CAS
 Cataratta - alopecia - sclerodattilia
-Cataratta - atassia - sordit 
+Cataratta - atassia - sordità
 Cataratta cerulea
 Cataratta congenita - cardiomiopatia ipertrofica - miopatia mitocondriale
-Cataratta congenita con microcornea e opacit  corneale
+Cataratta congenita con microcornea e opacità corneale
 Cataratta congenita con microftalmia
 Cataratta congenita - dismorfismi facciali - neuropatia
 Cataratta congenita - ipotonia muscolare progressiva - ipoacusia - ritardo dello sviluppo
-Cataratta congenita - ipotonia muscolare progressiva - sordit  - ritardo dello sviluppo
+Cataratta congenita - ipotonia muscolare progressiva - sordità - ritardo dello sviluppo
 Cataratta congenita - ittiosi
 Cataratta congenita non sindromica
 Cataratta congenita, tipo Volkmann
-Cataratta con opacit  lungo le suture a Y
+Cataratta con opacità lungo le suture a Y
 Cataratta Coppock-simile
 Cataratta coralliforme
 Cataratta corticale autosomica dominante a esordio infantile
@@ -1879,7 +1879,7 @@ Cataratta polare posteriore
 Cataratta pulverulenta
 Cataratta - ritardo mentale - atresia anale - uropatia
 Cataratta - ritardo mentale - ipogonadismo
-Cataratta - sordit  - ipogonadismo
+Cataratta - sordità - ipogonadismo
 Cataratta subcapsulare anteriore
 Cataratta subcapsulare posteriore
 Cataratta, tipo hutterita
@@ -1988,16 +1988,16 @@ CDI ereditario
 CDPD
 CDPX2
 CEC
-Cecit  ai colori - tritan
-Cecit  al blu
-Cecit  congenita da distacco della retina
-Cecit  corticale - ritardo mentale - polidattilia
-Cecit  dei fiumi
-Cecit  di Episkopi
-Cecit  notturna - anomalie scheletriche - dismorfismi
-Cecit  notturna permanente congenita, tipo Oguchi
-Cecit  notturna stazionaria congenita
-Cecit  - scoliosi - aracnodattilia
+Cecità ai colori - tritan
+Cecità al blu
+Cecità congenita da distacco della retina
+Cecità corticale - ritardo mentale - polidattilia
+Cecità dei fiumi
+Cecità di Episkopi
+Cecità notturna - anomalie scheletriche - dismorfismi
+Cecità notturna permanente congenita, tipo Oguchi
+Cecità notturna stazionaria congenita
+Cecità - scoliosi - aracnodattilia
 CED
 Cefalalgia autonomico-trigeminale
 Cefalea con attacchi neuralgiformi monolaterali di breve durata con iniezione congiuntivale e lacrimazione
@@ -2056,7 +2056,7 @@ Cheratoderma - dermatosi ittiosiforme - aumento di beta-glucuronidasi
 Cheratoderma - dermatosi ittiosiforme - beta-glucuronidasi elevata
 Cheratoderma gengivale e palmoplantare focale
 Cheratoderma mutilante di Vohwinkel
-Cheratoderma mutilante e sordit 
+Cheratoderma mutilante e sordità
 Cheratoderma palmoplantare - clinodattilia
 Cheratoderma palmoplantare con cardiomiopatia aritmogena
 Cheratoderma palmoplantare con cheratina tonotubulare
@@ -2178,16 +2178,16 @@ Cisti pancreatica congenita vera
 Cisti peritoneale multioculare da inclusione
 Cisti pleuro-pericardica
 Cisti renale multiloculare
-Cisti renali - diabete giovanile a esordio nella maturit 
-Cisti renali - diabete giovanile con esordio nella maturit 
+Cisti renali - diabete giovanile a esordio nella maturità
+Cisti renali - diabete giovanile con esordio nella maturità
 Cisti retrocerebellare
 Cistite interstiziale
 Cisti trichilemmale proliferativa
 Citopenia refrattaria con displasia multilineare
 Citrullinemia
-Citrullinemia a esordio nell et  adulta, tipo 1
-Citrullinemia a esordio nell et  adulta, tipo 2
-Citrullinemia a esordio nell et  adulta, tipo I
+Citrullinemia a esordio nell età adulta, tipo 1
+Citrullinemia a esordio nell età adulta, tipo 2
+Citrullinemia a esordio nell età adulta, tipo I
 Citrullinemia a esordio tardivo, tipo 1
 Citrullinemia a esordio tardivo, tipo I
 Citrullinemia classica
@@ -2302,7 +2302,7 @@ Colestasi - linfedema
 Colestasi progressiva familiare intraepatica
 Colestasi - retinopatia pigmentosa - schisi palatina
 Colite collagenosa
-Colite epitelio-esfoliativa - sordit 
+Colite epitelio-esfoliativa - sordità
 Colite indeterminata
 Colite linfocitica
 Colite microscopica
@@ -2323,7 +2323,7 @@ Coloboma - labiopalatoschisi - ritardo mentale
 Coloboma maculare
 Coloboma maculare - brachidattilia tipo B
 Coloboma maculare - palatoschisi - alluce valgo
-Coloboma - microftalmia - cardiopatia - sordit 
+Coloboma - microftalmia - cardiopatia - sordità
 Coloboma-obesity-hypogenitalism-intellectual disability syndrome
 Colorazione argento
 Combined immunodeficiency due to MALT1 deficiency
@@ -2351,7 +2351,7 @@ Condrodisplasia a cellule giganti
 Condrodisplasia con bacino a chiocciola
 Condrodisplasia con dislocazioni articolari congenite, tipo CHST3
 Condrodisplasia con dislocazioni articolari, tipo gPAPP
-Condrodisplasia - dentinogenesi imperfetta - lassit  articolare
+Condrodisplasia - dentinogenesi imperfetta - lassità articolare
 Condrodisplasia di Goldblatt
 Condrodisplasia - disturbo dello sviluppo sessuale
 Condrodisplasia dominante legata all X - idrocefalia - microftalmia
@@ -2415,7 +2415,7 @@ Convulsioni infantili - coreoatetosi
 Convulsioni infantili familiari benigne
 Convulsioni infantili non familiari benigne
 Convulsioni infantili parziali benigne
-Convulsioni legate all attivit  mentale
+Convulsioni legate all attività mentale
 Convulsioni parziali migranti dell infanzia
 Convulsioni parziali migranti maligne dell infanzia
 Convulsioni - ritardo mentale da idrossilisinuria
@@ -2423,7 +2423,7 @@ Convulsioni sensibili all acido folinico
 Convulsioni sensibili alla piridossina
 Convulsioni sensibili alla vitamina B6
 Convulsioni sensibili al piridossalosfato
-Convulsioni - sordit  neurosensoriale - atassia - deficit cognitivo - squilibrio elettrolitico
+Convulsioni - sordità neurosensoriale - atassia - deficit cognitivo - squilibrio elettrolitico
 Coproporfiria ereditaria
 Cordoma
 Corea-acantocitosi
@@ -2435,9 +2435,9 @@ Corea familiare benigna
 Corea fibrillare di Morvan
 Coreatetosi chinesigenica parossistica
 Coreoacantocitosi
-Coreoatetosi distonica parossistica con atassia episodica e spasticit 
+Coreoatetosi distonica parossistica con atassia episodica e spasticità
 Coreoatetosi - ipotiroidismo - distress respiratorio neonatale
-Coreoatetosi/spasticit  episodiche
+Coreoatetosi/spasticità episodiche
 Coriocarcinoma del sistema nervoso centrale
 Coriocarcinoma gestazionale
 Coriocarcinoma ovarico non gestazionale
@@ -2448,7 +2448,7 @@ Coristoma
 Cornea piana congenita
 Coroideremia
 Coroideremia - ipopituitarismo
-Coroideremia - obesit  - sordit 
+Coroideremia - obesità - sordità
 Coroidite serpiginosa
 Coroidopatia geografica elicoidale peripapillare
 CORS
@@ -2475,19 +2475,19 @@ CPAM, tipo 2
 CPAM, tipo 3
 CPAM, tipo 4
 CPD IV
-CPEO a esordio nell et  adulta con miopatia mitocondriale
+CPEO a esordio nell età adulta con miopatia mitocondriale
 CPEO a trasmissione materna
 CPFE
 CPI
 CPPD
 CPPDD
-CPT2, forma a esordio nell et  adulta
+CPT2, forma a esordio nell età adulta
 CPT2, forma epato-cardio-muscolare
 CPT2, forma infantile grave
 CPT2, forma miopatica
 CPT2, forma neonatale
 CPT2, forma sistemica letale
-CPTII, forma a esordio nell et  adulta
+CPTII, forma a esordio nell età adulta
 CPTII, forma epato-cardio-muscolare
 CPTII, forma infantile grave
 CPTII, forma miopatica
@@ -2603,11 +2603,11 @@ Cutis laxa autosomica recessiva, tipo 2
 Cutis laxa autosomica recessiva, tipo 2A
 Cutis laxa autosomica recessiva, tipo 2B
 Cutis laxa autosomica recessiva tipo 2, tipo classico
-Cutis laxa autosomica recessiva, tipo Debr 
+Cutis laxa autosomica recessiva, tipo Debré
 Cutis laxa autosomica recessiva, tipo enfisema polmonare
-Cutis laxa con lassit  articolare e ritardo dello sviluppo
+Cutis laxa con lassità articolare e ritardo dello sviluppo
 Cutis laxa legata all X
-Cutis laxa - opacit  corneale - ritardo mentale
+Cutis laxa - opacità corneale - ritardo mentale
 Cutis laxa - osteoporosi
 Cutis marmorata telangectasica congenita
 Cutis verticis gyrata
@@ -2615,7 +2615,7 @@ Cutis verticis gyrata - aplasia della tiroide - ritardo mentale
 Cutis verticis gyrata essenziale primitiva
 Cutis verticis gyrata non essenziale primitiva
 Cutis verticis gyrata - retinite pigmentosa - perdita dell udito neurosensoriale
-Cutis verticis gyrata - retinite pigmentosa - sordit  neurosensoriale
+Cutis verticis gyrata - retinite pigmentosa - sordità neurosensoriale
 Cutis verticis gyrata - ritardo mentale
 Cutix laxa - sindrome marfanoide
 CVID da deficit di TNFR
@@ -2670,13 +2670,13 @@ Deficit cognitivo - cataratta - cifosi
 Deficit cognitivo - cataratta - coloboma - cifosi
 Deficit cognitivo da causa sconosciuta
 Deficit cognitivo - dismorfismo craniofacciale - criptorchidismo
-Deficit cognitivo - enteropatia - sordit  - neuropatia periferica - ittiosi - cheratoderma
+Deficit cognitivo - enteropatia - sordità - neuropatia periferica - ittiosi - cheratoderma
 Deficit cognitivo - epilessia - anomalie endocrine
 Deficit cognitivo - epilessia , legato all X, tipo dominante
 Deficit cognitivo - epilessia, tipo recessivo legato all X
 Deficit cognitivo FRAXE
 Deficit cognitivo grave e paraplegia spastica progressiva
-Deficit cognitivo - ipotonia - spasticit  - disturbo del sonno
+Deficit cognitivo - ipotonia - spasticità - disturbo del sonno
 Deficit cognitivo legato all X - cardiomegalia - insufficienza cardiaca congestizia
 Deficit cognitivo legato all X con habitus marfanoide
 Deficit cognitivo legato all X - dismorfismi - atrofia cerebrale
@@ -2688,8 +2688,8 @@ Deficit cognitivo legato all X, tipo Hedera
 Deficit cognitivo legato all X, tipo Najm
 Deficit cognitivo legato all X, tipo sudafricano
 Deficit cognitivo non sindromico autosomico recessivo
-Deficit cognitivo - obesit  del tronco - distrofia retinica - micropene
-Deficit cognitivo - obesit  - malformazioni cerebrali - dismorfismi facciali
+Deficit cognitivo - obesità del tronco - distrofia retinica - micropene
+Deficit cognitivo - obesità - malformazioni cerebrali - dismorfismi facciali
 Deficit cognitivo recessivo - disfunzione motoria - contratture articolari multiple
 Deficit cognitivo, tipo Kahrizi
 Deficit combinati dell ormone ipofisario, forme genetiche
@@ -2797,12 +2797,12 @@ Deficit della proteina legante E3 della piruvato deidrogenasi
 Deficit della proteina R
 Deficit della proteina trifunzionale mitocondriale
 Deficit della sottoclasse delle IgG associato a deficit della sottoclasse delle IgA
-Deficit della subunit  alfa della componente E1 della piruvato deidrogenasi
-Deficit della subunit  beta della componente E1 del complesso della piruvato deidrogenasi
-Deficit della subunit  H-LDH
-Deficit della subunit  M-LDH
+Deficit della subunità alfa della componente E1 della piruvato deidrogenasi
+Deficit della subunità beta della componente E1 del complesso della piruvato deidrogenasi
+Deficit della subunità H-LDH
+Deficit della subunità M-LDH
 Deficit dell attivatore di esosaminidasi
-Deficit dell attivit  di scambio Na-H
+Deficit dell attività di scambio Na-H
 Deficit della via terminale del complemento
 Deficit delle catene kappa
 Deficit delle cellule dendritiche, monocitiche, B e NK
@@ -2880,7 +2880,7 @@ Deficit di aldosterone sintasi non legato al gene dell aldosterone sintasi
 Deficit di alfa-1,4-glucosidasi acida
 Deficit di alfa-1,4-glucosidasi acida a esordio giovanile
 Deficit di alfa-1,4-glucosidasi acida a esordio infantile
-Deficit di alfa-1,4-glucosidasi acida, a esordio nell et  adulta
+Deficit di alfa-1,4-glucosidasi acida, a esordio nell età adulta
 Deficit di alfa-1-antichimotripsina
 Deficit di alfa-1-antitripsina
 Deficit di alfa chetoglutarato deidrogenasi
@@ -2949,13 +2949,13 @@ Deficit di carnitina-acilcarnitina traslocasi
 Deficit di carnitina-palmitoil transferasi 1A
 Deficit di carnitina-palmitoil transferasi 2
 Deficit di carnitina-palmitoil transferasi IA
-Deficit di carnitina-palmitoil transferasi II, forma a esordio in et  adulta
+Deficit di carnitina-palmitoil transferasi II, forma a esordio in età adulta
 Deficit di carnitina-palmitoil transferasi II, forma epato-cardio-muscolare
 Deficit di carnitina-palmitoil transferasi II, forma infantile grave
 Deficit di carnitina-palmitoil transferasi II, forma miopatica
 Deficit di carnitina-palmitoil transferasi II, forma neonatale
 Deficit di carnitina-palmitoil transferasi II, forma sistemica letale
-Deficit di carnitina-palmitoil transferasi tipo 2, forma a esordio nell et  adulta
+Deficit di carnitina-palmitoil transferasi tipo 2, forma a esordio nell età adulta
 Deficit di carnitina-palmitoil transferasi tipo 2, forma infantile grave
 Deficit di carnitina-palmitoil transferasi tipo 2, forma miopatica
 Deficit di carnitina-palmitoil transferasi tipo 2, forma neonatale
@@ -2976,7 +2976,7 @@ Deficit di cistationina gamma-liasi
 Deficit di citidina deaminasi indotta da attivazione
 Deficit di citocromo C ossidasi, tipo franco-canadese
 Deficit di citocromo ossidasi di Saguenay-Lac-St. Jean
-Deficit di citrina a esordio nell et  adulta
+Deficit di citrina a esordio nell età adulta
 Deficit di CoA deidrogenasi dell acido isovalerico
 Deficit di CoA ligasi degli acidi biliari e difetto dell amidazione
 Deficit di coenzima Q10
@@ -3382,12 +3382,12 @@ Deficit selettivo della sottoclasse IgG
 Deficit selettivo delle immunoglobuline M
 Deficit selettivo di IgM
 Deficit "winged helix"
-Defomit  di Madelung unilaterale
+Defomità di Madelung unilaterale
 Deformazioni delle mani e piedi - faccia piatta
-Deformit  a   chela di aragosta  
-Deformit  di Klippel-Feil - sordit  conduttiva - agenesia della vagina
-Deformit  di Madelung
-Deformit  di Madelung bilaterale
+Deformità a   chela di aragosta  
+Deformità di Klippel-Feil - sordità conduttiva - agenesia della vagina
+Deformità di Madelung
+Deformità di Madelung bilaterale
 Degenerazione cerebellare-retinica infantile
 Degenerazione cocleosacculare - cataratta
 Degenerazione corioretinica peripapillare elicoidale
@@ -3597,7 +3597,7 @@ Dermatofibrosarcoma di Darier-Ferrand
 Dermatofibrosi disseminata con osteopoichilosi
 Dermatoleucodistrofia
 Dermatomiosite
-Dermatomiosite ad esordio nell et  adulta
+Dermatomiosite ad esordio nell età adulta
 Dermatomiosite giovanile
 Dermato-osteolisi, tipo Kirghizi
 Dermatopatia reticolare pigmentosa
@@ -3645,8 +3645,8 @@ D-HUS
 D+HUS
 DI
 DI-2
-Diabete giovanile con esordio nella maturit 
-Diabete giovanile con esordio nella maturit , tipo 5
+Diabete giovanile con esordio nella maturità
+Diabete giovanile con esordio nella maturità, tipo 5
 Diabete insipido centrale
 Diabete insipido centrale acquisito
 Diabete insipido centrale congenito
@@ -3656,18 +3656,18 @@ Diabete insipido nefrogenico - calcificazione intracranica
 Diabete insipido neurogeno
 Diabete insipido neurogeno acquisito
 Diabete insipido neurogeno ereditario
-Diabete - ipogonadismo - sordit  - ritardo mentale
+Diabete - ipogonadismo - sordità - ritardo mentale
 Diabete lipoatrofico
 Diabete lipoatrofico acquisito
 Diabete mellito a esordio precoce - displasia epifisaria multipla
-Diabete mellito - diabete insipido - atrofia ottica - sordit 
+Diabete mellito - diabete insipido - atrofia ottica - sordità
 Diabete mellito neonatale
 Diabete mellito neonatale permanente
 Diabete mellito neonatale permanente - agenesia pancreatica e cerebellare
 Diabete mellito neonatale transitorio
 Diabete mitocondriale
 Diabete neonatale - ipotiroidismo congenito - glaucoma congenito - fibrosi epatica - rene policistico
-Diabete - sordit , a trasmissione materna
+Diabete - sordità, a trasmissione materna
 Diade di Carney
 Diade di Carney-Stratakis
 DIA/DIG
@@ -3679,7 +3679,7 @@ Diarrea cronica con atrofia dei villi
 Diarrea cronica congenita associata a enteropatia con perdita di proteine
 Diarrea cronica congenita con enteropatia essudativa
 Diarrea cronica da deficit di glucoamilasi
-Diarrea cronica da eccesso di attivit  della guanilato ciclasi 2C
+Diarrea cronica da eccesso di attività della guanilato ciclasi 2C
 Diarrea dell infanzia intrattabile immuno-mediata
 Diarrea fenotipica
 Diarrea intrattabile - atresia delle coane - anomalie oculari
@@ -3740,7 +3740,7 @@ Diffuse palmoplantar keratoderma with painful fissures
 Difillobotriasi
 Difterite
 Diidropirimidinuria
-Dilatazione aortica - ipermobilit  articolare - tortuosit  delle arterie
+Dilatazione aortica - ipermobilità articolare - tortuosità delle arterie
 Dilatazione biliare indotta dalla ketamina
 Dilatazione idiopatica dell arteria polmonare
 Dilatazione idiopatica dell atrio destro
@@ -3793,7 +3793,7 @@ Disfasia congenita familiare
 Disfibrinogenemia familiare
 Disfonia spasmodica
 Disfunzione del nodo del seno
-Disfunzione del nodo senoatriale e sordit 
+Disfunzione del nodo senoatriale e sordità
 Disfunzione del tronco cerebrale associata a sequenza di Pierre-Robin, tipo neonatale
 Disfunzione immunitaria dovuta a inattivazione dei linfociti T da difetto di ingestione del calcio
 Disfunzione renale - diabete a esordio preoce
@@ -3818,7 +3818,7 @@ Disgenesia gonadica nelle femmine XX
 Disgenesia gonadica parziale 46,XY
 Disgenesia gonadica pura 46,XX
 Disgenesia gonadica pura 46,XY
-Disgenesia gonadica tipo XX - sordit 
+Disgenesia gonadica tipo XX - sordità
 Disgenesia ipergonadotropica delle ovaie
 Disgenesia mesenchimale familiare del segmento anteriore dell occhio
 Disgenesia ovarica 46,XX
@@ -3838,13 +3838,13 @@ Dislocazione congenita della testa del radio
 Dislocazione congenita unilaterale del gomito
 Dislocazione congenita unilaterale della rotula
 Dislocazioni articolari multiple - bassa statura - dismorfismi craniofacciali - cardiopatie congenite
-Dismorfia dei pelvi-calici - sordit 
-Dismorfismi - bassa statura - sordit  - pseudoermafroditismo
+Dismorfia dei pelvi-calici - sordità
+Dismorfismi - bassa statura - sordità - pseudoermafroditismo
 Dismorfismi craniofacciali - coloboma - agenesia del corpo calloso
 Dismorfismi facciali - deficit cognitivo - bassa statura - perdita dell udito
 Dismorfismi facciali - genitali ambigui - ipopituitarismo - arti corti
 Dismorfismi facciali - immunodeficienza - livedo - bassa statura
-Dismorfismi facciali - scroto a scialle - iperlassit  legamentosa
+Dismorfismi facciali - scroto a scialle - iperlassità legamentosa
 Dismorfismi - malformazioni multiple
 Dismorfismi - perdita conduttiva dell udito - cardiopatia
 Dismorfismo digitotalare
@@ -3909,7 +3909,7 @@ Disostosi mandibolofacciale legata all X senza difetti degli arti
 Disostosi mandibolo-facciale - macroblefaria - macrostomia
 Disostosi mandibolofacciale, tipo Guion-Almeida
 Disostosi mandibolofacciale, tipo Toriello
-Disostosi metafisaria - ritardo mentale - sordit 
+Disostosi metafisaria - ritardo mentale - sordità
 Disostosi oculo-maxillo-facciale
 Disostosi omerospinale
 Disostosi omero-spinale
@@ -3955,7 +3955,7 @@ Displasia cifomelica
 Displasia cleidocranica
 Displasia cleidocranica - micrognatia - agenesia dei pollici
 Displasia condroectodermica
-Displasia condroectodermica con cecit  notturna
+Displasia condroectodermica con cecità notturna
 Displasia con incurvamento delle ossa FGFR2-correlata
 Displasia con incurvamento delle ossa letale perinatale
 Displasia con ossa gracili
@@ -4023,7 +4023,7 @@ Displasia ectodermica - assenza dei dermatoglifi
 Displasia ectodermica autosomica dominante - sindroma da predisposizione al cancro
 Displasia ectodermica capelli-unghie
 Displasia ectodermica - cataratta - cifoscoliosi
-Displasia ectodermica - cecit 
+Displasia ectodermica - cecità
 Displasia ectodermica - cisti surrenali
 Displasia ectodermica con denti da latte, tipo Turnpenny
 Displasia ectodermica dell isola Margarita
@@ -4042,7 +4042,7 @@ Displasia ectodermica ipoidrotica legata all X
 Displasia ectodermica odonto-micro-ungueale
 Displasia ectodermica pura dei capelli e delle unghie
 Displasia ectodermica - ritardo mentale - malformazioni del sistema nervoso centrale
-Displasia ectodermica - sordit  neurosensoriale
+Displasia ectodermica - sordità neurosensoriale
 Displasia ectodermica, tipo Berlin
 Displasia ectodermica, tipo onico-trico-dentale
 Displasia emato-diafisaria di Ghosal
@@ -4054,14 +4054,14 @@ Displasia epifisaria multipla con fenotipo Robin
 Displasia epifisaria multipla con miniepifisi
 Displasia epifisaria multipla da anomalia del collagene 9
 Displasia epifisaria multipla - macrocefalia - facies caratteristica
-Displasia epifisaria multipla - miopia - sordit 
+Displasia epifisaria multipla - miopia - sordità
 Displasia epifisaria multipla, tipo 1
 Displasia epifisaria multipla, tipo 4
 Displasia epifisaria multipla, tipo 5
 Displasia epifisaria multipla, tipo Al Gazali
 Displasia epifisaria multipla, tipo Beighton
 Displasia epifisaria multipla, tipo Lowry
-Displasia epifisaria - sordit  - dismorfismi
+Displasia epifisaria - sordità - dismorfismi
 Displasia epimetafisaria dominante
 Displasia epiteliale intestinale
 Displasia facciale focale del derma
@@ -4083,7 +4083,7 @@ Displasia frontonasale con alopecia e anomalie genitali
 Displasia geleofisica
 Displasia gnatodiafisaria
 Displasia immuno-ossea di Schimke
-Displasia iridea - ipertelorismo - sordit 
+Displasia iridea - ipertelorismo - sordità
 Displasia ischiovertebrale
 Displasia Kniest-simile, forma letale
 Displasia mandiboloacrale
@@ -4197,11 +4197,11 @@ Displasia spondiloepimetafisaria con arti corti e anomala calcificazione
 Displasia spondiloepimetafisaria con dislocazioni multiple
 Displasia spondiloepimetafisaria con dislocazioni multiple, tipo Hall
 Displasia spondiloepimetafisaria congenita, tipo Strudwick
-Displasia spondiloepimetafisaria con lassit  articolare
-Displasia spondiloepimetafisaria con lassit  articolare, tipo 1
-Displasia spondiloepimetafisaria con lassit  articolare, tipo 2
-Displasia spondiloepimetafisaria con lassit  articolare, tipo Hall
-Displasia spondiloepimetafisaria con lassit  articolare, tipo leptodattilico
+Displasia spondiloepimetafisaria con lassità articolare
+Displasia spondiloepimetafisaria con lassità articolare, tipo 1
+Displasia spondiloepimetafisaria con lassità articolare, tipo 2
+Displasia spondiloepimetafisaria con lassità articolare, tipo Hall
+Displasia spondiloepimetafisaria con lassità articolare, tipo leptodattilico
 Displasia spondiloepimetafisaria - ipotricosi
 Displasia spondiloepimetafisaria legata all X
 Displasia spondiloepimetafisaria, tipo 2
@@ -4227,7 +4227,7 @@ Displasia spondilometafisaria con ginocchio valgo grave
 Displasia spondilometafisaria con immunodeficienza combinata
 Displasia spondilometafisaria - distrofia dei coni e dei bastoncelli
 Displasia spondilometafisaria legata all X
-Displasia spondilometafisaria - miopia - sordit  neurosensoriale
+Displasia spondilometafisaria - miopia - sordità neurosensoriale
 Displasia spondilometafisaria, tipo A4
 Displasia spondilometafisaria, tipo algerino
 Displasia spondilometafisaria, tipo   frattura angolare  
@@ -4257,7 +4257,7 @@ Displasia ventricolare aritmogena isolata familiare con predominanza a destra
 Displasia ventricolare aritmogena isolata familiare con predominanza a sinistra
 Displasia ventricolare aritmogena isolata familiare, forma biventricolare
 Displasia ventricolare aritmogena isolata familiare, forma classica
-Disprassia verbale dell et  evolutiva
+Disprassia verbale dell età evolutiva
 Disprotrombinemia
 Disrafia - labiopalatoschisi - anomalie degli arti
 Dissenteria ciliare
@@ -4303,7 +4303,7 @@ Distonia mioclonica 11
 Distonia mioclonica 15
 Distonia mitocondriale a trasmissione materna
 Distonia oromandibolare
-Distonia - parkinsonismo, a esordio nell et  adulta
+Distonia - parkinsonismo, a esordio nell età adulta
 Distonia - parkinsonismo, a esordio rapido
 Distonia - parkinsonismo, legato all X
 Distonia - parkinsonismo, tipo Paisan-Ruiz
@@ -4332,7 +4332,7 @@ Distrofia corneale a macchie di François-Neetens
 Distrofia corneale amorfa posteriore
 Distrofia corneale a nido d api
 Distrofia corneale con fibre a spirale
-Distrofia corneale con sordit  progressiva
+Distrofia corneale con sordità progressiva
 Distrofia corneale cristallina di Schnyder
 Distrofia corneale della membrana di Bowman, tipo I
 Distrofia corneale della membrana di Bowman, tipo II
@@ -4369,7 +4369,7 @@ Distrofia corneale pre-Descemet
 Distrofia corneale reticolare classica
 Distrofia corneale reticolare, tipo 1
 Distrofia corneale reticolare, tipo I
-Distrofia corneale - sordit  percettiva
+Distrofia corneale - sordità percettiva
 Distrofia corneale stromale congenita
 Distrofia corneale torbida centrale di François
 Distrofia corneo-retinica del cristallino di Bietti
@@ -4588,8 +4588,8 @@ Disturbo congenito della glisosilazione, tipo 1c
 Disturbo della parola e del linguaggio, tipo 1
 Disturbo del linguaggio con disprassia orofacciale
 Disturbo dello spettro dell autismo da deficit di AUTS2
-Disturbo dello sviluppo sessuale 46,XY da deficit della subunit  beta dell ormone luteinizzante
-Disturbo dello sviluppo sessuale 46,XY da deficit della subunit  beta dell ormone luteinizzante
+Disturbo dello sviluppo sessuale 46,XY da deficit della subunità beta dell ormone luteinizzante
+Disturbo dello sviluppo sessuale 46,XY da deficit della subunità beta dell ormone luteinizzante
 Disturbo dello sviluppo sessuale 46,XY da deficit di 5-alfa-reduttasi 2
 Disturbo dello sviluppo sessuale 46,XY da deficit di LHB
 Disturbo dello sviluppo sessuale 46,XY da inattivazione completa del recettore per LH
@@ -4625,7 +4625,7 @@ DKC
 DLBCL
 DLBCL con infiammazione cronica
 DLBCL del SNC
-DLBCL EBV-positivo in et  avanzata
+DLBCL EBV-positivo in età avanzata
 DLM
 DM
 DM1
@@ -4667,13 +4667,13 @@ Drusen dominanti
 Drusen familiari
 Drusen radiali dominanti
 DS-AMKL
-DSD 46,XY da deficit della subunit  beta dell ormone luteinizzante
+DSD 46,XY da deficit della subunità beta dell ormone luteinizzante
 DSD 46,XY da deficit di LHB
 DSD 46,XY da inattivazione completa del recettore per LH
 DSD 46,XY da inattivazione completa del recettore per l ormone luteinizzante
 DSD 46,XY da inattivazione parziale del recettore per LH
 DSD 46,XY da resistenza a LH o deficit di LHB
-DSD 46,XY da resistenza all ormone luteinizzante o deficit della subunit  beta dell ormone luteinizzante
+DSD 46,XY da resistenza all ormone luteinizzante o deficit della subunità beta dell ormone luteinizzante
 DSD 46,XY da resistenza completa all ormone luteinizzante
 DSD 46,XY da resistenza completa di LH
 DSD 46,XY da resistenza parziale a LH
@@ -4886,7 +4886,7 @@ EDS 7C
 EDS 8
 EDS CHST14-associata
 EDS con cifoscoliosi progressiva, miopatia e perdita dell udito
-EDS con cifoscoliosi progressiva, miopatia e sordit 
+EDS con cifoscoliosi progressiva, miopatia e sordità
 EDS con eterotopia periventricolare
 EDS D4ST1-deficitaria
 EDS III
@@ -4898,7 +4898,7 @@ EDSS2
 EDS, tipo 4
 EDS, tipo artrogripotico
 EDS, tipo cardiaco-valvolare
-EDS, tipo cifoscoliotico e sordit 
+EDS, tipo cifoscoliotico e sordità
 EDS, tipo classico
 EDS, tipo Kosho
 EDS, tipo muscolo-contratturale
@@ -4953,7 +4953,7 @@ Emangiomatosi capillare polmonare
 Emangiomatosi neonatale diffusa
 Emangiomi facciali - pseudocicatrice sopraombelicale
 Emangiomi sacrali - anomalie congenite multiple
-Ematuria familiare autosomica dominante - tortuosit  delle arterie retiniche - contratture
+Ematuria familiare autosomica dominante - tortuosità delle arterie retiniche - contratture
 Embriofetopatia da acitretina
 Embriofetopatia da aminopterina/metotrexato
 Embriofetopatia da antagonisti della vitamina K
@@ -4995,7 +4995,7 @@ Emicrania emiplegica familiare o sporadica
 Emicrania parossistica
 Emidisplasia congenita con nevo ittiosiforme e anomalie degli arti
 Emiiperplasia isolata
-Emi-ipertofia - briglia intestinale - opacit  corneali
+Emi-ipertofia - briglia intestinale - opacità corneali
 Emi-ipertrofia
 Emimegalencefalia
 Emimelia bilaterale della fibula
@@ -5057,7 +5057,7 @@ Emorragia cerebrale ereditaria con amiloidosi, tipo islandese
 Emorragia cerebrale ereditaria con amiloidosi, tipo italiano
 Emorragia cerebrale ereditaria con amiloidosi, tipo olandese
 Emorragia cerebrale ereditaria con amiloidosi, tipo piemontese
-Emorragia retinica con tortuosit  vascolare
+Emorragia retinica con tortuosità vascolare
 Emorragia subaracnoidea aneurismatica acquisita
 Emorragia surrenalica bilaterale
 Emorragia surrenalica massiva bilaterale
@@ -5137,11 +5137,11 @@ Encefalopatia da idrossichinureninuria
 Encefalopatia epilettica a esordio precoce e deficit cognitivo da mutazione di GRIN2A
 Encefalopatia epilettica catastrofica idiopatica
 Encefalopatia epilettica con demielinizzazione cerebrale generalizzata
-Encefalopatia epilettica devastante nei bambini in et  scolare
+Encefalopatia epilettica devastante nei bambini in età scolare
 Encefalopatia epilettica infantile precoce
 Encefalopatia epilettica infantile precoce con appiattimento elettrico cerebrale
 Encefalopatia epilettica neonatale associata a PNPO
-Encefalopatia epilettica refrattaria indotta dalla febbre nei bambini in et  scolare
+Encefalopatia epilettica refrattaria indotta dalla febbre nei bambini in età scolare
 Encefalopatia etilmalonica
 Encefalopatia grave a esordio neonatale con microcefalia
 Encefalopatia infantile da deficit di tiamina pirofosfochinasi
@@ -5164,7 +5164,7 @@ Encefalopatia ricorrente infantile
 Encefalopatia sensibile agli steroidi associata a tiroidite autoimmune
 Encefalopatia sensibile alla tiamina
 Encefalopatia spongiforme subacuta, tipo Gerstmann-Straussler
-Encefalopatia stastica dell infanzia con neurodegenerazione nell et  adulta
+Encefalopatia stastica dell infanzia con neurodegenerazione nell età adulta
 Encefalopatie spongiformi trasmissibili
 Encondromatosi
 Endocardite di Loeffler
@@ -5440,7 +5440,7 @@ Faccia asimmetrica durante il pianto, forma isolata
 Faccia piatta - microstomia - anomalie dell orecchio
 Facies acromegaloide
 Facies acromegaloide - ipertricosi
-Facies particolare - torace carenato - lassit  articolare
+Facies particolare - torace carenato - lassità articolare
 Facio-audio-sinfalangismo
 Facoanafilassi
 Facomatosi cesioflammea
@@ -5628,7 +5628,7 @@ Fibromatosi gengivale - dismorfismi facciali
 Fibromatosi gengivale - epatosplenomegalia - altre anomalie
 Fibromatosi gengivale ereditaria
 Fibromatosi gengivale - ipertricosi
-Fibromatosi gengivale - sordit 
+Fibromatosi gengivale - sordità
 Fibromatosi ialina giovanile
 Fibromatosi multipla non ossificante
 Fibromatosi plantare
@@ -5691,7 +5691,7 @@ Focal facial dermal dysplasia type IV
 Focal palmoplantar keratoderma with joint keratoses
 Focomelia
 Focomelia di Zimmer
-Focomelia - ectrodattilia - sordit  - aritmia
+Focomelia - ectrodattilia - sordità - aritmia
 Focomelia, tipo Schinzel
 Focomelia - trombocitopenia - encefalocele - malformazioni urogenitali
 Follicolite decalvante di Quinquaud
@@ -5717,7 +5717,7 @@ Fosfoetanolaminuria dell adulto
 Fosfoetanolaminuria infantile
 Fosfoetanolaminuria perinatale letale
 Fosfoetanolaminuria prenatale benigna
-Fotosensibilit  cutanea - colite letale
+Fotosensibilità cutanea - colite letale
 Foveal hypoplasia-optic nerve decussation defect-anterior segement dysgenesis syndrome
 FPAH
 FPHH
@@ -5725,7 +5725,7 @@ FPLCA
 FPLD1
 FPLD2
 FPLD3
-Fragilit  ossea - craniosinostosi - proptosi - idrocefalo
+Fragilità ossea - craniosinostosi - proptosi - idrocefalo
 FRAM
 Fruttosemia ereditaria
 Fruttosuria
@@ -5783,7 +5783,7 @@ Ganglioglioneurocitoma pseudopapillare
 Ganglioneuroblastoma
 Ganglioneuroma
 Gangliosidosi GM1
-Gangliosidosi GM1 dell et  adulta
+Gangliosidosi GM1 dell età adulta
 Gangliosidosi GM1 giovanile
 Gangliosidosi GM1 infantile
 Gangliosidosi GM1 tardo-infantile
@@ -5854,14 +5854,14 @@ Giustapposizione delle appendici atriali
 Glabella prominente - microcefalia - bassa statura
 Glaucoma congenito
 Glaucoma congenito di Peters
-Glaucoma - ectopia - sferofachia - rigidit  articolare - bassa statura
+Glaucoma - ectopia - sferofachia - rigidità articolare - bassa statura
 Glaucoma ereditario
 Glaucoma giovanile
 Glaucoma neovascolare
 Glcogenosi da deficit dell enzima deramificante del glicogeno, forma epatica non progressiva
 Glicinemia chetosica
-Glicogenosi da deficit della subunit  H della lattato deidrogenasi
-Glicogenosi da deficit della subunit  M della lattato deidrogenasi
+Glicogenosi da deficit della subunità H della lattato deidrogenasi
+Glicogenosi da deficit della subunità M della lattato deidrogenasi
 Glicogenosi da deficit dell enzima deramificante il glicogeno
 Glicogenosi da deficit dell enzima ramificante del glicogeno, forma epatica non progressiva
 Glicogenosi da deficit dell enzima ramificante del glicogeno, forma epatica progressiva
@@ -5890,7 +5890,7 @@ Glicogenosi da deficit di LAMP2
 Glicogenosi da deficit di lattato deidrogenasi
 Glicogenosi da deficit di maltasi acida, a esordio giovanile
 Glicogenosi da deficit di maltasi acida, a esordio infantile
-Glicogenosi da deficit di maltasi acida, a esordio nell et  adulta
+Glicogenosi da deficit di maltasi acida, a esordio nell età adulta
 Glicogenosi da deficit di PhK
 Glicogenosi da difetto del trasporto di glucosio-6-fosfatasi
 Glicogenosi di Bickel-Fanconi
@@ -5911,7 +5911,7 @@ Glicogenosi, tipo 1D
 Glicogenosi, tipo 2
 Glicogenosi tipo 2, a esordio giovanile
 Glicogenosi tipo 2, a esordio infantile
-Glicogenosi tipo 2, a esordio nell et  adulta
+Glicogenosi tipo 2, a esordio nell età adulta
 Glicogenosi, tipo 3
 Glicogenosi, tipo 4
 Glicogenosi tipo 4, forma epatica non progressiva
@@ -5995,7 +5995,7 @@ GOSHS
 Gotta associata a HPRT
 Gozzo multinodulare familiare
 Gozzo multinodulare - rene cistico - polidattilia
-Gozzo - sordit 
+Gozzo - sordità
 GPA
 GPP
 GPS
@@ -6004,8 +6004,8 @@ Granuloma eosinofilo
 Granuloma eosinofilo multifocale
 Granuloma letale della linea mediana
 Granulomatosi a cellule di Langerhans
-Granulomatosi a cellule di Langerhans dell infanzia e dell et  adulta
-Granulomatosi a cellule di Langerhans specifica dell et  adulta
+Granulomatosi a cellule di Langerhans dell infanzia e dell età adulta
+Granulomatosi a cellule di Langerhans specifica dell età adulta
 Granulomatosi a cellule di Langerhans specifica dell infanzia
 Granulomatosi con cutis laxa
 Granulomatosi con poliangioite
@@ -6023,8 +6023,8 @@ GRFoma
 Growth and developmental delay-hypotonia-vision impairment-lactic acidosis syndrome
 Growth retardation-mild developmental delay-chronic hepatitis syndrome
 GSD ad deficit di G6P, tipo a
-GSD da deficit della subunit  H della lattato deidrogenasi
-GSD da deficit della subunit  M della lattato deidrogenasi
+GSD da deficit della subunità H della lattato deidrogenasi
+GSD da deficit della subunità M della lattato deidrogenasi
 GSD da deficit dell enzima deramificante il glicogeno
 GSD da deficit dell enzima ramificante del glicogeno, forma epatica non progressiva
 GSD da deficit dell enzima ramificante del glicogeno, forma epatica progressiva
@@ -6056,7 +6056,7 @@ GSD da deficit di lattato deidrogenasi
 GSD da deficit di maltasi acida
 GSD da deficit di maltasi acida, a esordio giovanile
 GSD da deficit di maltasi acida, a esordio infantile
-GSD da deficit di maltasi acida, a esordio nell et  adulta
+GSD da deficit di maltasi acida, a esordio nell età adulta
 GSDIa
 GSDIb
 GSDIII
@@ -6078,7 +6078,7 @@ GSD, tipo 1 non-a
 GSD, tipo 2
 GSD tipo 2, a esordio giovanile
 GSD tipo 2, a esordio infantile
-GSD tipo 2, a esordio nell et  adulta
+GSD tipo 2, a esordio nell età adulta
 GSD, tipo 3
 GSD, tipo 4
 GSD tipo 4, forma epatica non progressiva
@@ -6108,7 +6108,7 @@ GTN
 GVH
 GWCD
 H-ABC
-Habitus marfanoide - ernia inguinale - et  ossea avanzata
+Habitus marfanoide - ernia inguinale - età ossea avanzata
 Habitus marfanoide - ritardo mentale, autosomico recessivo
 Habitus Prader-Willi - osteopenia - camptodattilia
 HAE
@@ -6225,8 +6225,8 @@ HSAN 2
 HSAN 5
 HSAN6
 HSAN con paraplegia spastica
-HSAN con sordit  e ritardo globale
-HSAN con sordit  legata all X
+HSAN con sordità e ritardo globale
+HSAN con sordità legata all X
 HSAN con tosse e reflusso gastroesofageo
 HSAS
 HSAS legato all X
@@ -6274,7 +6274,7 @@ Idrartrosi intermittente
 Idroa estiva
 Idroa vacciniforme
 Idrocefalo - agiria - displasia retinica
-Idrocefalo - alta statura - iperlassit 
+Idrocefalo - alta statura - iperlassità
 Idrocefalo comunicante congenito
 Idrocefalo congenito
 Idrocefalo con pressione normale
@@ -6286,10 +6286,10 @@ Idrocefalo/idranencefalia da vasculopatia cerebrale
 Idrocefalo legato all X con stenosi dell acquedotto di Silvio
 Idrocefalo non comunicante congenito
 Idrocefalo non ostruttivo congenito
-Idrocefalo - obesit  - ipogonadismo
+Idrocefalo - obesità - ipogonadismo
 Idrocefalo - ombelico a basso impianto
 Idrocefalo ostruttivo congenito
-Idrocefalo - palatoschisi - rigidit  articolare
+Idrocefalo - palatoschisi - rigidità articolare
 Idrocefalo - sclere blu - nefropatia
 Idroletale
 Idromelia
@@ -6324,12 +6324,12 @@ Immunocitoma linfoplasmacitico
 Immunocitoma linfoplasmocitoide
 Immunodeficienza a cellule T con epidermodisplasia verruciforme
 Immunodeficienza a cellule T da deficit di RHOH
-Immunodeficienza acquisita a esordio nell et  adulta
-Immunodeficienza a esordio nell et  adulta con autoanticorpi anti-interferone gamma
+Immunodeficienza acquisita a esordio nell età adulta
+Immunodeficienza a esordio nell età adulta con autoanticorpi anti-interferone gamma
 Immunodeficienza combinata con anomalie facio-oculo-scheletriche
 Immunodeficienza combinata con granulomi cutanei
 Immunodeficienza combinata con ipereosinofilia
-Immunodeficienza combinata con suscettibilit  alle infezioni micobatteriche, virali e micotiche
+Immunodeficienza combinata con suscettibilità alle infezioni micobatteriche, virali e micotiche
 Immunodeficienza combinata da deficit del dedicatore della proteina di citochinesi 8
 Immunodeficienza combinata da deficit di CD3gamma
 Immunodeficienza combinata da deficit di DOCK8
@@ -6361,7 +6361,7 @@ Immunodeficienza combinata grave T- B+ da deficit di IL-7Ralfa
 Immunodeficienza combinata grave T- B+ da deficit di JAK3
 Immunodeficienza combinata grave T- B+ legata all X
 Immunodeficienza combinata grave, tipo Athabaskan
-Immunodeficienza combinata - microcefalia - ritardo della crescita - sensibilit  alle radiazioni ionizzanti
+Immunodeficienza combinata - microcefalia - ritardo della crescita - sensibilità alle radiazioni ionizzanti
 Immunodeficienza combinata T+ B+ da deficit parziale di RAG1
 Immunodeficienza con anomalia del fattore H
 Immunodeficienza con anomalia del fattore I
@@ -6381,7 +6381,7 @@ Immunodeficienza da deficit selettivo di anticorpi anti-polisaccaridici
 Immunodeficienza FADD-correlata
 Immunodeficienza grave dei linfociti T - alopecia congenita - distrofia ungueale
 Immunodeficienza legat all X con difetto del magnesio, infezione da Epstein-Barr virus e neoplasia
-Immunodeficienza - microcefalia - instabilit  cromosomica
+Immunodeficienza - microcefalia - instabilità cromosomica
 Immunodeficienza variabile comune
 Immunodeficienza variabile comune da deficit di TNFR
 Immunodeficieza da deficit di MASP-2
@@ -6402,9 +6402,9 @@ indifferenza congenita al dolore con iperidrosi
 Infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly
 Infantile epileptic-dyskinetic encephalopathy
 Infantile-onset mesial temporal lobe epilepsy with severe cognitive regression
-Infertilit  maschile con virilizzazione normale, da difetto meiotico
-Infertilit  maschile da mutazione di NANOS1
-Infertilit  maschile non sindromica associata a CATSPER1
+Infertilità maschile con virilizzazione normale, da difetto meiotico
+Infertilità maschile da mutazione di NANOS1
+Infertilità maschile non sindromica associata a CATSPER1
 Infezione congenita da enterovirus
 Infezione congenita da virus dell herpes
 Infezione congenita da virus di Epstein-Barr
@@ -6437,13 +6437,13 @@ Infundibulo-neuroipofisite
 Iniencefalia
 Iniencefalia aperta
 Iniencefalia chiusa
-Insensibilit  al dolore con iperidrosi
-Insensibilit  congenita al dolore associata a canalopatia
-Insensibilit  congenita al dolore e analgesia termica
-Insensibilit  primaria al GH
-Insensibilit  primaria all ormone della crescita
+Insensibilità al dolore con iperidrosi
+Insensibilità congenita al dolore associata a canalopatia
+Insensibilità congenita al dolore e analgesia termica
+Insensibilità primaria al GH
+Insensibilità primaria all ormone della crescita
 Insonnia familiare fatale
-Instabilit  centromerica - immunodeficienza - dismorfismi
+Instabilità centromerica - immunodeficienza - dismorfismi
 Insufficenza velofaringea congenita
 Insufficienza acuta dei surreni
 Insufficienza adrenocorticale acuta
@@ -6523,7 +6523,7 @@ Iperaminoaciduria dicarbossilica
 Iperammoniemia transitoria neonatale
 Iperandrogenismo da deficit di cortisone reduttasi
 Iperargininemia
-Iperattivit  della fosforibosilpirofosfato sintetasi
+Iperattività della fosforibosilpirofosfato sintetasi
 Iper-beta-alaninemia
 Iperbilirubinemia ereditaria non coniugata, tipo 1
 Iperbilirubinemia ereditaria non coniugata, tipo 2
@@ -6564,7 +6564,7 @@ Iperchilomicronemia familiare
 Ipercolanemia ereditaria
 Ipercolanemia familiare
 Ipercolesterolemia da deficit di colesterolo 7alfa-idrossilasi
-Ipereccitabilit  delle fibre muscolari
+Ipereccitabilità delle fibre muscolari
 Iper- e ipopigmentazione progressiva familiare
 Iperekplexia
 Iperekplexia ereditaria
@@ -6621,7 +6621,7 @@ Iperkaliemia - ipertensione, tipo Gordon
 Iperkaliemia ipertensiva
 Iperkaliemia resistente ai mineralcorticoidi
 IperKPP
-Iperlassit  cutanea da deficit del fattore della coagulazione vitamina K-dipendente
+Iperlassità cutanea da deficit del fattore della coagulazione vitamina K-dipendente
 Iperlipidemia da deficit di triglicerido-lipasi epatica
 Iperlipidemia familiare combinata
 Iperlipidemia maggiore
@@ -6695,7 +6695,7 @@ IperPP familiare
 IperPP primitiva
 Iperprolinemia, tipo 1
 Iperprolinemia, tipo 2
-Ipersensibilit  al latte di mucca
+Ipersensibilità al latte di mucca
 Ipersonnia idiopatica
 Ipersonnia idiopatica con aumento della durata del sonno
 Ipersonnia idiopatica senza aumento della durata del sonno
@@ -6801,7 +6801,7 @@ Ipoglicemia iperinsulinemica da deficit di Kir6.2, forma focale resistente al di
 Ipoglicemia iperinsulinemica da deficit di SUR1, forma focale resistente al diazossido
 Ipoglicemia iperinsulinemica da deficit di UCP2
 Ipoglicemia iperinsulinemica indotta dall esercizio
-Ipoglicemia iperinsulinemica persistente non-insulinoma a esordio nell et  adulta
+Ipoglicemia iperinsulinemica persistente non-insulinoma a esordio nell età adulta
 Ipoglicemia ipoinsulinemica ed emi-ipertrofia del corpo
 Ipoglossia/aglossia isolata congenita
 Ipoglossia - ipodattilia
@@ -6839,7 +6839,7 @@ Ipoparatiroidismo familiare isolato
 Ipoparatiroidismo isolato familiare da agenesia delle ghiandole paratiroidee
 Ipoparatiroidismo isolato familiare da anomalia della secrezione di PTH
 Ipoparatiroidismo - malattia di Addison - candidiasi mucocutanea
-Ipoparatiroidismo - sordit  - malattia renale
+Ipoparatiroidismo - sordità - malattia renale
 Ipopigmentazione - danno neurologico
 Ipopigmentazione e cheratosi puntata dei palmi e delle piante
 Ipopigmentazione guttata e cheratoderma palmoplantare puntato
@@ -6866,7 +6866,7 @@ Ipoplasia della sostanza bianca - agenesia del corpo calloso - ritardo mentale
 Ipoplasia della tibia - polidattilia postassiale
 Ipoplasia della troclea femorale
 Ipoplasia delle cellule di Leydig
-Ipoplasia delle cellule di Leydig da deficit della subunit  beta dell ormone luteinizzante
+Ipoplasia delle cellule di Leydig da deficit della subunità beta dell ormone luteinizzante
 Ipoplasia delle cellule di Leydig da deficit di LHB
 Ipoplasia delle cellule di Leydig da inattivazione completa del recettore per LH
 Ipoplasia delle cellule di Leydig da inattivazione completa del recettore per l ormone luteinizzante
@@ -6924,7 +6924,7 @@ Ipoprotrombinemia
 Ipoprotrombinemia acquisita
 Iposmia - ipoplasia oculare e nasale - ipogonadismo ipogonadotropo
 Ipospadia, forma familiare
-Ipospadia - ipertelorismo - coloboma - sordit 
+Ipospadia - ipertelorismo - coloboma - sordità
 Ipospadia - ritardo mentale, tipo Goldblatt
 Ipossia perinatale
 Ipotelorismo - palatoschisi - ipospadia
@@ -6993,8 +6993,8 @@ Istiocitoma fibroso maligno
 Istiocitoma fibroso maligno mixoide
 Istiocitoma generalizzato eruttivo
 Istiocitosi a cellule di Langerhans
-Istiocitosi a cellule di Langerhans dell infanzia e dell et  adulta
-Istiocitosi a cellule di Langerhans specifica dell et  adulta
+Istiocitosi a cellule di Langerhans dell infanzia e dell età adulta
+Istiocitosi a cellule di Langerhans specifica dell età adulta
 Istiocitosi a cellule di Langerhans specifica dell infanzia
 Istiocitosi a cellule indeterminate
 Istiocitosi acuta e disseminata a cellule di Langerhans
@@ -7012,8 +7012,8 @@ Istiocitosi progressiva ereditaria delle mucose
 Istiocitosi sinusale con linfoadenopatia massiva
 Istiocitosi sinusale familiare associata a linfadenopatia massiva
 Istiocitosi X
-Istiocitosi X dell infanzia e dell et  adulta
-Istiocitosi X specifica dell et  adulta
+Istiocitosi X dell infanzia e dell età adulta
+Istiocitosi X specifica dell età adulta
 Istiocitosi X specifica dell infanzia
 Istoplasmosi
 ITP
@@ -7046,7 +7046,7 @@ Ittiosi follicolare - alopecia - fotofobia
 Ittiosi follicolare - atrichia - fotofobia
 Ittiosi in confetti
 Ittiosi - ipotricosi - colangite sclerosante
-Ittiosi istrice-simile - sordit  - cheratite
+Ittiosi istrice-simile - sordità - cheratite
 Ittiosi lamellare
 Ittiosi lamellare classica
 Ittiosi lamellare congenita
@@ -7104,7 +7104,7 @@ Labiopalatoschisi - anomalia del pollice - microcefalia
 Labiopalatoschisi - cardiopatia - malrotazione intestinale
 Labiopalatoschisi - ectrodattilia
 Labiopalatoschisi - malrotazione - cardiopatia
-Labiopalatoschisi - sordit  - lipoma sacrale
+Labiopalatoschisi - sordità - lipoma sacrale
 Labiopalatoshisi - fistola del labbro inferiore
 Labioschisi - retinopatia
 LAD
@@ -7121,7 +7121,7 @@ Laparoschisi
 Laringocele
 Laringomalacia congenita
 Larva migrante cutanea
-Lassit  articolare familiare
+Lassità articolare familiare
 Latosterolosi
 LBSL
 LC
@@ -7168,7 +7168,7 @@ Leptospirosi
 Lesione del midollo spinale
 Lesione polmonare acuta
 Lesioni ad anello del cranio, forma familiare
-Lesioni ad anello del cuoio capelluto - fragilit  ossea
+Lesioni ad anello del cuoio capelluto - fragilità ossea
 Lesioni cerebrali traumatiche moderate e gravi
 Lesioni corneali da deficit delle cellule staminali (limbali) corneali, secondarie a bruciature oculari
 Leucemia a cellule capellute
@@ -7260,7 +7260,7 @@ Leucinosi intermittente
 Leucinosi tiamina-sensibile
 Leucocheratosi ereditaria delle mucose
 Leucodistrofia a cellule globoidi
-Leucodistrofia autosomica dominante a esordio nell et  adulta
+Leucodistrofia autosomica dominante a esordio nell età adulta
 Leucodistrofia con oligodontia
 Leucodistrofia megalencefalica
 Leucodistrofia metacromatica
@@ -7271,7 +7271,7 @@ Leucodistrofia non nota
 Leucodistrofia ortocromatica pigmentosa
 Leucoencefalite multifocale progressiva
 Leucoencefalite sclerosante subacuta
-Leucoencefalopatia a esordio nell et  adulta con sferoidi assonali e nevroglia pigmentata
+Leucoencefalopatia a esordio nell età adulta con sferoidi assonali e nevroglia pigmentata
 Leucoencefalopatia - anomalie del talamo e del tronco encefalico - livelli elevati di lattato
 Leucoencefalopatia - atassia - ipodonzia - ipomielinizzazione
 Leucoencefalopatia atusomica dominante con sferoidi neuroassonali
@@ -7440,11 +7440,11 @@ Linfoma del tessuto linfoide associato alle mucose
 Linfoma di Burkitt
 Linfoma diffuso a grandi cellule B
 Linfoma diffuso a grandi cellule B con infiammazione cronica
-Linfoma diffuso a grandi cellule B positivo al virus di Epstein-Barr in et  avanzata
+Linfoma diffuso a grandi cellule B positivo al virus di Epstein-Barr in età avanzata
 Linfoma diffuso del mediastino a grandi cellule con sclerosi
 Linfoma diffuso del sistema nervoso centrale a grandi cellule B
 Linfoma di Hodgkin classico
-Linfoma di Hodgkin classico a cellularit  mista
+Linfoma di Hodgkin classico a cellularità mista
 Linfoma di Hodgkin classico, povero di linfociti
 Linfoma di Hodgkin classico, ricco di linfociti
 Linfoma di Hodgkin classico, tipo nodulare sclerosante
@@ -7510,7 +7510,7 @@ Lipodistrofia parziale familiare, tipo 2
 Lipodistrofia parziale familiare, tipo 3
 Lipodistrofia parziale familiare, tipo Dunnigan
 Lipodistrofia parziale familiare, tipo Köbberling
-Lipodistrofia - ritardo mentale - sordit 
+Lipodistrofia - ritardo mentale - sordità
 Lipoedema
 Lipogranuloma mesenterico
 Lipogranulomatosi di Farber
@@ -7547,7 +7547,7 @@ Lissencefalia da mutazione di LIS1
 Lissencefalia da mutazioni di TUBA1A
 Lissencefalia isolata tipo 1, senza difetti genetici noti
 Lissencefalia legata all X - agenesia del corpo calloso - anomalie genitali
-Lissencefalia legata all X con ambiguit  genitale
+Lissencefalia legata all X con ambiguità genitale
 Lissencefalia legata all X con genitali anomali
 Lissencefalia, tipo 1, da mutazione del gene doublecortin
 Lissencefalia tipo 1, legata all X
@@ -7562,7 +7562,7 @@ Livedo reticularis e accidenti cerebrovascolari
 LMNA-related cardiocutaneous progeria syndrome
 LMPS
 LMS
-Lobi dell orecchio ispessiti - sordit  conduttiva
+Lobi dell orecchio ispessiti - sordità conduttiva
 Loiasi
 LORD
 LPA
@@ -7633,7 +7633,7 @@ Macrogiria bilaterale centrale
 Macroglobulinemia di Waldenström
 Macroglossia dominante
 Macrosomia - microftalmia - palatoschisi
-Macrosomia - obesit  - macrocefalia - anomalie oculari
+Macrosomia - obesità - macrocefalia - anomalie oculari
 Macrostomia - appendici preauricolari - oftalmoplegia esterna
 Macrotrombocitopenia associata a insufficienza della valvola mitrale
 Macrotrombocitopenia autosomica dominante
@@ -7734,8 +7734,8 @@ Malattia da deposito di glicogeno da deficit di glucosio-6-fosfatasi
 Malattia da deposito di glicogeno da deficit di maltasi acida
 Malattia da deposito di glicogeno da deficit di maltasi acida, a esordio infantile
 Malattia da deposito di glicogeno da deficit di PhK
-Malattia da deposito di glicogeno dovuta a deficit della subunit  H della lattato deidrogenasi
-Malattia da deposito di glicogeno dovuta a deficit della subunit  M della lattato deidrogenasi
+Malattia da deposito di glicogeno dovuta a deficit della subunità H della lattato deidrogenasi
+Malattia da deposito di glicogeno dovuta a deficit della subunità M della lattato deidrogenasi
 Malattia da deposito di glicogeno dovuta a deficit dell enzima ramificante del glicogeno, forma epatica non progressiva
 Malattia da deposito di glicogeno dovuta a deficit dell enzima ramificante del glicogeno, forma epatica progressiva
 Malattia da deposito di glicogeno dovuta a deficit dell enzima ramificante del glicogeno, forma neuromuscolare congenita
@@ -7751,7 +7751,7 @@ Malattia da deposito di glicogeno dovuta a deficit di glicogeno sintasi epatica
 Malattia da deposito di glicogeno dovuta a deficit di glucosio-6-fosfatasi, tipo b
 Malattia da deposito di glicogeno dovuta a deficit di GLUT2
 Malattia da deposito di glicogeno dovuta a deficit di maltasi acida, a esordio giovanile
-Malattia da deposito di glicogeno dovuta a deficit di maltasi acida, a esordio nell et  adulta
+Malattia da deposito di glicogeno dovuta a deficit di maltasi acida, a esordio nell età adulta
 Malattia da deposito di glicogeno dovuta al deficit dell enzima ramificante del glicogeno, forma neuromuscolare infantile
 Malattia da deposito di glicogeno dovuto a deficit di glicogenina
 Malattia da deposito di glicogeno, tipo 0a
@@ -7766,7 +7766,7 @@ Malattia da deposito di glicogeno, tipo 1b
 Malattia da deposito di glicogeno, tipo 2
 Malattia da deposito di glicogeno tipo 2, a esordio giovanile
 Malattia da deposito di glicogeno tipo 2, a esordio infantile
-Malattia da deposito di glicogeno tipo 2, a esordio nell et  adulta
+Malattia da deposito di glicogeno tipo 2, a esordio nell età adulta
 Malattia da deposito di glicogeno, tipo 3
 Malattia da deposito di glicogeno tipo 3, forma epatica non progressiva
 Malattia da deposito di glicogeno, tipo 4
@@ -7808,7 +7808,7 @@ Malattia degli   occhi da pesce
 Malattia dei capelli ad anello
 Malattia dei capelli a   fil di ferro  
 Malattia dei capelli crespi
-Malattia dei gangli basali a esordio nell et  adulta
+Malattia dei gangli basali a esordio nell età adulta
 Malattia dei gangli basali biotina-tiamina-sensibile
 Malattia dei gangli basali sensibile alla biotina
 Malattia dei mastociti
@@ -7942,8 +7942,8 @@ Malattia di Charcot-Marie-Tooth legata all X, tipo 4
 Malattia di Charcot-Marie-Tooth legata all X, tipo 5
 Malattia di Charcot-Marie-Tooth - nefropatia
 Malattia di Charcot-Marie-Tooth - segni piramidali
-Malattia di Charcot-Marie-Tooth - sordit 
-Malattia di Charcot-Marie-Tooth - sordit  - ritardo mentale
+Malattia di Charcot-Marie-Tooth - sordità
+Malattia di Charcot-Marie-Tooth - sordità - ritardo mentale
 Malattia di Charcot-Marie-Tooth, tipo 1
 Malattia di Charcot-Marie-Tooth, tipo 1A
 Malattia di Charcot-Marie-Tooth, tipo 1B
@@ -8049,7 +8049,7 @@ Malattia di Hirschsprung e deficit cognitivo da microdelezione 2q22
 Malattia di Hirschsprung e deficit cognitivo da monosomia 2q22
 Malattia di Hirschsprung e deficit cognitivo da mutazione puntiforme
 Malattia di Hirschsprung - ganglioneuroma
-Malattia di Hirschsprung - polidattilia - sordit 
+Malattia di Hirschsprung - polidattilia - sordità
 Malattia di Hirschsprung - ritardo mentale
 Malattia di Hodgkin classica
 Malattia di Horton
@@ -8070,7 +8070,7 @@ Malattia di Kjer
 Malattia di Kohlmeier-Degos
 Malattia di Kok
 Malattia di Krabbe
-Malattia di Krabbe a esordio nell et  adulta
+Malattia di Krabbe a esordio nell età adulta
 Malattia di Krabbe a esordio precoce
 Malattia di Krabbe a esordio tardivo
 Malattia di Krabbe, forma classica
@@ -8085,7 +8085,7 @@ Malattia di Lafora
 Malattia di Landing
 Malattia di Lane
 Malattia di Leber plus
-Malattia di Legg-Calv -Perthes
+Malattia di Legg-Calvé-Perthes
 Malattia di Leigh
 Malattia di Leigh a trasmissione materna
 Malattia di Leigh con leucodistrofia
@@ -8116,7 +8116,7 @@ Malattia di McCabe
 Malattia di Meige
 Malattia di Meleda
 Malattia di Menetrier
-Malattia di M ni re
+Malattia di Ménière
 Malattia di Menkes
 Malattia di Mikulicz
 Malattia di Milroy
@@ -8171,7 +8171,7 @@ Malattia di Pink
 Malattia di Pompe
 Malattia di Pompe a esordio giovanile
 Malattia di Pompe a esordio infantile
-Malattia di Pompe a esordio nell et  adulta
+Malattia di Pompe a esordio nell età adulta
 Malattia di Porak e Durante
 Malattia di Pyle
 Malattia di Randall
@@ -8407,7 +8407,7 @@ Mancato assemblaggio del ventricolo sinistro
 Mandibular hypoplasia-deafness-progeroid syndrome
 Mani a specchio, forma bilaterale
 Mani deformi a "chela di aragosta"
-Mani e piedi a   chela   - sordit 
+Mani e piedi a   chela   - sordità
 Mani e piedi a "specchio" - anomalie del naso
 Mani e piedi deformi a   chela di aragosta  
 Mano a guantone
@@ -8423,7 +8423,7 @@ Mastocitoma cutaneo localizzato
 Mastocitoma extracutaneo
 Mastocitoma multiplo
 Mastocitoma solitario
-Mastocitosi - bassa statura - sordit 
+Mastocitosi - bassa statura - sordità
 Mastocitosi cutanea
 Mastocitosi cutanea diffusa
 Mastocitosi cutanea diffusa bollosa
@@ -8481,7 +8481,7 @@ Medinensis
 Medulloblastoma
 Medulloblastoma anaplastico/a grandi cellule
 Medulloblastoma classico
-Medulloblastoma con nodularit  estensiva
+Medulloblastoma con nodularità estensiva
 Medulloblastoma desmoplastico/nodulare
 Medulloepitelioma
 Medulloepitelioma intraoculare
@@ -8633,7 +8633,7 @@ Microcefalia - cardiomiopatia
 Microcefalia - cardiopatia - difetti della segmentazione polmonare
 Microcefalia - deficit cognitivo - anomalie neurologiche e falangee
 Microcefalia - deficit cognitivo - fistola tracheo-esofagea
-Microcefalia e instabilit  cromosomica senza immunodeficienza
+Microcefalia e instabilità cromosomica senza immunodeficienza
 Microcefalia - epilessia - ritardo dello sviluppo
 Microcefalia - epilessia - ritardo mentale - cardiopatia
 Microcefalia - ernia iatale - sindrome nefrosica
@@ -8641,14 +8641,14 @@ Microcefalia - fusione delle vertebre cervicali
 Microcefalia - immunodeficienza - linforeticoloma
 Microcefalia - ipogammaglobulinemia - anomalie immunitarie
 Microcefalia - ipogonadismo ipergonadotropo - bassa statura
-Microcefalia - ipoplasia cerebrale - spasticit 
+Microcefalia - ipoplasia cerebrale - spasticità
 Microcefalia letale, tipo Amish
 Microcefalia - linfedema - corioretinopatia
 Microcefalia - microftalmia - ectrodattilia degli arti inferiori - prognatismo
 Microcefalia - polimicrogiria - agenesia del corpo calloso
 Microcefalia primitiva autosomica recessiva
 Microcefalia - sindrome oculo-digito-esofageo-duodenale
-Microcefalia - sordit 
+Microcefalia - sordità
 Microcefalia vera
 Microcephaly-thin corpus callosum-intellectual disability syndrome
 Microcoria congenita
@@ -8662,7 +8662,7 @@ Microdelezione 17p11.2
 Microdelezione 17p12
 Microdelezione 22q11.2
 Microdelezione 9q22.3
-Microdontia - microtia tipo I - sordit 
+Microdontia - microtia tipo I - sordità
 Microduplicazione 17p12
 Microduplicazione 3q29
 Microencefalia - agenesia del corpo calloso - anomalie dei genitali
@@ -8704,7 +8704,7 @@ Microsomia emifacciale - anomalie radiali
 Microsporidiosi
 Microtia
 Microtia - anomalia dell arco aortico
-Microtia bilaterale - sordit  - palatoschisi
+Microtia bilaterale - sordità - palatoschisi
 Microtia - coloboma oculare - imperforazione del dotto nasolacrimale
 Microtriplicazione 11q24.1
 MIDD
@@ -8741,7 +8741,7 @@ Miocardio spongioso
 Miocardite idiopatica a cellule giganti
 Miochimia facciale isolata
 Mioclonia - atassia
-Mioclonia - atassia cerebellare - sordit 
+Mioclonia - atassia cerebellare - sordità
 Mioclonia corticale familiare
 Mioclonia palpebrale con e senza assenze
 Mioclonia periorale con assenze
@@ -8805,7 +8805,7 @@ Miopatia di Landouzy-Dejerine
 Miopatia di Miyoshi
 Miopatia di Nonaka
 Miopatia distale a esordio nella tibia anteriore
-Miopatia distale a esordio nell et  adulta da mutazione di VCP
+Miopatia distale a esordio nell età adulta da mutazione di VCP
 Miopatia distale con coinvolgimento posteriore della gamba ed anteriore della mano
 Miopatia distale con coinvolgimento precoce dei muscoli respiratori
 Miopatia distale con debolezza delle corde vocali
@@ -8843,7 +8843,7 @@ Miopatia miotonica - nanismo - condrodisplasia - anomalie oculari e facciali
 Miopatia miotonica prossimale
 Miopatia miotubulare
 Miopatia mitocondriale - acidosi lattica - perdita di udito
-Miopatia mitocondriale - acidosi lattica - sordit 
+Miopatia mitocondriale - acidosi lattica - sordità
 Miopatia mitocondriale - anemia sideroblastica
 Miopatia mitocondriale con deficit reversibile del complesso IV
 Miopatia mitocondriale con deficit reversibile della citocromo C ossidasi
@@ -8858,7 +8858,7 @@ Miopatia necrotizzante autoimmune
 Miopatia necrotizzante immunomediata
 Miopatia nemalinica
 Miopatia nemalinica a esordio infantile
-Miopatia nemalinica a insorgenza in et  adulta
+Miopatia nemalinica a insorgenza in età adulta
 Miopatia nemalinica congenita grave
 Miopatia nemalinica dei bastoncelli
 Miopatia nemalinica di grado intermedio
@@ -8882,7 +8882,7 @@ Miosferulosi
 Miosi congenita
 Miosite da corpi di inclusione
 Miosite da sovrapposizione
-Miosite da sovrapposizione a esordio nell et  adulta
+Miosite da sovrapposizione a esordio nell età adulta
 Miosite eosinofila idiopatica
 Miosite focale
 Miosite giovanile da sovrapposizione
@@ -8911,8 +8911,8 @@ Mixedema tuberoso atipico di Jadassohn-Dosseker
 Mixofibrosarcoma
 Mixoma atriale
 Mixoma con displasia fibrosa
-Mixoma - iperpigmentazione - iperattivit  endocrina
-Mixoma - macchie pigmentarie - iperattivit  endocrina
+Mixoma - iperpigmentazione - iperattività endocrina
+Mixoma - macchie pigmentarie - iperattività endocrina
 MJD
 MK
 ML
@@ -8944,7 +8944,7 @@ Mola idatiforme parziale
 Mola invasiva
 Molare piramidale - glaucoma - anomalia del labbro superiore
 Monilethrix
-Monocitopenia con suscettibilit  alle infezioni
+Monocitopenia con suscettibilità alle infezioni
 Monocitopenia e sindrome da infezione micobatterica
 Monocromasia dei coni blu
 Monocromasia dei coni S
@@ -9224,7 +9224,7 @@ Mucoviscidosi
 Mucoviscidosi - gastrite - anemia megaloblastica
 mu-HCD
 MUHH
-Multinuclearit  eritroblastica ereditaria con positivit  del test del siero acidificato
+Multinuclearità eritroblastica ereditaria con positività del test del siero acidificato
 Multiple acyl-CoA dehydrogenation deficiency, mild type
 Multiple acyl-CoA dehydrogenation deficiency, severe neonatal type
 Muscle-eye-brain disease with bilateral multicystic leucodystrophy
@@ -9245,7 +9245,7 @@ Nanismo - dita bloccate
 Nanismo di Walt Disney
 Nanismo geleofisico
 Nanismo iperostotico, tipo Lenz-Majewski
-Nanismo - lassit  legamentosa - ritardo di crescita
+Nanismo - lassità legamentosa - ritardo di crescita
 Nanismo mesomelico - palatoschisi - camptodattilia
 Nanismo mesomelico, tipo Nievergelt
 Nanismo mesomelico, tipo Reinhardt-Pfeiffer
@@ -9254,7 +9254,7 @@ Nanismo micromelico letale, tipo McAlister-Crane
 Nanismo micromelico, tipo Fryns
 Nanismo MULIBREY
 Nanismo oculo-palato-cerebrale
-Nanismo osteocondrodisplasico - sordit  - retinite pigmentosa
+Nanismo osteocondrodisplasico - sordità - retinite pigmentosa
 Nanismo osteodisplasico primitivo, tipo Toriello
 Nanismo osteodisplastico microcefalico primitivo, tipi 1 e 3
 Nanismo osteodisplastico microcefalico primitivo, tipo Crachami
@@ -9265,7 +9265,7 @@ Nanismo primordiale microcefalico da deficit di ZNF335
 Nanismo primordiale microcefalico, tipo Alazami
 Nanismo primordiale microcefalico, tipo Dauber
 Nanismo primordiale microcefalico, tipo Walsh
-Nanismo - rigidit  articolare - anomalie oculari
+Nanismo - rigidità articolare - anomalie oculari
 Nanismo - ritardo mentale - anomalie dell occhio
 Nanismo - ritardo mentale - anomalie oculari - schisi labiopalatina
 Nanismo sindesmodisplastico
@@ -9349,11 +9349,11 @@ Nefropatia iperuricemica giovanile familiare associata a UMOD
 Nefropatia iperuricemica giovanile familiare, tipo 1
 Nefropatia iperuricemica giovanile familiare, tipo 2
 Nefropatia progressiva con ipertensione, autosomica dominante
-Nefropatia - sordit  - iperparatiroidismo
+Nefropatia - sordità - iperparatiroidismo
 Nefrosi congenita finlandese
 Nefrosi idiopatica, forma familiare
 Nefrosi idiopatica, forma sporadica
-Nefrosi - sordit  - anomalie delle vie urinarie e delle dita
+Nefrosi - sordità - anomalie delle vie urinarie e delle dita
 NEHI
 NEM
 Neonatal antiphospholipid syndrome
@@ -9397,7 +9397,7 @@ Neuroblastoma olfattivo
 Neurocitoma centrale
 Neurocitoma extraventricolare
 Neurocitoma pseudopapillare con differenziazione gliale
-Neurodegenerazione a esordio precoce - cecit  - atassia - spasticit 
+Neurodegenerazione a esordio precoce - cecità - atassia - spasticità
 Neurodegenerazione associata a deficit di pantotenato chinasi, forma atipica
 Neurodegenerazione associata a deficit di pantotenato chinasi, forma classica
 Neurodegenerazione associata a idrossilasi degli acidi grassi
@@ -9436,7 +9436,7 @@ Neuropatia acustica con neuropatia sensitiva periferica legata all X, tipo 1
 Neuropatia amiloide da transtiretina
 Neuropatia amiloide da TTR
 Neuropatia assonale autosomica recessiva con neuromiotonia
-Neuropatia assonale grave a esordio precoce da deficit della subunit  leggera dei neurofilamenti
+Neuropatia assonale grave a esordio precoce da deficit della subunità leggera dei neurofilamenti
 Neuropatia assonale grave a esordio precoce da deficit di MFN2
 Neuropatia assonale grave a esordio precoce da deficit di NEFL
 Neuropatia assonale infantile
@@ -9448,9 +9448,9 @@ Neuropatia atassica cronica - oftalmoplegia - paraproteina IgM - crioagglutinine
 Neuropatia atassica sensitiva cronica associata ad anticorpi anti-dialosil IgM
 Neuropatia atassica sensitiva - disartria - oftalmoparesi
 Neuropatia atassica sensoriale acuta
-Neuropatia autonoma e sensoriale ereditaria legata all X con sordit 
+Neuropatia autonoma e sensoriale ereditaria legata all X con sordità
 Neuropatia autonoma e sensoriale ereditaria - paraplegia spastica
-Neuropatia autonoma e sensoriale ereditaria - sordit  - ritardo globale
+Neuropatia autonoma e sensoriale ereditaria - sordità - ritardo globale
 Neuropatia autonoma e sensoriale ereditaria, tipo 1
 Neuropatia autonoma e sensoriale ereditaria, tipo 1B
 Neuropatia autonoma e sensoriale ereditaria tipo 1 - tosse - reflusso gastroesofageo
@@ -9480,7 +9480,7 @@ Neuropatia motoria ereditaria distale, tipo 5
 Neuropatia motoria ereditaria distale, tipo 6
 Neuropatia motoria ereditaria distale, tipo 7
 Neuropatia motoria ereditaria distale, tipo Jerash
-Neuropatia motoria e sensitiva ereditaria associata a sordit , ritardo mentale e assenza di fibre mielinizzate sensitive di grandi dimensioni
+Neuropatia motoria e sensitiva ereditaria associata a sordità, ritardo mentale e assenza di fibre mielinizzate sensitive di grandi dimensioni
 Neuropatia motoria periferica - disautonomia
 Neuropatia ottica ereditaria di Leber
 Neuropatia panautonomica acuta
@@ -9488,7 +9488,7 @@ Neuropatia periferica e atrofia ottica
 Neuropatia periferica, tipo Fiskerstrand
 Neuropatia radicolare sensitiva autosomica recessiva
 Neuropatia sensitivo-motoria a esordio facciale
-Neuropatia sensitivo-motoria ereditaria con iperelasticit  cutanea
+Neuropatia sensitivo-motoria ereditaria con iperelasticità cutanea
 Neuropatia sensitivo-motoria ereditaria, tipo 1
 Neuropatia sensitivo-motoria ereditaria, tipo 2
 Neuropatia sensitivo-motoria ereditaria, tipo 5
@@ -9514,7 +9514,7 @@ Neutropenia congenita grave legata all X
 Neutropenia e iperlinfocitosi a grandi linfociti granulari
 Neutropenia idiopatica dell adulto
 Neutropenia intermittente
-Neutropenia - monocitopenia - sordit 
+Neutropenia - monocitopenia - sordità
 Neutropenia neonatale
 NEVADA syndrome
 Nevi aplastici simmetrici ereditari delle tempie
@@ -9587,13 +9587,13 @@ Nuova infezione da epatite B dopo trapianto del fegato
 OA1
 OAFNS
 OAVS
-Obesit  - colite - ipotiroidismo - ipertrofia cardiaca - ritardo dello sviluppo
-Obesit  da deficit congenito di leptina
-Obesit  da deficit del recettore della leptina
-Obesit  da deficit del recettore della melanocortina 4
-Obesit  da deficit di MC3R
-Obesit  da deficit di pro-opiomelanocortina
-Obesit  da deficit di pro-ormone convertasi 1
+Obesità - colite - ipotiroidismo - ipertrofia cardiaca - ritardo dello sviluppo
+Obesità da deficit congenito di leptina
+Obesità da deficit del recettore della leptina
+Obesità da deficit del recettore della melanocortina 4
+Obesità da deficit di MC3R
+Obesità da deficit di pro-opiomelanocortina
+Obesità da deficit di pro-ormone convertasi 1
 Obesity due to CEP19 deficiency
 Obesity due to SIM1 deficiency
 OCA
@@ -9606,7 +9606,7 @@ OCA3
 OCA4
 OCA TS, tipo 1
 Occlusione arteriosa periferica acuta
-Occlusione arteriosa progressiva - ipertensione - malformazioni cardiache - fragilit  ossea - brachisindattilia
+Occlusione arteriosa progressiva - ipertensione - malformazioni cardiache - fragilità ossea - brachisindattilia
 Occlusione della vena epatica - immunodeficienza
 OCCS
 OCMD
@@ -9645,7 +9645,7 @@ Oftalmoplegia dolorosa
 Oftalmoplegia esterna progressiva a trasmissione materna
 Oftalmoplegia esterna progressiva autosomica dominante
 Oftalmoplegia esterna progressiva autosomica recessiva
-Oftalmoplegia esterna progressiva cronica a esordio nell et  adulta con miopatia mitocondriale
+Oftalmoplegia esterna progressiva cronica a esordio nell età adulta con miopatia mitocondriale
 Oftalmoplegia esterna progressiva cronica a trasmissione materna
 Oftalmoplegia esterna progressiva e scoliosi
 Oftalmoplegia esterna progressiva - miopatia - emaciamento
@@ -9730,7 +9730,7 @@ Orticaria pigmentosa a placche
 Orticaria pigmentosa nodulare
 Orticaria pigmentosa tipica
 Orticaria solare
-Orticaria - sordit  - amiloidosi
+Orticaria - sordità - amiloidosi
 OSMED, forma eterozigote
 Ossificazione ectopica familiare
 Osteite asettica
@@ -9799,7 +9799,7 @@ Osteonecrosis of the jaw
 Osteopatia striata - iperpigmentazione - ciocche di capelli bianchi
 Osteopatia striata - sclerosi cranica
 Osteopenia - deficit cognitivo - ipotricosi
-Osteopenia - miopia - perdit  dell udito - deficit cognitivo - dismorfismi facciali
+Osteopenia - miopia - perdità dell udito - deficit cognitivo - dismorfismi facciali
 Osteoperiostite ipertrofica secondaria con eritema pernio
 Osteopetrosi autosomica dominante, tipo 1
 Osteopetrosi autosomica dominante, tipo 2
@@ -9816,7 +9816,7 @@ Osteopoichilosi - bassa statura - ritardo mentale
 Osteopoichilosi isolata
 Osteoporosi giovanile
 Osteoporosi giovanile idiopatica
-Osteoporosi - macrocefalia - cecit  - iperlassit 
+Osteoporosi - macrocefalia - cecità - iperlassità
 Osteoporosi - pseudoglioma
 Osteopsatirosi
 Osteosarcoma
@@ -9847,7 +9847,7 @@ PAF
 PAIS
 Palatoschisi
 Palatoschisi - bassa statura - anomalie delle vertebre
-Palatoschisi - coloboma - sordit 
+Palatoschisi - coloboma - sordità
 Palatoschisi - difetto cardiaco - anomalie dei genitali - ectrodattilia
 Palatoschisi e anchiloglossia legate all X
 Palatoschisi - orecchie grandi - bassa statura
@@ -9921,7 +9921,7 @@ Paralisi della laringe - ritardo mentale
 Paralisi di Bell
 Paralisi facciale congenita ereditaria isolata
 Paralisi facciale ereditaria congenita con perdita di udito variabile
-Paralisi facciale ereditaria congenita con sordit  variabile
+Paralisi facciale ereditaria congenita con sordità variabile
 Paralisi facciale idiopatica
 Paralisi facciale parziale associata ad anomalie urinarie
 Paralisi facciale periferica ricorrente familiare
@@ -9949,7 +9949,7 @@ Paramiotonia congenita
 Paramiotonia congenita di Von Eulenburg
 Paraparesi spastica - amiopatia - cataratta - reflusso gastroesofageo
 Paraparesi spastica ereditaria
-Paraparesi spastica - sordit 
+Paraparesi spastica - sordità
 Paraparesi spastica, tipo 2
 Paraparesi spastica tropicale
 Paraparesi spastica tropicale/mielopatia associata a HTLV-1
@@ -10025,16 +10025,16 @@ Paraplegia spastica legata all X, tipo 2
 Paraplegia spastica legata all X, tipo 34
 Paraplegia spastica - lesioni cutanee facciali
 Paraplegia spastica - malattia ossea di Paget
-Paraplegia spastica - nefropatia - sordit 
+Paraplegia spastica - nefropatia - sordità
 Paraplegia spastica - neuropatia - poichilodermia
 Paraplegia spastica - ritardo mentale - corpo calloso sottile
 Paraplegia spastica, tipo 2
 Paratesticular adenocarcinoma
 Paresi soprabulbare congenita
-Paresi spastica - glaucoma - pubert  precoce
+Paresi spastica - glaucoma - pubertà precoce
 PARK9
 Parkinsonimo da deficit di ATP13A2
-Parkinsonismo a esordio nella prima et  adulta
+Parkinsonismo a esordio nella prima età adulta
 Parkinsonismo a esordio precoce - deficit cognitivo
 Parkinsonismo a esordio precoce - ritardo mentale
 Parkinsonismo con demenza della Guadalupa
@@ -10044,9 +10044,9 @@ Parkinsonismo indotto da CO
 Parkinsonismo indotto da monossido di carbonio
 Parkinsonismo post-encefalitico
 Partial corpus callosum agenesis-cerebellar vermis hypoplasia with posterior fossa cysts syndrome
-Paucit  sindromica delle vie biliari da monosomia 20p12
-Paucit  sindromica delle vie biliari da mutazione puntiforme di JAG1
-Paucit  sindromica delle vie biliari da mutazione puntiforme di NOTCH2
+Paucità sindromica delle vie biliari da monosomia 20p12
+Paucità sindromica delle vie biliari da mutazione puntiforme di JAG1
+Paucità sindromica delle vie biliari da mutazione puntiforme di NOTCH2
 PBL
 PC
 PCA
@@ -10107,18 +10107,18 @@ Percorso arterioso coronarico aorto-polmonare
 Percorso arterioso coronarico intramiocardiaco
 Percorso arterioso coronarico intramurale
 Percorso subaortico della vena anonima
-Perdita dell udito - encefaloneuropatia - obesit  - valvulopatia
+Perdita dell udito - encefaloneuropatia - obesità - valvulopatia
 Perdita dell udito isolata, autosomica dominante, tipo DFNA
 Perdita dell udito mista neurosensoriale e conduttiva legata all X
 Perdita dell udito neurosensoriale con cardiomiopatia dilatativa
 Perdita dell udito neurosensoriale isolata legata all X, tipo DFN
-Perdita dell udito neurosensoriale isolata mitocondriale con suscettibilit  all esposizione ad aminoglicosidi
+Perdita dell udito neurosensoriale isolata mitocondriale con suscettibilità all esposizione ad aminoglicosidi
 Perdita dell udito neurosensoriale non sindromica, autosomica dominante, tipo DFNA
 Perdita dell udito neurosensoriale non sindromica legata all X, tipo DFN
-Perdita dell udito neurosensoriale non sindromica mitocondriale con suscettibilit  all esposizione ad aminoglicosidi
+Perdita dell udito neurosensoriale non sindromica mitocondriale con suscettibilità all esposizione ad aminoglicosidi
 Perdita dell udito neurosensoriale progressiva - cardiomiopatia ipertrofica
 Perdita dell udito sensorineurale progressiva - cardiomiopatia ipertrofica
-Perdita di udito neurosensoriale acuta da trauma acustico acuto o sordit  improvvisa o trauma acustico da intervento chirurgico
+Perdita di udito neurosensoriale acuta da trauma acustico acuto o sordità improvvisa o trauma acustico da intervento chirurgico
 Perdita neurosensoriale dell udito - paralisi pontobulbare
 Periartrite nodosa
 Pericardite
@@ -10143,7 +10143,7 @@ Persistenza ereditaria dell alfa-fetoproteina
 Persistenza ereditaria di emoglobina fetale - beta talassemia
 Persistenza ereditaria di emoglobina fetale - drepanocitosi
 Pertosse
-Perviet  del dotto arterioso - valvola aortica bicuspide - anomalie della mano
+Pervietà del dotto arterioso - valvola aortica bicuspide - anomalie della mano
 Peste
 Pes valgus convesso congenito
 PFCP
@@ -10228,13 +10228,13 @@ Plasmocitoma solitario
 Platispondilia - amelogenesi imperfetta
 PLCA
 PLCNA
-Pleonostosi di L ri
+Pleonostosi di Léri
 PLOSL
 PLO-SL
 PLS
 PLS
 PLS
-PLS a esordio nell et  adulta
+PLS a esordio nell età adulta
 PLSD-T
 PLS giovanile
 PM
@@ -10373,7 +10373,7 @@ Polimicrogiria perisilviana bilaterale
 Polimicrogiria - turricefalia - ipogenitalismo
 Polimicrogiria unilaterale
 Polimiosite
-Polimiosite ad esordio nell et  adulta
+Polimiosite ad esordio nell età adulta
 Polimiosite giovanile
 Polineuropatia amiloide da transtiretina
 Polineuropatia amiloide familiare
@@ -10443,7 +10443,7 @@ Polmonite acuta interstiziale
 Polmonite criptogenica organizzata
 Polmonite cronica dell infanzia
 Polmonite cronica idiopatica con eosinofili
-Polmonite da ipersensibilit 
+Polmonite da ipersensibilità
 Polmonite desquamativa interstiziale
 Polmonite dovuta a infezione da Pseudomonas aeruginosa
 Polmonite interstiziale cellulare infantile
@@ -10511,7 +10511,7 @@ PP iperkaliemica
 PPK-CA, tipo Stevanovic
 PPK-CA, tipo Wallis
 PPK diffuso progressivo
-PPK mutilans e sordit 
+PPK mutilans e sordità
 PPK nummulare
 PPKP1
 PPKP2
@@ -10580,7 +10580,7 @@ Pseudoermafroditismo femminile - anomalie scheletriche
 Pseudoermafroditismo maschile da deficit di 17 beta-idrossisteroido deidrogenasi, tipo 3
 Pseudoermafroditismo maschile da deficit di 5-alfa-reduttasi 2
 Pseudoermafroditismo maschile da resistenza a LH o deficit di LHB
-Pseudoermafroditismo maschile da resistenza all ormone luteinizzante o deficit della subunit  beta dell ormone luteinizzante
+Pseudoermafroditismo maschile da resistenza all ormone luteinizzante o deficit della subunità beta dell ormone luteinizzante
 Pseudoermafroditismo - ritardo mentale
 Pseudoiperaldosteronismo, tipo 1
 Pseudoiperaldosteronismo, tipo 2
@@ -10643,20 +10643,20 @@ PTLAH
 Ptosi congenita
 Ptosi - limitazione dei movimenti oculari verso l alto - assenza dei punti lacrimali
 Ptosi - paralisi delle corde vocali
-Ptosi - sindattilia - difficolt  di apprendimento
+Ptosi - sindattilia - difficoltà di apprendimento
 Ptosi - strabismo - diastasi dei retti addominali
 Ptosi - strabismo - pupille ectopiche
 PT-VWD
 PUAH
-Pubert  femminile precoce indipendente dalle gonadotropine
-Pubert  precoce centrale
-Pubert  precoce centrale idiopatica
-Pubert  precoce centrale secondaria
-Pubert  precoce dipendente dalle gonadotropine
-Pubert  precoce limitata ai bambini
-Pubert  precoce limitata ai maschi
-Pubert  precoce limitata ai maschi, indipendente dalle gonadotropine
-Pubert  precoce periferica
+Pubertà femminile precoce indipendente dalle gonadotropine
+Pubertà precoce centrale
+Pubertà precoce centrale idiopatica
+Pubertà precoce centrale secondaria
+Pubertà precoce dipendente dalle gonadotropine
+Pubertà precoce limitata ai bambini
+Pubertà precoce limitata ai maschi
+Pubertà precoce limitata ai maschi, indipendente dalle gonadotropine
+Pubertà precoce periferica
 PUS
 Pustoloderma tossico
 Pustolosi esantematosa generalizzata acuta
@@ -10700,7 +10700,7 @@ RAEB-1
 RAEB-2
 RAEB-t
 RALD
-Rallentamento della velocit  di conduzione nervosa, autosomico dominante Slowed nerve conduction velocity, autosomal dominant
+Rallentamento della velocità di conduzione nervosa, autosomico dominante Slowed nerve conduction velocity, autosomal dominant
 RARS
 RBCD
 RB-ILD
@@ -10723,7 +10723,7 @@ Recurrent infections-myelofibrosis-nephromegaly syndrome
 RED-M
 Reflusso vescico-ureterale familiare
 Refractory celiac disease
-Regurgito mitralico - sordit  - anomalie scheletriche
+Regurgito mitralico - sordità - anomalie scheletriche
 Rene con midollare a spugna
 Rene policistico autosomico dominante tipo 1, con sclerosi tuberosa
 Rene policistico autosomico recessivo
@@ -10747,8 +10747,8 @@ Reticulosi localizzata pagetoide
 Retina a chiazze, tipo Kandori
 Retinal dystrophy with inner retinal dysfunction and ganglion cell anomalies
 Retinite pigmentosa
-Retinite pigmentosa - deficit cognitivo - sordit  - ipogenitalismo
-Retinite pigmentosa - sordit 
+Retinite pigmentosa - deficit cognitivo - sordità - ipogenitalismo
+Retinite pigmentosa - sordità
 Retinite puntata albescens
 Retinoblastoma
 Retinoblastoma familiare
@@ -10756,8 +10756,8 @@ Retinoblastoma unilaterale
 Retinopatia - anemia - anomalie del sistema nervoso centrale
 Retinopatia associata al tumore
 Retinopatia del cristallino di Bietti
-Retinopatia della prematurit 
-Retinopatia, encefalopatia, sordit  associata a microangiopatia
+Retinopatia della prematurità
+Retinopatia, encefalopatia, sordità associata a microangiopatia
 Retinopatia esterna anulare acuta
 Retinopatia esterna nascosta zonale acuta
 Retinopatia paraneoplastica
@@ -10784,7 +10784,7 @@ Ritardo della crescita da resistenza al fattore di crescita 1 insulino-simile
 Ritardo della crescita - deficit cognitivo - disostosi mandibolofacciale - microcefalia - palatoschisi
 Ritardo della crescita - idrocefalo - ipoplasia dei polmoni
 Ritardo della crescita intrauterino - displasia metafisaria - ipoplasia congenita dei surreni - anomalie dei genitali
-Ritardo della crescita - sordit  - deficit cognitivo
+Ritardo della crescita - sordità - deficit cognitivo
 Ritardo dello sviluppo con ASD e andatura instabile
 Ritardo dello sviluppo con disturbo dello spettro dell autismo e andatura instabile
 Ritardo dello sviluppo da deficit di 2-metilbutirril-CoA deidrogenasi
@@ -10794,9 +10794,9 @@ Ritardo dello sviluppo da deficit di MMSDH
 Ritardo dello sviluppo e del linguaggio da deficit di SOX5
 Ritardo dello sviluppo - epilessia - diabete neonatale
 Ritardo dello sviluppo globale - osteopenia - difetti ectodermici
-Ritardo dello sviluppo - ipotonia - ipotrofia delle estremit 
+Ritardo dello sviluppo - ipotonia - ipotrofia delle estremità
 Ritardo dello sviluppo motorio da difetto di espressione dei geni paterni in 14q32.2
-Ritardo dello sviluppo - sordit , tipo Hildebrand
+Ritardo dello sviluppo - sordità, tipo Hildebrand
 Ritardo di crescita - alopecia - pseudo-anodontia - atrofia ottica
 Ritardo di ossificazione del cranio membranoso
 Ritardo mentale - anomalie facciali, tipo Davis Lafer
@@ -10805,7 +10805,7 @@ Ritardo mentale - bassa statura - contratture delle mani - anomalie genitali
 Ritardo mentale - bassa statura - epifisi delle ginocchia a cuneo
 Ritardo mentale - bassa statura - ipertelorismo
 Ritardo mentale - calvizie - lussazione della rotula - acromicria
-Ritardo mentale - dismorfismi - iperlassit 
+Ritardo mentale - dismorfismi - iperlassità
 Ritardo mentale - dismorfismi - ipogonadismo - diabete mellito
 Ritardo mentale - dismorfismi - ritardo della crescita intrauterina
 Ritardo mentale - epilessia - naso globoso
@@ -10815,14 +10815,14 @@ Ritardo mentale - ipotonia - dismorfismi facciali
 Ritardo mentale - ipotonia - iperpigmentazione
 Ritardo mentale - ipotrichia - brachidattilia
 Ritardo mentale - ipsaritmia
-Ritardo mentale legato all X - acromegalia - iperattivit 
+Ritardo mentale legato all X - acromegalia - iperattività
 Ritardo mentale legato all X - agenesia del corpo calloso - tetraparesi spastica
 Ritardo mentale legato all X - anomalia del metabolismo della monoaminossidasi A
-Ritardo mentale legato all X - bassa statura - obesit 
+Ritardo mentale legato all X - bassa statura - obesità
 Ritardo mentale legato all X con habitus marfanoide
 Ritardo mentale legato all X - convulsioni - bassa statura - ipoplasia mediofacciale
 Ritardo mentale legato all X - coreoatetosi - disturbi del comportamento
-Ritardo mentale legato all X - crisi epilettiche - ipogenitalismo - microcefalia - obesit 
+Ritardo mentale legato all X - crisi epilettiche - ipogenitalismo - microcefalia - obesità
 Ritardo mentale legato all X - cubito valgo - facies caratteristica
 Ritardo mentale legato all X da mutazione di PQBP1
 Ritardo mentale legato all X - deficit isolato dell ormone della crescita
@@ -10830,9 +10830,9 @@ Ritardo mentale legato all X - distonia - disartria
 Ritardo mentale legato all X - epilessia - contratture articolari progressive - facies caratteristica
 Ritardo mentale legato all X - epilessia - psoriasi
 Ritardo mentale legato all X - facies ipotonica
-Ritardo mentale legato all X - ginecomastia - obesit 
+Ritardo mentale legato all X - ginecomastia - obesità
 Ritardo mentale legato all X - ipogammaglobulinemia - deterioramento neurologico progressivo
-Ritardo mentale legato all X - ipogonadismo - ittiosi - obesit  - bassa statura
+Ritardo mentale legato all X - ipogonadismo - ittiosi - obesità - bassa statura
 Ritardo mentale legato all X - ipotonia - dismorfismi facciali - comportamento aggressivo
 Ritardo mentale legato all X - ipotonia - infezioni ricorrenti
 Ritardo mentale legato all X - macrocefalia - macroorchidismo
@@ -10840,7 +10840,7 @@ Ritardo mentale legato all X - malformazione di Dandy-Walker - malattia dei gang
 Ritardo mentale legato all X - microcefalia - malformazione corticale - habitus magro
 Ritardo mentale legato all X - paraplegia spastica con depositi di ferro
 Ritardo mentale legato all X - psicosi - macroorchidismo
-Ritardo mentale legato all X - pubert  precoce - obesit 
+Ritardo mentale legato all X - pubertà precoce - obesità
 Ritardo mentale legato all X - retinite pigmentosa
 Ritardo mentale legato all X - sindrome cranio-facio-scheletrica
 Ritardo mentale legato all X - tetraparesi spastica
@@ -10885,11 +10885,11 @@ Ritardo mentale legato all X, tipo Wittwer
 Ritardo mentale legato all X, tipo Zorick
 Ritardo mentale - microcefalia - anomalie facciali e delle falangi
 Ritardo mentale - miopatia - bassa statura - difetto endocrino
-Ritardo mentale - nanismo - sordit  - anomalie genitali
+Ritardo mentale - nanismo - sordità - anomalie genitali
 Ritardo mentale non sindromico autosomico dominante
 Ritardo mentale non sindromico legato all X
 Ritardo mentale non specifico legato all X
-Ritardo mentale - obesit  del tronco - distrofia retinica - micropene
+Ritardo mentale - obesità del tronco - distrofia retinica - micropene
 Ritardo mentale - papillomi nasali
 Ritardo mentale - polidattilia - capelli aggrovigliati
 Ritardo mentale recessivo legato all X - macrocefalia - disfunzione ciliare
@@ -11089,7 +11089,7 @@ Sclerodermia sistemica cutanea limitata
 Sclerodermia sistemica cutanea progressiva
 Scleromixedema
 Scleromixedema senza gammopatia monoclonale
-Sclerosi concentrica di Bal 
+Sclerosi concentrica di Balò
 Sclerosi coroidale centrale areolare
 Sclerosi endostale - ipoplasia cerebellare
 Sclerosi epatoportale
@@ -11100,7 +11100,7 @@ Sclerosi laterale amiotrofica - parkinsonismo - demenza di Guam
 Sclerosi laterale amiotrofica, tipo 4
 Sclerosi laterale amiotrofica, tipo emiplegico
 Sclerosi laterale primitiva
-Sclerosi laterale primitiva a esordio nell et  adulta
+Sclerosi laterale primitiva a esordio nell età adulta
 Sclerosi laterale primitiva giovanile
 Sclerosi mielinoclastica diffusa
 Sclerosi multipla acuta di Marburg
@@ -11336,15 +11336,15 @@ Sindrome artrogriposi-simile
 Sindrome artropatia-camptodattilia
 Sindrome aspetto progeroide e marfanoide-lipodistrofia
 Sindrome aspetto senile prematuro-ritardo dello sviluppo-aritmia cardiaca
-Sindrome assonale sensitivo-motoria acuta di Guillain-Barr 
+Sindrome assonale sensitivo-motoria acuta di Guillain-Barré
 Sindrome atassia cerebellare-deficit cognitivo-disequilibrio
-Sindrome atassia cerebellare-sordit -narcolessia
-Sindrome atassia cerebellare-sordit -narcolessia autosomica dominante
+Sindrome atassia cerebellare-sordità-narcolessia
+Sindrome atassia cerebellare-sordità-narcolessia autosomica dominante
 Sindrome atassia-demenza legata all X
-Sindrome atassia- sordit  legata all X
+Sindrome atassia- sordità legata all X
 Sindrome atassia spastica-neuropatia a esordio precoce
 Sindrome atassia spastica-neuropatia AFG3L2-correlata
-Sindrome atassica sensoriale acuta di Guillain-Barr 
+Sindrome atassica sensoriale acuta di Guillain-Barré
 Sindrome atipica di Mayer-Rokitansky-Küster-Hauser
 Sindrome ATR-16
 Sindrome ATR legata al cromosoma 16
@@ -11406,7 +11406,7 @@ Sindrome cardiomelica, tipo 3
 Sindrome cardio-spondilo-carpo-facciale
 Sindrome cataratta-cardiopatia congenita-difetto del tubo neurale
 Sindrome cataratta congenita-perdita dell udito-grave ritardo dello sviluppo
-Sindrome cataratta congenita-sordit -grave ritardo dello sviluppo
+Sindrome cataratta congenita-sordità-grave ritardo dello sviluppo
 Sindrome cataratta-microcornea
 Sindrome   cat-eye  
 Sindrome CATSHL
@@ -11473,7 +11473,7 @@ Sindrome cheratoderma palmoplantare-carcinoma esofageo
 Sindrome cheratoderma palmoplantare diffuso-acrocianosi
 Sindrome cheratoderma palmoplantare-paralisi spastica
 Sindrome cheratoderma palmoplantare-sclerodattilia
-Sindrome cheratoderma palmoplantare-sordit 
+Sindrome cheratoderma palmoplantare-sordità
 Sindrome cheratoderma-perdita di udito
 Sindrome cheratosi palmoplantare-carcinoma esofageo
 Sindrome CHILD
@@ -11527,8 +11527,8 @@ Sindrome COVESDEM
 Sindrome coxoauricolare
 Sindrome coxo-podo-patellare
 Sindrome craniodigitale - ritardo mentale
-Sindrome cranio-facciale - sordit 
-Sindrome craniofacciale-sordit -mani
+Sindrome cranio-facciale - sordità
+Sindrome craniofacciale-sordità-mani
 Sindrome craniofacciale-ulnare-renale
 Sindrome cranio-facio-cardio-scheletrica
 Sindrome cranio-facio-digito-genitale
@@ -11563,7 +11563,7 @@ Sindrome da ascessi asettici
 Sindrome da aspirazione di meconio
 Sindrome da atassia mitocondriale, autosomica recessiva
 Sindrome da atassia spastica, tipo beduino
-Sindrome da aumentata permeabilit  capillare
+Sindrome da aumentata permeabilità capillare
 Sindrome da aumento dei coni S
 Sindrome da blefarofimosi, tipo Ohdo
 Sindrome da calcificazioni arteriose e articolari multiple ereditarie
@@ -11600,7 +11600,7 @@ Sindrome da delezione/duplicazione 8p invertita
 Sindrome da delezione/duplicazione invertita 8p
 Sindrome da delezione subtelomerica 6p
 Sindrome da delezione subtelomerica 9q
-Sindrome da delezioni multiple del DNA mitocondriale a esordio nell et  adulta da deficit di DGUOK
+Sindrome da delezioni multiple del DNA mitocondriale a esordio nell età adulta da deficit di DGUOK
 Sindrome da delezioni multiple di mtDNA da deficit di DGUOK
 Sindrome da deperimento da AIDS
 Sindrome da deplezione del DNA mitocondriale, forma encefalomiopatica con aciduria metilmalonica
@@ -11649,16 +11649,16 @@ Sindrome da immunodeficienza dei neutrofili
 Sindrome da immunodeficienza DOCK8
 Sindrome da immunodeficienza primitiva con bassa statura
 Sindrome da immunodeficienza primitiva dovuta a deficit di p14
-Sindrome da insensibilit  agli androgeni
-Sindrome da insensibilit  completa agli androgeni
-Sindrome da insensibilit  parziale agli androgeni
-Sindrome da instabilit  articolare
+Sindrome da insensibilità agli androgeni
+Sindrome da insensibilità completa agli androgeni
+Sindrome da insensibilità parziale agli androgeni
+Sindrome da instabilità articolare
 Sindrome da insulino-resistenza, tipo A
 Sindrome da insulino-resistenza, tipo B
 Sindrome da interruzione del peduncolo ipofisario
 Sindrome da iperaccrescimento 15q
 Sindrome da iperaccrescimento associato a RNF135
-Sindrome da ipercoagulabilit  dovuta a deficit di glicosilfosfatidilinositolo
+Sindrome da ipercoagulabilità dovuta a deficit di glicosilfosfatidilinositolo
 Sindrome da iper-IgD
 Sindrome da iper-IgE, autosomica dominante
 Sindrome da iper-IgE autosomica recessiva
@@ -11671,10 +11671,10 @@ Sindrome da iperimmunoglobulinemia E, tipo 1
 Sindrome da iperimmunoglobulinemia E, tipo 2
 Sindrome da iperinsulinismo-iperammoniemia
 Sindrome da ipermetilazione materna 14q32.2
-Sindrome da ipermobilit  articolare benigna
-Sindrome da iperpermeabilit  capillare
+Sindrome da ipermobilità articolare benigna
+Sindrome da iperpermeabilità capillare
 Sindrome da iperprostaglandine E
-Sindrome da ipersensibilit  agli UV
+Sindrome da ipersensibilità agli UV
 Sindrome da iperstimolazione ovarica
 Sindrome da ipertelorismo di Teebi
 Sindrome da ipertricosi pigmentata associata al diabete mellito insulino-dipendente
@@ -11837,10 +11837,10 @@ Sindrome da sensibilizzazione autoeritrocitaria
 Sindrome da shock di Dengue
 Sindrome da shunt dei cloruri
 Sindrome da sinostosi multiple
-Sindrome da suscettibilit  familiare al blastoma pleuropolmonare
-Sindrome da suscettibilit  familiare al blastoma pleuro-polmonare
-Sindrome da suscettibilit  familiare al PPB
-Sindrome da tortuosit  delle arterie
+Sindrome da suscettibilità familiare al blastoma pleuropolmonare
+Sindrome da suscettibilità familiare al blastoma pleuro-polmonare
+Sindrome da suscettibilità familiare al PPB
+Sindrome da tortuosità delle arterie
 Sindrome da trasfusione gemello-gemello
 Sindrome da tricoressi nodosa
 Sindrome da trigonocefalia di Opitz
@@ -11853,9 +11853,9 @@ Sindrome DDOST-CDG
 Sindrome deficit cognitivo-afasia-andatura strascicata-pollici addotti
 Sindrome deficit cognitivo-ipotonia-brachicefalia-stenosi pilorica-criptorchidismo
 Sindrome deficit della funzione anteroipofisaria-immunodeficienza variabile
-Sindrome deformit  amniotica-adesione-mutilazione
+Sindrome deformità amniotica-adesione-mutilazione
 Sindrome degli pterigi multipli, autosomica dominante
-Sindrome dei capelli a bamb 
+Sindrome dei capelli a bambù
 Sindrome dei capelli a   fil di ferro  
 Sindrome dei capelli caduchi in anagen
 Sindrome dei capelli crespi
@@ -11867,7 +11867,7 @@ Sindrome dei capelli non pettinabili
 Sindrome dei capelli ricci - anchiloblefaron - displasia delle unghie
 Sindrome dei linfociti nudi, tipo 1
 Sindrome dei linfociti nudi, tipo 2
-Sindrome dei motoneuroni inferiori a esordio tardivo nell et  adulta
+Sindrome dei motoneuroni inferiori a esordio tardivo nell età adulta
 Sindrome dei pterigi multipli, tipo Aslan
 Sindrome dei testicoli evanescenti
 Sindrome del bambino   Michelin  
@@ -11908,7 +11908,7 @@ Sindrome della retrazione di Duane
 Sindrome della schisi facciale di Malpuech
 Sindrome della schisi mediana
 Sindrome della   scimitarra  
-Sindrome della sordit  branchiogena
+Sindrome della sordità branchiogena
 Sindrome della sudorazione indotta dal freddo
 Sindrome della torsione di punta con intervallo di accoppiamento breve
 Sindrome della trasfusione feto-fetale
@@ -11947,7 +11947,7 @@ Sindrome delle glicoproteine carenti in carboidrati, tipo Io
 Sindrome delle glicoproteine carenti in carboidrati, tipo IR
 Sindrome delle glicoproteine carenti in carboidrati, tipo Iu
 Sindrome delle lentiggini multiple familiari senza interessamento sistemico
-Sindrome delle macchie caff -latte
+Sindrome delle macchie caffè-latte
 Sindrome delle orecchie a forma di "punto interrogativo"
 Sindrome delle piastrine giganti
 Sindrome delle piastrine grigie
@@ -11956,7 +11956,7 @@ Sindrome delle punte-onde continue durante il sonno
 Sindrome delle quattro A
 Sindrome dell esoftalmo benigno
 Sindrome delle unghie gialle
-Sindrome dell immobilit  ciliare
+Sindrome dell immobilità ciliare
 Sindrome dell incisivo centrale mascellare mediano solitario
 Sindrome dell intestino corto congenito
 Sindrome dell intestino corto da aganglionosi subtotale o totale
@@ -12033,7 +12033,7 @@ Sindrome di Adams-Oliver
 Sindrome di Aegenaes
 Sindrome di Ahn-Lerman-Sagie
 Sindrome di Aicardi
-Sindrome di Aicardi-Gouti res
+Sindrome di Aicardi-Goutières
 Sindrome di Akesson
 Sindrome di Alagille
 Sindrome di Alagille da del(20)(p12)
@@ -12120,7 +12120,7 @@ Sindrome di Bart-Pumphrey
 Sindrome di Bartsocas-Papas
 Sindrome di Bartter
 Sindrome di Bartter con ipocalcemia
-Sindrome di Bartter con sordit 
+Sindrome di Bartter con sordità
 Sindrome di Bartter, forma adulta
 Sindrome di Bartter, forma classica
 Sindrome di Bartter, tipo 3
@@ -12132,7 +12132,7 @@ Sindrome di Bassoe
 Sindrome di Battaglia-Neri
 Sindrome di Baughman
 Sindrome di Bazex
-Sindrome di Bazex-Dupr -Christol
+Sindrome di Bazex-Dupré-Christol
 Sindrome di Beals
 Sindrome di Beals-Hecht
 Sindrome di Bean
@@ -12162,7 +12162,7 @@ Sindrome di Biemond, tipo 2
 Sindrome di Billard-Toutain-Maheut
 Sindrome di Binder
 Sindrome di Bindewald-Ulmer-Müller
-Sindrome di Birt-Hogg-Dub 
+Sindrome di Birt-Hogg-Dubé
 Sindrome di Bixler-Christian-Gorlin
 Sindrome di Björnstad
 Sindrome di Blaichman
@@ -12246,9 +12246,9 @@ Sindrome di Chandler
 Sindrome di Chang-Davidson-Carlson
 Sindrome di Char
 Sindrome di Char-Douglas-Dungan
-Sindrome di Ch diak-Higashi
-Sindrome di Ch diak-Higashi atipica
-Sindrome di Ch diak-Higashi attenuata
+Sindrome di Chédiak-Higashi
+Sindrome di Chédiak-Higashi atipica
+Sindrome di Chédiak-Higashi attenuata
 Sindrome di Chitayat-Meunier-Hodgkinson
 Sindrome di Chitty-Hall-Baraitser
 Sindrome di Chitty-Hall-Webb
@@ -12279,7 +12279,7 @@ Sindrome di Cohen
 Sindrome di Cohen-Hayden
 Sindrome di Cole-Carpenter
 Sindrome di Collins-Pope
-Sindrome di Com l-Netherton
+Sindrome di Comèl-Netherton
 Sindrome di Conradi-Hünermann-Happle
 Sindrome di Cooks
 Sindrome di Cooper-Wang-Jabs
@@ -12385,7 +12385,7 @@ Sindrome di Edwards
 Sindrome di Edwards-Patton-Dilly
 Sindrome di Ehlers-Danlos CHST14-associata
 Sindrome di Ehlers-Danlos con cifoscoliosi progressiva, miopatia e perdita dell udito
-Sindrome di Ehlers-Danlos con cifoscoliosi progressiva, miopatia e sordit 
+Sindrome di Ehlers-Danlos con cifoscoliosi progressiva, miopatia e sordità
 Sindrome di Ehlers-Danlos con deficit di fibronectina
 Sindrome di Ehlers-Danlos con disfunzione piastrinica da anomalia della fibronectina
 Sindrome di Ehlers-Danlos con eterotopia periventricolare
@@ -12412,11 +12412,11 @@ Sindrome di Ehlers-Danlos, tipo artrogripotico
 Sindrome di Ehlers-Danlos, tipo cardiaco-valvolare
 Sindrome di Ehlers-Danlos, tipo cifoscoliotico
 Sindrome di Ehlers-Danlos, tipo cifoscoliotico e perdita dell udito
-Sindrome di Ehlers-Danlos, tipo cifoscoliotico e sordit 
+Sindrome di Ehlers-Danlos, tipo cifoscoliotico e sordità
 Sindrome di Ehlers-Danlos, tipo classico
 Sindrome di Ehlers-Danlos, tipo dermatosparassi
 Sindrome di Ehlers-Danlos, tipo ipermobile
-Sindrome di Ehlers-Danlos, tipo ipermobilit 
+Sindrome di Ehlers-Danlos, tipo ipermobilità
 Sindrome di Ehlers-Danlos, tipo IV
 Sindrome di Ehlers-Danlos, tipo IX
 Sindrome di Ehlers-Danlos, tipo Kosho
@@ -12554,7 +12554,7 @@ Sindrome di Graham Little-Piccardi-Lassueur
 Sindrome di Grand-Kaine-Fulling
 Sindrome di Grange
 Sindrome di Grant
-Sindrome di Grisart-Destr e
+Sindrome di Grisart-Destrée
 Sindrome di Griscelli, tipo 1
 Sindrome di Griscelli, tipo 2
 Sindrome di Griscelli, tipo 3
@@ -12563,10 +12563,10 @@ Sindrome di Groll-Hirschowitz
 Sindrome di Grubben-de Cock-Borghgraef
 Sindrome di Guibaud-Vainsel
 Sindrome di Guillain-Barre
-Sindrome di Guillain-Barr 
-Sindrome di Guillain-Barr , forma poliradiculoneuropatica demielinizzante infiammatoria acuta
-Sindrome di Guillain-Barr -Strohl
-Sindrome di Guillain-Barr , variante cranica
+Sindrome di Guillain-Barré
+Sindrome di Guillain-Barré, forma poliradiculoneuropatica demielinizzante infiammatoria acuta
+Sindrome di Guillain-Barré-Strohl
+Sindrome di Guillain-Barré, variante cranica
 Sindrome di Guizar-Vasquez-Luengas
 Sindrome di Guizar-Vasquez-Sanchez-Manzano
 Sindrome di Gunal-Seber-Basaran
@@ -12768,7 +12768,7 @@ Sindrome di Ladda-Zonana-Ramer
 Sindrome di Lambert
 Sindrome di Landau-Kleffner
 Sindrome di Langer-Giedion
-Sindrome di Laplane-Fontaine-Lagard re
+Sindrome di Laplane-Fontaine-Lagardère
 Sindrome di Laron
 Sindrome di Laron con immunodeficienza
 Sindrome di Larsen autosomica dominante
@@ -12797,7 +12797,7 @@ Sindrome di Lelis
 Sindrome di Le Merrer
 Sindrome di Lemierre
 Sindrome di Lennox-Gastaut
-Sindrome di L ri-Weill
+Sindrome di Léri-Weill
 Sindrome di Lesch-Nyhan
 Sindrome di Leshima-Koeda-Inagaki
 Sindrome di Levic-Stefanovic-Nikolic
@@ -13027,7 +13027,7 @@ Sindrome di Pallister W
 Sindrome di Palmer-Pagon
 Sindrome di Panayiotopoulos
 Sindrome di Papillon-Leage-Psaume
-Sindrome di Papillon-Lef vre
+Sindrome di Papillon-Lefèvre
 Sindrome di Parana
 Sindrome di Parkes Weber
 Sindrome di Parkinson plus
@@ -13298,7 +13298,7 @@ Sindrome di Sotos
 Sindrome di Spellacy-Gibbs-Watts
 Sindrome di Spitzer-Weinstein
 Sindrome displasia craniofacciale-osteopenia
-Sindrome displasia ectodermica-fragilit  cutanea
+Sindrome displasia ectodermica-fragilità cutanea
 Sindrome displasia ectodermica-sindattilia
 Sindrome displasia ectodermica-sindattilia cutanea
 Sindrome displasia frontonasale-microftalmia grave-schisi facciale grave
@@ -13548,7 +13548,7 @@ Sindrome endocrino-cerebro-osteodisplastica
 Sindrome endoteliale iridocorneale
 Sindrome epibronchiale dell arteria polmonare destra
 Sindrome epilettica da infezione febbrile
-Sindrome epilettica sintomatica a esordio infantile - arresto dello sviluppo - cecit 
+Sindrome epilettica sintomatica a esordio infantile - arresto dello sviluppo - cecità
 Sindrome ereditaria da poliposi mista
 Sindrome ereditaria da predisposizione al cancro da mutazioni bialleliche di BRCA2
 Sindrome ereditaria dei capelli lanosi
@@ -13564,7 +13564,7 @@ Sindrome facio-digito-genitale
 Sindrome facio-digito-genitale, forma recessiva
 Sindrome facio-digito-genitale, tipo Kuwait
 Sindrome facio-oculo-acustico-renale
-Sindrome familiare da instabilit  articolare
+Sindrome familiare da instabilità articolare
 Sindrome familiare da lentiggini multiple
 Sindrome familiare da malrotazione intestinale - dismorfismi
 Sindrome familiare dei capelli lanosi
@@ -13588,9 +13588,9 @@ Sindrome FOAR
 Sindrome FOSMN
 Sindrome FPD/AML
 Sindrome FPS/AML
-Sindrome fragilit  cutanea-capelli lanosi- cheratoderma palmoplantare
-Sindrome fragilit  cutanea-capelli lanosi-ipercheratosi palmoplantare
-Sindrome fragilit  ossea-contratture-rottura arteriosa-sordit 
+Sindrome fragilità cutanea-capelli lanosi- cheratoderma palmoplantare
+Sindrome fragilità cutanea-capelli lanosi-ipercheratosi palmoplantare
+Sindrome fragilità ossea-contratture-rottura arteriosa-sordità
 Sindrome Fraser-simile
 Sindrome FraX
 Sindrome FRAXA
@@ -13630,7 +13630,7 @@ Sindrome ICCA
 Sindrome ICE
 Sindrome ICE
 Sindrome ICF
-Sindrome idiopatica da aumentata permeabilit  capillare
+Sindrome idiopatica da aumentata permeabilità capillare
 Sindrome idiopatica da effusione uveale
 Sindrome idrocefalo-agiria-displasia retinica
 Sindrome IFAP
@@ -13642,7 +13642,7 @@ Sindrome ipercheratosi palmoplantare diffusa-acrocianosi
 Sindrome ipercheratosi palmoplantare-paralisi spastica
 Sindrome ipercheratosi palmoplantare-perdita di udito
 Sindrome ipercheratosi palmoplantare-sclerodattilia
-Sindrome ipercheratosi palmoplantare-sordit 
+Sindrome ipercheratosi palmoplantare-sordità
 Sindrome ipereosinofila
 Sindrome ipereosinofila clonale
 Sindrome ipereosinofila linfoide
@@ -13670,15 +13670,15 @@ Sindrome iperparatiroidismo-tumore della mandibola
 Sindrome ipertelorismo-anomalia esofagea- ipospadia
 Sindrome ipertelorismo-ipospadia-polisindattilia
 Sindrome ipertelorismo-seno preauricolare-ostruzione del condotto lacrimale-perdita dell udito
-Sindrome ipertelorismo-seno preauricolare-ostruzione del condotto lacrimale-sordit 
+Sindrome ipertelorismo-seno preauricolare-ostruzione del condotto lacrimale-sordità
 Sindrome ipertensione polmonare-encefalopatia infantile fatale
 Sindrome ipertricosi-bassa statura-dismorfismi facciali-ritardo dello sviluppo
 Sindrome ipogonadismo ipergonadotropo-cataratta
 Sindrome ipogonadismo ipogonadotropo-microcefalia grave-perdita dell udito neurosensoriale-dismorfismi
-Sindrome ipogonadismo ipogonadotropo-microcefalia grave-sordit  neurosensoriale-dismorfismi
+Sindrome ipogonadismo ipogonadotropo-microcefalia grave-sordità neurosensoriale-dismorfismi
 Sindrome ipopigmentazione-cheratoderma palmoplantare puntato
-Sindrome ipopigmentazione-sordit 
-Sindrome ipoplasia del corpo calloso-ritardo-pollici addotti-spasticit -idrocefalo
+Sindrome ipopigmentazione-sordità
+Sindrome ipoplasia del corpo calloso-ritardo-pollici addotti-spasticità-idrocefalo
 Sindrome ipoplasia del pancreas-atresia intestinale-ipoplasia della vescicola biliare
 Sindrome ipoplasia femorale-facies caratteristica
 Sindrome ipoplasia polmonare-agonadismo-destrocardia-ernia diaframmatica
@@ -13690,7 +13690,7 @@ Sindrome ipotricosi-cheratoderma palmoplantare striato-acroosteolisi-periodontit
 Sindrome ipotricosi-ipercheratosi palmoplantare striato-acroosteolisi-periodontite
 Sindrome ipotricosi-osteolisi-periodontite-cheratoderma palmoplantare
 Sindrome ipotricosi-osteolisi-periodontite-ipercheratosi palmoplantare
-Sindrome ipotricosi-sordit 
+Sindrome ipotricosi-sordità
 Sindrome IRIDA
 Sindrome IRVAN
 Sindrome ischemia retinica-ialinosi dei piccoli vasi dell apparato digerente-calcificazioni cerebrali diffuse
@@ -13700,7 +13700,7 @@ Sindrome isolata di Klippel-Feil
 Sindrome isolata di Pierre Robin
 Sindrome isotretinoina-simile
 Sindrome ittiosi-ipotricosi
-Sindrome ittiosi-prematurit 
+Sindrome ittiosi-prematurità
 Sindrome IVIC
 Sindrome JMP
 Sindrome Kabuki make-up
@@ -13806,7 +13806,7 @@ Sindrome MODY
 Sindrome MORM
 Sindrome   Morning glory  
 Sindrome MOTA
-Sindrome motoria pura acuta di Guillain-Barr 
+Sindrome motoria pura acuta di Guillain-Barré
 Sindrome MPCC
 Sindrome MPDU1-CDG
 Sindrome MPI-CDG
@@ -13849,8 +13849,8 @@ Sindrome nefrosica idiopatica steroido-sensibile con ialinosi segmentale focale
 Sindrome nefrosica idiopatica steroido-sensibile con proliferazione mesangiale diffusa
 Sindrome nefrosica LAMB-2-correlata a esordio infantile
 Sindrome nefrosica-perdita dell udito-epidermolisi bollosa pretibiale
-Sindrome nefrosica-sordit -epidermolisi bollosa pretibiale
-Sindrome nefrosica steroido-resistente familiare con sordit  neurosensoriale
+Sindrome nefrosica-sordità-epidermolisi bollosa pretibiale
+Sindrome nefrosica steroido-resistente familiare con sordità neurosensoriale
 Sindrome nefrosica steroido-sensibile
 Sindrome nefrosica steroido-sensibile con lesioni minime (MCNS)
 Sindrome nefrotica sensibile agli steroidi senza biopsia renale
@@ -13873,13 +13873,13 @@ Sindrome neuroscheletrica pagetoide
 Sindrome NF1-simile
 Sindrome NFJ
 Sindrome NISCH
-Sindrome nodosit  callose-leuconichia-sordit  neurosensoriale-cheratoderma palmoplantare
-Sindrome nodosit  callose-leuconichia-sordit  neurosensoriale-ipercheratosi palmoplantare
+Sindrome nodosità callose-leuconichia-sordità neurosensoriale-cheratoderma palmoplantare
+Sindrome nodosità callose-leuconichia-sordità neurosensoriale-ipercheratosi palmoplantare
 Sindrome nodulosi - artropatia - osteolisi
 Sindrome NOMID
 Sindrome Noonan-simile con capelli caduci in fase anagen
 Sindrome null
-Sindrome obesit  grave a esordio precoce-resistenza all insulina da deficit di SH2B1
+Sindrome obesità grave a esordio precoce-resistenza all insulina da deficit di SH2B1
 Sindrome oculo-auricolo-vertebrale
 Sindrome oculoauriculare, tipo Schorderet
 Sindrome oculo-auriculo-fronto-nasale
@@ -13962,7 +13962,7 @@ Sindrome PAGOD
 Sindrome palatodigitale, tipo Catel-Manzke
 Sindrome palatoschisi-sinechie laterali
 Sindrome pallidopiramidale
-Sindrome panautonomica acuta di Guillain-Barr 
+Sindrome panautonomica acuta di Guillain-Barré
 Sindrome PAPA
 Sindrome papillo-renale
 Sindrome paraneoplastica di Cushing
@@ -14014,7 +14014,7 @@ Sindrome postorgasmica
 Sindrome post-polimielite
 Sindrome post-polio
 Sindrome post-poliomielitica
-Sindrome PPK-sordit 
+Sindrome PPK-sordità
 Sindrome Prader-Willi-simile da delezione 6q16
 Sindrome prenatale di Bartter
 Sindrome primitiva del midollo ancorato
@@ -14064,7 +14064,7 @@ Sindrome SCARF
 Sindrome scleroatrofica
 Sindrome SEC23B-CDG
 Sindrome secondaria dell intestino corto
-Sindrome sensoriale pura acuta di Guillain-Barr 
+Sindrome sensoriale pura acuta di Guillain-Barré
 Sindrome SERKAL
 Sindrome serotoninergica
 Sindrome SeSAME
@@ -14073,7 +14073,7 @@ Sindrome SIBIDS
 Sindrome SICRET
 Sindrome simil-Hallermann-Streiff
 Sindrome simil-trigonocefalica di Opitz
-Sindrome sistemica da aumentata permeabilit  capillare
+Sindrome sistemica da aumentata permeabilità capillare
 Sindrome sistemica eosinofila da reazione farmacologica
 Sindrome   skin peeling  
 Sindrome SLC35A1-CDG
@@ -14081,10 +14081,10 @@ Sindrome SLC35C1-CDG
 Sindrome SLC35D1-CDG
 Sindrome SOFT
 Sindrome SOLAMEN
-Sindrome sordit -deficit cognitivo legato all X
-Sindrome sordit -distonia-neuropatia ottica
-Sindrome sordit -infertilit 
-Sindrome sordit -sinfalangismo, tipo Hermann
+Sindrome sordità-deficit cognitivo legato all X
+Sindrome sordità-distonia-neuropatia ottica
+Sindrome sordità-infertilità
+Sindrome sordità-sinfalangismo, tipo Hermann
 Sindrome spondilocamptodattilia
 Sindrome spondilo-oculare
 Sindrome SRD5A3-CDG
@@ -14229,57 +14229,57 @@ Somatomammotropinoma
 Somatostatinoma
 Soppressione prolungata della risposta elettroretinica
 Sopraelevazione della scapola
-Sordit  - anomalie delle orecchie - paralisi facciale
-Sordit  - atrofia ottica - demenza
-Sordit  - capelli depigmentati - contratture
-Sordit  - cecit  - ipopigmentazione
-Sordit  con aplasia labirintica, microtia e microdontia
-Sordit  - deficit cognitivo, tipo Martin-Probst
-Sordit  - displasia epifisaria - bassa statura
-Sordit  - displasia scheletrica - granuloma del labbro
-Sordit  - diverticolosi - neuropatia
-Sordit  - encefaloneuropatia - obesit  - valvulopatia
-Sordit  genetica non sindromica prelinguale
-Sordit  genetica postlinguale isolata
-Sordit  genetica postlinguale non sindromica
-Sordit  genetica prelinguale isolata
-Sordit  - insensibilit  familiare delle ghiandole salivari all aldosterone
-Sordit  - ipogonadismo
-Sordit  - ipoplasia dello smalto - anomalie ungueali
-Sordit  - ipospadia - sinostosi dei metacarpi e dei metatarsi
-Sordit  - linfedema - leucemia
-Sordit  mista con Gusher perilinfatico, legata all X
-Sordit  mista neurosensoriale e condutttiva legata all X
-Sordit  - nefrite - malformazione anorettale
-Sordit  - nefropatia di Alport
-Sordit  neurosensoriale con cardiomiopatia dilatativa
-Sordit  neurosensoriale - incanutimento precoce - tremore essenziale
-Sordit  neurosensoriale isolata autosomica dominante,tipo DFNA
-Sordit  neurosensoriale isolata autosomica recessiva, tipo DFNB
-Sordit  neurosensoriale isolata legata all X, tipo DFN
-Sordit  neurosensoriale isolata mitocondriale con suscettibilit  all esposizione ad aminoglicosidi
-Sordit  neurosensoriale legata all X, non sindromica, tipo DFN
-Sordit  neurosensoriale mitocondriale isolata
-Sordit  neurosensoriale mitocondriale non sindromica
-Sordit  neurosensoriale non sindromica, autosomica dominante, tipo DFNA
-Sordit  neurosensoriale non sindromica, autosomica recessiva, tipo DFNB
-Sordit  neurosensoriale progressiva - cardiomiopatia ipertrofica
-Sordit  - oligodontia
-Sordit  - onicodistrofia
-Sordit  - onicodistrofia, autosomica dominante
-Sordit  - onicodistrofia, autosomica recessiva
-Sordit  - onicodistrofia - osteodistrofia - deficit cognitivo
-Sordit  - onico-osteodistrofia - deficit cognitivo
-Sordit  progressiva associata ad anchilosi della staffa
-Sordit  - ptosi - anomalie scheletriche
-Sordit  rara
-Sordit  - resistenza all ormone tiroideo
-Sordit  sensorineurale non sindromica mitocondriale con suscettibilit  all esposizione ad aminoglicosidi
-Sordit  sensorineurale progressiva - cardiomiopatia ipertrofica
-Sordit  sensorineuronale mitocondriale isolata
-Sordit  sensorineuronale mitocondriale non sindromica
-Sordit  tipo conduttivo - anomalie dell orecchio esterno
-Sordit  - vitiligine - acalasia
+Sordità - anomalie delle orecchie - paralisi facciale
+Sordità - atrofia ottica - demenza
+Sordità - capelli depigmentati - contratture
+Sordità - cecità - ipopigmentazione
+Sordità con aplasia labirintica, microtia e microdontia
+Sordità - deficit cognitivo, tipo Martin-Probst
+Sordità - displasia epifisaria - bassa statura
+Sordità - displasia scheletrica - granuloma del labbro
+Sordità - diverticolosi - neuropatia
+Sordità - encefaloneuropatia - obesità - valvulopatia
+Sordità genetica non sindromica prelinguale
+Sordità genetica postlinguale isolata
+Sordità genetica postlinguale non sindromica
+Sordità genetica prelinguale isolata
+Sordità - insensibilità familiare delle ghiandole salivari all aldosterone
+Sordità - ipogonadismo
+Sordità - ipoplasia dello smalto - anomalie ungueali
+Sordità - ipospadia - sinostosi dei metacarpi e dei metatarsi
+Sordità - linfedema - leucemia
+Sordità mista con Gusher perilinfatico, legata all X
+Sordità mista neurosensoriale e condutttiva legata all X
+Sordità - nefrite - malformazione anorettale
+Sordità - nefropatia di Alport
+Sordità neurosensoriale con cardiomiopatia dilatativa
+Sordità neurosensoriale - incanutimento precoce - tremore essenziale
+Sordità neurosensoriale isolata autosomica dominante,tipo DFNA
+Sordità neurosensoriale isolata autosomica recessiva, tipo DFNB
+Sordità neurosensoriale isolata legata all X, tipo DFN
+Sordità neurosensoriale isolata mitocondriale con suscettibilità all esposizione ad aminoglicosidi
+Sordità neurosensoriale legata all X, non sindromica, tipo DFN
+Sordità neurosensoriale mitocondriale isolata
+Sordità neurosensoriale mitocondriale non sindromica
+Sordità neurosensoriale non sindromica, autosomica dominante, tipo DFNA
+Sordità neurosensoriale non sindromica, autosomica recessiva, tipo DFNB
+Sordità neurosensoriale progressiva - cardiomiopatia ipertrofica
+Sordità - oligodontia
+Sordità - onicodistrofia
+Sordità - onicodistrofia, autosomica dominante
+Sordità - onicodistrofia, autosomica recessiva
+Sordità - onicodistrofia - osteodistrofia - deficit cognitivo
+Sordità - onico-osteodistrofia - deficit cognitivo
+Sordità progressiva associata ad anchilosi della staffa
+Sordità - ptosi - anomalie scheletriche
+Sordità rara
+Sordità - resistenza all ormone tiroideo
+Sordità sensorineurale non sindromica mitocondriale con suscettibilità all esposizione ad aminoglicosidi
+Sordità sensorineurale progressiva - cardiomiopatia ipertrofica
+Sordità sensorineuronale mitocondriale isolata
+Sordità sensorineuronale mitocondriale non sindromica
+Sordità tipo conduttivo - anomalie dell orecchio esterno
+Sordità - vitiligine - acalasia
 Sorriso invertito - vescica nefropatica occulta
 Sovraccarico di ferro associato a FTH1
 Sovraccarico di ferro legato a FTH1
@@ -14292,7 +14292,7 @@ Spasmi infantili - pollici larghi
 Spasmi infantili - ritardo psicomotorio - atrofia cerebrale progressiva - anomalia dei gangli basali
 Spasmo emifacciale clonico
 Spasmus nutans
-Spasticit  - ritardo mentale
+Spasticità - ritardo mentale
 Spasticity-ataxia-gait anomalies syndrome
 SPAX3
 SPAX4
@@ -14422,7 +14422,7 @@ Stenosi del tunnel subaortico
 Stenosi isolata degli orifizi piriformi
 Stenosi o atrofia dell ostium coronarico
 Stenosi polmonare - brachitelefalangismo - calcificazione delle cartilagini
-Stenosi polmonare - macchie caff -latte
+Stenosi polmonare - macchie caffè-latte
 Stenosi sopravalvolare dell aorta
 Stenosi sopravalvolare polmonare
 Stenosi sottopolmonare
@@ -14432,9 +14432,9 @@ Stenosi subaortica fissa
 Stenosi subaortica membranosa moderata
 Stenosi subglottica congenita
 Stenosi valvolare polmonare congenita
-Sterilit  maschile associata a spermatozoi poliploidi multiflagellati a testa grande
-Sterilit  maschile con virilizzazione normale, da arresto della maturazione
-Sterilit  maschile da delezione del cromosoma Y
+Sterilità maschile associata a spermatozoi poliploidi multiflagellati a testa grande
+Sterilità maschile con virilizzazione normale, da arresto della maturazione
+Sterilità maschile da delezione del cromosoma Y
 Stomatocitosi ereditaria con emazie disidratate
 Stomatocitosi ereditaria con emazie iperidratate
 Strabismo essenziale
@@ -14450,33 +14450,33 @@ Sublussazione atlantoassiale
 SUNDS
 SURF1-related Charcot-Marie-Tooth disease type 4
 Susceptibility to viral and mycobacterial infections
-Suscettibilit  ai tumori legata alle mutazioni germinali di BAP1
-Suscettibilit  alle infezioni croniche da virus di Epstein-Barr
-Suscettibilit  alle infezioni respiratorie associata alla mutazione della catena di CD8alfa
-Suscettibilit  mendeliana al deficit del recettore dell interleuchina 12 beta 1
-Suscettibilit  mendeliana alle malattie micobatteriche da deficit completo del recettore dell interferone gamma 1
-Suscettibilit  mendeliana alle malattie micobatteriche da deficit completo di IFNgammaR1
-Suscettibilit  mendeliana a malattia micobatteriche da deficit parziale di STAT1
-Suscettibilit  mendeliana a malattie micobatteriche da deficit completo dell interleuchina 12B
-Suscettibilit  mendeliana a malattie micobatteriche da deficit completo del recettore dell interferone gamma 2
-Suscettibilit  mendeliana a malattie micobatteriche da deficit completo di IFNgammaR2
-Suscettibilit  mendeliana a malattie micobatteriche da deficit completo di IL12B
-Suscettibilit  mendeliana a malattie micobatteriche da deficit completo di IL12RB1
-Suscettibilit  mendeliana a malattie micobatteriche da deficit completo di ISG15
-Suscettibilit  mendeliana a malattie micobatteriche da deficit del fattore regolatore dell interferone 8
-Suscettibilit  mendeliana a malattie micobatteriche da deficit parziale di IRF8
-Suscettibilit  mendeliana autos. dominante a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 1
-Suscettibilit  mendeliana autos. dominante a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 2
-Suscettibilit  mendeliana autosomica dominante a malattie micobatetriche da deficit parziale di IFNgammaR2
-Suscettibilit  mendeliana autosomica dominante a malattie micobatteriche da deficit parziale di IFNgammaR1
-Suscettibilit  mendeliana autosomica recessiva a malattie micobatteriche da deficit parizale di IFNgammaR2
-Suscettibilit  mendeliana autosomica recessiva a malattie micobatteriche da deficit parziale di IFNgammaR1
-Suscettibilit  mendeliana autos. recessiva a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 1
-Suscettibilit  mendeliana autos. recessiva a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 2
-Suscettibilit  mendeliana legata all X a malattie micobatteriche
-Suscettibilit  mendeliana legata all X a malattie micobatteriche da deficit di CYBB
-Suscettibilit  mendeliana legata all X a malattie micobatteriche da deficit di IKBKG
-Suscettibilit  mendeliana legata all X a malattie micobatteriche da deficit di NEMO
+Suscettibilità ai tumori legata alle mutazioni germinali di BAP1
+Suscettibilità alle infezioni croniche da virus di Epstein-Barr
+Suscettibilità alle infezioni respiratorie associata alla mutazione della catena di CD8alfa
+Suscettibilità mendeliana al deficit del recettore dell interleuchina 12 beta 1
+Suscettibilità mendeliana alle malattie micobatteriche da deficit completo del recettore dell interferone gamma 1
+Suscettibilità mendeliana alle malattie micobatteriche da deficit completo di IFNgammaR1
+Suscettibilità mendeliana a malattia micobatteriche da deficit parziale di STAT1
+Suscettibilità mendeliana a malattie micobatteriche da deficit completo dell interleuchina 12B
+Suscettibilità mendeliana a malattie micobatteriche da deficit completo del recettore dell interferone gamma 2
+Suscettibilità mendeliana a malattie micobatteriche da deficit completo di IFNgammaR2
+Suscettibilità mendeliana a malattie micobatteriche da deficit completo di IL12B
+Suscettibilità mendeliana a malattie micobatteriche da deficit completo di IL12RB1
+Suscettibilità mendeliana a malattie micobatteriche da deficit completo di ISG15
+Suscettibilità mendeliana a malattie micobatteriche da deficit del fattore regolatore dell interferone 8
+Suscettibilità mendeliana a malattie micobatteriche da deficit parziale di IRF8
+Suscettibilità mendeliana autos. dominante a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 1
+Suscettibilità mendeliana autos. dominante a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 2
+Suscettibilità mendeliana autosomica dominante a malattie micobatetriche da deficit parziale di IFNgammaR2
+Suscettibilità mendeliana autosomica dominante a malattie micobatteriche da deficit parziale di IFNgammaR1
+Suscettibilità mendeliana autosomica recessiva a malattie micobatteriche da deficit parizale di IFNgammaR2
+Suscettibilità mendeliana autosomica recessiva a malattie micobatteriche da deficit parziale di IFNgammaR1
+Suscettibilità mendeliana autos. recessiva a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 1
+Suscettibilità mendeliana autos. recessiva a malattie micobatteriche da deficit parziale del recettore dell interferone gamma 2
+Suscettibilità mendeliana legata all X a malattie micobatteriche
+Suscettibilità mendeliana legata all X a malattie micobatteriche da deficit di CYBB
+Suscettibilità mendeliana legata all X a malattie micobatteriche da deficit di IKBKG
+Suscettibilità mendeliana legata all X a malattie micobatteriche da deficit di NEMO
 SVC destra che si collega all atrio sinistro
 SVC sinistra che si collega all atrio sinistro
 Sxt-HUS
@@ -14589,8 +14589,8 @@ TNDM
 Torcicollo - cheloidi - criptorchidismo
 Torcicollo parossistico benigno dell infanzia
 Torcicollo spasmodico
-Tortuosit  delle arteriole retiniche
-Tortuosit  delle arteriole retiniche - emiparesi infantile - leucoencefalopatia autosomica dominante
+Tortuosità delle arteriole retiniche
+Tortuosità delle arteriole retiniche - emiparesi infantile - leucoencefalopatia autosomica dominante
 TOS
 TOS neurogena
 Tosse canina
@@ -14635,7 +14635,7 @@ Tricomegalia - degenerazione della retina - ritardo della crescita
 Tricopoliodistrofia
 Tricotiodistrofia
 Tricotiodistrofia con ittiosi congenita
-Tricotiodistrofia - fotosensibilit 
+Tricotiodistrofia - fotosensibilità
 Tricotiodistrofia - osteosclerosi
 Tricotiodistrofia - sindrome neurocutanea
 Tricotiodistrofia, tipo B
@@ -14647,7 +14647,7 @@ Tricotiodistrofia, tipo G
 Tricromazia oligoconica
 Trigonocefalia - bassa statura - ritardo della crescita
 Trigonocefalia isolata
-Trigonocefalia - naso bifido - anomalie delle estremit 
+Trigonocefalia - naso bifido - anomalie delle estremità
 Trigonocefalia - pollici larghi
 Triopia
 Tripanosomiasi africana
@@ -14924,7 +14924,7 @@ Tumore neuroendocrino del timo
 Tumore neuroepiteliale disembrioplastico
 Tumore neuroepiteliale disembrioplastico del cervelletto
 Tumore oligodendrogliale
-Tumore ovarico a basso potenziale di malignit 
+Tumore ovarico a basso potenziale di malignità
 Tumore ovarico benigno raro
 Tumore ovarico maligno a cellule di Sertoli-Leydig
 Tumore ovarico maligno a cellule germinali
@@ -15035,10 +15035,10 @@ Variante della reticoloendoteliosi leucemica
 Variante della sindrome di Freeman-Sheldon
 Variante della sindrome di Rett
 Variante di LAD-1
-Variante faringea-cervicale-brachiale della sindrome di Guillain-Barr 
+Variante faringea-cervicale-brachiale della sindrome di Guillain-Barré
 Variante interemisferica mediana dell oloprosencefalia
 Variante linfoblastoide del linfoma a cellule NK
-Variante paraparetica della sindrome di Guillain-Barr 
+Variante paraparetica della sindrome di Guillain-Barré
 Variante paraparetica di GBS
 Variante prolinfocitica della HCL
 Variante prolinfocitica della leucemia a cellule capellute
