@@ -1,0 +1,36 @@
+lug 02, 2014 10:30:52 AM org.apache.catalina.startup.Catalina initDirs
+GRAVE: Cannot find specified temporary folder at /home/accounts/studenti/id637fga/progettoBasi/tomcat//temp
+lug 02, 2014 10:30:52 AM org.apache.catalina.core.AprLifecycleListener init
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+lug 02, 2014 10:30:52 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+AVVERTENZA: [SetPropertiesRule]{Server/Service/Engine/Host} Setting property 'xmlValidation' to 'false' did not find a matching property.
+lug 02, 2014 10:30:52 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+AVVERTENZA: [SetPropertiesRule]{Server/Service/Engine/Host} Setting property 'xmlNamespaceAware' to 'false' did not find a matching property.
+lug 02, 2014 10:30:53 AM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 10:30:53 AM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+lug 02, 2014 10:30:53 AM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 702 ms
+lug 02, 2014 10:30:53 AM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+lug 02, 2014 10:30:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat/7.0.30
+lug 02, 2014 10:30:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /home/accounts/studenti/id637fga/progettoBasi/tomcat/webapps/corsostudi
+lug 02, 2014 10:30:53 AM org.apache.catalina.startup.SetContextPropertiesRule begin
+AVVERTENZA: [SetContextPropertiesRule]{Context} Setting property 'isInvokerEnabled' to 'true' did not find a matching property.
+lug 02, 2014 10:30:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /home/accounts/studenti/id637fga/progettoBasi/tomcat/webapps/hello
+lug 02, 2014 10:30:54 AM org.apache.catalina.startup.SetContextPropertiesRule begin
+AVVERTENZA: [SetContextPropertiesRule]{Context} Setting property 'isInvokerEnabled' to 'true' did not find a matching property.
+lug 02, 2014 10:30:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /home/accounts/studenti/id637fga/progettoBasi/tomcat/webapps/ROOT
+lug 02, 2014 10:30:54 AM org.apache.catalina.startup.SetContextPropertiesRule begin
+AVVERTENZA: [SetContextPropertiesRule]{Context} Setting property 'isInvokerEnabled' to 'true' did not find a matching property.
+lug 02, 2014 10:30:55 AM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 10:30:55 AM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+lug 02, 2014 10:30:55 AM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 2497 ms

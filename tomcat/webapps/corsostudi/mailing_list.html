@@ -1,0 +1,202 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <head>
+
+    <title>Mailing list - Università degli studi di Verona</title>
+    <link rel="stylesheet" type="text/css" href="../pagina.css" />
+
+
+
+	<script type="text/javascript">
+
+	function validEmail(email)
+	{
+	  var patt = new RegExp(/([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+.([a-zA-Z])+/);
+	  if  (patt.test(email) == true)
+		return true;
+	  else
+		return false;
+	}
+
+
+	function validation(f)
+	{
+		if (validEmail(f.email.value) == false)
+			alert("inserire una e-mail valida");
+
+		else
+			document.forms["myform"].submit();
+
+	}
+	</script>        
+
+
+    </head>
+
+        <body>
+
+	<h1>Iscrizione alla Mailing List</h1>
+
+
+	<form method="get" name="myform" action=#>
+	<br>
+	<br>
+
+	Nome: <input type="text" name="nome">
+	Cognome: <input type="text" name="cognome">
+	<br>
+	<br>
+	Indirizzo email: <input type="text" name="email">
+	<br>
+	<br>
+	<br>
+	<br>
+	Data di nascita: 
+<select name="giorno">
+	<option giorno=1>1</option>
+	<option giorno=2>2</option>
+	<option giorno=3>3</option>
+	<option giorno=4>4</option>
+	<option giorno=5>5</option>
+	<option giorno=6>6</option>
+	<option giorno=7>7</option>
+	<option giorno=8>8</option>
+	<option giorno=9>9</option>
+	<option giorno=10>10</option>
+	<option giorno=11>11</option>
+	<option giorno=12>12</option>
+	<option giorno=13>13</option>
+	<option giorno=14>14</option>
+	<option giorno=15>15</option>
+	<option giorno=16>16</option>
+	<option giorno=17>17</option>
+	<option giorno=18>18</option>
+	<option giorno=19>19</option>
+	<option giorno=20>20</option>
+	<option giorno=21>21</option>
+	<option giorno=22>22</option>
+	<option giorno=23>23</option>
+	<option giorno=24>24</option>
+	<option giorno=25>25</option>
+	<option giorno=26>26</option>
+	<option giorno=27>27</option>
+	<option giorno=28>28</option>
+	<option giorno=29>29</option>
+	<option giorno=30>30</option>
+	<option giorno=31>31</option>
+</select>
+<select name="mese">
+	<option mese=1>1</option>
+	<option mese=2>2</option>
+	<option mese=3>3</option>
+	<option mese=4>4</option>
+	<option mese=5>5</option>
+	<option mese=6>6</option>
+	<option mese=7>7</option>
+	<option mese=8>8</option>
+	<option mese=9>9</option>
+	<option mese=10>10</option>
+	<option mese=11>11</option>
+	<option mese=12>12</option>
+</select>
+<select name="anno">
+	<option anno=1960>1960</option>
+	<option anno=1961>1961</option>
+	<option anno=1962>1962</option>
+	<option anno=1963>1963</option>
+	<option anno=1964>1964</option>
+	<option anno=1965>1965</option>
+	<option anno=1966>1966</option>
+	<option anno=1967>1967</option>
+	<option anno=1968>1968</option>
+	<option anno=1969>1969</option>
+	<option anno=1970>1970</option>
+	<option anno=1971>1971</option>
+	<option anno=1972>1972</option>
+	<option anno=1973>1973</option>
+	<option anno=1974>1974</option>
+	<option anno=1975>1975</option>
+	<option anno=1976>1976</option>
+	<option anno=1977>1977</option>
+	<option anno=1978>1978</option>
+	<option anno=1979>1979</option>
+	<option anno=1980>1980</option>
+	<option anno=1981>1981</option>
+	<option anno=1982>1982</option>
+	<option anno=1983>1983</option>
+	<option anno=1984>1984</option>
+	<option anno=1985>1985</option>
+	<option anno=1986>1986</option>
+	<option anno=1987>1987</option>
+	<option anno=1988>1988</option>
+	<option anno=1989>1989</option>
+	<option anno=1990>1990</option>
+	<option anno=1991>1991</option>
+	<option anno=1992>1992</option>
+	<option anno=1993>1993</option>
+	<option anno=1994>1994</option>
+	<option anno=1995>1995</option>
+	<option anno=1996>1996</option>
+	<option anno=1997>1997</option>
+	<option anno=1998>1998</option>
+	<option anno=1999>1999</option>
+	<option anno=2000>2000</option>
+	<option anno=2001>2001</option>
+	<option anno=2002>2002</option>
+	<option anno=2003>2003</option>
+	<option anno=2004>2004</option>
+	<option anno=2005>2005</option>
+	<option anno=2006>2006</option>
+	<option anno=2007>2007</option>
+	<option anno=2008>2008</option>
+	<option anno=2009>2009</option>
+	<option anno=2010>2010</option>
+	<option anno=2011>2011</option>
+	<option anno=2012>2012</option>
+	<option anno=2013>2013</option>
+	<option anno=2014>2014</option>
+</select>				
+
+	<br>
+	<br>
+	<br>
+
+        <input type="radio" name="sesso" value="maschio"/>Maschio
+        <input type="radio" name="sesso" value="femmina"/>Femmina
+        
+	<br>
+	<br>
+	<br>
+	Generi preferiti:
+	<br>
+	<br>
+
+	
+	<input type="checkbox" name="laureetriennali">lauree triennali
+	<br>
+	<input type="checkbox" name="laureemagistrali">lauree magistrali
+	<br>
+	<input type="checkbox" name="seminari">seminari
+	<br>
+	<input type="checkbox" name="dottorati">dottorati	
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<input type="button" value="invia" onclick="javascript:validation(document.myform)">
+	<br>
+	<br>
+	
+	</form>
+
+
+
+	<p><a href="?ps=">HOME</a></p>
+        </body>
+
+
+</html>
