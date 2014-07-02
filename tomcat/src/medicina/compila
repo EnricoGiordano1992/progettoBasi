@@ -1,0 +1,5 @@
+javac  -classpath /usr/share/tomcat7/lib/servlet-api.jar -d ../../webapps/medicina/WEB-INF/classes/ did/*.java *.java;
+
+mv ../../webapps/medicina/WEB-INF/classes/dbms/* ../../webapps/medicina/WEB-INF/classes/
+
+mv ../../webapps/medicina/WEB-INF/classes/start/* ../../webapps/medicina/WEB-INF/classes/
