@@ -1,0 +1,34 @@
+package dbms;
+
+public class PazienteBean {
+
+	private String CODSAN;
+	private String nome; 
+	private String cognome; 
+	private String nascita; 
+	private String psw; 
+	private String citta; 
+	private String via; 
+	private String prov;
+	private String cap; 
+	private String civico;
+	
+	
+	public PazienteBean(){
+		
+		CODSAN = "";
+		nome = "";
+		cognome = "";
+		nascita = "";
+		psw = "";
+		citta = "";
+		via = "";
+		prov = "";
+		cap = "";
+		civico = "";
+		
+	}
+	
+	
+	
+}

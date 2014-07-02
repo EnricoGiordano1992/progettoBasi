@@ -37,16 +37,6 @@ public class PazienteBean {
 	}
 
 
-	public String getFattori_a_rischio(int pos) {
-		return fattori_a_rischio.get(pos);
-	}
-
-
-	public void addFattori_a_rischio(String fattori_a_rischio) {
-		this.fattori_a_rischio.add(fattori_a_rischio);
-	}
-
-
 	public String getCODSAN() {
 		return CODSAN;
 	}

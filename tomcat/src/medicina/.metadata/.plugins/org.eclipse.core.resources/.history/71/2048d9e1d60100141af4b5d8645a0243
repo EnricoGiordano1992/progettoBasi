@@ -37,8 +37,8 @@ public class PazienteBean {
 	}
 
 
-	public String getFattori_a_rischio(int pos) {
-		return fattori_a_rischio.get(pos);
+	public ArrayList<String> getFattori_a_rischio() {
+		return fattori_a_rischio;
 	}
 
 

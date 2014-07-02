@@ -1,0 +1,16 @@
+package dbms;
+
+public class PazienteBean {
+
+	private String CODSAN;
+	private String nome; 
+	private String cognome; 
+	nascita 
+	psw 
+	citta 
+	via 
+	prov 
+	cap 
+	civico
+	
+}

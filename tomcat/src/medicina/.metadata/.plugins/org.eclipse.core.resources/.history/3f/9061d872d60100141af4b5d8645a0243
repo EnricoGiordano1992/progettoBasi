@@ -1,10 +1,5 @@
 package dbms;
 
-import java.util.*;
-
-import org.postgresql.util.StreamWrapper;
-
-
 public class PazienteBean {
 
 	private String CODSAN;
@@ -32,18 +27,6 @@ public class PazienteBean {
 		cap = "";
 		civico = "";
 		
-		fattori_a_rischio = new ArrayList<String>();
-		
-	}
-
-
-	public String getFattori_a_rischio(int pos) {
-		return fattori_a_rischio.get(pos);
-	}
-
-
-	public void addFattori_a_rischio(String fattori_a_rischio) {
-		this.fattori_a_rischio.add(fattori_a_rischio);
 	}
 
 
