@@ -18,7 +18,12 @@ public class DBMS {
 	/** Driver da utilizzare per la connessione e l'esecuzione delle query. */
     private String driver = "org.postgresql.Driver";
 
+    
+    private final String queryPrimario =
+    		"select nome, cognome" +
+    		"from primario";
 	
+    private final String query;
 	/*
 	 * 
 	 * codice generico da fare:

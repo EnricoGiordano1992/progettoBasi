@@ -1,0 +1,17 @@
+package dbms;
+
+import java.util.*;
+
+public class PatologieBean {
+
+	private String ICD10;
+	private ArrayList<String> idPaziente;
+	
+	
+	public PatologieBean(){
+		
+		ICD10 = 0;
+		idPaziente = new ArrayList<String>();
+		
+	}
+}

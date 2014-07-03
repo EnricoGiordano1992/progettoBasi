@@ -33152,3 +33152,17 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["ajp-bio-8009"]
+lug 02, 2014 12:53:52 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAZIONI: Stopping service Catalina
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol stop
+INFORMAZIONI: Stopping ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol stop
+INFORMAZIONI: Stopping ProtocolHandler ["ajp-bio-8009"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAZIONI: Destroying ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAZIONI: Destroying ProtocolHandler ["ajp-bio-8009"]

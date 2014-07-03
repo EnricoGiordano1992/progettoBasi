@@ -279,3 +279,17 @@ lug 02, 2014 12:13:26 PM org.apache.catalina.core.StandardContext reload
 INFORMAZIONI: Reloading Context with name [/medicina] has started
 lug 02, 2014 12:13:27 PM org.apache.catalina.core.StandardContext reload
 INFORMAZIONI: Reloading Context with name [/medicina] is completed
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["ajp-bio-8009"]
+lug 02, 2014 12:53:52 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAZIONI: Stopping service Catalina
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol stop
+INFORMAZIONI: Stopping ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol stop
+INFORMAZIONI: Stopping ProtocolHandler ["ajp-bio-8009"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAZIONI: Destroying ProtocolHandler ["http-bio-8080"]
+lug 02, 2014 12:53:52 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAZIONI: Destroying ProtocolHandler ["ajp-bio-8009"]
