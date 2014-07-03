@@ -53,8 +53,7 @@ public class main extends HttpServlet {
 				*/
 
 				//passiamo il bean alla jsp
-				Vector paziente = dbms.getInfoPaziente();
-				PazienteBean p = (PazienteBean) paziente.get(0);
+				PazienteBean p = dbms.getPaziente("bi", "bo");;
 
 				//Aggiungo il Vector come attributo della richiesta HTTP
 				request.setAttribute("info",p);
@@ -66,8 +65,7 @@ public class main extends HttpServlet {
 			if (ps.equals("cartella")) { 
 
 				//passiamo il bean alla jsp
-				Vector cartella = dbms.getInfoCartella();
-				CartellaBean c = (CartellaBean) cartella.get(0);
+				CartellaBean c = dbms.getCartella("bi");
 
 				//Aggiungo il Vector come attributo della richiesta HTTP
 				request.setAttribute("info",c);
@@ -89,7 +87,12 @@ public class main extends HttpServlet {
 			if (ps.equals("personale")) {
 
 				//passiamo il bean alla jsp
-				Vector personale = dbms.getPersonale();
+				Vector personale = new Vector();
+				
+				personale.add(dbms.getPrimarioSpec());
+				
+				for(int i = 0; i < dbms.getPersonaleMedico().size(); i++)
+					personale.add(dbms.getPersonaleMedico().get(i));
 
 				request.setAttribute("persone",personale);
 

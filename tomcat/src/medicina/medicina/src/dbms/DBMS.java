@@ -26,20 +26,20 @@ public class DBMS {
 
 	//query per la pazientepage
 	private final String queryPaziente = 
-			"select p.codsan, p.nome, p.cognome, p.nascita, p.citta, p.via, p.prov, p.cap, p.civico, r.nome, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico" +
+			"select p.codsan, p.nome, p.cognome, p.nascita, p.citta, p.via, p.prov, p.cap, p.civico, r.nome_fattore, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico " +
 					"from paziente as p, rischi_paziente as r, cartella_clinica as c, diagnosi as d, medico as m " +
-					"where and p.codsan = ? " +
+					"where p.codsan = ? " +
 					"and p.psw = ? " +
-					"and p.id_cartella = c.id " +
+					"and p.codsan = c.codsan " +
 					"and p.codsan = r.id_paziente " +
 					"and d.id_paziente = p.codsan " +
-					"and d.id_medico = m.id ";
+					"and d.id_medico = m.id;";
 
 	//query per la cartellapage
 	private final String queryCartella =
 			"select c.*, t.*, d.*, m.nome as nome_medico, m.cognome as cognome_medico " +
-					"from cartella as c, paziente as p, diagnosi as d, terapie as t, medico as m " +
-					"where and c.id = ?" +
+					"from cartella_clinica as c, paziente as p, diagnosi as d, terapie as t, medico as m " +
+					"where c.id = ? " +
 					"and c.id = t.id_cartella " +
 					"and c.codsan = p.codsan " +
 					"and d.id_paziente = p.codsan ;";
@@ -52,11 +52,11 @@ public class DBMS {
 					"and m.id = s.id_medico;";
 
 	private final String queryPersonale =
-			"select m.*, s.nome as nome_spec, count(*) " +
+			"select m.*, s.nome_specializzazione as nome_spec, count(*) " +
 					"from medico as m, spec_del_medico as s, diagnosi as d " +
 					"where m.id = s.id_medico " +
 					"and d.id_medico = m.id " +
-					"group by m.id;";
+					"group by m.id, nome_spec;";
 
 	//query per la patologiepage
 	private final String queryPatologie =
