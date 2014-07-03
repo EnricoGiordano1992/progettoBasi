@@ -1,26 +1,53 @@
 package dbms;
 
+import java.util.*;
+
 public class PrimarioBean {
 	//Definizione dei campi del Bean (variabili private: accessibili solo tramite i metodi get e set)
 	private int id;
 	private String nome;
 	private String cognome;
-	private String primario;
 	private String psw;
 	private String inizio_attivita;
 	private int countDiagnosi;
+	private ArrayList<String> specializzazioni;
 	
 	//Definizione del costruttore del Bean
     public PrimarioBean() {
 		id = 0;
 		nome = ""; 
 		cognome = "";
-		primario = "";
 		psw = "";
 		inizio_attivita = "";
 		countDiagnosi = 0;
+		specializzazioni = new ArrayList<String>();
     }
 
+	public int getCountDiagnosi() {
+		return countDiagnosi;
+	}
+
+	public void setCountDiagnosi(int countDiagnosi) {
+		this.countDiagnosi = countDiagnosi;
+	}
+
+	public ArrayList<String> getSpecializzazioni() {
+		return specializzazioni;
+	}
+
+	public String getSpecializzazioni(int index) {
+		return specializzazioni.get(index);
+	}
+
+	
+	public void setSpecializzazioni(ArrayList<String> specializzazioni) {
+		this.specializzazioni = specializzazioni;
+	}
+
+	public void setSpecializzazioni(String specializzazioni) {
+		this.specializzazioni.add(specializzazioni);
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -43,14 +70,6 @@ public class PrimarioBean {
 
 	public void setCognome(String cognome) {
 		this.cognome = cognome;
-	}
-
-	public String getPrimario() {
-		return primario;
-	}
-
-	public void setPrimario(String primario) {
-		this.primario = primario;
 	}
 
 	public String getPsw() {

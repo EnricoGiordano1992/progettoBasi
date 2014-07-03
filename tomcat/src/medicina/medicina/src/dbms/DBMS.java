@@ -18,12 +18,121 @@ public class DBMS {
 	/** Driver da utilizzare per la connessione e l'esecuzione delle query. */
     private String driver = "org.postgresql.Driver";
 
-    
+    //query per la homepage
     private final String queryPrimario =
-    		"select nome, cognome" +
-    		"from primario";
+    		"select nome, cognome " +
+    		"from medico as m, primario as p " +
+    		"where p.id = medico.id;";
+
+    //query per la pazientepage
+    private final String queryPaziente = 
+    		"select p.*, r.nome, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico" +
+    		"from paziente as p, rischi_paziente as r, cartella_clinica as c, diagnosi as d, medico as m " +
+    		"where p.id_cartella = c.id " +
+    		"and p.codsan = r.id_paziente " +
+    		"and d.id_paziente = p.codsan " +
+    		"and d.id_medico = m.id;";
+    
+    //query per la cartellapage
+    private final String queryCartella =
+    		"select c.*, t.*, d.*, m.nome as nome_medico, m.cognome as cognome_medico " +
+    		"from cartella as c, paziente as p, diagnosi as d, terapie as t, medico as m " +
+    		"where c.id = t.id_cartella " +
+    		"and c.codsan = p.codsan " +
+    		"and d.id_paziente = p.codsan;";
+    
+    //query per la personalepage
+    private final String querySpecPrimario =
+    		"select nome, cognome " +
+    		"from medico as m, primario as p, spec_del_medico as s " +
+    		"where p.id = m.id " +
+    		"and m.id = s.id_medico;";
+
+    
+    private final String queryPersonale =
+    		"select m.*, s.nome as nome_spec, count(*) " +
+    		"from medico as m, spec_del_medico as s, diagnosi as d " +
+    		"where m.id = s.id_medico " +
+    		"and d.id_medico = m.id " +
+    		"group by m.id;";
+    
+    //query per la patologiepage
+    private final String queryPatologie =
+    		"select d.icd10, p.codsan " +
+    		"from diagnosi as d, paziente as p " +
+    		"where p.codsan = d.id_paziente;";
+    
+
+    
+
+    /***************
+     * 
+     *  METODI MAKEBEAN
+     * 
+     */
+
+    //per homepage
+	private PrimarioBean makePrimarioBean(ResultSet rs) throws SQLException {
 	
-    private final String query;
+		PrimarioBean bean = new PrimarioBean();
+		bean.setId(rs.getInt("id"));
+		bean.setNome(rs.getString("nome"));
+		bean.setCognome(rs.getString("cognome"));
+		return bean;
+    }
+
+    
+	//per pazientepage
+	private PazienteBean makePazienteBean(ResultSet rs) throws SQLException {
+		
+		PazienteBean bean = new PazienteBean();
+		bean.setCODSAN(rs.getString("codsan"));
+		bean.setNome(rs.getString("nome"));
+		
+		return bean;
+	}
+    
+    
+    /***************
+     * 
+     *  METODI GET
+     * 
+     */
+    
+    
+	public String getQualcosa() {
+	// Dichiarazione delle variabili
+	Connection con = null;
+	Statement stmt = null;
+	ResultSet rs = null;
+	String result="";
+	try {
+		// Tentativo di connessione al database
+		con = DriverManager.getConnection(url, user, passwd);
+		// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
+		stmt = con.createStatement();
+		// Eseguo l'interrogazione desiderata
+		rs = stmt.executeQuery("stringa query");
+		// Memorizzo il risultato dell'interrogazione nel Vector
+		if(rs.next())
+			result = (rs.getString("Nome"))+ "  " +(rs.getString("Cognome"));
+	} catch(SQLException sqle) {                
+		sqle.printStackTrace();
+	} finally {                                 
+		try {
+			con.close();
+		} catch(SQLException sqle1) {
+			sqle1.printStackTrace();
+		}
+	}
+	return result;
+}
+
+
+    
+    
+    
+    
 	/*
 	 * 
 	 * codice generico da fare:
