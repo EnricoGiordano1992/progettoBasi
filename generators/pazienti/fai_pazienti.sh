@@ -1,2 +1,2 @@
-./genNomi.jar > paziente.sql;
+java -jar genNomi.jar > paziente.sql;
 cp paziente.sql ../../database/;

@@ -420,3 +420,12 @@ java.io.FileNotFoundException: /home/accounts/studenti/id637fga/progettoBasi/tom
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-07-03 19:41:33.873 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=it_IT
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/enrico/progettoBasi/tomcat/src/medicina
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-07-03 19:41:36.086
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

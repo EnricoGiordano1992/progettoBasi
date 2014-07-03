@@ -21,8 +21,8 @@ public class DBMS {
 	//query per la homepage
 	private final String queryPrimario =
 			"select nome, cognome " +
-					"from medico as m, primario as p " +
-					"where p.id = medico.id;";
+					"from medico as m " +
+					"where m.primario = 'si';";
 
 	//query per la pazientepage
 	private final String queryPaziente = 
@@ -47,10 +47,9 @@ public class DBMS {
 	//query per la personalepage
 	private final String querySpecPrimario =
 			"select nome, cognome " +
-					"from medico as m, primario as p, spec_del_medico as s " +
-					"where p.id = m.id " +
+					"from medico as m, spec_del_medico as s " +
+					"where m.primario = 'si' " +
 					"and m.id = s.id_medico;";
-
 
 	private final String queryPersonale =
 			"select m.*, s.nome as nome_spec, count(*) " +

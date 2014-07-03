@@ -146,7 +146,7 @@ CREATE TABLE MEDICO (
     ID                  VARCHAR(30)     NOT NULL,
     NOME                VARCHAR(30)     NOT NULL,
     COGNOME             VARCHAR(30)     NOT NULL,
-    PRIMARIO            VARCHAR(30)     NOT NULL,
+    PRIMARIO            VARCHAR(2)     NOT NULL,
     PSW                 VARCHAR(30)     NOT NULL,
     INIZIO_ATTIVITA     DATE            NOT NULL,
 

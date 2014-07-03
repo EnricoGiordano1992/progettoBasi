@@ -10,13 +10,13 @@ cp pazienti/paziente.sql sintomi_diagnosi_conferme_contraddizioni/
 cp pazienti/paziente.sql fattoriRischioERischioPaziente/
 
 echo genero le cartelle cliniche...
-cd cartelleCliniche/bin
-java main > cartelle_cliniche.sql
-cd ../..
+cd cartelleCliniche
+java -jar cartelleCliniche.jar > cartelle_cliniche.sql
+cd ../
 
 echo copio cartelle_cliniche.sql dove serve...
-cp cartelleCliniche/bin/cartelle_cliniche.sql ../database
-cp cartelleCliniche/bin/cartelle_cliniche.sql terapie/terapie
+cp cartelleCliniche/cartelle_cliniche.sql ../database
+cp cartelleCliniche/cartelle_cliniche.sql terapie/terapie
 
 echo genero le terapie...
 cd terapie/terapie/

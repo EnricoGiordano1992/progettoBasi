@@ -27,6 +27,16 @@ public class medico_specializzazioni_specdelmedico {
 			primario.add(newNome(cas_nom) + " " + newCognome(cas_cogn, randBetween(1, 5)));
 		}
 		writer.close();
+		
+		ArrayList<String> isPrimario = new ArrayList<String>();
+		int positionPrimario = randBetween(0, 99);
+		
+		for(int i = 0; i<100; i++)
+			if(i != positionPrimario)
+				isPrimario.add("no");
+			else
+				isPrimario.add("si");
+		
 		for(int i = 0; i<100; i++)
 			medico_nome.add(newNome(cas_nom));
 		for(int i = 0; i<100; i++)
@@ -65,7 +75,7 @@ public class medico_specializzazioni_specdelmedico {
 			String psw = newCognome(cas_cogn, randBetween(1, 3)) + "@" + newCognome(cas_cogn, randBetween(1, 2));
 			String cf = calcoloCodiceFiscale(medico_nome.get(i), medico_cognome.get(i));
 			writerMedico.println("INSERT INTO MEDICO VALUES ('" + cf + "', '" + medico_nome.get(i) + "', '" + medico_cognome.get(i) +
-					"', '" + primario.get(specIndex) + "', '" + psw + "', '" + randBetween(1950, 1989)+"-"+randBetween(1, 12)+"-"+randBetween(1, 28)+"');");
+					"', '" + isPrimario.get(i) + "', '" + psw + "', '" + randBetween(1950, 1989)+"-"+randBetween(1, 12)+"-"+randBetween(1, 28)+"');");
 //				System.out.println("ID:"+calcoloCodiceFiscale(medico_nome.get(i), medico_cognome.get(i))+",N:"+medico_nome.get(i)+
 //						"-C:"+medico_cognome.get(i)+"-P:" + primario.get(specIndex) + ",PSW:"+psw+
 //						",INIT:"+gc.get(Calendar.YEAR)+"-"+gc.get(Calendar.MONTH)+"-"+gc.get(Calendar.DAY_OF_MONTH));
