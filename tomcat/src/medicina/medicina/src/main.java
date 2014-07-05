@@ -49,7 +49,7 @@ public class main extends HttpServlet {
 				//prendo da ps user e password				
 				String user = request.getParameter("user");
 				String pw = request.getParameter("password");
-				p = dmbs.PazienteLogin(user, pw);			
+				String p = dbms.PazienteLogin(user, pw);			
 
 				if(p.equals(""))
 					;//gestione errore
@@ -82,7 +82,7 @@ public class main extends HttpServlet {
 				//prendo da ps user e password				
 				String user = request.getParameter("user");
 				String pw = request.getParameter("password");
-				p = dmbs.PazienteLogin(user, pw);			
+				String p = dbms.PazienteLogin(user, pw);			
 
 				if(p.equals(""))
 					;//gestione errore
