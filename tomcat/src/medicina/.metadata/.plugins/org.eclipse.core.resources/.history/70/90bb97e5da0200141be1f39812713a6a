@@ -35,8 +35,14 @@ public class main extends HttpServlet {
 			if (ps.equals("")) {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
+				//recupero il nome del primario dal database
+				String primario = dbms.getPrimario();
+
+				//Aggiungo la stringa come attributo della richiesta HTTP
+				request.setAttribute("primario",primario);
+
 				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("../HomePage.jsp");
+				rd = request.getRequestDispatcher("../Homepage.jsp");
 			}			
 
 			if (ps.equals("paziente")) { 
@@ -46,51 +52,47 @@ public class main extends HttpServlet {
 				Recupero il risultato della query come bean
 				*/
 
-				//prendo da ps user e password				
-				String user = request.getParameter("user");
-				String pw = request.getParameter("password");
-				p = dmbs.PazienteLogin(user, pw);			
+				//passiamo il bean alla jsp
+				PazienteBean p = dbms.getPaziente("bi", "bo");;
 
-				if(p.equals(""))
-					;//gestione errore
-				else {
 				//Aggiungo il Vector come attributo della richiesta HTTP
-				request.setAttribute("codsan",p);
+				request.setAttribute("info",p);
 
 				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("../PazientePage.jsp");
-				}	
+				rd = request.getRequestDispatcher("../PazientePage.jsp");	
 			}
 
 			if (ps.equals("cartella")) { 
 
-				String c = request.getParameter("cartella");
+				//passiamo il bean alla jsp
+				CartellaBean c = dbms.getCartella("bi");
 
 				//Aggiungo il Vector come attributo della richiesta HTTP
-				request.setAttribute("cartell",c);
+				request.setAttribute("info",c);
 				//Preparo il Dispatcher
 				rd = request.getRequestDispatcher("../CartellaPage.jsp");
 			}
 
 			if (ps.equals("patologie")) { 
 
+				//passiamo il bean alla jsp
+				Vector patologie = dbms.getPatologie();
+
+				request.setAttribute("patologie",patologie);
+
 				//Preparo il Dispatcher
 				rd = request.getRequestDispatcher("../PatologiePage.jsp");
 
 			}
 			if (ps.equals("personale")) {
-				//prendo da ps user e password				
-				String user = request.getParameter("user");
-				String pw = request.getParameter("password");
-				p = dmbs.PazienteLogin(user, pw);			
 
-				if(p.equals(""))
-					;//gestione errore
-				else {
-				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("../DiagnosiPage.jsp");
+				//passiamo il bean alla jsp
+				Vector personale = new Vector<PersonaleBean>();
+				
+				for(int i = 0; i < dbms.getPersonaleMedico().size(); i++)
+					personale.add(dbms.getPersonaleMedico().get(i));
 
-				}
+				request.setAttribute("persone",personale);
 
 			}
 

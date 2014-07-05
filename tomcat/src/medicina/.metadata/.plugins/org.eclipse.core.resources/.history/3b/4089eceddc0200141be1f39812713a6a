@@ -13,8 +13,7 @@ public class DBMS {
 	private String passwd = "sediciLS";
 
 	/*<protocollo>://<host del server>/<nome base di dati>.*/
-	//private String url = "jdbc:postgresql://dbserver.sci.univr.it/did2014";
-	private String url = "jdbc:postgresql://localhost/mydb";
+	private String url = "jdbc:postgresql://dbserver.sci.univr.it/did2014";
 
 	/** Driver da utilizzare per la connessione e l'esecuzione delle query. */
 	private String driver = "org.postgresql.Driver";
@@ -26,13 +25,11 @@ public class DBMS {
 					"where m.primario = 'si';";
 
 	//query per la pazientepage
-	private final String queryLoginPaziente =
-			"select codsan from paziente as p where p.codsan = ? and p.psw = ?";
-
 	private final String queryPaziente = 
 			"select p.codsan, p.nome, p.cognome, p.nascita, p.citta, p.via, p.prov, p.cap, p.civico, r.nome_fattore, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico " +
 					"from paziente as p, rischi_paziente as r, cartella_clinica as c, diagnosi as d, medico as m " +
 					"where p.codsan = ? " +
+					"and p.psw = ? " +
 					"and p.codsan = c.codsan " +
 					"and p.codsan = r.id_paziente " +
 					"and d.id_paziente = p.codsan " +
@@ -41,8 +38,8 @@ public class DBMS {
 	//query per la cartellapage
 	private final String queryCartella =
 			"select c.*, t.*, d.*, m.nome as nome_medico, m.cognome as cognome_medico " +
-					"from cartella_clinica as c, paziente as p, diagnosi as d, terapie as t, medico as m " +
-					"where c.id = ? " +
+					"from cartella as c, paziente as p, diagnosi as d, terapie as t, medico as m " +
+					"where and c.id = ?" +
 					"and c.id = t.id_cartella " +
 					"and c.codsan = p.codsan " +
 					"and d.id_paziente = p.codsan ;";
@@ -55,11 +52,11 @@ public class DBMS {
 					"and m.id = s.id_medico;";
 
 	private final String queryPersonale =
-			"select m.*, s.nome_specializzazione as nome_spec, count(*) " +
+			"select m.*, s.nome as nome_spec, count(*) " +
 					"from medico as m, spec_del_medico as s, diagnosi as d " +
 					"where m.id = s.id_medico " +
 					"and d.id_medico = m.id " +
-					"group by m.id, nome_spec;";
+					"group by m.id;";
 
 	//query per la patologiepage
 	private final String queryPatologie =
@@ -122,7 +119,7 @@ public class DBMS {
 
 	//query per la pazientepage
 	//con prepare statement
-	public PazienteBean getPaziente(String codsan){
+	public PazienteBean getPaziente(String codsan, String password){
 		// Dichiarazione delle variabili necessarie
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -136,6 +133,7 @@ public class DBMS {
 			pstmt.clearParameters();
 			//Imposto i parametri della query dinamicamente
 			pstmt.setString(1, codsan);
+			pstmt.setString(2, password); 
 			//Eseguo la query
 			rs=pstmt.executeQuery(); 
 			// Memorizzo il risultato dell'interrogazione in Vector di Bean
@@ -154,42 +152,8 @@ public class DBMS {
 
 	}
 
-
-	//con prepare statement
-	public String PazienteLogin(String codsan, String password){
-		// Dichiarazione delle variabili necessarie
-		Connection con = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		String result = "";	
-		try {
-			// Tentativo di connessione al database
-			con = DriverManager.getConnection(url, user, passwd);
-			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryPaziente); 
-			pstmt.clearParameters();
-			//Imposto i parametri della query dinamicamente
-			pstmt.setString(1, codsan);
-			pstmt.setString(2, password); 
-			//Eseguo la query
-			rs=pstmt.executeQuery(); 
-			// Memorizzo il risultato dell'interrogazione in Vector di Bean
-			while(rs.next())
-				result = rs.getString("codsan");
-		} catch(SQLException sqle) {                
-			sqle.printStackTrace();
-		} finally {                                 
-			try {
-				con.close();
-			} catch(SQLException sqle1) {
-				sqle1.printStackTrace();
-			}
-		}
-		return result;
-
-
 	
-	//query per la cartellaPage
+	//query per la pazientepage
 	//con prepare statement
 	public CartellaBean getCartella(String id){
 		// Dichiarazione delle variabili necessarie
