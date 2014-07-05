@@ -146,8 +146,15 @@ public class DBMS {
 		return bean;
 	}
 	
-
-
+	//per patologiepage
+	private PatologieBean makePatologieBean(ResultSet rs) throws SQLException {
+			
+		PatologieBean bean = new PatologieBean();
+		bean.setICD10(rs.getString("icd10"));
+		bean.setIdPaziente(rs.getString("id_paziente"));
+		return bean;
+	}
+	
 	/***************
 	 * 
 	 *  METODI GET
