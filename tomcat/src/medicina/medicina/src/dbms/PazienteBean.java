@@ -17,8 +17,18 @@ public class PazienteBean {
 	private String prov;
 	private String cap; 
 	private String civico;
-	private ArrayList<String> fattori_a_rischio;
+	private String fattori_a_rischio;
 	
+	public String getFattori_a_rischio() {
+		return fattori_a_rischio;
+	}
+
+
+	public void setFattori_a_rischio(String fattori_a_rischio) {
+		this.fattori_a_rischio = fattori_a_rischio;
+	}
+
+
 	public PazienteBean(){
 		
 		CODSAN = "";
@@ -32,19 +42,10 @@ public class PazienteBean {
 		cap = "";
 		civico = "";
 		
-		fattori_a_rischio = new ArrayList<String>();
+		fattori_a_rischio = "";
 		
 	}
 
-
-	public String getFattori_a_rischio(int pos) {
-		return fattori_a_rischio.get(pos);
-	}
-
-
-	public void addFattori_a_rischio(String fattori_a_rischio) {
-		this.fattori_a_rischio.add(fattori_a_rischio);
-	}
 
 
 	public String getCODSAN() {

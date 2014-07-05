@@ -105,6 +105,8 @@ public class DBMS {
 		bean.setProv(rs.getString("prov"));
 		bean.setPsw(rs.getString("psw"));
 		bean.setVia(rs.getString("via"));
+		bean.setFattori_a_rischio(rs.getString("nome_fattore"));
+		
 		return bean;
 	}
 	
