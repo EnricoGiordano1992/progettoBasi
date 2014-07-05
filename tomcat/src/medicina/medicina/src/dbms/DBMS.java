@@ -68,6 +68,9 @@ public class DBMS {
 					"where p.codsan = d.id_paziente;";
 
 
+	//query per la diagnosipage
+	private final String queryMedicoLogin =
+			"select id from medico as m where m.id = ? and p.psw = ?";
 
 
 	/***************
@@ -77,7 +80,70 @@ public class DBMS {
 	 */
 
 
+	//per homepage
+	private PrimarioBean makePrimarioBean(ResultSet rs) throws SQLException {
+	
+		PrimarioBean bean = new PrimarioBean();
+		bean.setId(rs.getInt("id"));
+		bean.setNome(rs.getString("nome"));
+		bean.setCognome(rs.getString("cognome"));
+		return bean;
+    }
 
+    
+	//per pazientepage
+	private PazienteBean makePazienteBean(ResultSet rs) throws SQLException {
+		
+		PazienteBean bean = new PazienteBean();
+		bean.setCODSAN(rs.getString("codsan"));
+		bean.setNome(rs.getString("nome"));
+		bean.setCap(rs.getString("cap"));
+		bean.setCitta(rs.getString("citta"));
+		bean.setCivico(rs.getString("civico"));
+		bean.setCognome(rs.getString("cognome"));
+		bean.setNascita(rs.getString("nascita"));
+		bean.setProv(rs.getString("prov"));
+		bean.setPsw(rs.getString("psw"));
+		bean.setVia(rs.getString("via"));
+		return bean;
+	}
+	
+	//per cartellapage
+	private CartellaBean makeCartellaBean(ResultSet rs) throws SQLException {
+			
+			CartellaBean bean = new CartellaBean();
+			bean.setCodice(rs.getString("id"));
+			bean.setData(rs.getString("data_ricovero"));
+			bean.setDataDimissione(rs.getString("data_dimissione"));
+			bean.setDiagnosi_data(rs.getString("data"));
+			bean.setDiagnosi_icd10(rs.getString("icd10"));
+			bean.setDiagnosi_patologia(rs.getString("patologia"));
+			bean.setMedicoCognome(rs.getString("cognome_medico"));
+			bean.setMedicoNome(rs.getString("nome_medico"));
+			bean.setMotivo(rs.getString("motivo"));
+			bean.setPrognosi(rs.getString("prognosi"));
+			bean.setTerapie_dosi(rs.getString("dosi"));
+			bean.setTerapie_farmaco(rs.getString("farmaco"));
+			bean.setTerapie_fine(rs.getString("fine"));
+			bean.setTerapie_frequenza(rs.getString("frequenza"));
+			bean.setTerapie_id_cartella(rs.getString("id_cartella"));
+			bean.setTerapie_inizio(rs.getString("inizio"));
+			return bean;
+	}
+	
+	//per personalepage
+	private PersonaleBean makePersonaleBean(ResultSet rs) throws SQLException {
+		
+		PersonaleBean bean = new PersonaleBean();
+		bean.setNome(rs.getString("nome"));
+		bean.setCognome(rs.getString("cognome"));
+		bean.setInizio(rs.getString("inizio_attivita"));
+		bean.setSpecializzazioni(rs.getString("nome_spec"));
+		//da controllare
+		bean.setDiagnosi(rs.getInt("count"));
+		return bean;
+	}
+	
 
 
 	/***************
@@ -166,7 +232,7 @@ public class DBMS {
 			// Tentativo di connessione al database
 			con = DriverManager.getConnection(url, user, passwd);
 			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryPaziente); 
+			pstmt = con.prepareStatement(queryLoginPaziente); 
 			pstmt.clearParameters();
 			//Imposto i parametri della query dinamicamente
 			pstmt.setString(1, codsan);
@@ -186,7 +252,7 @@ public class DBMS {
 			}
 		}
 		return result;
-
+	}
 
 	
 	//query per la cartellaPage
@@ -325,6 +391,41 @@ public class DBMS {
 
 	}
 
+	
+	//query per la diagnosipage
+	//con prepare statement
+	public String MedicoLogin(String id, String pw){
+		// Dichiarazione delle variabili necessarie
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String result = "";	
+		try {
+			// Tentativo di connessione al database
+			con = DriverManager.getConnection(url, user, passwd);
+			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
+			pstmt = con.prepareStatement(queryMedicoLogin); 
+			pstmt.clearParameters();
+			//Imposto i parametri della query dinamicamente
+			pstmt.setString(1, id);
+			pstmt.setString(2, pw);
+			//Eseguo la query
+			rs=pstmt.executeQuery(); 
+			// Memorizzo il risultato dell'interrogazione in Vector di Bean
+			while(rs.next())
+				result = rs.getString("id");
+		} catch(SQLException sqle) {                
+			sqle.printStackTrace();
+		} finally {                                 
+			try {
+				con.close();
+			} catch(SQLException sqle1) {
+				sqle1.printStackTrace();
+			}
+		}
+		return result;
+
+	}
 	
 	
 }

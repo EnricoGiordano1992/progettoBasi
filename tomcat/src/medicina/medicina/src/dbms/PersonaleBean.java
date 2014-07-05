@@ -7,7 +7,7 @@ public class PersonaleBean {
 	private String nome;
 	private String cognome;
 	private String inizio;
-	private ArrayList<String> specializzazioni;
+	private String specializzazioni;
 	private int diagnosi;
 	
 	//Definizione del costruttore del Bean
@@ -15,7 +15,7 @@ public class PersonaleBean {
 		nome = ""; 
 		cognome = "";
 		inizio = "";
-		specializzazioni = new ArrayList<String>();
+		specializzazioni = "";
 		diagnosi = 0;
     }
     
@@ -43,11 +43,11 @@ public class PersonaleBean {
 		this.inizio = inizio;
 	}
 
-	public ArrayList<String> getSpecializzazioni() {
+	public String getSpecializzazioni() {
 		return specializzazioni;
 	}
 
-	public void setSpecializzazioni(ArrayList<String> specializzazioni) {
+	public void setSpecializzazioni(String specializzazioni) {
 		this.specializzazioni = specializzazioni;
 	}
 
