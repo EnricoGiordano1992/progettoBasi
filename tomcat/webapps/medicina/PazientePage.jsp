@@ -14,28 +14,26 @@
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
     String paziente;
-    if (request.getParameter("paziente") != null) // Ottengo se presente il parametro 'idDip'
-	    paziente = (String)request.getParameter("paziente");
+
+%>
+	<%= request.getParameter("user") %>
+<%
+    if (request.getParameter("user") != null) // Ottengo se presente il parametro 'idDip'
+	    paziente = (String)request.getParameter("user");
     else
 	    paziente = "";
 
-    //A seconda della presenza o meno del parametro la JSP varia il proprio comportamento
-    if (paziente.equals("")) {  //parametro vuoto o assente: messaggio d'errore
 
-%> 
-	    <h2>Inserire il codice per gestire la mancanza del parametro idDip</h2>
-       
-
-<%
-    } else { 
+    PazienteBean p = dbms.getPaziente(paziente); 
 %>
-
-<%          PazienteBean p = dbms.getPaziente(paziente); %>
 
 
 <title>PazientePage</title>
 
 <body>
+
+<%= p.getNome()  %>
+<%= p.getCognome()  %>
 
 qui si fanno tutti i get
 

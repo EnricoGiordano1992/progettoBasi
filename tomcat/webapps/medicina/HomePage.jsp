@@ -25,7 +25,7 @@
 
     <h3> Primario <%= primario %> </h3>
 
-	<form action="?" >
+	<form action="?" method="post" >
 	Codice Sanitario: <input type="text" name="user"><br>
 	Password: <input type="password" name="password">
 	<br>

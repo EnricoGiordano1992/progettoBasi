@@ -22,6 +22,9 @@ public class main extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 		response.setContentType("text/html; charset=ISO-8859-1");
+
+		//stringa ottenuta dal login paziente
+		String p = "";
 		
 		//Definizione e recupero dell'eventuale parametro della servlet
 		String ps = "";
@@ -31,9 +34,6 @@ public class main extends HttpServlet {
 		if (request.getParameter("ps") != null) {// Ottengo se presente il parametro 'ps'
 			ps = request.getParameter("ps");
 		}
-		
-		out.print("<br>ecco ps: " + ps);
-
 
 		try {
 			// Oggetto per l'interazione con il Database
@@ -41,8 +41,28 @@ public class main extends HttpServlet {
 			if (ps.equals("")) {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
-				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("HomePage.jsp");
+				if (request.getParameter("user") != null && request.getParameter("password") != null) {
+
+					//controllo se user e password sono giusti (vengono passati dal form)
+					String user = "";
+					String password = "";
+
+					user = request.getParameter("user");
+					password = request.getParameter("password");
+
+					p = dbms.PazienteLogin(user, password);			
+
+					if(p.equals(""))
+						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
+								"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+					else 
+						ps = "paziente";
+
+				}
+				else
+
+					//Preparo il Dispatcher
+					rd = request.getRequestDispatcher("HomePage.jsp");
 
 			}			
 
@@ -51,22 +71,10 @@ public class main extends HttpServlet {
 				visualizzo le informazioni di dettaglio del dipartimento
 				Delego l'esecuzione della query alla classe di interazione con il DB
 				Recupero il risultato della query come bean
-				*/
+				 */
 
-				//prendo da ps user e password				
-				String user = request.getParameter("user");
-				String pw = request.getParameter("password");
-				String p = dbms.PazienteLogin(user, pw);			
-
-				if(p.equals(""))
-					;//gestione errore
-				else {
-				//Aggiungo il Vector come attributo della richiesta HTTP
-				request.setAttribute("codsan",p);
-
-				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("PazientePage.jsp");
-				}	
+					//Preparo il Dispatcher
+					rd = request.getRequestDispatcher("PazientePage.jsp");
 			}
 
 			if (ps.equals("cartella")) { 
@@ -87,17 +95,8 @@ public class main extends HttpServlet {
 			}
 			if (ps.equals("personale")) {
 				//prendo da ps user e password				
-				String user = request.getParameter("user");
-				String pw = request.getParameter("password");
-				String p = dbms.PazienteLogin(user, pw);			
-
-				if(p.equals(""))
-					;//gestione errore
-				else {
-				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("DiagnosiPage.jsp");
-
-				}
+					//Preparo il Dispatcher
+					rd = request.getRequestDispatcher("DiagnosiPage.jsp");
 
 			}
 
@@ -108,5 +107,75 @@ public class main extends HttpServlet {
 			e.printStackTrace();
 		}
 	}
+	
+	
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws IOException, ServletException {
+		
+		PrintWriter out = response.getWriter();
+		response.setContentType("text/html; charset=ISO-8859-1");
+
+		//stringa ottenuta dal login paziente
+		String p = "";
+		
+		//Definizione e recupero dell'eventuale parametro della servlet
+		String ps = "";
+		//Dichiaro l'oggetto Dispatcher necessario per passare il controllo ad una JSP o una pagina HTML
+		RequestDispatcher rd = null;
+
+		if (request.getParameter("ps") != null) {// Ottengo se presente il parametro 'ps'
+			ps = request.getParameter("ps");
+		}
+
+		try {
+			// Oggetto per l'interazione con il Database
+			DBMS dbms = new DBMS();
+			if (ps.equals("")) {
+				// Parametro ps assente o vuoto, visualizzo la home page del sito.
+
+				if (request.getParameter("user") != null && request.getParameter("password") != null) {
+
+					//controllo se user e password sono giusti (vengono passati dal form)
+					String user = "";
+					String password = "";
+
+					user = request.getParameter("user");
+					password = request.getParameter("password");
+
+					p = dbms.PazienteLogin(user, password);			
+
+					if(p.equals(""))
+						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
+								"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+					else 
+						ps = "paziente";
+
+				}
+				else
+
+					//Preparo il Dispatcher
+					rd = request.getRequestDispatcher("HomePage.jsp");
+
+			}			
+
+			if (ps.equals("paziente")) { 
+				/*
+				visualizzo le informazioni di dettaglio del dipartimento
+				Delego l'esecuzione della query alla classe di interazione con il DB
+				Recupero il risultato della query come bean
+				 */
+
+					//Preparo il Dispatcher
+					rd = request.getRequestDispatcher("PazientePage.jsp");
+			}
+
+			//Passo il controllo alla JSP
+			rd.forward(request,response);
+
+		} catch(Exception e) {  //Gestisco eventuali eccezioni visualizzando lo stack delle chiamate
+			e.printStackTrace();
+		}
+	}
+
 }
 
