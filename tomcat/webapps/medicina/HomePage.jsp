@@ -4,19 +4,16 @@
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="dbms.*"%>
-<%@page errorPage="error.jsp"%>
 <%@page isErrorPage="false" %>
 <html>
 <% 
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
     
-<% 
-            String primario = dbms.getPrimario(); %>
+    String primario = dbms.getPrimario(); 
 
-<%
-            IdDidBean iddidb;
 %>
+
 
 <title>HomePage</title>
 
@@ -28,7 +25,7 @@
 
     <h3> Primario <%= primario %> </h3>
 
-	<form action="paziente" target="PazientePage.jsp">
+	<form action="?" >
 	Codice Sanitario: <input type="text" name="user"><br>
 	Password: <input type="password" name="password">
 	<br>
@@ -36,7 +33,7 @@
 	</form>
 
 
-	<form action="medico" target="DiagnosiPage.jsp">
+	<form action="medico" >
 	ID medico: <input type="text" name="user"><br>
 	Password: <input type="password" name="password">
 	<br>

@@ -9,12 +9,15 @@ import java.util.*;
  */
 public class DBMS {
 
-	private String user = "userlab16";
-	private String passwd = "sediciLS";
+//	private String user = "userlab16";
+//	private String passwd = "sediciLS";
 
+	private String user = "enrico";
+	private String passwd = "postgres";
+	
 	/*<protocollo>://<host del server>/<nome base di dati>.*/
 	//private String url = "jdbc:postgresql://dbserver.sci.univr.it/did2014";
-	private String url = "jdbc:postgresql://localhost/mydb";
+	private String url = "jdbc:postgresql://localhost:5432/mydb";
 
 	/** Driver da utilizzare per la connessione e l'esecuzione delle query. */
 	private String driver = "org.postgresql.Driver";
@@ -73,6 +76,13 @@ public class DBMS {
 			"select id from medico as m where m.id = ? and p.psw = ?";
 
 
+	
+	
+    public DBMS() throws ClassNotFoundException {
+		Class.forName(driver);
+    }
+
+	
 	/***************
 	 * 
 	 *  METODI MAKEBEAN

@@ -2,7 +2,6 @@ package dbms;
 
 import java.util.*;
 
-import org.postgresql.util.StreamWrapper;
 
 
 public class PazienteBean {
@@ -42,7 +41,6 @@ public class PazienteBean {
 		cap = "";
 		civico = "";
 		
-		fattori_a_rischio = "";
 		
 	}
 
