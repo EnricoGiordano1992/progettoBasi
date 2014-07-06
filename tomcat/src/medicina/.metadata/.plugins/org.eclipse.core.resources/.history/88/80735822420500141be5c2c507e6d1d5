@@ -73,10 +73,8 @@ public class DBMS {
 
 	//query per la diagnosipage
 	private final String queryMedicoLogin =
-			"select id from medico as m where m.id = ? and m.psw = ?;";
+			"select id from medico as m where m.id = ? and p.psw = ?";
 
-	private final String queryMedicoLoginOk =
-			"select nome,cognome from medico as m where m.id = ?;";
 
 	
 	
@@ -449,7 +447,7 @@ public class DBMS {
 	
 	
 	//con prepare statement
-	public String getMedico(String id){
+	public String MedicoLogin(String id){
 		// Dichiarazione delle variabili necessarie
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -459,15 +457,16 @@ public class DBMS {
 			// Tentativo di connessione al database
 			con = DriverManager.getConnection(url, user, passwd);
 			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryMedicoLoginOk); 
+			pstmt = con.prepareStatement(queryMedicoLogin); 
 			pstmt.clearParameters();
 			//Imposto i parametri della query dinamicamente
 			pstmt.setString(1, id);
+			pstmt.setString(2, pw);
 			//Eseguo la query
 			rs=pstmt.executeQuery(); 
 			// Memorizzo il risultato dell'interrogazione in Vector di Bean
 			while(rs.next())
-				result = rs.getString("nome") + " " + rs.getString("cognome");
+				result = rs.getString("id");
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 

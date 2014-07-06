@@ -25,15 +25,19 @@
 
     <h3> Primario <%= primario %> </h3>
 
-	<form action="?" method="post" >
+	<form action="?ps=paziente" method="post" >
 	Codice Sanitario: <input type="text" name="user"><br>
 	Password: <input type="password" name="password">
 	<br>
 	<input type="submit">
 	</form>
 
-
-	<form action="medico" >
+	<br> <a href="?ps=personale">Personale medico </a>
+	<br>
+	<br> <a href="?ps=patologie">Patologie diagnosticate </a>
+	<br>
+	<br>
+	<form action="?ps=medico" method="post" >
 	ID medico: <input type="text" name="user"><br>
 	Password: <input type="password" name="password">
 	<br>

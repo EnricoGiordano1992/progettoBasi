@@ -13,15 +13,15 @@
 <% 
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
-    String paziente;
+    String medico;
 
     if (request.getParameter("user") != null)
-	    paziente = (String)request.getParameter("user");
+	    medico = (String)request.getParameter("user");
     else
-	    paziente = "";
+	    medico = "";
 
 
-    PazienteBean p = dbms.getPaziente(paziente); 
+    String iAm = dbms.getMedico(medico); 
 %>
 
 
@@ -29,11 +29,11 @@
 
 <body>
 
+<h2> Benvenuto <%= iAm %> </h2>
 
-<%= p.getNome()  %>
-<%= p.getCognome()  %>
+<h3> inserire la diagnosi </h3>
 
-<a href="?ps=cartella&cartella=<%= p.getCODSAN() %>"> <%= p.getCODSAN() %> </a>
+
 
 </body>
 </html>

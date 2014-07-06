@@ -51,7 +51,8 @@ public class main extends HttpServlet {
 
 				String c = request.getParameter("cartella");
 
-				request.setAttribute("cartella",c);
+				//Aggiungo il Vector come attributo della richiesta HTTP
+				request.setAttribute("cartell",c);
 				//Preparo il Dispatcher
 				rd = request.getRequestDispatcher("CartellaPage.jsp");
 			}
@@ -125,6 +126,10 @@ public class main extends HttpServlet {
 						rd = request.getRequestDispatcher("PazientePage.jsp");
 
 				}
+				else
+					out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
+							"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+
 			}
 
 			if (ps.equals("medico")) { 

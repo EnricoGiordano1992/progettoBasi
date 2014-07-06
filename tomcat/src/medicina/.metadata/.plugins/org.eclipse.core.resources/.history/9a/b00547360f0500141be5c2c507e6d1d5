@@ -73,10 +73,8 @@ public class DBMS {
 
 	//query per la diagnosipage
 	private final String queryMedicoLogin =
-			"select id from medico as m where m.id = ? and m.psw = ?;";
+			"select id from medico as m where m.id = ? and p.psw = ?";
 
-	private final String queryMedicoLoginOk =
-			"select nome,cognome from medico as m where m.id = ?;";
 
 	
 	
@@ -115,6 +113,7 @@ public class DBMS {
 		bean.setCognome(rs.getString("cognome"));
 		bean.setNascita(rs.getString("nascita"));
 		bean.setProv(rs.getString("prov"));
+		bean.setPsw(rs.getString("psw"));
 		bean.setVia(rs.getString("via"));
 		bean.setFattori_a_rischio(rs.getString("nome_fattore"));
 		
@@ -434,40 +433,6 @@ public class DBMS {
 			// Memorizzo il risultato dell'interrogazione in Vector di Bean
 			while(rs.next())
 				result = rs.getString("id");
-		} catch(SQLException sqle) {                
-			sqle.printStackTrace();
-		} finally {                                 
-			try {
-				con.close();
-			} catch(SQLException sqle1) {
-				sqle1.printStackTrace();
-			}
-		}
-		return result;
-
-	}
-	
-	
-	//con prepare statement
-	public String getMedico(String id){
-		// Dichiarazione delle variabili necessarie
-		Connection con = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		String result = "";	
-		try {
-			// Tentativo di connessione al database
-			con = DriverManager.getConnection(url, user, passwd);
-			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryMedicoLoginOk); 
-			pstmt.clearParameters();
-			//Imposto i parametri della query dinamicamente
-			pstmt.setString(1, id);
-			//Eseguo la query
-			rs=pstmt.executeQuery(); 
-			// Memorizzo il risultato dell'interrogazione in Vector di Bean
-			while(rs.next())
-				result = rs.getString("nome") + " " + rs.getString("cognome");
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 

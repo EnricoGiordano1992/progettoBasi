@@ -73,7 +73,7 @@ public class DBMS {
 
 	//query per la diagnosipage
 	private final String queryMedicoLogin =
-			"select id from medico as m where m.id = ? and m.psw = ?;";
+			"select id from medico as m where m.id = ? and p.psw = ?;";
 
 	private final String queryMedicoLoginOk =
 			"select nome,cognome from medico as m where m.id = ?;";
@@ -467,7 +467,7 @@ public class DBMS {
 			rs=pstmt.executeQuery(); 
 			// Memorizzo il risultato dell'interrogazione in Vector di Bean
 			while(rs.next())
-				result = rs.getString("nome") + " " + rs.getString("cognome");
+				result = rs.getString("id");
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 

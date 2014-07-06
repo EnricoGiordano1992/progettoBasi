@@ -1,0 +1,20 @@
+lug 07, 2014 1:06:46 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 07, 2014 1:06:46 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 07, 2014 1:06:46 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 07, 2014 1:06:56 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 07, 2014 1:06:56 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 07, 2014 1:09:56 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 07, 2014 1:09:56 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 07, 2014 1:09:56 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 07, 2014 1:10:36 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 07, 2014 1:10:36 AM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed

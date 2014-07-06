@@ -41,17 +41,48 @@ public class main extends HttpServlet {
 			if (ps.equals("")) {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
+				if (request.getParameter("user") != null && request.getParameter("password") != null) {
+
+					//controllo se user e password sono giusti (vengono passati dal form)
+					String user = "";
+					String password = "";
+
+					user = request.getParameter("user");
+					password = request.getParameter("password");
+
+					p = dbms.PazienteLogin(user, password);			
+
+					if(p.equals(""))
+						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
+								"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+					else 
+						ps = "paziente";
+
+				}
+				else
+
 					//Preparo il Dispatcher
 					rd = request.getRequestDispatcher("HomePage.jsp");
 
 			}			
 
+			if (ps.equals("paziente")) { 
+				/*
+				visualizzo le informazioni di dettaglio del dipartimento
+				Delego l'esecuzione della query alla classe di interazione con il DB
+				Recupero il risultato della query come bean
+				 */
+
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("PazientePage.jsp");
+			}
 
 			if (ps.equals("cartella")) { 
 
 				String c = request.getParameter("cartella");
 
-				request.setAttribute("cartella",c);
+				//Aggiungo il Vector come attributo della richiesta HTTP
+				request.setAttribute("cartell",c);
 				//Preparo il Dispatcher
 				rd = request.getRequestDispatcher("CartellaPage.jsp");
 			}
@@ -99,6 +130,13 @@ public class main extends HttpServlet {
 		try {
 			// Oggetto per l'interazione con il Database
 			DBMS dbms = new DBMS();
+			if (ps.equals("")) {
+				// Parametro ps assente o vuoto, visualizzo la home page del sito.
+
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("HomePage.jsp");
+
+			}			
 
 			if (ps.equals("paziente")) { 
 				/*
@@ -125,6 +163,10 @@ public class main extends HttpServlet {
 						rd = request.getRequestDispatcher("PazientePage.jsp");
 
 				}
+				else
+					out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
+							"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+
 			}
 
 			if (ps.equals("medico")) { 
@@ -143,9 +185,10 @@ public class main extends HttpServlet {
 					user = request.getParameter("user");
 					password = request.getParameter("password");
 
+					out.print(user);
+					out.print(password);
 					p = dbms.MedicoLogin(user, password);			
 
-					out.print(p);
 					if(p.equals(""))
 						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
 								"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore

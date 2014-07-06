@@ -73,7 +73,7 @@ public class DBMS {
 
 	//query per la diagnosipage
 	private final String queryMedicoLogin =
-			"select id from medico as m where m.id = ? and m.psw = ?;";
+			"select id from medico as m where m.id = ? and p.psw = ?;";
 
 	private final String queryMedicoLoginOk =
 			"select nome,cognome from medico as m where m.id = ?;";
