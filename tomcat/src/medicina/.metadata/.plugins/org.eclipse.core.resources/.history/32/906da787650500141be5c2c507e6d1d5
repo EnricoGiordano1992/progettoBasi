@@ -33,7 +33,7 @@ public class DBMS {
 			"select codsan from paziente as p where p.codsan = ? and p.psw = ?";
 
 	private final String queryPaziente = 
-			"select p.codsan, p.nome, p.cognome, p.nascita, p.citta, p.via, p.prov, p.cap, p.civico, r.nome_fattore, c.id as idcartelle, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico " +
+			"select p.codsan, p.nome, p.cognome, p.nascita, p.citta, p.via, p.prov, p.cap, p.civico, r.nome_fattore, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico " +
 					"from paziente as p, rischi_paziente as r, cartella_clinica as c, diagnosi as d, medico as m " +
 					"where p.codsan = ? " +
 					"and p.codsan = c.codsan " +
@@ -117,7 +117,6 @@ public class DBMS {
 		bean.setProv(rs.getString("prov"));
 		bean.setVia(rs.getString("via"));
 		bean.setFattori_a_rischio(rs.getString("nome_fattore"));
-		bean.setIdCartelle(rs.getString("idcartelle"));
 		
 		return bean;
 	}
@@ -136,7 +135,7 @@ public class DBMS {
 			bean.setMedicoNome(rs.getString("nome_medico"));
 			bean.setMotivo(rs.getString("motivo"));
 			bean.setPrognosi(rs.getString("prognosi"));
-			bean.setTerapie_dosi(rs.getString("dose"));
+			bean.setTerapie_dosi(rs.getString("c.dosi"));
 			bean.setTerapie_farmaco(rs.getString("farmaco"));
 			bean.setTerapie_fine(rs.getString("fine"));
 			bean.setTerapie_frequenza(rs.getString("frequenza"));

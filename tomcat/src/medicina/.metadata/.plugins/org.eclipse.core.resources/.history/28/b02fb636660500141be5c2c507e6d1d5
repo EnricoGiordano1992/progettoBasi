@@ -117,7 +117,7 @@ public class DBMS {
 		bean.setProv(rs.getString("prov"));
 		bean.setVia(rs.getString("via"));
 		bean.setFattori_a_rischio(rs.getString("nome_fattore"));
-		bean.setIdCartelle(rs.getString("idcartelle"));
+		bean.setIdCartelle(rs.getString("id"));
 		
 		return bean;
 	}

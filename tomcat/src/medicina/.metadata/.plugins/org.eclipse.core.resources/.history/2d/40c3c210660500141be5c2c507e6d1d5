@@ -17,7 +17,6 @@ public class PazienteBean {
 	private String cap; 
 	private String civico;
 	private String fattori_a_rischio;
-	private String idCartelle;
 	
 	public String getFattori_a_rischio() {
 		return fattori_a_rischio;
@@ -41,21 +40,10 @@ public class PazienteBean {
 		prov = "";
 		cap = "";
 		civico = "";
-		idCartelle = "";
 		
 		
 	}
 
-
-
-	public String getIdCartelle() {
-		return idCartelle;
-	}
-
-
-	public void setIdCartelle(String idCartelle) {
-		this.idCartelle = idCartelle;
-	}
 
 
 	public String getCODSAN() {

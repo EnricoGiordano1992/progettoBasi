@@ -1,7 +1,3 @@
-<!--	Corsi.jsp: 
-	La JSP visualizza la lista di tutti i corsi di studio attivi e gestiti da un
-	diparitmento passato come parametro idDip.
--->
 
 <!-- Eseguo gli import necessari -->
 <%@page import="java.sql.*"%>
@@ -33,7 +29,7 @@
 <%= p.getNome()  %>
 <%= p.getCognome()  %>
 
-<a href="?ps=cartella&cartella=<%= p.getCODSAN() %>"> <%= p.getCODSAN() %> </a>
+<a href="?ps=cartella&cartella=<%= p.getIdCartelle() %>"> <%= p.getIdCartelle() %> </a>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!-- DIAGNOSI PAGE -->
+<!-- CARTELLA PAGE -->
 
 <!-- Eseguo gli import necessari -->
 <%@page import="java.sql.*"%>
@@ -10,28 +10,21 @@
 <% 
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
-    String medico;
+    String cartella;
 
-    if (request.getParameter("user") != null)
-	    medico = (String)request.getParameter("user");
+    if (request.getParameter("cartella") != null)
+	    cartella = (String)request.getParameter("cartella");
     else
-	    medico = "";
+	    cartella = "";
 
 
-    String iAm = dbms.getMedico(medico); 
 %>
 
+<% 
 
-<title>PazientePage</title>
+	CartellaBean c = new CartellaBean();
+	c = dbms.getCartella(cartella);
 
-<body>
+%>
 
-<h2> Benvenuto <%= iAm %> </h2>
-
-<h3> inserire la diagnosi </h3>
-
-
-
-</body>
-</html>
-
+	<%= c.getCodice() %>

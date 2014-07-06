@@ -48,16 +48,6 @@ public class PazienteBean {
 
 
 
-	public String getIdCartelle() {
-		return idCartelle;
-	}
-
-
-	public void setIdCartelle(String idCartelle) {
-		this.idCartelle = idCartelle;
-	}
-
-
 	public String getCODSAN() {
 		return CODSAN;
 	}
