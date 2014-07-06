@@ -113,7 +113,6 @@ public class DBMS {
 		bean.setCognome(rs.getString("cognome"));
 		bean.setNascita(rs.getString("nascita"));
 		bean.setProv(rs.getString("prov"));
-		bean.setPsw(rs.getString("psw"));
 		bean.setVia(rs.getString("via"));
 		bean.setFattori_a_rischio(rs.getString("nome_fattore"));
 		
