@@ -1,18 +1,31 @@
 package dbms;
 
-import java.util.*;
 
 public class PatologieBean {
 
 	private String ICD10;
-	private ArrayList<String> idPaziente;
+	private String idPaziente;
+	private int numeroPazienti;
+	private String nomePatologia;
 	
 	
 	public PatologieBean(){
 		
 		ICD10 = "";
-		idPaziente = new ArrayList<String>();
+		idPaziente = "";
+		numeroPazienti = 0;
+		nomePatologia = "";
 		
+	}
+
+
+	public String getNomePatologia() {
+		return nomePatologia;
+	}
+
+
+	public void setNomePatologia(String nomePatologia) {
+		this.nomePatologia = nomePatologia;
 	}
 
 
@@ -26,23 +39,25 @@ public class PatologieBean {
 	}
 
 
-	public String getIdPaziente(int pos) {
-		return idPaziente.get(pos);
-	}
-
-	public ArrayList<String> getIdPaziente() {
+	public String getIdPaziente() {
 		return idPaziente;
 	}
 
 
-	public void setIdPaziente(ArrayList<String> idPaziente) {
+	public void setIdPaziente(String idPaziente) {
 		this.idPaziente = idPaziente;
 	}
-	
 
-	public void setIdPaziente(String paziente) {
-		this.idPaziente.add(paziente);
+	
+	public int getNumeroPazienti() {
+		return numeroPazienti;
 	}
+
+
+	public void setNumeroPazienti(int numeroPazienti) {
+		this.numeroPazienti = numeroPazienti;
+	}
+
 
 	
 }

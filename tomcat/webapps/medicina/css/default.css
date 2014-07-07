@@ -189,6 +189,8 @@ hr {
 		font-size: 2em;
 		color: #B10058;
 	}
+
+
 	
 	.title .byline
 	{
@@ -198,6 +200,32 @@ hr {
 		font-size: 0.90em;
 		color: #6F6F6F;
 	}
+
+
+	.title2
+	{
+		margin-bottom: 0em;
+		text-transform: uppercase;
+	}
+
+	.title2 h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #B10058;
+	}
+
+
+	
+	.title2 .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
 
 /** WRAPPER */
 
@@ -228,7 +256,7 @@ hr {
 {
 	overflow: hidden;
 	background-size: 100%;
-	padding: 2em 0em 2em 0em;
+	padding: 1em 0em 2em 0em;
 	background: #333333;
 }
 
@@ -284,6 +312,14 @@ hr {
 		overflow: hidden;
 		height: 330px;
 		background: url(images/pic01.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	#banner2 
+	{
+		overflow: hidden;
+		height: 330px;
+		background: url(images/ospedale1.jpg) no-repeat center;
 		background-size: cover;
 	}
 	

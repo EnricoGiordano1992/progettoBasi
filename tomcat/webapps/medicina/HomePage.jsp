@@ -42,6 +42,7 @@
 			<div id="menu" class="container">
 				<ul>
 					<li class="current_page_item"><a href="#">Homepage</a></li>
+					<li><a href="?ps=info">Info</a></li>
 					<li><a href="?ps=personale">Personale</a></li>
 					<li><a href="?ps=patologie">Patologie</a></li>
 				</ul>
@@ -49,12 +50,11 @@
 			<!-- end #menu -->
 		</div>
 		<div id="banner"></div>
-
 		<br>
 		<br>
 
 		<div align="center">
-			<div class="title">
+			<div class="title2">
 				<h2>PRIMARIO</h2>
 			</div>
 			<a class="icon icon-arrow-right button"><%= primario %></a>
@@ -97,6 +97,8 @@
 		<br> <br> <br>
 	</div>
 	</div>
+	<div id="banner2"></div>
+	
 </body>
 </html>
 

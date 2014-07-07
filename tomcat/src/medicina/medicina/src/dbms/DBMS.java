@@ -84,9 +84,15 @@ public class DBMS {
 
 	//query per la patologiepage
 	private final String queryPatologie =
-			"select d.icd10, p.codsan " +
+			"select d.patologia, d.icd10, count(*) as numeropazienti " +
 					"from diagnosi as d, paziente as p " +
-					"where p.codsan = d.id_paziente;";
+					"where d.id_paziente = p.codsan " +
+					"group by d.icd10, d.patologia;";
+	
+	private final String queryPazientiDaIcd10 =
+			"select p.codsan " +
+			"from paziente as p, diagnosi as d " +
+			"where p.codsan = d.id_paziente;";
 
 
 	//query per la diagnosipage
@@ -197,9 +203,19 @@ public class DBMS {
 	private PatologieBean makePatologieBean(ResultSet rs) throws SQLException {
 			
 		PatologieBean bean = new PatologieBean();
+		bean.setNomePatologia(rs.getString("patologia"));
 		bean.setICD10(rs.getString("icd10"));
-		bean.setIdPaziente(rs.getString("id_paziente"));
+		bean.setNumeroPazienti(rs.getInt("numeropazienti"));
 		return bean;
+	}
+	
+	private PatologieBean makePazientiDaIcd10 (ResultSet rs) throws SQLException {
+		
+		PatologieBean bean = new PatologieBean();
+		bean.setIdPaziente(rs.getString("codsan"));
+		
+		return bean;
+		
 	}
 	
 	/***************
@@ -224,7 +240,7 @@ public class DBMS {
 			// Eseguo l'interrogazione desiderata
 			rs = stmt.executeQuery(queryPrimario);
 			// Memorizzo il risultato dell'interrogazione nel Vector
-			if(rs.next())
+			while(rs.next())
 				result = rs.getString("nome") + " " + rs.getString("cognome");
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
@@ -466,7 +482,7 @@ public class DBMS {
 			// Eseguo l'interrogazione desiderata
 			rs = stmt.executeQuery(querySpecPrimario);
 			// Memorizzo il risultato dell'interrogazione nel Vector
-			if(rs.next())
+			while(rs.next())
 				result = makePrimarioBean(rs);
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
@@ -499,8 +515,8 @@ public class DBMS {
 			// Eseguo l'interrogazione desiderata
 			rs = stmt.executeQuery(queryPersonale);
 			// Memorizzo il risultato dell'interrogazione nel Vector
-			if(rs.next())
-				result.add(makePrimarioBean(rs));
+			while(rs.next())
+				result.add(makePersonaleBean(rs));
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 
@@ -532,8 +548,38 @@ public class DBMS {
 			// Eseguo l'interrogazione desiderata
 			rs = stmt.executeQuery(queryPatologie);
 			// Memorizzo il risultato dell'interrogazione nel Vector
-			if(rs.next())
+			while(rs.next())
 				result.add(makePatologieBean(rs));
+		} catch(SQLException sqle) {                
+			sqle.printStackTrace();
+		} finally {                                 
+			try {
+				con.close();
+			} catch(SQLException sqle1) {
+				sqle1.printStackTrace();
+			}
+		}
+
+		return result;
+
+	}
+	
+	public Vector getPazientiDaIcd10() {
+
+		Connection con = null;
+		Statement stmt = null;
+		ResultSet rs = null;
+		Vector result = new Vector();
+		try {
+			// Tentativo di connessione al database
+			con = DriverManager.getConnection(url, user, passwd);
+			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
+			stmt = con.createStatement();
+			// Eseguo l'interrogazione desiderata
+			rs = stmt.executeQuery(queryPazientiDaIcd10);
+			// Memorizzo il risultato dell'interrogazione nel Vector
+			while(rs.next())
+				result.add(makePazientiDaIcd10(rs));
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 

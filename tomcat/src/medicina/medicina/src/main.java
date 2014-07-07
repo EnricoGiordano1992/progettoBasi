@@ -47,6 +47,15 @@ public class main extends HttpServlet {
 			}			
 
 
+			if (ps.equals("info")) {
+				// Parametro ps assente o vuoto, visualizzo la home page del sito.
+
+					//Preparo il Dispatcher
+					rd = request.getRequestDispatcher("Info.html");
+
+			}			
+
+			
 			if (ps.equals("cartella")) { 
 
 				String c = request.getParameter("cartella");
