@@ -1,18 +1,4 @@
-<!-- HOMEPAGE -->
-
-<!-- Eseguo gli import necessari -->
-<%@page import="java.sql.*"%>
-<%@page import="java.util.*"%>
-<%@page import="dbms.*"%>
-<%@page isErrorPage="false"%>
 <html>
-<% 
-    // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
-    DBMS dbms = new DBMS();
-    
-    String primario = dbms.getPrimario(); 
-
-%>
 
 
 <title>HomePage</title>
@@ -41,10 +27,12 @@
 		<div id="menu-wrapper">
 			<div id="menu" class="container">
 				<ul>
-					<li class="current_page_item"><a href="#">Homepage</a></li>
+					<li><a href="?">Homepage</a></li>
 					<li><a href="?ps=info">Info</a></li>
 					<li><a href="?ps=personale">Personale</a></li>
 					<li><a href="?ps=patologie">Patologie</a></li>
+					<li class="current_page_item"><a href="?ps=login">Login</a></li>
+
 				</ul>
 			</div>
 			<!-- end #menu -->
@@ -52,14 +40,6 @@
 		<div id="banner"></div>
 		<br>
 		<br>
-
-		<div align="center">
-			<div class="title2">
-				<h2>PRIMARIO</h2>
-			</div>
-			<a class="icon icon-arrow-right button"><%= primario %></a>
-
-		</div>
 
 		<br>
 		<br>

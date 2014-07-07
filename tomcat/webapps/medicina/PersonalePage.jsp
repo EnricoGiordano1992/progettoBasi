@@ -2,7 +2,6 @@
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="dbms.*"%>
-<%@page errorPage="error.jsp"%>
 <%@page isErrorPage="false" %>
 <html>
 <% 
@@ -12,3 +11,4 @@
     Vector p = dbms.getPersonaleMedico(); 
 %>
 
+<%= ((PersonaleBean)p.get(0)).getNome() %> <%= ((PersonaleBean)p.get(0)).getCognome() %>

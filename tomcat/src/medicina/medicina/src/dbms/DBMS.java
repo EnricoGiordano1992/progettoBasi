@@ -77,7 +77,7 @@ public class DBMS {
 
 	private final String queryPersonale =
 			"select m.*, s.nome_specializzazione as nome_spec, count(*) " +
-					"from medco as m, spec_del_medico as s, diagnosi as d " +
+					"from medico as m, spec_del_medico as s, diagnosi as d " +
 					"where m.id = s.id_medico " +
 					"and d.id_medico = m.id " +
 					"group by m.id, nome_spec;";
