@@ -12,7 +12,7 @@ public class DBMS {
 //	private String user = "userlab16";
 //	private String passwd = "sediciLS";
 
-	private String user = "enrico";
+	private String user = "postgres";
 	private String passwd = "postgres";
 	
 	/*<protocollo>://<host del server>/<nome base di dati>.*/
