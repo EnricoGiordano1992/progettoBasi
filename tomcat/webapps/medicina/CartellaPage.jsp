@@ -27,4 +27,8 @@
 
 %>
 
-	<%= c.getCodice() %>
+	<%= c.getCodice() %>	</p>
+	<%= c.getData() %>	</p>
+	<%= c.getDataDimissione() %>	</p>
+	<%= c.getMotivo() %>	</p>
+	<%= c.getPrognosi() %>	</p>
