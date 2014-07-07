@@ -40,6 +40,11 @@ public class DBMS {
 					"and p.codsan = r.id_paziente " +
 					"and d.id_paziente = p.codsan " +
 					"and d.id_medico = m.id;";
+	
+	private final String queryCartellaDelPaziente =
+			"select c.id " +
+			"from cartella as c, paziente as p " +
+			"where c.codsan = p.codsan;";
 
 	//query per la cartellapage
 	private final String queryCartella =
@@ -59,7 +64,7 @@ public class DBMS {
 
 	private final String queryPersonale =
 			"select m.*, s.nome_specializzazione as nome_spec, count(*) " +
-					"from medico as m, spec_del_medico as s, diagnosi as d " +
+					"from medco as m, spec_del_medico as s, diagnosi as d " +
 					"where m.id = s.id_medico " +
 					"and d.id_medico = m.id " +
 					"group by m.id, nome_spec;";
@@ -117,7 +122,6 @@ public class DBMS {
 		bean.setProv(rs.getString("prov"));
 		bean.setVia(rs.getString("via"));
 		bean.setFattori_a_rischio(rs.getString("nome_fattore"));
-		bean.setIdCartelle(rs.getString("idcartelle"));
 		
 		return bean;
 	}
@@ -254,6 +258,40 @@ public class DBMS {
 			con = DriverManager.getConnection(url, user, passwd);
 			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
 			pstmt = con.prepareStatement(queryLoginPaziente); 
+			pstmt.clearParameters();
+			//Imposto i parametri della query dinamicamente
+			pstmt.setString(1, codsan);
+			pstmt.setString(2, password); 
+			//Eseguo la query
+			rs=pstmt.executeQuery(); 
+			// Memorizzo il risultato dell'interrogazione in Vector di Bean
+			while(rs.next())
+				result = rs.getString("codsan");
+		} catch(SQLException sqle) {                
+			sqle.printStackTrace();
+		} finally {                                 
+			try {
+				con.close();
+			} catch(SQLException sqle1) {
+				sqle1.printStackTrace();
+			}
+		}
+		return result;
+	}
+
+	
+	//con prepare statement
+	public Vector CartelleDelPaziente(String codsan){
+		// Dichiarazione delle variabili necessarie
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String result = "";	
+		try {
+			// Tentativo di connessione al database
+			con = DriverManager.getConnection(url, user, passwd);
+			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
+			pstmt = con.prepareStatement(query); 
 			pstmt.clearParameters();
 			//Imposto i parametri della query dinamicamente
 			pstmt.setString(1, codsan);
