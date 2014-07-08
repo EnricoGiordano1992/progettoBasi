@@ -113,7 +113,7 @@
 
 						inizio attivita':
 						<br>
-						<a class="icon icon-arrow-right button" background="#000000">
+						<a class="icon icon-arrow-right button2" background="#000000">
 						<%= ((PersonaleBean)p.get(i)).getInizio() %>
 						</a>
 						<br>
@@ -121,7 +121,7 @@
 
 						numero diagnosi effettuate:
 						<br>
-						<a class="icon icon-arrow-right button" background="#000000">
+						<a class="icon icon-arrow-right button2" background="#000000">
 						<%= ((PersonaleBean)p.get(i)).getDiagnosi() %>
 						</a>
 						<br>
@@ -134,7 +134,7 @@
 						
 						<%} %>
 						
-						<a class="icon icon-arrow-right button" background="#000000">
+						<a class="icon icon-arrow-right button2" background="#000000">
 						
 						<% for (int j=0; j < spec.size() ; j++) { %>
 						<br><%= ((PersonaleBean)spec.get(j)).getSpecializzazioni() %><br>

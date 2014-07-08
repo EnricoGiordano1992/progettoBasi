@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="47" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -25,6 +25,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -42,21 +43,20 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DBMS.java" partName="DBMS.java" path="/home/enrico/progettoBasi/tomcat/src/medicina/medicina/src/dbms/DBMS.java" title="DBMS.java" tooltip="medicina/src/dbms/DBMS.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/dbms/DBMS.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6366" selectionTopPixel="3285"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3960" selectionTopPixel="3109"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimarioBean.java" partName="PrimarioBean.java" path="/home/enrico/progettoBasi/tomcat/src/medicina/medicina/src/dbms/PrimarioBean.java" title="PrimarioBean.java" tooltip="medicina/src/dbms/PrimarioBean.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/dbms/PrimarioBean.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="main.java" partName="main.java" path="/home/enrico/progettoBasi/tomcat/src/medicina/medicina/src/main.java" title="main.java" tooltip="medicina/src/main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1683" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="715" selectionTopPixel="961"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PatologieBean.java" partName="PatologieBean.java" path="/home/enrico/progettoBasi/tomcat/src/medicina/medicina/src/dbms/PatologieBean.java" title="PatologieBean.java" tooltip="medicina/src/dbms/PatologieBean.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/dbms/PatologieBean.java"/>
@@ -66,13 +66,29 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/dbms/PazienteBean.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="696" selectionTopPixel="823"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="HomePage.jsp" partName="HomePage.jsp" title="HomePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1222" selectionTopPixel="683"/>
-</editor>
 <editor id="org.eclipse.jst.jsp.core.jspsource.source" name="PatologiePage.jsp" partName="PatologiePage.jsp" title="PatologiePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PatologiePage.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PatologiePage.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="573" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="155" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="CartellaPage.jsp" partName="CartellaPage.jsp" title="CartellaPage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/CartellaPage.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/CartellaPage.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="486" selectionTopPixel="158"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="DiagnosiPage.jsp" partName="DiagnosiPage.jsp" title="DiagnosiPage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="PersonalePage.jsp" partName="PersonalePage.jsp" title="PersonalePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2823" selectionTopPixel="1768"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="Info.jsp" partName="Info.jsp" title="Info.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1125" selectionOffset="328" selectionTopPixel="659"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonaleBean.java" partName="PersonaleBean.java" path="/home/enrico/progettoBasi/tomcat/src/medicina/medicina/src/dbms/PersonaleBean.java" title="PersonaleBean.java" tooltip="medicina/src/dbms/PersonaleBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/dbms/PersonaleBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="498" selectionTopPixel="493"/>
 </editor>
 </editors>
 <views>
@@ -82,9 +98,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings (33 items)"/>
 <category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (30 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="417" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -324,162 +340,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/CartellaPage.jsp"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/DBMS.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.jsp"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PatologiePage.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/PatologieBean.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/PazienteBean.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/PersonaleBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/PrimarioBean.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp"/>
 </editors>
-<item historyLabel="HomePage.jsp" index="1">
-<position info="not_deleted" x="2151" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
+<item historyLabel="PersonalePage.jsp" index="1">
 <position/>
 </item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="6398" y="0"/>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="6029" y="0"/>
 </item>
-<item historyLabel="PatologiePage.jsp" index="2">
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
 <position/>
 </item>
-<item historyLabel="PatologieBean.java" index="3">
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="6029" y="0"/>
+</item>
+<item historyLabel="CartellaPage.jsp" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="543" y="0"/>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="PazienteBean.java" index="4">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
+<item historyLabel="PersonalePage.jsp" index="1">
 <position/>
 </item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="3083" y="0"/>
-</item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="15" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="6459" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="582" y="5"/>
-</item>
-<item historyLabel="PazienteBean.java" index="4">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="15" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="357" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="6459" y="0"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="3042" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="357" y="0"/>
-</item>
-<item historyLabel="PazienteBean.java" index="4">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="349" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="2556" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="423" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="7322" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
+<item historyLabel="PersonaleBean.java" index="4">
 <position info="not_deleted" x="498" y="0"/>
 </item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="7322" y="0"/>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="6029" y="0"/>
 </item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="495" y="0"/>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="2914" y="0"/>
+<item historyLabel="CartellaPage.jsp" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="7322" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="495" y="0"/>
-</item>
-<item historyLabel="PazienteBean.java" index="4">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="0">
+<item historyLabel="PersonalePage.jsp" index="1">
 <position/>
 </item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="15" y="0"/>
+<item historyLabel="PrimarioBean.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="265" y="0"/>
+<item historyLabel="PrimarioBean.java" index="5">
+<position info="not_deleted" x="949" y="0"/>
 </item>
-<item historyLabel="PatologieBean.java" index="3">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="3856" y="0"/>
 </item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="6338" y="0"/>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="491" y="0"/>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position/>
 </item>
-<item historyLabel="DBMS.java" index="0">
-<position info="not_deleted" x="6366" y="0"/>
+<item historyLabel="PrimarioBean.java" index="5">
+<position info="not_deleted" x="715" y="21"/>
 </item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="573" y="0"/>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="HomePage.jsp" index="1">
-<position info="not_deleted" x="966" y="0"/>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position/>
 </item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="1527" y="0"/>
+<item historyLabel="PrimarioBean.java" index="5">
+<position info="not_deleted" x="715" y="21"/>
 </item>
-<item historyLabel="PatologiePage.jsp" index="2">
-<position info="not_deleted" x="573" y="0"/>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="16671" y="0"/>
 </item>
-<item historyLabel="HomePage.jsp" index="1">
-<position info="not_deleted" x="959" y="0"/>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="1683" y="0"/>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position/>
 </item>
-<item active="true" historyLabel="HomePage.jsp" index="1">
-<position info="not_deleted" x="959" y="0"/>
+<item historyLabel="CartellaPage.jsp" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position/>
+</item>
+<item historyLabel="CartellaPage.jsp" index="0">
+<position info="not_deleted" x="486" y="0"/>
+</item>
+<item historyLabel="Info.jsp" index="6">
+<position info="not_deleted" x="328" y="1125"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="2797" y="0"/>
+</item>
+<item historyLabel="PrimarioBean.java" index="5">
+<position info="not_deleted" x="715" y="21"/>
+</item>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="CartellaPage.jsp" index="0">
+<position info="not_deleted" x="486" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position/>
+</item>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="CartellaPage.jsp" index="0">
+<position info="not_deleted" x="486" y="0"/>
+</item>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="PrimarioBean.java" index="5">
+<position info="not_deleted" x="715" y="21"/>
+</item>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="2498" y="0"/>
+</item>
+<item historyLabel="DBMS.java" index="2">
+<position/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="2625" y="0"/>
+</item>
+<item historyLabel="PersonaleBean.java" index="4">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="3960" y="0"/>
+</item>
+<item historyLabel="PatologiePage.jsp" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="2815" y="1"/>
+</item>
+<item historyLabel="DBMS.java" index="2">
+<position info="not_deleted" x="3960" y="0"/>
+</item>
+<item active="true" historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="2815" y="1"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -498,6 +515,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonaleBean.java" tooltip="medicina/src/dbms/PersonaleBean.java">
+<persistable path="/medicina/src/dbms/PersonaleBean.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Info.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="PersonalePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="PazientePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PazientePage.jsp">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PazientePage.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="Login.html" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="HomePage.html" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.html">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="DiagnosiPage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="CartellaPage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/CartellaPage.jsp">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/CartellaPage.jsp"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="PatologiePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PatologiePage.jsp">
 <persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PatologiePage.jsp"/>
 </file>
@@ -518,18 +559,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimarioBean.java" tooltip="medicina/src/dbms/PrimarioBean.java">
 <persistable path="/medicina/src/dbms/PrimarioBean.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IdDidBean.java" tooltip="medicina/src/dbms/IdDidBean.java">
-<persistable path="/medicina/src/dbms/IdDidBean.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DBMS.java" tooltip="medicina/src/dbms/DBMS.java">
-<persistable path="/medicina/src/dbms/DBMS.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="cartellaBean.java" tooltip="medicina/src/dbms/cartellaBean.java">
-<persistable path="/medicina/src/dbms/cartellaBean.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="pazienteBean.java" tooltip="medicina/src/dbms/pazienteBean.java">
-<persistable path="/medicina/src/dbms/pazienteBean.java"/>
 </file>
 </mruList>
 </workbench>
