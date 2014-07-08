@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class PersonaleBean {
 	//Definizione dei campi del Bean (variabili private: accessibili solo tramite i metodi get e set)
+	private String id;
 	private String nome;
 	private String cognome;
 	private String inizio;
@@ -17,8 +18,17 @@ public class PersonaleBean {
 		inizio = "";
 		specializzazioni = "";
 		diagnosi = 0;
+		id = "";
     }
     
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
 	public String getNome() {
 		return nome;
 	}

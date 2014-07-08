@@ -1,0 +1,93 @@
+package dbms;
+
+import java.util.*;
+
+public class PrimarioBean {
+	//Definizione dei campi del Bean (variabili private: accessibili solo tramite i metodi get e set)
+	private String id;
+	private String nome;
+	private String cognome;
+	private String psw;
+	private String inizio_attivita;
+	private int countDiagnosi;
+	private String specializzazioni;
+	
+	//Definizione del costruttore del Bean
+    public PrimarioBean() {
+		id = "";
+		nome = ""; 
+		cognome = "";
+		psw = "";
+		inizio_attivita = "";
+		countDiagnosi = 0;
+		specializzazioni = "";
+    }
+
+	public int getCountDiagnosi() {
+		return countDiagnosi;
+	}
+
+	public void setCountDiagnosi(int countDiagnosi) {
+		this.countDiagnosi = countDiagnosi;
+	}
+
+	public String getSpecializzazioni() {
+		return specializzazioni;
+	}
+
+	
+	public void setSpecializzazioni(String specializzazioni) {
+		this.specializzazioni = specializzazioni;
+	}
+
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCognome() {
+		return cognome;
+	}
+
+	public void setCognome(String cognome) {
+		this.cognome = cognome;
+	}
+
+	public String getPsw() {
+		return psw;
+	}
+
+	public void setPsw(String psw) {
+		this.psw = psw;
+	}
+
+	public String getInizio_attivita() {
+		return inizio_attivita;
+	}
+
+	public void setInizio_attivita(String inizio_attivita) {
+		this.inizio_attivita = inizio_attivita;
+	}
+
+	public int getCount() {
+		return countDiagnosi;
+	}
+
+	public void setCount(int countDiagnosi) {
+		this.countDiagnosi = countDiagnosi;
+	}
+
+    
+}

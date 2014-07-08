@@ -4,23 +4,23 @@ import java.util.*;
 
 public class PrimarioBean {
 	//Definizione dei campi del Bean (variabili private: accessibili solo tramite i metodi get e set)
-	private int id;
+	private String id;
 	private String nome;
 	private String cognome;
 	private String psw;
 	private String inizio_attivita;
 	private int countDiagnosi;
-	private ArrayList<String> specializzazioni;
+	private String specializzazioni;
 	
 	//Definizione del costruttore del Bean
     public PrimarioBean() {
-		id = 0;
+		id = "";
 		nome = ""; 
 		cognome = "";
 		psw = "";
 		inizio_attivita = "";
 		countDiagnosi = 0;
-		specializzazioni = new ArrayList<String>();
+		specializzazioni = "";
     }
 
 	public int getCountDiagnosi() {
@@ -31,28 +31,21 @@ public class PrimarioBean {
 		this.countDiagnosi = countDiagnosi;
 	}
 
-	public ArrayList<String> getSpecializzazioni() {
+	public String getSpecializzazioni() {
 		return specializzazioni;
 	}
 
-	public String getSpecializzazioni(int index) {
-		return specializzazioni.get(index);
-	}
-
 	
-	public void setSpecializzazioni(ArrayList<String> specializzazioni) {
+	public void setSpecializzazioni(String specializzazioni) {
 		this.specializzazioni = specializzazioni;
 	}
 
-	public void setSpecializzazioni(String specializzazioni) {
-		this.specializzazioni.add(specializzazioni);
-	}
 	
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
