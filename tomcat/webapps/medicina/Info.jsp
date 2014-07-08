@@ -62,9 +62,21 @@
 			<div class="title2">
 				<h2>PRIMARIO</h2>
 			</div>
-			<a class="icon icon-arrow-right button"><%= primario %></a>
-
+			<a class="button"><%= primario %></a>
+			<br><br>
+			<div class="title, style2">
+				<p>Il reparto di Medicina Generale ha come obiettivo quello di curare i pazienti portatori di patologie internistiche con un approccio globale e rigoroso.</p>
+				
+			</div>	
+			
 		</div>
+		<div class="title, style2">
+				<p>Il Reparto di Medicina &egrave situato al 6&ordm piano dell&prime;Ospedale S. Antonio (Blocco D) La dotazione &egrave di 31 posti-letto ubicati in 6 stanze da 2 letti e in 5 stanze da 4 letti tutte con servizio igienico, (tranne una a 2 letti).<br>
+				In Reparto vi sono poi due locali attrezzati di personal computer per il lavoro medico. In uno di questi &egrave presente anche un lettino per visita medica. Vi &egrave inoltre una stanza per il lavoro infermieristico e una per la Coordinatrice Infermieristica.<br>
+				Antistante al Reparto vi sono due ambulatori: uno per lo studio del sistema nervoso autonomo e uno per ecocardiografia.<br> 
+				L&prime;attivit&agrave di Day-Hospital (DH) &egrave svolta al 1&ordm piano dove &egrave situato il DH Generale di tutto l&prime;Ospedale S.Antonio.</p>
+			</div>	
+			
 	</div>
 </body>
 </html>
