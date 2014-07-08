@@ -48,7 +48,6 @@
 			</div>
 			<!-- end #menu -->
 		</div>
-		<div id="banner"></div>
 		<br> <br>
 
 

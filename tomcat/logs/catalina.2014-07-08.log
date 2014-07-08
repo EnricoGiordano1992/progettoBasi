@@ -241,3 +241,43 @@ lug 08, 2014 12:02:20 PM org.apache.coyote.AbstractProtocol start
 Informazioni: Starting ProtocolHandler ["ajp-bio-8009"]
 lug 08, 2014 12:02:20 PM org.apache.catalina.startup.Catalina start
 Informazioni: Server startup in 690 ms
+lug 08, 2014 1:03:41 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 1:03:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 08, 2014 1:03:41 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 08, 2014 1:04:21 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 1:04:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 08, 2014 1:04:21 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 08, 2014 1:04:51 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 1:04:52 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 08, 2014 1:09:22 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 1:09:22 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 08, 2014 1:09:22 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 08, 2014 2:20:12 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 2:20:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 08, 2014 2:20:12 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 08, 2014 2:32:22 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 2:32:22 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 08, 2014 2:32:22 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed
+lug 08, 2014 2:34:12 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] has started
+lug 08, 2014 2:34:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+Grave: The web application [/medicina] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+lug 08, 2014 2:34:12 PM org.apache.catalina.core.StandardContext reload
+Informazioni: Reloading Context with name [/medicina] is completed

@@ -474,7 +474,7 @@ public class DBMS {
 			rs=pstmt.executeQuery(); 
 			// Memorizzo il risultato dell'interrogazione in Vector di Bean
 			while(rs.next())
-				result.add(rs.getString("nome") + " " + rs.getString("cognome"));
+				result.add(rs.getString("nome_fattore"));
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 

@@ -456,7 +456,7 @@ public class DBMS {
 	
 	
 	//con prepare statement
-	public Vector getMediciDelPaziente(String codsan){
+	public Vector getRischiDelPaziente(String codsan){
 		// Dichiarazione delle variabili necessarie
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -466,7 +466,7 @@ public class DBMS {
 			// Tentativo di connessione al database
 			con = DriverManager.getConnection(url, user, passwd);
 			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryMediciDelPaziente); 
+			pstmt = con.prepareStatement(queryRischiPaziente); 
 			pstmt.clearParameters();
 			//Imposto i parametri della query dinamicamente
 			pstmt.setString(1, codsan);
@@ -474,7 +474,7 @@ public class DBMS {
 			rs=pstmt.executeQuery(); 
 			// Memorizzo il risultato dell'interrogazione in Vector di Bean
 			while(rs.next())
-				result.add(rs.getString("nome") + " " + rs.getString("cognome"));
+				result.add(rs.getString("nome_fattore"));
 		} catch(SQLException sqle) {                
 			sqle.printStackTrace();
 		} finally {                                 

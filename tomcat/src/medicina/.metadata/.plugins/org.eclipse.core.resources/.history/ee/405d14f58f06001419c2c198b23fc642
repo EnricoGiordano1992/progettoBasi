@@ -46,21 +46,6 @@ public class DBMS {
 			"from cartella_clinica as c, paziente as p " +
 			"where c.codsan = ? " +
 			"and c.codsan = p.codsan;";
-	
-	
-	private final String queryRischiPaziente = 
-			"select nome_fattore " +
-			"from paziente as p, rischi_paziente as r " +
-			"where p.codsan = ? " +
-			"and p.codsan = r.id_paziente; ";
-	
-	
-	private final String queryMediciDelPaziente =
-			"select m.nome, m.cognome " +
-			"from paziente as p, medico as m, diagnosi as d " +
-			"where p.codsan = ? " +
-			"and p.codsan = d.id_paziente " +
-			"and m.id = d.id_medico ;";
 
 	//query per la cartellapage
 	private final String queryCartella =
@@ -128,15 +113,12 @@ public class DBMS {
 		Class.forName(driver);
     }
 
-    /***********************************************************/
-	/***********************************************************/
-	/**********************************************************
+	
+	/***************
 	 * 
 	 *  METODI MAKEBEAN
 	 * 
-	/***********************************************************/
-	/***********************************************************/
-	/***********************************************************/
+	 */
 
 
 	//per homepage
@@ -150,8 +132,6 @@ public class DBMS {
     }
 
     
-	/***********************************************************/
-	/***********************************************************/
 	//per pazientepage
 	private PazienteBean makePazienteBean(ResultSet rs) throws SQLException {
 		
@@ -170,21 +150,6 @@ public class DBMS {
 		return bean;
 	}
 	
-	
-	private CartellaBean makeCartellaDelPazienteBean(ResultSet rs)  throws SQLException{
-
-		CartellaBean bean = new CartellaBean();
-		
-		bean.setCodice(rs.getString("id"));
-		bean.setDataDimissione(rs.getString("data_dimissione"));
-		bean.setData(rs.getString("data_ricovero"));
-		
-		return bean;
-	}
-
-	
-	/***********************************************************/
-	/***********************************************************/
 	//per cartellapage
 	private CartellaBean makeCartellaBean(ResultSet rs) throws SQLException {
 			
@@ -226,8 +191,6 @@ public class DBMS {
 		return bean;
 	}
 	
-	/***********************************************************/
-	/***********************************************************/
 	//per personalepage
 	private PersonaleBean makePersonaleBean(ResultSet rs) throws SQLException {
 		
@@ -251,8 +214,6 @@ public class DBMS {
 		
 	}
 	
-	/***********************************************************/
-	/***********************************************************/
 	//per patologiepage
 	private PatologieBean makePatologieBean(ResultSet rs) throws SQLException {
 			
@@ -272,18 +233,12 @@ public class DBMS {
 		
 	}
 	
-	/***********************************************************/
-	/***********************************************************/
-	/***********************************************************/
-	 /* 
+	/***************
+	 * 
 	 *  METODI GET
 	 * 
-	/***********************************************************/
-	/***********************************************************/
-	/***********************************************************/
+	 */
 
-	/***********************************************************/
-	/***********************************************************/
 	//query per la homepage
 	//senza prepare statement
 	public String getPrimario() {
@@ -318,8 +273,6 @@ public class DBMS {
 
 
 
-	/***********************************************************/
-	/***********************************************************/
 	//query per la pazientepage
 	//con prepare statement
 	public PazienteBean getPaziente(String codsan){
@@ -390,12 +343,12 @@ public class DBMS {
 
 	
 	//con prepare statement
-	public Vector getCartelleDelPaziente(String codsan){
+	public CartellaBean getCartelleDelPaziente(String codsan){
 		// Dichiarazione delle variabili necessarie
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-		Vector result = new Vector();	
+		CartellaBean result = new CartellaBean();	
 		try {
 			// Tentativo di connessione al database
 			con = DriverManager.getConnection(url, user, passwd);
@@ -422,73 +375,6 @@ public class DBMS {
 	}
 
 	
-	//con prepare statement
-	public Vector getRischiDelPaziente(String codsan){
-		// Dichiarazione delle variabili necessarie
-		Connection con = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		Vector result = new Vector();	
-		try {
-			// Tentativo di connessione al database
-			con = DriverManager.getConnection(url, user, passwd);
-			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryRischiPaziente); 
-			pstmt.clearParameters();
-			//Imposto i parametri della query dinamicamente
-			pstmt.setString(1, codsan);
-			//Eseguo la query
-			rs=pstmt.executeQuery(); 
-			// Memorizzo il risultato dell'interrogazione in Vector di Bean
-			while(rs.next())
-				result.add(rs.getString("nome_fattore"));
-		} catch(SQLException sqle) {                
-			sqle.printStackTrace();
-		} finally {                                 
-			try {
-				con.close();
-			} catch(SQLException sqle1) {
-				sqle1.printStackTrace();
-			}
-		}
-		return result;
-	}
-	
-	
-	//con prepare statement
-	public Vector getMediciDelPaziente(String codsan){
-		// Dichiarazione delle variabili necessarie
-		Connection con = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		Vector result = new Vector();	
-		try {
-			// Tentativo di connessione al database
-			con = DriverManager.getConnection(url, user, passwd);
-			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryMediciDelPaziente); 
-			pstmt.clearParameters();
-			//Imposto i parametri della query dinamicamente
-			pstmt.setString(1, codsan);
-			//Eseguo la query
-			rs=pstmt.executeQuery(); 
-			// Memorizzo il risultato dell'interrogazione in Vector di Bean
-			while(rs.next())
-				result.add(rs.getString("nome") + " " + rs.getString("cognome"));
-		} catch(SQLException sqle) {                
-			sqle.printStackTrace();
-		} finally {                                 
-			try {
-				con.close();
-			} catch(SQLException sqle1) {
-				sqle1.printStackTrace();
-			}
-		}
-		return result;
-	}
-
-	/***********************************************************/
-	/***********************************************************/
 	//query per la cartellaPage
 	//con prepare statement
 	public CartellaBean getCartella(String id){
@@ -594,8 +480,6 @@ public class DBMS {
 	}
 
 
-	/***********************************************************/
-	/***********************************************************/
 	//query per la personale page
 	//(1)
 	//senza prepare statement
@@ -698,8 +582,6 @@ public class DBMS {
 	}
 	
 	
-	/***********************************************************/
-	/***********************************************************/
 	//query per la patologiepage
 	//senza prepare statement
 	public Vector getPatologie() {
@@ -763,8 +645,6 @@ public class DBMS {
 	}
 
 	
-	/***********************************************************/
-	/***********************************************************/
 	//query per la diagnosipage
 	//con prepare statement
 	public String MedicoLogin(String id, String pw){

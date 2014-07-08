@@ -53,14 +53,6 @@ public class DBMS {
 			"from paziente as p, rischi_paziente as r " +
 			"where p.codsan = ? " +
 			"and p.codsan = r.id_paziente; ";
-	
-	
-	private final String queryMediciDelPaziente =
-			"select m.nome, m.cognome " +
-			"from paziente as p, medico as m, diagnosi as d " +
-			"where p.codsan = ? " +
-			"and p.codsan = d.id_paziente " +
-			"and m.id = d.id_medico ;";
 
 	//query per la cartellapage
 	private final String queryCartella =
@@ -422,70 +414,6 @@ public class DBMS {
 	}
 
 	
-	//con prepare statement
-	public Vector getRischiDelPaziente(String codsan){
-		// Dichiarazione delle variabili necessarie
-		Connection con = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		Vector result = new Vector();	
-		try {
-			// Tentativo di connessione al database
-			con = DriverManager.getConnection(url, user, passwd);
-			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryRischiPaziente); 
-			pstmt.clearParameters();
-			//Imposto i parametri della query dinamicamente
-			pstmt.setString(1, codsan);
-			//Eseguo la query
-			rs=pstmt.executeQuery(); 
-			// Memorizzo il risultato dell'interrogazione in Vector di Bean
-			while(rs.next())
-				result.add(rs.getString("nome_fattore"));
-		} catch(SQLException sqle) {                
-			sqle.printStackTrace();
-		} finally {                                 
-			try {
-				con.close();
-			} catch(SQLException sqle1) {
-				sqle1.printStackTrace();
-			}
-		}
-		return result;
-	}
-	
-	
-	//con prepare statement
-	public Vector getMediciDelPaziente(String codsan){
-		// Dichiarazione delle variabili necessarie
-		Connection con = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		Vector result = new Vector();	
-		try {
-			// Tentativo di connessione al database
-			con = DriverManager.getConnection(url, user, passwd);
-			// Connessione riuscita, ottengo l'oggetto per l'esecuzione dell'interrogazione.
-			pstmt = con.prepareStatement(queryMediciDelPaziente); 
-			pstmt.clearParameters();
-			//Imposto i parametri della query dinamicamente
-			pstmt.setString(1, codsan);
-			//Eseguo la query
-			rs=pstmt.executeQuery(); 
-			// Memorizzo il risultato dell'interrogazione in Vector di Bean
-			while(rs.next())
-				result.add(rs.getString("nome") + " " + rs.getString("cognome"));
-		} catch(SQLException sqle) {                
-			sqle.printStackTrace();
-		} finally {                                 
-			try {
-				con.close();
-			} catch(SQLException sqle1) {
-				sqle1.printStackTrace();
-			}
-		}
-		return result;
-	}
 
 	/***********************************************************/
 	/***********************************************************/
