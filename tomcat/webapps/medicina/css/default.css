@@ -322,6 +322,12 @@ hr {
 		background: url(images/ospedale1.jpg) no-repeat center;
 		background-size: cover;
 	}
+
+	#banner3 
+	{
+		overflow: hidden;
+		height: 200px;
+	}
 	
 	#banner .image
 	{
