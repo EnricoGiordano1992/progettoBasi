@@ -220,8 +220,8 @@ public class DBMS {
 		bean.setDiagnosi_data(rs.getString("data"));
 		bean.setDiagnosi_icd10(rs.getString("icd10"));
 		bean.setDiagnosi_patologia(rs.getString("patologia"));
-		bean.setMedicoCognome(rs.getString("cognome_medico"));
-		bean.setMedicoNome(rs.getString("nome_medico"));
+		bean.setMedicoCognome(rs.getString("cognome"));
+		bean.setMedicoNome(rs.getString("nome"));
 		
 		return bean;
 	}
