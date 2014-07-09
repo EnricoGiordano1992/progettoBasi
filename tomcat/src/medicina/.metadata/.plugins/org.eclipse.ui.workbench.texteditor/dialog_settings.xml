@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="312" key="DIALOG_WIDTH"/>
-		<item value="155" key="DIALOG_Y_ORIGIN"/>
-		<item value="437" key="DIALOG_HEIGHT"/>
-		<item value="945" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Ubuntu|10.3529415|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="291" key="DIALOG_WIDTH"/>
+		<item value="113" key="DIALOG_Y_ORIGIN"/>
+		<item value="433" key="DIALOG_HEIGHT"/>
+		<item value="943" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
@@ -13,13 +13,20 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="nome_spec" key="selection"/>
+		<item value="codsan" key="selection"/>
 		<list key="findhistory">
+			<item value="codsan"/>
+			<item value="specializzato"/>
+			<item value="select * from spec"/>
+			<item value="private final String"/>
+			<item value="String.class"/>
+			<item value="//senza prepare statement"/>
+			<item value="//con prepare statement"/>
 			<item value="nome_spec"/>
-			<item value="getPatologie"/>
-			<item value="id_paziente"/>
 		</list>
 		<list key="replacehistory">
+			<item value="String"/>
+			<item value=""/>
 		</list>
 	</section>
 </section>

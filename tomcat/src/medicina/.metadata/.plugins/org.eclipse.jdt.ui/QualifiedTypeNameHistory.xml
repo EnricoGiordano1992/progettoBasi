@@ -2,10 +2,18 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="dbms.PazienteBean"/>
 <fullyQualifiedTypeName name="org.postgresql.util.StreamWrapper"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="dbms.PatologieBean"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="dbms.PersonaleBean"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="bean.Paziente"/>
+<fullyQualifiedTypeName name="bean.CartellaClinica"/>
+<fullyQualifiedTypeName name="bean.RischiPaziente"/>
+<fullyQualifiedTypeName name="bean.Medico"/>
+<fullyQualifiedTypeName name="bean.Terapie"/>
+<fullyQualifiedTypeName name="bean.SpecDelMedico"/>
+<fullyQualifiedTypeName name="bean.Diagnosi"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

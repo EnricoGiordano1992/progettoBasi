@@ -1,8 +1,11 @@
 
 <!-- Eseguo gli import necessari -->
+<%@page import="bean.CartellaClinica"%>
+<%@page import="bean.RischiPaziente"%>
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="dbms.*"%>
+<%@page import="bean.*"%>
 <%@page isErrorPage="false"%>
 <html>
 <% 
@@ -16,11 +19,10 @@
     else
 	    paziente = "";
 
-    
-    PazienteBean p = dbms.getPaziente(paziente);
-    Vector cartelle = dbms.getCartelleDelPaziente(p.getCODSAN());
-	Vector rischi = dbms.getRischiDelPaziente(p.getCODSAN());
-	Vector medici = dbms.getMediciDelPaziente(p.getCODSAN());
+    Paziente p = dbms.getPaziente(paziente);
+    ArrayList<CartellaClinica> cartelle = dbms.getCartelleDelPaziente(p.getCodsan());
+	ArrayList<RischiPaziente> rischi = dbms.getRischiDelPaziente(p.getCodsan());
+	ArrayList<Medico> medici = dbms.getMediciDelPaziente(p.getCodsan());
 	
 %>
 
@@ -78,7 +80,7 @@
 				<h2>PAZIENTE</h2>
 			</div>
 			<h1>
-				<a class="icon icon-arrow-right button"><%= p.getCODSAN() %></a>
+				<a class="icon icon-arrow-right button"><%= p.getCodsan() %></a>
 			</h1>
 		</div>
 
@@ -96,7 +98,7 @@
 if(medici.size() > 0) {
 	for(i = 0; i < medici.size(); i++) {
 %>
-				<strong><p><%= medici.get(i) %></p></strong>
+				<p><strong><%= medici.get(i).getNome() + " " + medici.get(i).getCognome() %></strong></p>
 				<% }
 }
 	else {%>
@@ -114,12 +116,12 @@ if(cartelle.size() > 0) {
 %>
 				<p>
 					<a class="icon icon-arrow-right button2"
-						href="?ps=cartella&cartella=<%= ((CartellaBean)cartelle.get(i)).getCodice() %>">
-						<%= ((CartellaBean)cartelle.get(i)).getCodice() %>
+						href="?ps=cartella&cartella=<%= cartelle.get(i).getId() %>">
+						<%= cartelle.get(i).getId() %>
 					</a>
-					(<%= ((CartellaBean)cartelle.get(i)).getData() %>
+					(<%= cartelle.get(i).getDataRicovero() %>
 					-
-					<%= ((CartellaBean)cartelle.get(i)).getDataDimissione() %>)
+					<%= cartelle.get(i).getDataDimissione() %>)
 				</p>
 				<% }
 }
@@ -148,7 +150,7 @@ if(cartelle.size() > 0) {
 						<li>Rischi del paziente: <strong><% 
 if(rischi.size() > 0) {
 	for(i = 0; i < rischi.size(); i++) {
-%> <br><%= rischi.get(i) %> <% }
+%> <br><%= rischi.get(i).getFattoriRischio().getNome() %> <% }
 }	else {%> <br>Il paziente non ha fattori a rischio <% } %></strong>
 					</ul>
 				</div>

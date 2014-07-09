@@ -1,4 +1,5 @@
 <!-- Eseguo gli import necessari -->
+<%@page import="bean.Diagnosi"%>
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="dbms.*"%>
@@ -8,7 +9,7 @@
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
 
-    Vector patologie = new Vector();
+    ArrayList<Diagnosi> patologie = new ArrayList<Diagnosi>();
     patologie = dbms.getPatologie();
 %>
 
@@ -71,11 +72,12 @@
 				</div>
 				
 					<% for(int i = 0; i < patologie.size(); i++) { %>
-					<p><strong>[ <%= ((PatologieBean)patologie.get(i)).getICD10() %> ] </strong>
+					<p><strong>[ <%= patologie.get(i).getIcd10() %> ] </strong>
 					
-					(<%= ((PatologieBean)patologie.get(i)).getNomePatologia() %>)
-					, pazienti diagnosticati:
-					<%= ((PatologieBean)patologie.get(i)).getNumeroPazienti() %> </p>
+					(<%= patologie.get(i).getPatologia() %>)
+					, <br>pazienti diagnosticati:
+						<%= dbms.getCountPatologie( patologie.get(i).getIcd10(), patologie.get(i).getPatologia()) %>
+					 </p>
 					<%} %>
 				
 			</div>

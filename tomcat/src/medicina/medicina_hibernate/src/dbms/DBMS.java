@@ -87,15 +87,22 @@ public class DBMS {
 	
 	
 	//per contare le patologie per ogni paziente fai paziente.size()
+	String queryCountPatologie =
+			"select count(*) "
+			+ "from diagnosi "
+			+ "where patologia = (:patologia) "
+			+ "and icd10 = (:icd10) "
+			+ "group by icd10, patologia;";
+	
 	
 
 
 	//query per la diagnosipage
 	String queryMedicoLogin =
-			"select * from medico as m where m.id = (:id) and m.psw = (:psw);";
+			"select m.* from medico as m where m.id = (:id) and m.psw = (:psw);";
 
 	String queryMedicoLoginOk =
-			"select * from medico as m where m.id = (:id);";
+			"select m.* from medico as m where m.id = (:id);";
 
 	
 
@@ -372,6 +379,27 @@ public class DBMS {
 	}
 	
 	
+	
+	public int getCountPatologie(String icd10, String patologia) {
+	
+		int result = 0;
+
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Transaction tx = session.beginTransaction(); 
+
+		Query query = session.createSQLQuery(queryCountPatologie);
+		query.setString("icd10", icd10);
+		query.setString("patologia", patologia);
+		
+		result = ((Number) query.uniqueResult()).intValue();
+		
+		tx.commit();
+		session.close();
+
+		return result;	
+
+		
+	}
 
 	
 	/***********************************************************/
@@ -385,8 +413,8 @@ public class DBMS {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
 
-		Query query = session.createSQLQuery(queryMedicoLogin).addEntity(Paziente.class);
-		query.setString("codsan", id);
+		Query query = session.createSQLQuery(queryMedicoLogin).addEntity(Medico.class);
+		query.setString("id", id);
 		query.setString("psw", pw);
 
 

@@ -4,6 +4,7 @@
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="dbms.*"%>
+<%@page import="bean.*"%>
 <%@page errorPage="error.jsp"%>
 <%@page isErrorPage="false"%>
 <html>
@@ -17,8 +18,7 @@
     else
 	    medico = "";
 
-
-    String iAm = dbms.getMedico(medico); 
+    Medico iAm = dbms.getMedico(medico); 
 %>
 
 
@@ -183,7 +183,7 @@ function checkInvio() {
 
 		<div align="center">
 			<div class="title2">
-				<h2> Benvenuto <%= iAm %> </h2>
+				<h2> Benvenuto <%= iAm.getNome() + " " + iAm.getCognome() %> </h2>
 			</div>
 
 
@@ -237,8 +237,6 @@ function checkInvio() {
 		<div id="footer" class="container"></div>
 	</div>
 
-	</div>
-	</div>
 
 	<h2>
 	</h2>
