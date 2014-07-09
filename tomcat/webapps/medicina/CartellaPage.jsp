@@ -26,8 +26,8 @@
 	CartellaBean c = new CartellaBean();
 	c = dbms.getCartella(cartella);
 	
-	Vector terapie = new Vector();
-	Vector diagnosi = new Vector();
+	Vector terapie = dbms.getTerapieCartella(c.getCodice());
+	Vector diagnosi = dbms.getDiagnosiCartella(c.getCodice());
 
 %>
 <title>Cartella - <%= c.getCodice() %></title>
