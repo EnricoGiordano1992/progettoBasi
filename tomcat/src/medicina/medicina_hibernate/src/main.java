@@ -163,7 +163,7 @@ public class main extends HttpServlet {
 					user = request.getParameter("user");
 					password = request.getParameter("password");
 
-					p = dbms.MedicoLogin(user, password);			
+					p = dbms.MedicoLogin(user, password).getId();			
 
 					out.print(p);
 					if(p.equals(""))

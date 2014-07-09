@@ -10,7 +10,7 @@
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
     
-    String primario = dbms.getPrimario(); 
+    Medico primario = dbms.getPrimario(); 
 
 %>
 
@@ -64,7 +64,7 @@
 			<div class="title2">
 				<h2>PRIMARIO</h2>
 			</div>
-			<a class="button"><%= primario %></a>
+			<a class="button"><%= "" + primario.getNome() + " " + primario.getCognome() %></a>
 			<br><br><br>
 		</div>
 		<div class="title, style2" style="margin-left:10%;margin-right:10%;" align="center">

@@ -42,7 +42,6 @@ INDEX VERSION 1.126+/home/enrico/progettoBasi/tomcat/src/medicina/.metadata/.plu
 2676144075.index
 1198206356.index
 1393762058.index
-1313368165.index
 1230699524.index
 117339232.index
 4267884898.index

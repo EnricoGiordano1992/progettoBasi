@@ -23,7 +23,7 @@
         <property name="inizioAttivita" type="date">
             <column name="inizio_attivita" length="13" not-null="true" />
         </property>
-        <set name="diagnosis" table="diagnosi" inverse="true" lazy="true" fetch="select">
+        <set name="diagnosis" table="diagnosi" inverse="true" lazy="false" fetch="select">
             <key>
                 <column name="id_medico" length="30" />
             </key>

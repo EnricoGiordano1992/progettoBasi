@@ -2,17 +2,19 @@
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="dbms.*"%>
+<%@page import="bean.*"%>
+
 <%@page isErrorPage="false"%>
 
 <% 
     // Genero un oggetto della classe DBMS per gestire l'interzione con la base di dati
     DBMS dbms = new DBMS();
 
-    Vector p = dbms.getPersonaleMedico(); 
-    Vector spec = new Vector();
+    ArrayList<Medico> p = dbms.getPersonaleMedico(); 
+    ArrayList<SpecDelMedico> spec = new ArrayList<SpecDelMedico>();
     
-    PrimarioBean primario = dbms.getPrimarioSpec();
-    Vector specPrimario = dbms.getSpecializzazioni(primario.getId());
+    Medico primario = dbms.getPrimario();
+    ArrayList<SpecDelMedico> specPrimario = dbms.getSpecializzazioni(primario.getId());
 %>
 
 
@@ -81,7 +83,7 @@
 			<br>
 			<% for (int i=0; i < specPrimario.size() ; i++) {%>
 			<br>
-			<h3><%= ((PersonaleBean)specPrimario.get(i)).getSpecializzazioni() %></h3>
+			<h3><%= specPrimario.get(i).getSpecializzazioni().getNome() %></h3>
 
 			<%} %>
 
@@ -99,7 +101,7 @@
 
 					<% for (int i=0; i < p.size() ; i++) {
 
-	spec = dbms.getSpecializzazioni(((PersonaleBean)p.get(i)).getId());
+	spec = dbms.getSpecializzazioni(p.get(i).getId());
 	
 	if( i%5 != 0) {
 %>
@@ -107,14 +109,14 @@
 					<div id="column<%= i%5 %>">
 						<div class="title">
 							<br>
-							<h2><%= ((PersonaleBean)p.get(i)).getNome() %>
-								<%= ((PersonaleBean)p.get(i)).getCognome() %></h2>
+							<h2><%= p.get(i).getNome() %>
+								<%= p.get(i).getCognome() %></h2>
 						</div>
 
 						inizio attivita':
 						<br>
 						<a class="icon icon-arrow-right button2" background="#000000">
-						<%= ((PersonaleBean)p.get(i)).getInizio() %>
+						<%= p.get(i).getInizioAttivita() %>
 						</a>
 						<br>
 						<br>
@@ -122,12 +124,12 @@
 						numero diagnosi effettuate:
 						<br>
 						<a class="icon icon-arrow-right button2" background="#000000">
-						<%= ((PersonaleBean)p.get(i)).getDiagnosi() %>
+						<%= p.get(i).getDiagnosis().size() %>
 						</a>
 						<br>
 						<br>
 
-						<% if (((PersonaleBean)p.get(i)).getNome().charAt(((PersonaleBean)p.get(i)).getNome().length()-1) == 'a'){ %>
+						<% if (p.get(i).getNome().charAt(p.get(i).getNome().length()-1) == 'a'){ %>
 						specializzata in:
 						<%}  else {%>
 						specializzato in:
@@ -137,7 +139,7 @@
 						<a class="icon icon-arrow-right button2" background="#000000">
 						
 						<% for (int j=0; j < spec.size() ; j++) { %>
-						<br><%= ((PersonaleBean)spec.get(j)).getSpecializzazioni() %><br>
+						<br><%= spec.get(j).getSpecializzazioni().getNome() %><br>
 						<%} %>
 						</a>
 						<br>

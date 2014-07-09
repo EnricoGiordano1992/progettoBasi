@@ -2,11 +2,11 @@
 package dbms;
 
 import bean.*;
-import bean.Medico;
 
 import org.hibernate.*;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class DBMS {
@@ -114,7 +114,7 @@ public class DBMS {
 	/***********************************************************/
 	//query per la homepage
 	
-	public String getPrimario() {
+	public Medico getPrimario() {
 		
 		Medico bean;
 		
@@ -126,7 +126,7 @@ public class DBMS {
 		tx.commit();
 		session.close();
 		
-		return bean.getNome() + " " + bean.getCognome();
+		return bean;
 	}
 
 
@@ -178,9 +178,9 @@ public class DBMS {
 
 	
 	
-	public Vector getCartelleDelPaziente(String codsan){
+	public ArrayList<CartellaClinica> getCartelleDelPaziente(String codsan){
 
-		Vector result = null;
+		ArrayList<CartellaClinica> result = null;
 
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
@@ -188,7 +188,7 @@ public class DBMS {
 		Query query = session.createSQLQuery(queryCartellaDelPaziente).addEntity(CartellaClinica.class);
 		query.setString("codsan", codsan);
 
-		result = ( Vector ) query.list();
+		result = ( ArrayList<CartellaClinica> ) query.list();
 		
 		tx.commit();
 		session.close();
@@ -199,9 +199,9 @@ public class DBMS {
 
 	
 	
-	public Vector getRischiDelPaziente(String codsan){
+	public ArrayList<RischiPaziente> getRischiDelPaziente(String codsan){
 
-		Vector result = null;
+		ArrayList<RischiPaziente> result = null;
 
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
@@ -209,7 +209,7 @@ public class DBMS {
 		Query query = session.createSQLQuery(queryRischiPaziente).addEntity(RischiPaziente.class);
 		query.setString("codsan", codsan);
 
-		result = ( Vector ) query.list();
+		result = ( ArrayList<RischiPaziente> ) query.list();
 		
 		tx.commit();
 		session.close();
@@ -221,9 +221,9 @@ public class DBMS {
 	
 	
 	
-	public Vector getMediciDelPaziente(String codsan){
+	public ArrayList<Medico> getMediciDelPaziente(String codsan){
 		
-		Vector result = null;
+		ArrayList<Medico> result = null;
 
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
@@ -231,7 +231,7 @@ public class DBMS {
 		Query query = session.createSQLQuery(queryMediciDelPaziente).addEntity(Medico.class);
 		query.setString("codsan", codsan);
 
-		result = ( Vector ) query.list();
+		result = ( ArrayList<Medico> ) query.list();
 		
 		tx.commit();
 		session.close();
@@ -267,9 +267,9 @@ public class DBMS {
 
 	
 	
-	public Vector getTerapieCartella(String id){
+	public ArrayList<Terapie> getTerapieCartella(String id){
 
-		Vector result = null;
+		ArrayList<Terapie> result = null;
 
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
@@ -277,7 +277,7 @@ public class DBMS {
 		Query query = session.createSQLQuery(queryTerapieDellaCartella).addEntity(Terapie.class);
 		query.setString("id", id);
 
-		result = ( Vector ) query.list();
+		result = ( ArrayList<Terapie> ) query.list();
 		
 		tx.commit();
 		session.close();
@@ -289,9 +289,9 @@ public class DBMS {
 
 	
 	
-	public Vector getDiagnosiCartella(String id){
+	public ArrayList<Diagnosi> getDiagnosiCartella(String id){
 
-		Vector result = null;
+		ArrayList<Diagnosi> result = null;
 
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
@@ -299,7 +299,7 @@ public class DBMS {
 		Query query = session.createSQLQuery(queryDiagnosiDellaCartella).addEntity(Diagnosi.class);
 		query.setString("id", id);
 
-		result = ( Vector ) query.list();
+		result = ( ArrayList<Diagnosi> ) query.list();
 		
 		tx.commit();
 		session.close();
@@ -314,14 +314,14 @@ public class DBMS {
 	//query per la personale page
 	//(1)
 	
-	public Vector getPersonaleMedico() {
+	public ArrayList<Medico> getPersonaleMedico() {
 
-		Vector res;
+		ArrayList<Medico> res;
 		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
 
-		res = ( Vector ) session.createSQLQuery(queryPersonale).addEntity(Medico.class).list();
+		res = ( ArrayList<Medico> ) session.createSQLQuery(queryPersonale).addEntity(Medico.class).list();
 		tx.commit();
 		session.close();
 
@@ -332,17 +332,17 @@ public class DBMS {
 	
 	
 	
-	public Vector getSpecializzazioni(String id){
+	public ArrayList<SpecDelMedico> getSpecializzazioni(String id){
 
-		Vector result = null;
+		ArrayList<SpecDelMedico> result = null;
 
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
 
 		Query query = session.createSQLQuery(querySpecializzazioni).addEntity(SpecDelMedico.class);
-		query.setString("id", id);
+		query.setString("id_medico", id);
 
-		result = ( Vector ) query.list();
+		result = ( ArrayList<SpecDelMedico> ) query.list();
 		
 		tx.commit();
 		session.close();
@@ -356,14 +356,14 @@ public class DBMS {
 	/***********************************************************/
 	//query per la patologiepage
 	
-	public Vector getPatologie() {
+	public ArrayList<Diagnosi> getPatologie() {
 
-		Vector res;
+		ArrayList<Diagnosi> res;
 		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
 
-		res = ( Vector ) session.createSQLQuery(queryPatologie).addEntity(Diagnosi.class).list();
+		res = ( ArrayList<Diagnosi> ) session.createSQLQuery(queryPatologie).addEntity(Diagnosi.class).list();
 		tx.commit();
 		session.close();
 
@@ -378,7 +378,7 @@ public class DBMS {
 	/***********************************************************/
 	//query per la diagnosipage
 	
-	public String MedicoLogin(String id, String pw){
+	public Medico MedicoLogin(String id, String pw){
 
 		Medico result = null;
 
@@ -395,13 +395,13 @@ public class DBMS {
 		tx.commit();
 		session.close();
 
-		return result.getId();
+		return result;
 
 	}
 	
 	
 	
-	public String getMedico(String id){
+	public Medico getMedico(String id){
 
 		Medico result = null;
 
@@ -417,7 +417,7 @@ public class DBMS {
 		tx.commit();
 		session.close();
 
-		return result.getNome() + " " + result.getCognome();
+		return result;
 
 	}
 	
