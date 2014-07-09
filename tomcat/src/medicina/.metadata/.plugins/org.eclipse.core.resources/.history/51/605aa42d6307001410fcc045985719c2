@@ -1,0 +1,305 @@
+/**        DBMS.java        */
+package database;
+
+import bean.*;
+
+import org.hibernate.*;
+
+import java.sql.*;
+import java.util.Vector;
+
+public class DBMS {
+
+
+	//query per la homepage
+	private final String queryPrimario =
+			"select nome, cognome " +
+					"from medico as m " +
+					"where m.primario = 'si';";
+
+	//query per la pazientepage
+	private final String queryLoginPaziente =
+			"select codsan from paziente as p where p.codsan = (:codsan) and p.psw = (:psw)";
+
+	private final String queryPaziente = 
+			"select p.codsan, p.nome, p.cognome, p.nascita, p.citta, p.via, p.prov, p.cap, p.civico, r.nome_fattore, c.id as idcartelle, c.data_ricovero, c.data_dimissione, m.nome as nome_medico, m.cognome as cognome_medico " +
+					"from paziente as p, rischi_paziente as r, cartella_clinica as c, diagnosi as d, medico as m " +
+					"where p.codsan = (:codsan) " +
+					"and p.codsan = c.codsan " +
+					"and p.codsan = r.id_paziente " +
+					"and d.id_paziente = p.codsan " +
+					"and d.id_medico = m.id;";
+	
+	private final String queryCartellaDelPaziente =
+			"select c.id, c.data_ricovero, c.data_dimissione " +
+			"from cartella_clinica as c, paziente as p " +
+			"where c.codsan = (:codsan) " +
+			"and c.codsan = p.codsan;";
+	
+	
+	private final String queryRischiPaziente = 
+			"select nome_fattore " +
+			"from paziente as p, rischi_paziente as r " +
+			"where p.codsan = (:codsan) " +
+			"and p.codsan = r.id_paziente; ";
+	
+	
+	private final String queryMediciDelPaziente =
+			"select m.nome, m.cognome " +
+			"from paziente as p, medico as m, diagnosi as d " +
+			"where p.codsan = (:codsan) " +
+			"and p.codsan = d.id_paziente " +
+			"and m.id = d.id_medico ;";
+
+	//query per la cartellapage
+	private final String queryCartella =
+			"select c.* " +
+					"from cartella_clinica as c, paziente as p " +
+					"where c.id = (:id) ;";
+	
+	private final String queryTerapieDellaCartella =
+			"select t.* " +
+					"from cartella_clinica as c, terapie as t " +
+					"where c.id = (:id) " +
+					"and c.id = t.id_cartella ; ";
+
+	private final String queryDiagnosiDellaCartella =
+			"select d.*, m.nome, m.cognome " +
+			"from cartella_clinica as c, diagnosi as d, paziente as p, medico as m " +
+			"where c.id = (:id) " +
+			"and p.codsan = d.id_paziente " +
+			"and p.codsan = c.codsan " +
+			"and d.id_medico = m.id;";
+
+
+	//query per la personalepage
+	private final String queryPrimarioPerSpec =
+			"select id, nome, cognome " +
+					"from medico as m " +
+					"where m.primario = 'si' ;";
+
+	private final String querySpecializzazioni =
+			" select nome_specializzazione as nome_spec " +
+			"from spec_del_medico as s " +
+			"where s.id_medico = (:id_medico) ;";
+	
+	private final String queryPersonale =
+			"select m.*, count(d.id_medico) as count " +
+					"from medico as m, spec_del_medico as s, diagnosi as d " +
+					"where m.id = s.id_medico " +
+					"and d.id_medico = m.id " +
+					"group by m.id;";
+
+	//query per la patologiepage
+	private final String queryPatologie =
+			"select d.patologia, d.icd10, count(*) as numeropazienti " +
+					"from diagnosi as d, paziente as p " +
+					"where d.id_paziente = p.codsan " +
+					"group by d.icd10, d.patologia;";
+	
+	
+	private final String queryPazientiDaIcd10 =
+			"select p.codsan " +
+			"from paziente as p, diagnosi as d " +
+			"where p.codsan = d.id_paziente;";
+
+
+	//query per la diagnosipage
+	private final String queryMedicoLogin =
+			"select id from medico as m where m.id = (:id) and m.psw = (:psw);";
+
+	private final String queryMedicoLoginOk =
+			"select nome,cognome from medico as m where m.id = (:id);";
+
+	
+
+	
+	/***********************************************************/
+	/***********************************************************/
+	/***********************************************************/
+	 /* 
+	 *  METODI GET
+	 * 
+	/***********************************************************/
+	/***********************************************************/
+	/***********************************************************/
+
+	/***********************************************************/
+	/***********************************************************/
+	//query per la homepage
+	
+	public String getPrimario() {
+		
+		String res = "";
+		
+		Medico bean;
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Transaction tx = session.beginTransaction(); 
+
+		bean = (Medico) session.createSQLQuery(queryPrimario).addEntity(Medico.class).uniqueResult();
+		
+		tx.commit();
+		session.close();
+		
+		return "" + bean.getNome() + " " + bean.getCognome();
+	}
+
+
+
+	/***********************************************************/
+	/***********************************************************/
+	//query per la pazientepage
+	
+	public Paziente getPaziente(String codsan){
+		
+		Paziente bean;
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Transaction tx = session.beginTransaction(); 
+
+		bean = (Paziente) session.createSQLQuery(queryPaziente).addEntity(Medico.class).uniqueResult();
+		
+		tx.commit();
+		session.close();
+
+		return bean;
+	}
+
+
+	
+	public String PazienteLogin(String codsan, String password){
+
+		String datiPasseggeroLogin = " SELECT * " +
+				" FROM passeggero " +
+				" WHERE passeggero.login=(:login)";
+		PasseggeroBean result = null;
+
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Transaction tx = session.beginTransaction(); 
+
+		Query query = session.createSQLQuery(datiPasseggeroLogin).addEntity(PasseggeroBean.class);
+		query.setString("login", username);
+
+
+		result = (PasseggeroBean) query.uniqueResult();
+		tx.commit();
+		session.close();
+
+		return result;
+	}
+
+	
+	
+	public Vector getCartelleDelPaziente(String codsan){
+
+		return null;
+	}
+
+	
+	
+	public Vector getRischiDelPaziente(String codsan){
+		return null;
+	}
+	
+	
+	
+	public Vector getMediciDelPaziente(String codsan){
+		
+		return null;
+	}
+
+	/***********************************************************/
+	/***********************************************************/
+	//query per la cartellaPage
+	
+	public CartellaClinica getCartella(String id){
+
+		return null;
+
+	}
+
+
+	
+	
+	public Vector getTerapieCartella(String id){
+
+		return null;
+
+	}
+
+
+	
+	
+	public Vector getDiagnosiCartella(String id){
+		return null;
+
+	}
+
+
+	/***********************************************************/
+	/***********************************************************/
+	//query per la personale page
+	//(1)
+	
+	public PrimarioBean getPrimarioSpec() {
+
+		return null;
+
+	}
+
+	
+	//(2)
+	
+	public Vector getPersonaleMedico() {
+
+		return null;
+
+	}
+	
+	
+	
+	
+	public Vector getSpecializzazioni(String id){
+		return null;
+	}
+	
+	
+	/***********************************************************/
+	/***********************************************************/
+	//query per la patologiepage
+	
+	public Vector getPatologie() {
+
+
+		return null;
+
+	}
+	
+	public Vector getPazientiDaIcd10() {
+
+
+		return null;
+
+	}
+
+	
+	/***********************************************************/
+	/***********************************************************/
+	//query per la diagnosipage
+	
+	public String MedicoLogin(String id, String pw){
+
+		return "";
+	}
+	
+	
+	
+	public String getMedico(String id){
+
+		return "";
+
+	}
+	
+	
+}

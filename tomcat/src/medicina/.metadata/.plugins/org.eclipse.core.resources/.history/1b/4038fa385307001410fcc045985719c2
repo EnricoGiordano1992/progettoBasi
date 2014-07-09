@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9-lug-2014 12.20.43 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.RischiPaziente" table="rischi_paziente" schema="public">
+        <composite-id name="id" class="bean.RischiPazienteId">
+            <key-property name="idPaziente" type="string">
+                <column name="id_paziente" length="30" />
+            </key-property>
+            <key-property name="nomeFattore" type="string">
+                <column name="nome_fattore" length="100" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="fattoriRischio" class="bean.FattoriRischio" update="false" insert="false" fetch="select">
+            <column name="nome_fattore" length="100" not-null="true" />
+        </many-to-one>
+        <many-to-one name="paziente" class="bean.Paziente" update="false" insert="false" fetch="select">
+            <column name="id_paziente" length="30" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

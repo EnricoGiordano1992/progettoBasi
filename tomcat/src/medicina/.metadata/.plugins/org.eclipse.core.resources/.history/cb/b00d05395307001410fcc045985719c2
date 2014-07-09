@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9-lug-2014 12.20.43 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.Paziente" table="paziente" schema="public">
+        <id name="codsan" type="string">
+            <column name="codsan" length="30" />
+            <generator class="assigned" />
+        </id>
+        <property name="nome" type="string">
+            <column name="nome" length="30" not-null="true" />
+        </property>
+        <property name="cognome" type="string">
+            <column name="cognome" length="30" not-null="true" />
+        </property>
+        <property name="nascita" type="date">
+            <column name="nascita" length="13" not-null="true" />
+        </property>
+        <property name="psw" type="string">
+            <column name="psw" length="30" not-null="true" />
+        </property>
+        <property name="citta" type="string">
+            <column name="citta" length="60" not-null="true" />
+        </property>
+        <property name="via" type="string">
+            <column name="via" length="30" not-null="true" />
+        </property>
+        <property name="prov" type="string">
+            <column name="prov" length="30" not-null="true" />
+        </property>
+        <property name="cap" type="int">
+            <column name="cap" not-null="true" />
+        </property>
+        <property name="civico" type="string">
+            <column name="civico" length="10" not-null="true" />
+        </property>
+        <set name="sintomis" table="sintomi" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_paziente" length="30" not-null="true" />
+            </key>
+            <one-to-many class="bean.Sintomi" />
+        </set>
+        <set name="cartellaClinicas" table="cartella_clinica" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="codsan" length="30" />
+            </key>
+            <one-to-many class="bean.CartellaClinica" />
+        </set>
+        <set name="rischiPazientes" table="rischi_paziente" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_paziente" length="30" not-null="true" />
+            </key>
+            <one-to-many class="bean.RischiPaziente" />
+        </set>
+        <set name="diagnosis" table="diagnosi" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_paziente" length="30" not-null="true" />
+            </key>
+            <one-to-many class="bean.Diagnosi" />
+        </set>
+    </class>
+</hibernate-mapping>

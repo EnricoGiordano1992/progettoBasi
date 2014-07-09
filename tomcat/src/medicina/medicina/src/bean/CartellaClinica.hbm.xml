@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9-lug-2014 12.20.43 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.CartellaClinica" table="cartella_clinica" schema="public">
+        <id name="id" type="string">
+            <column name="id" length="30" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="paziente" class="bean.Paziente" fetch="select">
+            <column name="codsan" length="30" />
+        </many-to-one>
+        <property name="dataRicovero" type="date">
+            <column name="data_ricovero" length="13" not-null="true" />
+        </property>
+        <property name="dataDimissione" type="date">
+            <column name="data_dimissione" length="13" not-null="true" />
+        </property>
+        <property name="motivo" type="string">
+            <column name="motivo" length="200" not-null="true" />
+        </property>
+        <property name="prognosi" type="string">
+            <column name="prognosi" length="200" />
+        </property>
+        <set name="terapies" table="terapie" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_cartella" length="30" not-null="true" />
+            </key>
+            <one-to-many class="bean.Terapie" />
+        </set>
+    </class>
+</hibernate-mapping>

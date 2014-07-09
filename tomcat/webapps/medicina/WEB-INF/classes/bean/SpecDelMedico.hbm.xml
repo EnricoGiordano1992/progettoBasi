@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9-lug-2014 12.20.43 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.SpecDelMedico" table="spec_del_medico" schema="public">
+        <composite-id name="id" class="bean.SpecDelMedicoId">
+            <key-property name="idMedico" type="string">
+                <column name="id_medico" length="30" />
+            </key-property>
+            <key-property name="nomeSpecializzazione" type="string">
+                <column name="nome_specializzazione" length="30" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="specializzazioni" class="bean.Specializzazioni" update="false" insert="false" fetch="select">
+            <column name="nome_specializzazione" length="30" not-null="true" />
+        </many-to-one>
+        <many-to-one name="medico" class="bean.Medico" update="false" insert="false" fetch="select">
+            <column name="id_medico" length="30" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

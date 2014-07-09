@@ -1,3 +1,6 @@
-javac  -classpath /usr/share/tomcat7/lib/servlet-api.jar \
--d ../../../../webapps/medicina/WEB-INF/classes/ dbms/*.java *.java;
+javac  -classpath ../../../../webapps/medicina/WEB-INF/classes/lib/*:/usr/share/tomcat7/lib/jsp-api.jar:/usr/share/tomcat7/lib/servlet-api.jar \
+-d ../../../../webapps/medicina/WEB-INF/classes/ *.java bean/*.java database/*.java
+
+cp hibernate.cfg.xml ../../../../webapps/medicina/WEB-INF/classes/
+cp bean/*.hbm.xml ../../../../webapps/medicina/WEB-INF/classes/bean/
 

@@ -1,0 +1,10 @@
+javac  -classpath /usr/share/tomcat7/lib/servlet-api.jar \
+-d ../../../../webapps/medicina/WEB-INF/classes/ *.java bean/*.java database/*.java
+
+
+
+javac   -d ~/tomcat/webapps/CorsoHibernate/WEB-INF/classes/ \
+    -classpath ~/tomcat/webapps/CorsoHibernate/WEB-INF/lib/*:/usr/share/tomcat7/lib/jsp-api.jar:/usr/share/tomcat7/lib/servlet-api.jar
+
+cp hibernate.cfg.xml ~/tomcat/webapps/CorsoHibernate/WEB-INF/classes/
+cp did/*.hbm.xml ~/tomcat/webapps/CorsoHibernate/WEB-INF/classes/did/

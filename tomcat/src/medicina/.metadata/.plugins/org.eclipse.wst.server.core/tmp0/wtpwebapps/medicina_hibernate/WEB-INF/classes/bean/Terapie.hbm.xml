@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9-lug-2014 12.20.43 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.Terapie" table="terapie" schema="public">
+        <composite-id name="id" class="bean.TerapieId">
+            <key-property name="idCartella" type="string">
+                <column name="id_cartella" length="30" />
+            </key-property>
+            <key-property name="inizio" type="date">
+                <column name="inizio" length="13" />
+            </key-property>
+            <key-property name="fine" type="date">
+                <column name="fine" length="13" />
+            </key-property>
+            <key-property name="frequenza" type="int">
+                <column name="frequenza" />
+            </key-property>
+            <key-property name="dose" type="float">
+                <column name="dose" precision="8" scale="8" />
+            </key-property>
+            <key-property name="farmaco" type="string">
+                <column name="farmaco" length="100" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="cartellaClinica" class="bean.CartellaClinica" update="false" insert="false" fetch="select">
+            <column name="id_cartella" length="30" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

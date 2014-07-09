@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+/home/enrico/progettoBasi/tomcat/src/medicina/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1571051338.index
+/medicina_hibernate/src

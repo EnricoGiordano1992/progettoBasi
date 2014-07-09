@@ -1,0 +1,40 @@
+2014-07-09 12:13:14,574 1      [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in conferme. Asking rev.eng. strategy
+2014-07-09 12:13:14,690 117    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for conferme
+2014-07-09 12:13:14,706 133    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in contraddizioni. Asking rev.eng. strategy
+2014-07-09 12:13:14,706 133    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for contraddizioni
+2014-07-09 12:13:14,790 217    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in rischi_paziente. Asking rev.eng. strategy
+2014-07-09 12:13:14,791 218    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for rischi_paziente
+2014-07-09 12:13:14,822 249    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in spec_del_medico. Asking rev.eng. strategy
+2014-07-09 12:13:14,822 249    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for spec_del_medico
+2014-07-09 12:13:14,851 278    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in terapie. Asking rev.eng. strategy
+2014-07-09 12:13:14,851 278    [      Worker-24] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for terapie
+2014-07-09 12:14:03,459 48886  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in conferme. Asking rev.eng. strategy
+2014-07-09 12:14:03,460 48887  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for conferme
+2014-07-09 12:14:03,473 48900  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in contraddizioni. Asking rev.eng. strategy
+2014-07-09 12:14:03,473 48900  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for contraddizioni
+2014-07-09 12:14:03,551 48978  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in rischi_paziente. Asking rev.eng. strategy
+2014-07-09 12:14:03,551 48978  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for rischi_paziente
+2014-07-09 12:14:03,583 49010  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in spec_del_medico. Asking rev.eng. strategy
+2014-07-09 12:14:03,584 49011  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for spec_del_medico
+2014-07-09 12:14:03,618 49045  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in terapie. Asking rev.eng. strategy
+2014-07-09 12:14:03,619 49046  [      Worker-23] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for terapie
+2014-07-09 12:14:13,723 59150  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in conferme. Asking rev.eng. strategy
+2014-07-09 12:14:13,725 59152  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for conferme
+2014-07-09 12:14:13,743 59170  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in contraddizioni. Asking rev.eng. strategy
+2014-07-09 12:14:13,743 59170  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for contraddizioni
+2014-07-09 12:14:13,813 59240  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in rischi_paziente. Asking rev.eng. strategy
+2014-07-09 12:14:13,813 59240  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for rischi_paziente
+2014-07-09 12:14:13,842 59269  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in spec_del_medico. Asking rev.eng. strategy
+2014-07-09 12:14:13,843 59270  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for spec_del_medico
+2014-07-09 12:14:13,871 59298  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in terapie. Asking rev.eng. strategy
+2014-07-09 12:14:13,871 59298  [      Worker-27] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for terapie
+2014-07-09 12:20:41,723 0      [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in conferme. Asking rev.eng. strategy
+2014-07-09 12:20:41,766 43     [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for conferme
+2014-07-09 12:20:41,780 57     [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in contraddizioni. Asking rev.eng. strategy
+2014-07-09 12:20:41,780 57     [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for contraddizioni
+2014-07-09 12:20:41,855 132    [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in rischi_paziente. Asking rev.eng. strategy
+2014-07-09 12:20:41,856 133    [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for rischi_paziente
+2014-07-09 12:20:41,887 164    [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in spec_del_medico. Asking rev.eng. strategy
+2014-07-09 12:20:41,887 164    [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for spec_del_medico
+2014-07-09 12:20:41,917 194    [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - The JDBC driver didn't report any primary key columns in terapie. Asking rev.eng. strategy
+2014-07-09 12:20:41,918 195    [       Worker-0] WARN  ibernate.cfg.reveng.JDBCReader  - Rev.eng. strategy did not report any primary key columns for terapie

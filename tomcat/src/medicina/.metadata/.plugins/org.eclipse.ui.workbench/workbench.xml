@@ -25,7 +25,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -46,6 +46,7 @@
 <part id="7"/>
 <part id="8"/>
 <part id="9"/>
+<part id="10"/>
 </presentation>
 </folder>
 </info>
@@ -74,21 +75,25 @@
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/CartellaPage.jsp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="486" selectionTopPixel="158"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="DiagnosiPage.jsp" partName="DiagnosiPage.jsp" title="DiagnosiPage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="DiagnosiPage.jsp" partName="DiagnosiPage.jsp" title="DiagnosiPage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="246" selectionLength="0" selectionOffset="1794" selectionTopPixel="1088"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="PersonalePage.jsp" partName="PersonalePage.jsp" title="PersonalePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="PersonalePage.jsp" partName="PersonalePage.jsp" title="PersonalePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PersonalePage.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2823" selectionTopPixel="1768"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="721" selectionTopPixel="68"/>
 </editor>
 <editor id="org.eclipse.jst.jsp.core.jspsource.source" name="Info.jsp" partName="Info.jsp" title="Info.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1125" selectionOffset="328" selectionTopPixel="659"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1125" selectionOffset="328" selectionTopPixel="663"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonaleBean.java" partName="PersonaleBean.java" path="/home/enrico/progettoBasi/tomcat/src/medicina/medicina/src/dbms/PersonaleBean.java" title="PersonaleBean.java" tooltip="medicina/src/dbms/PersonaleBean.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/medicina/src/dbms/PersonaleBean.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="498" selectionTopPixel="493"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="Login.html" partName="Login.html" title="Login.html" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="1252" selectionTopPixel="706"/>
 </editor>
 </editors>
 <views>
@@ -97,11 +102,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (33 items)"/>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="417" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -347,37 +347,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/PersonaleBean.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/medicina/src/dbms/PrimarioBean.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/DiagnosiPage.jsp"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Info.jsp"/>
 </editors>
-<item historyLabel="PersonalePage.jsp" index="1">
-<position/>
-</item>
-<item historyLabel="DBMS.java" index="2">
-<position info="not_deleted" x="6029" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="3">
-<position info="not_deleted" x="155" y="0"/>
-</item>
-<item historyLabel="PersonalePage.jsp" index="1">
-<position/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="3">
-<position info="not_deleted" x="155" y="0"/>
-</item>
-<item historyLabel="DBMS.java" index="2">
-<position info="not_deleted" x="6029" y="0"/>
-</item>
-<item historyLabel="CartellaPage.jsp" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PatologiePage.jsp" index="3">
-<position info="not_deleted" x="155" y="0"/>
-</item>
-<item historyLabel="PersonalePage.jsp" index="1">
-<position/>
-</item>
-<item historyLabel="PersonaleBean.java" index="4">
-<position info="not_deleted" x="498" y="0"/>
-</item>
 <item historyLabel="DBMS.java" index="2">
 <position info="not_deleted" x="6029" y="0"/>
 </item>
@@ -495,8 +468,38 @@
 <item historyLabel="DBMS.java" index="2">
 <position info="not_deleted" x="3960" y="0"/>
 </item>
-<item active="true" historyLabel="PersonalePage.jsp" index="1">
+<item historyLabel="PersonalePage.jsp" index="1">
 <position info="not_deleted" x="2815" y="1"/>
+</item>
+<item historyLabel="DiagnosiPage.jsp" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="483" y="3211"/>
+</item>
+<item historyLabel="DiagnosiPage.jsp" index="7">
+<position/>
+</item>
+<item historyLabel="Login.html" index="8">
+<position info="not_deleted" x="993" y="33"/>
+</item>
+<item historyLabel="DiagnosiPage.jsp" index="7">
+<position info="not_deleted" x="5530" y="0"/>
+</item>
+<item historyLabel="Login.html" index="8">
+<position info="not_deleted" x="993" y="33"/>
+</item>
+<item historyLabel="Info.jsp" index="9">
+<position info="not_deleted" x="328" y="1125"/>
+</item>
+<item historyLabel="DiagnosiPage.jsp" index="7">
+<position info="not_deleted" x="3642" y="0"/>
+</item>
+<item historyLabel="PersonalePage.jsp" index="1">
+<position info="not_deleted" x="721" y="0"/>
+</item>
+<item active="true" historyLabel="DiagnosiPage.jsp" index="7">
+<position info="not_deleted" x="3642" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -515,6 +518,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="Login.html" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html">
+<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonaleBean.java" tooltip="medicina/src/dbms/PersonaleBean.java">
 <persistable path="/medicina/src/dbms/PersonaleBean.java"/>
 </file>
@@ -526,9 +532,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="PazientePage.jsp" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/PazientePage.jsp">
 <persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/PazientePage.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="Login.html" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html">
-<persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/Login.html"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="HomePage.html" tooltip="/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.html">
 <persistable uri="file:/home/enrico/progettoBasi/tomcat/webapps/medicina/HomePage.html"/>
