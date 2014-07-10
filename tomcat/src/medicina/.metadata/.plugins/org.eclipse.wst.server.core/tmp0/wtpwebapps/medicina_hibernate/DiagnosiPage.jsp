@@ -117,7 +117,12 @@ function EliminaRiga(riga){
 
 
 function checkInvio(form) {
-	
+
+	    if(form.elements[1].value == ""){
+		    alert("inserire la data");
+		    form.elements[1].focus();
+	    }
+		    
 		for(var i=0,max=form.elements.length;i<max;++i){
 			if(form.elements[i].type.toLowerCase()=='text' &&
 			!form.elements[i].value){
@@ -205,7 +210,7 @@ function checkInvio(form) {
 					Paziente:<br> <input type=text name=paziente> 
 					<br> 
 					<label>Data:<br>
-						<input type="date" name="mydatetime">
+						<input type="date" name="data">
 					</label> 
 					<br> 
 					ICD10: <br><input type=text name=ICD10> 
