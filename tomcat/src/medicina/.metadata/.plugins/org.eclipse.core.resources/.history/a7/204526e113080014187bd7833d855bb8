@@ -128,9 +128,9 @@ function checkInvio(form) {
 		} 
 
 		var j;
-		for(var i=5,max=form.elements.length; i<max; i++){
-			if(form.elements[i].type.toLowerCase()=='radio' && form.elements[i+1].type.toLowerCase()=='radio') 
-					if(!(form.elements[i].checked || form.elements[i+1].checked)){
+		for(var i=0,max=form.elements.length,  j= 1;i<max, j<max;i+=2, j+=2){
+			if(form.elements[i].type.toLowerCase()=='radio' && form.elements[j].type.toLowerCase()=='radio') 
+					if(!(form.elements[i].checked || form.elements[j].checked)){
 						alert("Il campo "+form.elements[i].name+" non puo' essere vuoto!");
 						form.elements[i].focus();
 						return false;

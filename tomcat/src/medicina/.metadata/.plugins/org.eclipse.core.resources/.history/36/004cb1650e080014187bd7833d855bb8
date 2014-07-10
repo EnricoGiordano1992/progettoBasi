@@ -68,6 +68,7 @@ function aggiornaIntensita(stringa, pos) {
 }
 
 function AggiungiRiga(){
+	var isDecK = false;
 	var numero_righe = j++;
 	var box = document.getElementById('box_righe');
 	if(isNaN(numero_righe)==true){
@@ -78,6 +79,10 @@ function AggiungiRiga(){
 		for(i=1; i<=numero_righe; i++){
 			k=i+1;
 
+			if(arrayString[k] == null) {
+				k--;
+			}
+			
 			righe = righe+"<br>Sintomo "+(k) +" : <input type=button onclick='EliminaRiga(" + k + ")' value=X class=button><br><br>" +"<input type='text' " + arrayString[k] + " name='sintomo"+k+"' onkeyup='aggiornaString(this, " + k + ")'  />" +
 			"<br> <input type='radio' name='tipo" + k + "' value='conferma' onclick='aggiornaCheckConferma("+ k + ")' " + arrayCheckConferma[k] + ">Conferma "+
 			"<input type='radio' name='tipo" + k + "' value='contraddizione' onclick='aggiornaCheckContraddizione("+ k + ")' " + arrayCheckContraddizione[k] +">Contraddizione <br/>" +
@@ -116,26 +121,15 @@ function EliminaRiga(riga){
 }
 
 
-function checkInvio(form) {
+function checkInvio() {
 	
-		for(var i=0,max=form.elements.length;i<max;++i){
-			if(form.elements[i].type.toLowerCase()=='text' &&
-			!form.elements[i].value){
-				alert("Il campo "+form.elements[i].name+" non puo' essere vuoto!");
-				form.elements[i].focus();
-				return false;
-			}
+	with(document.diagnosi) { 
+		if(codsan.value=="") { 
+			alert("Errore: compilare il campo Paziente"); 
+			codsan.focus(); 
+		return false; 
 		} 
-
-		var j;
-		for(var i=5,max=form.elements.length; i<max; i++){
-			if(form.elements[i].type.toLowerCase()=='radio' && form.elements[i+1].type.toLowerCase()=='radio') 
-					if(!(form.elements[i].checked || form.elements[i+1].checked)){
-						alert("Il campo "+form.elements[i].name+" non puo' essere vuoto!");
-						form.elements[i].focus();
-						return false;
-			}
-		} 
+	} 
 	alert("Controllo effettuato con successo. Il modulo sarà inviato."); 
 	return true; 
 }
@@ -201,8 +195,8 @@ function checkInvio(form) {
 	<h3>inserire la diagnosi</h3>
 
 
-				<form name="diagnosi" action="?" method="post" class="dark-matter" onSubmit="return checkInvio(this);">
-					Paziente:<br> <input type=text name=paziente> 
+				<form name="diagnosi" action="?" method="post" class="dark-matter" onSubmit="return checkInvio();">
+					Paziente:<br> <input type=text name=codsan> 
 					<br> 
 					<label>Data:<br>
 						<input type="date" name="mydatetime">
@@ -212,11 +206,11 @@ function checkInvio(form) {
 					<br>
 					Patologia:<br> <input type=text name=patologia> 
 					<br> 
-					Sintomo 1:<br> <input type="text" name="sintomo1" /><br> 
-					<input type="radio" name="tipo1" value="conferma">Conferma 
-					<input type="radio" name="tipo1"	value="contraddizione">Contraddizione 
+					Sintomo 1:<br> <input type="text" name="righe" /><br> 
+					<input type="radio" name="tipo" value="conferma">Conferma 
+					<input type="radio" name="tipo"	value="contraddizione">Contraddizione 
 					<br><br>
-					Intensità 1: <br><input type="text" name=intensita1> 
+					Intensità 1: <br><input type="text" name=intensita> 
 					<br> 
 					<div id='box_righe'>
 						<!-- Box che conterrà le righe aggiunte. Inizialmente vuoto! -->

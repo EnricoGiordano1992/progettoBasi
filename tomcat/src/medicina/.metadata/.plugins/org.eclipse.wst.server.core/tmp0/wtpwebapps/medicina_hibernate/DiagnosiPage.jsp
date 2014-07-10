@@ -116,15 +116,26 @@ function EliminaRiga(riga){
 }
 
 
-function checkInvio() {
+function checkInvio(form) {
 	
-	with(document.diagnosi) { 
-		if(codsan.value=="") { 
-			alert("Errore: compilare il campo Paziente"); 
-			codsan.focus(); 
-		return false; 
+		for(var i=0,max=form.elements.length;i<max;++i){
+			if(form.elements[i].type.toLowerCase()=='text' &&
+			!form.elements[i].value){
+				alert("Il campo "+form.elements[i].name+" non puo' essere vuoto!");
+				form.elements[i].focus();
+				return false;
+			}
 		} 
-	} 
+
+		var j;
+		for(var i=5,max=form.elements.length; i<max; i++){
+			if(form.elements[i].type.toLowerCase()=='radio' && form.elements[i+1].type.toLowerCase()=='radio') 
+					if(!(form.elements[i].checked || form.elements[i+1].checked)){
+						alert("Il campo "+form.elements[i].name+" non puo' essere vuoto!");
+						form.elements[i].focus();
+						return false;
+			}
+		} 
 	alert("Controllo effettuato con successo. Il modulo sarà inviato."); 
 	return true; 
 }
@@ -190,8 +201,8 @@ function checkInvio() {
 	<h3>inserire la diagnosi</h3>
 
 
-				<form name="diagnosi" action="?" method="post" class="dark-matter" onSubmit="return checkInvio();">
-					Paziente:<br> <input type=text name=codsan> 
+				<form name="diagnosi" action="?" method="post" class="dark-matter" onSubmit="return checkInvio(this);">
+					Paziente:<br> <input type=text name=paziente> 
 					<br> 
 					<label>Data:<br>
 						<input type="date" name="mydatetime">
@@ -201,11 +212,11 @@ function checkInvio() {
 					<br>
 					Patologia:<br> <input type=text name=patologia> 
 					<br> 
-					Sintomo 1:<br> <input type="text" name="righe" /><br> 
-					<input type="radio" name="tipo" value="conferma">Conferma 
-					<input type="radio" name="tipo"	value="contraddizione">Contraddizione 
+					Sintomo 1:<br> <input type="text" name="sintomo1" /><br> 
+					<input type="radio" name="tipo1" value="conferma">Conferma 
+					<input type="radio" name="tipo1"	value="contraddizione">Contraddizione 
 					<br><br>
-					Intensità 1: <br><input type="text" name=intensita> 
+					Intensità 1: <br><input type="text" name=intensita1> 
 					<br> 
 					<div id='box_righe'>
 						<!-- Box che conterrà le righe aggiunte. Inizialmente vuoto! -->
