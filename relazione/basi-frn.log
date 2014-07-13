@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.12)  13 JUL 2014 14:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.13)  13 JUL 2014 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **basi-frn.tex
 (./basi-frn.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, it
+alian, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -224,10 +224,10 @@ Package frontespizio Warning: Missing advisor name.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] ) 
 Here is how much of TeX's memory you used:
- 2171 strings out of 495059
- 31163 string characters out of 3182030
+ 2171 strings out of 495048
+ 31163 string characters out of 3181554
  88897 words of memory out of 3000000
- 5346 multiletter control sequences out of 15000+200000
+ 5349 multiletter control sequences out of 15000+200000
  7906 words of font info for 28 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,14n,23p,253b,238s stack positions out of 5000i,500n,10000p,200000b,50000s

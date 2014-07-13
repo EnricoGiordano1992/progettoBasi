@@ -1,5 +1,7 @@
 \select@language {italian}
 \contentsline {part}{I\hspace {1em}Progettazione Concettuale}{2}
-\contentsline {part}{II\hspace {1em}General pattern}{3}
-\contentsline {part}{III\hspace {1em}Simulation}{5}
-\contentsline {part}{IV\hspace {1em}Questions}{6}
+\contentsline {part}{II\hspace {1em}Schema Logico}{5}
+\contentsline {part}{III\hspace {1em}General pattern}{6}
+\contentsline {part}{IV\hspace {1em}Simulation}{8}
+\contentsline {part}{V\hspace {1em}Questions}{9}
+\contentsline {part}{VI\hspace {1em}Strategie progettuali e considerazioni personali}{10}

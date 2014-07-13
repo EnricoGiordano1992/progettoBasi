@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.12)  13 JUL 2014 14:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.13)  13 JUL 2014 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **basi.tex
 (./basi.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, it
+alian, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -91,14 +91,9 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen105
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Italian'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@italian = a dialect from \language0
 Package babel Info: Making " an active character on input line 94.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
@@ -741,63 +736,62 @@ oc)
 [1] <ER.png, id=56, 1146.2825pt x 721.69624pt>
 File: ER.png Graphic file (type png)
  <use ER.png>
-Package pdftex.def Info: ER.png used on input line 41.
-(pdftex.def)             Requested size: 458.50488pt x 288.67339pt.
+Package pdftex.def Info: ER.png used on input line 44.
+(pdftex.def)             Requested size: 515.82236pt x 324.76031pt.
+ [2 <./ER.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
-Overfull \hbox (24.88489pt too wide) in paragraph at lines 41--42
- [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
- [2 <./ER.png>]
-<pattern.jpg, id=64, 803.0pt x 602.25pt>
-File: pattern.jpg Graphic file (type jpg)
- <use pattern.jpg>
-Package pdftex.def Info: pattern.jpg used on input line 73.
-(pdftex.def)             Requested size: 321.1943pt x 240.89572pt.
- [3 <./pattern.jpg>]
-[4] <interface.png, id=71, 304.13625pt x 431.6125pt>
-File: interface.png Graphic file (type png)
- <use interface.png>
-Package pdftex.def Info: interface.png used on input line 127.
-(pdftex.def)             Requested size: 152.06775pt x 215.80571pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+ [3] [4]
+<schema_logico.jpg, id=71, 506.8536pt x 345.4506pt>
+File: schema_logico.jpg Graphic file (type jpg)
+ <use schema_logico.jpg>
+Package pdftex.def Info: schema_logico.jpg used on input line 139.
+(pdftex.def)             Requested size: 456.16402pt x 310.90266pt.
 
-[5 <./interface.png>] [6] <ClassDiagram.png, id=80, 1614.03pt x 1529.715pt>
-File: ClassDiagram.png Graphic file (type png)
-
-<use ClassDiagram.png>
-Package pdftex.def Info: ClassDiagram.png used on input line 159.
-(pdftex.def)             Requested size: 484.21274pt x 458.91805pt.
-
-Overfull \hbox (50.59274pt too wide) in paragraph at lines 159--160
+Overfull \hbox (22.54402pt too wide) in paragraph at lines 139--140
  [] 
  []
 
-[7 <./ClassDiagram.png (PNG copy)>] (./basi.aux) ) 
+[5 <./schema_logico.jpg>] <pattern.jpg, id=75, 803.0pt x 602.25pt>
+File: pattern.jpg Graphic file (type jpg)
+
+<use pattern.jpg>
+Package pdftex.def Info: pattern.jpg used on input line 158.
+(pdftex.def)             Requested size: 321.1943pt x 240.89572pt.
+ [6 <./pattern.jpg>] [7]
+<interface.png, id=83, 304.13625pt x 431.6125pt>
+File: interface.png Graphic file (type png)
+ <use interface.png>
+Package pdftex.def Info: interface.png used on input line 212.
+(pdftex.def)             Requested size: 152.06775pt x 215.80571pt.
+ [8 <./interface.png>] [9] [10] (./basi.aux) ) 
 Here is how much of TeX's memory you used:
- 11616 strings out of 495059
- 216103 string characters out of 3182030
- 276877 words of memory out of 3000000
- 14541 multiletter control sequences out of 15000+200000
+ 11623 strings out of 495048
+ 216202 string characters out of 3181554
+ 278877 words of memory out of 3000000
+ 14551 multiletter control sequences out of 15000+200000
  5157 words of font info for 19 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,8n,69p,704b,209s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb>
-Output written on basi.pdf (8 pages, 467194 bytes).
+ 56i,8n,69p,704b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb>
+Output written on basi.pdf (11 pages, 466694 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
