@@ -3,7 +3,8 @@
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{usecases}
-
+\usepackage{listings}
+\usepackage{verbatim}
 \usepackage{tikz}
 \usetikzlibrary{arrows,shadows} % for pgf-umlsd
 \usepackage[underline=true,rounded corners=false]{pgf-umlsd}
@@ -13,6 +14,11 @@
 
 \usepackage[a4paper, total={6in, 9in}]{geometry}
 
+\lstset {
+basicstyle=\small,
+escapeinside=\`\`,
+breaklines=true
+}
 
 
 \begin{document}
@@ -45,12 +51,13 @@
     \end{center}
 \vfill
 \newpage
-{\large Elenco delle relazioni:\newline}
+{\large Elenco delle relazioni:}\newline
+
 \begin{enumerate}
 
 \item Relazione TERAPIE - CARTELLA CLINICA:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,1), una TERAPIA è associata univocamente ad una CARTELLA CLINICA
 \item Cardinalità (1,N), ad una CARTELLA CLINICA può corrispondere più TERAPIE
@@ -59,7 +66,7 @@
 
 \item Relazione CARTELLA CLINICA - PAZIENTE:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,1), una CARTELLA CLINICA è associata univocamente ad un PAZIENTE
 \item Cardinalità (1,N), ad un PAZIENTE può corrispondere più CARTELLE CLINICHE
@@ -68,7 +75,7 @@
 
 \item Relazione CARTELLA CLINICA - SINTOMI:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,N), ad una CARTELLA CLINICA può corrispondere uno o più SINTOMI
 \item Cardinalità (1,1), un SINTOMO è associato univocamente ad una CARTELLA CLINICA
@@ -77,7 +84,7 @@
 
 \item Relazione CARTELLA CLINICA - DIAGNOSI:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,N), ad una CARTELLA CLINICA può corrispondere una o più DIAGNOSI
 \item Cardinalità (1,1), una DIAGNOSI è associata univocamente ad una CARTELLA CLINICA
@@ -86,7 +93,7 @@
 
 \item Relazione PAZIENTE - FATTORI RISCHIO:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (0,N), ad un PAZIENTE può corrispondere nessuno o più FATTORI RISCHIO
 \item Cardinalità (1,N), ad un FATTORE RISCHIO può corrispondere uno o più PAZIENTI
@@ -95,7 +102,7 @@
 
 \item Relazione PAZIENTE - DIAGNOSI:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,N), ad un PAZIENTE può corrispondere una o più DIAGNOSI
 \item Cardinalità (1,1), una DIAGNOSI è associata univocamente ad un PAZIENTE
@@ -104,7 +111,7 @@
 
 \item Relazione SINTOMI - DIAGNOSI:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,N), ad un SINTOMO può corrispondere una o più DIAGNOSI
 \item Cardinalità (1,N), ad una DIAGNOSI può corrispondere uno o più SINTOMI
@@ -113,7 +120,7 @@
 
 \item Relazione DIAGNOSI - MEDICO:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,1), una DIAGNOSI è associata univocamente ad un MEDICO
 \item Cardinalità (1,N), ad un MEDICO può corrispondere una o più DIAGNOSI
@@ -122,7 +129,7 @@
 
 \item Relazione MEDICO - SPECIALIZZAZIONI:
 
-\begin{itemize}[leftmargin=0.5cm, topsep=0.5cm, itemsep=0.2cm]
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
 
 \item Cardinalità (1,N), ad un MEDICO può corrispondere una o più SPECIALIZZAZIONI
 \item Cardinalità (1,N), ad una SPECIALIZZAZIONE può corrispondere uno o più MEDICI
@@ -132,6 +139,7 @@
 \end{enumerate}
 
 \newpage
+
 \part{Schema Logico}
     \begin{center}
 
@@ -140,7 +148,124 @@
 
     \end{center}
 
+Questo schema logico rappresenta una visione globale sull'elenco dei vari attributi, sulle chiavi primarie (attributi sottolineati) e sulle relazione tra di essi (i riquadri attorno al nome dell'attributo e la relativa freccia che punta alla relazione).
 \newpage
+\part{Page Schema}
+\begin{lstlisting}
+`\textbf{page-schema Homepage unique (}`
+	presentazione: string;
+	foto_divisione: image;
+	primario: string;
+	login_paziente: form(
+		login:text;
+		pw: password;
+		invia: submit();
+	);
+	personale_medico: link (personale, *PatologieLink);
+	login_medico: form(
+		login: text;
+		pw: password;
+		invia: submit();
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema HomePage (}`
+	primario: select nome, cognome from primario;
+	login_cliente:
+		if(	select codsan
+			from paziente
+			where login = ? and pw = ?)
+		then *PazientePage else *HomePage
+		end;
+	login_medico:
+		if(	select id
+			from medico
+			where login = ? and pw = ?)
+		then *DiagnosiPage else *HomePage
+		end;
+
+`\textbf{page-schema PazientePage  (}`
+	dati: list of (
+		codice_sanitario: string;
+		nome: string;
+		cognome: string;
+		data_nascita: string;
+		via: string;
+		civico: string;
+		cartella_clinica: link(cartella clinica, *CartellaPage);
+		fattori_rischio: string;
+	);
+	elenco_medici: list of(
+		nome: string;
+		cognome: string;
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema PazientePage (}`
+	dati: 	select paziente.*
+		from paziente
+		where codsan = ?;
+	cartelle_cliniche: list of(
+		id_cartellaclinica: link(cartella clinica, *CartellaPage);
+	);
+	elenco_medici:	select []
+			from paziente, []
+			where codsan = ?;
+`\textbf{);}`		
+
+`\textbf{page-schema CartellaPage (}`
+	ID: string;
+	dataRic: string;
+	motivo: string;
+	prognosi: string;
+	nome_medico: string;
+	cognome_medico: string;
+`\textbf{);}`
+
+`\textbf{DB to page-schema CartellaPage (}`
+	dati:	select cartellaClinica.*, medico.nome, medico.cognome
+		from  cartellaClinica, medico
+		where [];
+`\textbf{);}`
+
+`\textbf{page-schema PatologiePage (}`
+	patologie: text;
+`\textbf{);}`
+
+`\textbf{DB to page-schema PatologiePage (}`
+	patologie: 	select *	
+			from patologia, paziente
+			where [];
+`\textbf{);}`
+
+`\textbf{page-schema PersonalePage (}`
+	dati: text;
+`\textbf{);}`
+
+`\textbf{DB to page-schema PatologiePage (}`
+	dati: 	select medico.*, count(diagnosi)
+		from  medico, diagnosi
+		where [];
+`\textbf{);}`
+
+`\textbf{page-schema PersonalePage (}`
+	new_diagnosi: form (
+		data: string;
+		paziente: string;
+		ICD10: string;
+		sintomi: list of (string); //radio button per dire se e' una conferma o una contraddizione
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema PersonalePage (}`
+	new_diagnosi: INSERT INTO DIAGNOSI VALUES (?paziente?, ?data?, 
+		      ?sintomo?, idMedico);
+		      INSERT INTO CONFERME || INSERTO INTO CONTRADDIZIONI	
+`\textbf{);}
+}
+\end{lstlisting}
+\newpage
+\begin{comment}
 \part{General pattern}
 
 Now we explain an example of system behaviour: when a car arrives or exits to the park, the node ''car detector`` sends a message to the node ''process unit``, that store the request (for future use) and send to the monitor the average number of car/hour and the number of free parking places.
@@ -236,6 +361,7 @@ An abstract type may provide no implementation, or an incomplete implementation.
 So this is a Strategy Pattern. The strategy pattern is a software design pattern that enables an algorithm's behavior to be selected at runtime. For instance, a class that performs validation on incoming data may use a strategy pattern to select a validation algorithm based on the type of data, the source of the data, user choice, or other discriminating factors. These factors are not known for each case until run-time, and may require radically different validation to be performed. The validation strategies, encapsulated separately from the validating object, may be used by other validating objects in different areas of the system (or even different systems) without code duplication.
 
 \newpage
+\end{comment}
 \part{Strategie progettuali e considerazioni personali}
 
 Considerazioni personali e strategie adottate durante lo sviluppo del progetto:
