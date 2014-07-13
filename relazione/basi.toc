@@ -1,0 +1,5 @@
+\select@language {italian}
+\contentsline {part}{I\hspace {1em}Progettazione Concettuale}{2}
+\contentsline {part}{II\hspace {1em}General pattern}{3}
+\contentsline {part}{III\hspace {1em}Simulation}{5}
+\contentsline {part}{IV\hspace {1em}Questions}{6}
