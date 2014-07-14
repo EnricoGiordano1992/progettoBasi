@@ -1,9 +1,10 @@
 
+import database.*;
+import bean.*;
 import java.io.*;
 import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import dbms.*;
 /**
  * Questa classe gestisce le richieste HTTP
  * 

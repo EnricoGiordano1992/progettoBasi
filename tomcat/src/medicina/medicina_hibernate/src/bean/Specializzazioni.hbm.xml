@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-lug-2014 19.15.44 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.Specializzazioni" table="specializzazioni" schema="public">
+        <id name="nome" type="string">
+            <column name="nome" length="30" />
+            <generator class="assigned" />
+        </id>
+        <set name="specDelMedicos" table="spec_del_medico" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="nome_specializzazione" length="30" not-null="true" />
+            </key>
+            <one-to-many class="bean.SpecDelMedico" />
+        </set>
+    </class>
+</hibernate-mapping>

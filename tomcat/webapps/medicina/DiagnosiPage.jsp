@@ -78,10 +78,10 @@ function AggiungiRiga(){
 		for(i=1; i<=numero_righe; i++){
 			k=i+1;
 
-			righe = righe+"Sintomo "+(k) +" : " +"<input type='text' " + arrayString[k] + " name='sintomo"+k+"' onkeyup='aggiornaString(this, " + k + ")'  />" +
-			" <input type='radio' name='tipo" + k + "' value='conferma' onclick='aggiornaCheckConferma("+ k + ")' " + arrayCheckConferma[k] + ">Conferma "+
+			righe = righe+"<br>Sintomo "+(k) +" : <input type=button onclick='EliminaRiga(" + k + ")' value=X class=button><br><br>" +"<input type='text' " + arrayString[k] + " name='sintomo"+k+"' onkeyup='aggiornaString(this, " + k + ")'  />" +
+			"<br> <input type='radio' name='tipo" + k + "' value='conferma' onclick='aggiornaCheckConferma("+ k + ")' " + arrayCheckConferma[k] + ">Conferma "+
 			"<input type='radio' name='tipo" + k + "' value='contraddizione' onclick='aggiornaCheckContraddizione("+ k + ")' " + arrayCheckContraddizione[k] +">Contraddizione <br/>" +
-			"Intensità "+ k + ": <input type='text' " + arrayIntensita[k] + " name=intensita"+k+" onkeyup='aggiornaIntensita(this, " + k + ")'><br>";
+			"<br>Intensità "+ k + ": <br><input type='text' " + arrayIntensita[k] + " name=intensita"+k+" onkeyup='aggiornaIntensita(this, " + k + ")'><br>";
 
 		}
 		// Aggiorno il contenuto del box che conterrà gli elementi aggiunti
@@ -102,10 +102,10 @@ function EliminaRiga(riga){
 		for(i=1; i<=numero_righe; i++){
 			k=i+1;
 			if(k != riga){
-				righe = righe+"Sintomo "+(k) +" : " +"<input type='text' " + arrayString[k] + " name='sintomo"+k+"' onkeyup='aggiornaString(this, " + k + ")'  />" +
-				" <input type='radio' name='tipo" + k + "' value='conferma' onclick='aggiornaCheckConferma("+ k + ")' " + arrayCheckConferma[k] + ">Conferma "+
-				"<input type='radio' name='tipo" + k + "' value='contraddizione' onclick='aggiornaCheckContraddizione("+ k + ")' " + arrayCheckContraddizione[k] +">Contraddizione <br/>" +
-				"Intensità "+ k + ": <input type='text' " + arrayIntensita[k] + " name=intensita"+k+" onkeyup='aggiornaIntensita(this, " + k + ")'><br>";
+			righe = righe+"<br>Sintomo "+(k) +" : <input type=button onclick='EliminaRiga(" + k + ")' value=X class=button><br><br>" +"<input type='text' " + arrayString[k] + " name='sintomo"+k+"' onkeyup='aggiornaString(this, " + k + ")'  />" +
+			"<br> <input type='radio' name='tipo" + k + "' value='conferma' onclick='aggiornaCheckConferma("+ k + ")' " + arrayCheckConferma[k] + ">Conferma "+
+			"<input type='radio' name='tipo" + k + "' value='contraddizione' onclick='aggiornaCheckContraddizione("+ k + ")' " + arrayCheckContraddizione[k] +">Contraddizione <br/>" +
+			"<br>Intensità "+ k + ": <br><input type='text' " + arrayIntensita[k] + " name=intensita"+k+" onkeyup='aggiornaIntensita(this, " + k + ")'><br>";
 				}
 			else
 				deletePos(k);
@@ -114,48 +114,135 @@ function EliminaRiga(riga){
 		box.innerHTML=righe;
 	}
 }
+
+
+function checkInvio() {
+	
+	with(document.diagnosi) { 
+		if(codsan.value=="") { 
+			alert("Errore: compilare il campo Paziente"); 
+			codsan.focus(); 
+		return false; 
+		} 
+	} 
+	alert("Controllo effettuato con successo. Il modulo sarà inviato."); 
+	return true; 
+}
 </script>
 
 </head>
 <title>DiagnosiPage</title>
 
 <body>
+<html>
 
-	<h2>
-		Benvenuto
-		<%= iAm %>
-	</h2>
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/default.css" rel="stylesheet" type="text/css"
+	media="all">
+<link href="css/font.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="header-wrapper">
+			<div id="header" class="container">
+				<div id="logo">
+					<h1>
+						<a href="#">Ospedale San Gibbordano</a>
+					</h1>
+					<p>Divisione ospedaliera di Medicina</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu-wrapper">
+			<div id="menu" class="container">
+				<ul>
+					<li><a href="?">Homepage</a></li>
+					<li><a href="?ps=info">Info</a></li>
+					<li class="current_page_item"><a href="?ps=personale">Personale</a></li>
+					<li><a href="?ps=patologie">Patologie</a></li>
+					<li><a href="?ps=login">Login</a></li>
+
+				</ul>
+			</div>
+			<!-- end #menu -->
+		</div>
+		<br> <br>
+
+
+		<div align="center">
+			<div class="title">
+				<h1>DIAGNOSI</h1>
+			</div>
+		</div>
+
+
+		<div align="center">
+			<div class="title2">
+				<h2> Benvenuto <%= iAm %> </h2>
+			</div>
+
 
 	<h3>inserire la diagnosi</h3>
 
 
-	<form name="diagnosi" action="?" method="get">
-		Paziente: <input type=text name=codsan> 
-		<br> 
-		<label>Data:
-			<input type="date" name="mydatetime">
-		</label> 
-		<br> 
-		ICD10: <input type=text name=ICD10> 
-		<br>
-		Patologia: <input type=text name=patologia> 
-		<br> 
-		Sintomo 1: <input type="text" name="righe" /> 
-		<input type="radio" name="tipo" value="conferma">Conferma 
-		<input type="radio" name="tipo"	value="contraddizione">Contraddizione 
-		<br>
-		Intensità 1: <input type="text" name=intensita> 
-		<br> 
-		<span id='box_righe'>
-			<!-- Box che conterrà le righe aggiunte. Inizialmente vuoto! -->
-		</span> 
-		<input type=button onclick="AggiungiRiga()" value="aggiungi sintomo" />
-		<br> 
-		<input type=button onclick="EliminaRiga(riga.value)" value="elimina sintomo" /> 
-		sintomo: <input type=text name=riga>
+				<form name="diagnosi" action="?" method="post" class="dark-matter" onSubmit="return checkInvio();">
+					Paziente:<br> <input type=text name=codsan> 
+					<br> 
+					<label>Data:<br>
+						<input type="date" name="mydatetime">
+					</label> 
+					<br> 
+					ICD10: <br><input type=text name=ICD10> 
+					<br>
+					Patologia:<br> <input type=text name=patologia> 
+					<br> 
+					Sintomo 1:<br> <input type="text" name="righe" /><br> 
+					<input type="radio" name="tipo" value="conferma">Conferma 
+					<input type="radio" name="tipo"	value="contraddizione">Contraddizione 
+					<br><br>
+					Intensità 1: <br><input type="text" name=intensita> 
+					<br> 
+					<div id='box_righe'>
+						<!-- Box che conterrà le righe aggiunte. Inizialmente vuoto! -->
+					</div> 
+					<input class="button" align=left type=button onclick="AggiungiRiga()" value="aggiungi sintomo" />
+					<br> 
+			
+					<br> <input class="button" type=submit  value="invia" />
+				</form>
 
-		<br> <input type=submit>
-	</form>
+
+			<div id="portfolio-wrapper-div">
+				<div id="portfolio" class="container">
+
+				</div>
+			</div>
+			<div id="footer-wrapper-div">
+				<div id="footer" class="container"></div>
+			</div>
+		</div>
+
+	</div>
+	<div id="portfolio-wrapper-div">
+		<div id="portfolio" class="container">
+
+		</div>
+	</div>
+	<div id="footer-wrapper-div">
+		<div id="footer" class="container"></div>
+	</div>
+
+	</div>
+	</div>
+
+	<h2>
+	</h2>
+
 
 </body>
 </html>

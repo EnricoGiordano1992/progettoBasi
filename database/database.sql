@@ -13,7 +13,7 @@ DROP TABLE PAZIENTE;
 
 drop function controlla_data (date, varchar(30));
 drop function controlla_data_cartella ( DATE, VARCHAR(30) );
-
+drop function controlla_data_cartella_ricoverodimissioni ( DATE, DATE );
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -76,8 +76,29 @@ BEGIN
 END;$BODY$ LANGUAGE 'plpgsql';
 
 
-ALTER TABLE CARTELLA_CLINICA ADD CONSTRAINT check_dataRicovero CHECK (controlla_data_cartella(DATA_RICOVERO, CODSAN) = 'True');
+CREATE FUNCTION controlla_data_cartella_ricoverodimissioni (data_r DATE, data_d DATE )
+RETURNS VARCHAR(5)
+AS
+$BODY$
+BEGIN
+	IF data_d <> null then
+		IF data_r < data_d then
 
+	    		return 'True';
+	    	else
+	    		return 'False';
+	    	end IF;
+	else 
+	    	return 'True';
+	    	
+    	end IF;
+
+    
+END;$BODY$ LANGUAGE 'plpgsql';
+
+
+ALTER TABLE CARTELLA_CLINICA ADD CONSTRAINT check_dataRicovero CHECK (controlla_data_cartella(DATA_RICOVERO, CODSAN) = 'True');
+ALTER TABLE CARTELLA_CLINICA ADD CONSTRAINT check_ricoverodimissioni CHECK (controlla_data_cartella_ricoverodimissioni(DATA_RICOVERO, DATA_DIMISSIONE) = 'True');
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------                                   ----------------------------------------------------------------
@@ -204,7 +225,7 @@ $BODY$
 BEGIN
 	--se esiste la data dimissione la controllo dopo
 	IF EXISTS (select data_dimissione from cartella_clinica as c where c.id = id_cartella ) then
-	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero < data_c and c.data_dimissione > data_c ) then
+	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero <= data_c and c.data_dimissione > data_c ) then
 	    return 'True';
 	    end IF; 
 	    return 'False';

@@ -24,6 +24,7 @@
 <link href="css/default.css" rel="stylesheet" type="text/css"
 	media="all">
 <link href="css/font.css" rel="stylesheet" type="text/css" media="all">
+<meta charset="utf-8"> 
 
 </head>
 <body>

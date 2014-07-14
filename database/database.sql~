@@ -11,6 +11,9 @@ DROP TABLE TERAPIE;
 DROP TABLE CARTELLA_CLINICA;
 DROP TABLE PAZIENTE;
 
+drop function controlla_data (date, varchar(30));
+drop function controlla_data_cartella ( DATE, VARCHAR(30) );
+drop function controlla_data_cartella_ricoverodimissioni ( DATE, DATE );
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -24,7 +27,7 @@ CREATE TABLE PAZIENTE (
     CODSAN              VARCHAR(30)     NOT NULL,
     NOME                VARCHAR(30)     NOT NULL,
     COGNOME             VARCHAR(30)     NOT NULL,
-    NASCITA             DATE            NOT NULL,
+    NASCITA				DATE            NOT NULL,
     PSW                 VARCHAR(30)     NOT NULL,
     CITTA               VARCHAR(60)     NOT NULL,
     VIA                 VARCHAR(30)     NOT NULL,
@@ -35,6 +38,8 @@ CREATE TABLE PAZIENTE (
     
     PRIMARY KEY(CODSAN)
 );
+
+
 
 
 
@@ -49,7 +54,7 @@ CREATE TABLE CARTELLA_CLINICA (
 
     ID                  VARCHAR(30)     NOT NULL,
     DATA_RICOVERO       DATE            NOT NULL,
-    DATA_DIMISSIONE     DATE            NOT NULL,
+    DATA_DIMISSIONE     DATE            	,
     MOTIVO              VARCHAR(200)     NOT NULL,
     PROGNOSI            VARCHAR(200)             ,
     CODSAN              VARCHAR(30)     REFERENCES PAZIENTE(CODSAN) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -58,6 +63,42 @@ CREATE TABLE CARTELLA_CLINICA (
 );
 
 
+CREATE FUNCTION controlla_data_cartella ( data_c DATE, codsan_q VARCHAR(30) )
+RETURNS VARCHAR(5)
+AS
+$BODY$
+BEGIN
+	IF EXISTS (select nascita from paziente as p where p.codsan = codsan_q and p.nascita < data_c ) then
+	    return 'True';
+	    end IF; 
+	    return 'False';
+    
+END;$BODY$ LANGUAGE 'plpgsql';
+
+
+CREATE FUNCTION controlla_data_cartella_ricoverodimissioni (data_r DATE, data_d DATE )
+RETURNS VARCHAR(5)
+AS
+$BODY$
+BEGIN
+	IF data_d <> null then
+		IF data_r < data_d then
+
+	    		return 'True';
+	    	else
+	    		return 'False';
+	    	end IF;
+	else 
+	    	return 'True';
+	    	
+    	end IF;
+
+    
+END;$BODY$ LANGUAGE 'plpgsql';
+
+
+ALTER TABLE CARTELLA_CLINICA ADD CONSTRAINT check_dataRicovero CHECK (controlla_data_cartella(DATA_RICOVERO, CODSAN) = 'True');
+ALTER TABLE CARTELLA_CLINICA ADD CONSTRAINT check_ricoverodimissioni CHECK (controlla_data_cartella_ricoverodimissioni(DATA_RICOVERO, DATA_DIMISSIONE) = 'True');
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------                                   ----------------------------------------------------------------
@@ -129,7 +170,6 @@ CREATE TABLE SINTOMI (
 
 
     PRIMARY KEY         (NOME, ID_CARTELLA),
---    FOREIGN KEY (ID_PAZIENTE) ,
     CHECK(INTENSITA IN  ('bassa', 'media', 'alta'))
 
 );
@@ -174,9 +214,33 @@ CREATE TABLE DIAGNOSI (
     ID_MEDICO           VARCHAR(30)     REFERENCES MEDICO(ID) ON DELETE CASCADE ON UPDATE CASCADE,
 
     PRIMARY KEY (ID_PAZIENTE, DATA, ID_CARTELLA)
+
+    
 );
 
+CREATE FUNCTION controlla_data ( data_c DATE, id_cartella VARCHAR(30) )
+RETURNS VARCHAR(5)
+AS
+$BODY$
+BEGIN
+	--se esiste la data dimissione la controllo dopo
+	IF EXISTS (select data_dimissione from cartella_clinica as c where c.id = id_cartella ) then
+	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero < data_c and c.data_dimissione > data_c ) then
+	    return 'True';
+	    end IF; 
+	    return 'False';
+    else
+	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero < data_c ) then
+	    return 'True';
+	    end IF; 
+	    return 'False';
+		    	
+    end IF;
+    
+END;$BODY$ LANGUAGE 'plpgsql';
 
+
+ALTER TABLE DIAGNOSI ADD CONSTRAINT check_data CHECK (controlla_data(DATA, ID_CARTELLA) = 'True');
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------                                   ----------------------------------------------------------------
@@ -216,9 +280,7 @@ CREATE TABLE CONTRADDIZIONI (
     ID_CARTELLA         VARCHAR(30)     NOT NULL,
 
     FOREIGN KEY(ID_SINTOMO, N_SINT) REFERENCES SINTOMI(ID_CARTELLA, NOME) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY(ID_PAZIENTE ) REFERENCES DIAGNOSI(ID_PAZIENTE) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY(DATA ) REFERENCES DIAGNOSI(DATA) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY(ID_CARTELLA ) REFERENCES DIAGNOSI(ID_CARTELLA) ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY(ID_PAZIENTE, DATA, ID_CARTELLA ) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA, ID_CARTELLA) ON DELETE CASCADE ON UPDATE CASCADE
 
 );
 

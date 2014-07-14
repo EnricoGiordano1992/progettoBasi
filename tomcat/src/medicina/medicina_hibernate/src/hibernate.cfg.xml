@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+  <property name="hibernate.connection.password">sediciLS</property>
+  <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/dblab16</property>
+  <property name="hibernate.connection.username">userlab16</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+  <mapping resource="bean/CartellaClinica.hbm.xml"/>
+  <mapping resource="bean/Conferme.hbm.xml"/>
+  <mapping resource="bean/Contraddizioni.hbm.xml"/>
+  <mapping resource="bean/Diagnosi.hbm.xml"/>
+  <mapping resource="bean/FattoriRischio.hbm.xml"/>
+  <mapping resource="bean/Medico.hbm.xml"/>
+  <mapping resource="bean/Paziente.hbm.xml"/>
+  <mapping resource="bean/RischiPaziente.hbm.xml"/>
+  <mapping resource="bean/Sintomi.hbm.xml"/>
+  <mapping resource="bean/SpecDelMedico.hbm.xml"/>
+  <mapping resource="bean/Specializzazioni.hbm.xml"/>
+  <mapping resource="bean/Terapie.hbm.xml"/>
+  
+  
+ </session-factory>
+</hibernate-configuration>

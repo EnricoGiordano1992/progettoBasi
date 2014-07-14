@@ -2,10 +2,25 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="dbms.PazienteBean"/>
 <fullyQualifiedTypeName name="org.postgresql.util.StreamWrapper"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="dbms.PatologieBean"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="dbms.PersonaleBean"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="bean.Paziente"/>
+<fullyQualifiedTypeName name="bean.RischiPaziente"/>
+<fullyQualifiedTypeName name="bean.Medico"/>
+<fullyQualifiedTypeName name="bean.Terapie"/>
+<fullyQualifiedTypeName name="bean.SpecDelMedico"/>
+<fullyQualifiedTypeName name="bean.Diagnosi"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="bean.Contraddizioni"/>
+<fullyQualifiedTypeName name="bean.DiagnosiId"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="bean.Sintomi"/>
+<fullyQualifiedTypeName name="bean.ConfermeId"/>
+<fullyQualifiedTypeName name="ajax.AjaxCartellePazienti"/>
+<fullyQualifiedTypeName name="dbms.DBMS"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="bean.CartellaClinica"/>
 </qualifiedTypeNameHistroy>
