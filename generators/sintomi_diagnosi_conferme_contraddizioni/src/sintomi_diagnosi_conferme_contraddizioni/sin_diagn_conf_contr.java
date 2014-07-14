@@ -93,7 +93,11 @@ public class sin_diagn_conf_contr {
 //					gc.set(gc.YEAR, randBetween(Integer.parseInt(data_nascita.get(i).split("-")[0]), Integer.parseInt(dateFormat.format(date).split("-")[0])));
 //					gc.set(gc.MONTH, randBetween(1,12));
 //					gc.set(gc.DAY_OF_MONTH, randBetween(0,28));
-					String data = "" + randBetween(1970, 2014) + "-" + randBetween(1, 12) + "-" + randBetween(1, 27);//dataDiagnosi.get(i);
+					String datainizio = cartelle.get(i).split("'")[3];
+					String datafine = cartelle.get(i).split("'")[5];
+					String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
+							randBetween(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])) + "-" + 
+							randBetween(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2]));//dataDiagnosi.get(i);
 					int icdrand = randBetween(0, icd.size()-1);
 					writerdiagnosi.println("INSERT INTO DIAGNOSI VALUES ('" + pazienti.get(i) + "', '" + cartelle.get(i) + "', '" + data
 							+ "', '" + icd.get(icdrand).split(";")[0].split("-")[0] + "', '" + 
