@@ -2,4 +2,4 @@
 \contentsline {part}{I\hspace {1em}Progettazione Concettuale}{2}
 \contentsline {part}{II\hspace {1em}Schema Logico}{4}
 \contentsline {part}{III\hspace {1em}Page Schema}{5}
-\contentsline {part}{IV\hspace {1em}Strategie progettuali e considerazioni personali}{7}
+\contentsline {part}{IV\hspace {1em}Strategie progettuali e considerazioni personali}{11}

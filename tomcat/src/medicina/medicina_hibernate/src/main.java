@@ -142,7 +142,7 @@ public class main extends HttpServlet {
 
 					if(p.equals(""))
 						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
-								"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+								"<br> <h2> <a target=\"\" href=\"?ps=login\">LOGIN</a>");//gestione errore
 					else 
 						rd = request.getRequestDispatcher("PazientePage.jsp");
 
@@ -165,10 +165,14 @@ public class main extends HttpServlet {
 					user = request.getParameter("user");
 					password = request.getParameter("password");
 
-					p = dbms.MedicoLogin(user, password).getId();			
+					if(dbms.MedicoLogin(user, password) == null)
+						p = "";
+					else
+						p = dbms.MedicoLogin(user, password).getId();			
+
 					if(p.equals(""))
 						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
-								"<br> <h2>torna alla <a target=\"\" href=\"home\">HOME</a>");//gestione errore
+								"<br> <h2> <a target=\"\" href=\"?ps=login\">LOGIN</a>");//gestione errore
 					else 
 						rd = request.getRequestDispatcher("DiagnosiPage.jsp");
 

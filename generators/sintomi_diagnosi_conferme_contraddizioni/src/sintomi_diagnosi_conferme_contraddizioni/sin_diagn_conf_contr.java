@@ -67,8 +67,8 @@ public class sin_diagn_conf_contr {
 				String datainizio = datecartelle_in.get(i);
 				String datafine = datecartelle_fin.get(i);
 				String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
-						randBetween(Math.min(Integer.parseInt(datafine.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datafine.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
-						randBetween(Math.min(Integer.parseInt(datafine.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datafine.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
+						randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
+						randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
 				int icdrand = randBetween(0, icd.size()-1);
 				System.out.println("conferma: " + datainizio + ".." + datafine + ":::::" + data);
 				writerdiagnosi.println("INSERT INTO DIAGNOSI VALUES ('" + pazienti.get(i) + "', '" + cartelle.get(i) + "', '" + data
@@ -100,8 +100,8 @@ public class sin_diagn_conf_contr {
 					String datainizio = datecartelle_in.get(i);
 					String datafine = datecartelle_fin.get(i);
 					String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
-							randBetween(Math.min(Integer.parseInt(datafine.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datafine.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
-							randBetween(Math.min(Integer.parseInt(datafine.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datafine.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
+							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
+							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
 					System.out.println("contraddizione: " +datainizio + ".." + datafine + ":::::" + data);
 
 					int icdrand = randBetween(0, icd.size()-1);

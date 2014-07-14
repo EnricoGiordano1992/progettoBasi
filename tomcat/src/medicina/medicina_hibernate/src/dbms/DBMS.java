@@ -199,7 +199,10 @@ public class DBMS {
 		tx.commit();
 		session.close();
 
-		return result.getCodsan();
+		if(result == null)
+			return "";
+		else
+			return result.getCodsan();
 	}
 
 	
@@ -493,7 +496,10 @@ public class DBMS {
 		tx.commit();
 		session.close();
 
-		return result;
+		if(result == null)
+			return null;
+		else
+			return result;
 
 	}
 	

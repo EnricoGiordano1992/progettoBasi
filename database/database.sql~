@@ -14,7 +14,7 @@ DROP TABLE PAZIENTE;
 drop function controlla_data (date, varchar(30));
 drop function controlla_data_cartella ( DATE, VARCHAR(30) );
 drop function controlla_data_cartella_ricoverodimissioni ( DATE, DATE );
-
+drop function controlla_data_terapie ( DATE, DATE, VARCHAR(30) );
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------                                   ----------------------------------------------------------------
@@ -68,7 +68,7 @@ RETURNS VARCHAR(5)
 AS
 $BODY$
 BEGIN
-	IF EXISTS (select nascita from paziente as p where p.codsan = codsan_q and p.nascita < data_c ) then
+	IF EXISTS (select nascita from paziente as p where p.codsan = codsan_q and p.nascita <= data_c ) then
 	    return 'True';
 	    end IF; 
 	    return 'False';
@@ -118,6 +118,34 @@ CREATE TABLE TERAPIE (
     
     FOREIGN KEY(ID_CARTELLA) REFERENCES CARTELLA_CLINICA(ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+
+
+CREATE FUNCTION controlla_data_terapie ( data_ter_in DATE, data_ter_fin DATE, id_cartella VARCHAR(30) )
+RETURNS VARCHAR(5)
+AS
+$BODY$
+BEGIN
+	--se esiste la data dimissione la controllo dopo
+	IF EXISTS (select data_dimissione from cartella_clinica as c where c.id = id_cartella ) then
+	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero <= data_ter_in and c.data_dimissione >= data_ter_fin ) then
+	    return 'True';
+	    end IF; 
+	    return 'False';
+    else
+	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero <= data_ter_in ) then
+	    return 'True';
+	    end IF; 
+	    return 'False';
+		    	
+    end IF;
+    
+END;$BODY$ LANGUAGE 'plpgsql';
+
+
+ALTER TABLE TERAPIE ADD CONSTRAINT check_data_terapie CHECK (controlla_data_terapie(INIZIO, FINE, ID_CARTELLA) = 'True');
+ALTER TABLE TERAPIE ADD CONSTRAINT check_data_inizi_fine_terapie CHECK (INIZIO < FINE);
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -225,7 +253,7 @@ $BODY$
 BEGIN
 	--se esiste la data dimissione la controllo dopo
 	IF EXISTS (select data_dimissione from cartella_clinica as c where c.id = id_cartella ) then
-	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero < data_c and c.data_dimissione > data_c ) then
+	    IF EXISTS (select data_ricovero from cartella_clinica as c where c.id = id_cartella and c.data_ricovero <= data_c and c.data_dimissione >= data_c ) then
 	    return 'True';
 	    end IF; 
 	    return 'False';

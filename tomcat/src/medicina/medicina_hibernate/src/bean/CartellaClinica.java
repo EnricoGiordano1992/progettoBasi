@@ -1,6 +1,6 @@
 package bean;
 
-// Generated 12-lug-2014 19.15.43 by Hibernate Tools 3.4.0.CR1
+// Generated 14-lug-2014 18.07.36 by Hibernate Tools 3.4.0.CR1
 
 import java.util.Date;
 import java.util.HashSet;
@@ -24,11 +24,9 @@ public class CartellaClinica implements java.io.Serializable {
 	public CartellaClinica() {
 	}
 
-	public CartellaClinica(String id, Date dataRicovero, Date dataDimissione,
-			String motivo) {
+	public CartellaClinica(String id, Date dataRicovero, String motivo) {
 		this.id = id;
 		this.dataRicovero = dataRicovero;
-		this.dataDimissione = dataDimissione;
 		this.motivo = motivo;
 	}
 

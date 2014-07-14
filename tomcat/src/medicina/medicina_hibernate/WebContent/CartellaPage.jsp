@@ -107,9 +107,9 @@
 					style="margin-top: 0px; background-color: #000000;"> <%=c.getPrognosi()%></a>
 			</div>
 			
-				<br> <br> <br>
-			<div style="float: left; width: 50%;" align="right">
-				<h2 style="display: inline;">TERAPIE</h2>
+				<br> <br> <br> <br> <br> <br>
+			<div style="float: center; width: 50%;" align="center">
+				<h2 style="display: inline;">TERAPIE: <%= terapie.size() %></h2>
 			</div>
 			
 			<div style="float: center; width: 50%;" align="center">

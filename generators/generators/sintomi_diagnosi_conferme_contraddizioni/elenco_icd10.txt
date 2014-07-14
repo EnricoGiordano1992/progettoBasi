@@ -1,0 +1,1580 @@
+A00-01-01;Colera
+A01-01-01;Febbre tifoide e paratifo
+A02-01-01;Altre infezioni da salmonella
+A03-01-01;Shigellosi
+A04-01-01;Altre infezioni batteriche intestinali
+A05-01-01;Altre intossicazioni alimentari batteriche
+A06-01-01;Amebiasi
+A07-01-01;Altre malattie intestinali da protozoi
+A08-01-01;Infezioni virali intestinali ed altre infezioni intestinali specificate
+A09-01-01;Diarrea e gastroenterite di presunta origine infettiva
+A15-01-02;Tubercolosi respiratoria, confermata batteriologicamente ed istologicamente
+A16-01-02;Tubercolosi respiratoria, non confermata batteriologicamente ed istologicamente
+A17-01-02;Tubercolosi del sistema nervoso
+A18-01-02;Tubercolosi di altri organi
+A19-01-02;Tubercolosi miliare
+A20-01-03;Peste
+A21-01-03;Tularemia
+A22-01-03;Carbonchio
+A23-01-03;Brucellosi
+A24-01-03;Morva e melioidosi
+A25-01-03;Febbri da morso di ratto
+A26-01-03;Erisipeloide
+A27-01-03;Leptospirosi
+A28-01-03;Altre specificate malattie batteriche trasmesse da animali, non classificate altrove
+A30-01-04;Lebbra (malattia di Hansen)
+A31-01-04;Infezione da altri micobatteri
+A32-01-04;Listeriosi
+A33-01-04;Tetano del neonato
+A34-01-04;Tetano ostetrico
+A35-01-04;Altre forme di tetano
+A36-01-04;Difterite
+A37-01-04;Pertosse
+A38-01-04;Scarlattina
+A39-01-04;Infezione meningococcica
+A40-01-04;Setticemia streptococcica
+A41-01-04;Altre forme di setticemia
+A42-01-04;Actinomicosi
+A43-01-04;Nocardiosi
+A44-01-04;Bartonellosi
+A46-01-04;Erisipela
+A48-01-04;Altre malattie batteriche non classificate altrove
+A49-01-04;Infezione batterica di sede non specificata
+A50-01-05;Sifilide congenita
+A51-01-05;Sifilide precoce
+A52-01-05;Sifilide tardiva
+A53-01-05;Altre e non specificate forme di sifilide
+A54-01-05;Infezione gonococcica
+A55-01-05;Linfogranuloma (venereo) da Chlamydiae
+A56-01-05;Altre malattie da Chlamydiae, sessualmente trasmesse
+A57-01-05;Ulcera venerea molle
+A58-01-05;Granuloma inguinale
+A59-01-05;Tricomoniasi
+A60-01-05;Infezioni anogenitali da herpes virus (herpes simplex)
+A63-01-05;Altre malattie a trasmissione prevalentemente sessuale, non classificate altrove
+A64-01-05;Malattia sessualmente trasmessa non specificata
+A65-01-06;Sifilide non venerea
+A66-01-06;Framboesia
+A67-01-06;Pinta (carate)
+A68-01-06;Febbri ricorrenti
+A69-01-06;Altre infezioni da spirochete
+A70-01-07;Infezione da Chlamydiae psittaci
+A71-01-07;Tracoma
+A74-01-07;Altre malattie da Chlamydiae
+A75-01-08;Tifo esantematico
+A77-01-08;Febbre maculosa (rickettsiosi da zecche)
+A78-01-08;Febbre Q
+A79-01-08;Altre rickettsiosi
+A80-01-09;Poliomielite acuta
+A81-01-09;Infezioni del sistema nervoso centrale da virus non convenzionali
+A82-01-09;Rabbia
+A83-01-09;Encefalite virale da zanzare
+A84-01-09;Encefalite virale da zecche
+A85-01-09;Altre encefaliti virali non classificate altrove
+A86-01-09;Encefalite virale non specificata
+A87-01-09;Meningite virale
+A88-01-09;Altre infezioni virali del sistema nervoso centrale non classificate altrove
+A89-01-09;Infezione virale del sistema nervoso centrale non specificata
+A90-01-10;Febbre dengue (dengue classico)
+A91-01-10;Febbre dengue emorragica
+A92-01-10;Altre febbri virali trasmesse da zanzare
+A93-01-10;Altre febbri virali trasmesse da artropodi, non classificate altrove
+A94-01-10;Febbre virale trasmessa da artropodi non specificata
+A95-01-10;Febbre gialla
+A96-01-10;Febbre emorragica da arenavirus
+A98-01-10;Altre febbri emorragiche virali non classificate altrove
+A99-01-10;Febbre virale emorragica non specificata
+B00-01-11;Infezioni da Herpes virus (herpes simplex)
+B01-01-11;Varicella
+B02-01-11;Zoster (herpes zoster)
+B03-01-11;Vaiolo
+B04-01-11;Vaiolo delle scimmie
+B05-01-11;Morbillo
+B06-01-11;Rosolia
+B07-01-11;Verruche virali
+B08-01-11;Altre infezioni virali caratterizzate da lesioni della cute e delle mucose, non classificate altrove
+B09-01-11;Infezione virale non specificata caratterizzata da lesioni della cute e delle mucose
+B15-01-12;Epatite acuta A
+B16-01-12;Epatite acuta B
+B17-01-12;Altre epatiti virali acute
+B18-01-12;Epatite virale cronica
+B19-01-12;Epatite virale non specificata
+B20-01-13;Malattia da virus dell''immunodeficienza umana (HIV) che da'' luogo a malattie infettive o parassitarie
+B21-01-13;Malattia da virus dell''immunodeficienza umana (HIV) che da'' luogo a neoplasie maligne
+B22-01-13;Malattia da virus dell''immunodeficienza umana (HIV) che da'' luogo ad altre malattie specificate
+B23-01-13;Malattia da virus dell''immunodeficienza umana (HIV) che da'' luogo ad altre condizioni morbose
+B24-01-13;Malattia da virus dell''immunodeficienza umana (HIV) non specificata
+B25-01-14;Malattia da cytomegalovirus
+B26-01-14;Parotite epidemica
+B27-01-14;Mononucleosi infettiva
+B30-01-14;Congiuntivite virale
+B33-01-14;Altre malattie virali non classificate altrove
+B34-01-14;Infezione virale di sede non specificata
+B35-01-15;Dermatofitosi
+B36-01-15;Altre micosi superficiali
+B37-01-15;Candidosi
+B38-01-15;Coccidioidomicosi
+B39-01-15;Istoplasmosi
+B40-01-15;Blastomicosi
+B41-01-15;Paracoccidioidomicosi
+B42-01-15;Sporotricosi
+B43-01-15;Cromomicosi e ascesso feomicotico
+B44-01-15;Aspergillosi
+B45-01-15;Criptococcosi
+B46-01-15;Zigomicosi
+B47-01-15;Micetoma
+B48-01-15;Altre micosi non classificate altrove
+B49-01-15;Micosi non specificata
+B50-01-16;Malaria da Plasmodium falciparum
+B51-01-16;Malaria da Plasmodium vivax
+B52-01-16;Malaria da Plasmodium malariae
+B53-01-16;Altre forme di malaria confermata ad esame parassitologico
+B54-01-16;Malaria non specificata
+B55-01-16;Leishmaniosi
+B56-01-16;Tripanosomiasi africana
+B57-01-16;Malattia di Chagas
+B58-01-16;Toxoplasmosi
+B59-01-16;Pneumocistosi
+B60-01-16;Altre malattie protozoarie non classificate altrove
+B64-01-16;Malattia protozoaria non specificata
+B65-01-17;Schistosomiasi (bilharziosi)
+B66-01-17;Altre infezioni da trematodi
+B67-01-17;Echinococcosi
+B68-01-17;Teniasi
+B69-01-17;Cisticercosi
+B70-01-17;Difillobotriasi e sparganosi
+B71-01-17;Altre infezioni da cestodi
+B72-01-17;Dracunculosi
+B73-01-17;Oncocercosi
+B74-01-17;Filariosi
+B75-01-17;Trichinellosi
+B76-01-17;Malattie da vermi uncinati
+B77-01-17;Ascaridiasi
+B78-01-17;Strongiloidiasi
+B79-01-17;Trichiuriasi
+B80-01-17;Enterobiasi
+B81-01-17;Altre elmintiasi intestinali non classificate altrove
+B82-01-17;Parassitismo intestinale non specificato
+B83-01-17;Altre elmintiasi
+B85-01-18;Pediculosi e ftiriasi
+B86-01-18;Scabbia
+B87-01-18;Miasi
+B88-01-18;Altre infestazioni
+B89-01-18;Malattia parassitaria non specificata
+B90-01-19;Sequele di tubercolosi
+B91-01-19;Sequele di poliomielite
+B92-01-19;Sequele di lebbra
+B94-01-19;Sequele di altre e non specificate malattie infettive e parassitarie
+B95-01-20;Streptococco e stafilococco come causa di malattie classificate in altri settori
+B96-01-20;Altri agenti batterici come causa di malattie classificate in altri settori
+B97-01-20;Virus come causa di malattie classificate in altri settori
+B99-01-21;Altre e non specificate malattie infettive
+C00-02-01;Tumore maligno del labbro
+C01-02-01;Tumore maligno della base della lingua
+C02-02-01;Tumore maligno di altre e non specificate parti della lingua
+C03-02-01;Tumore maligno della gengiva
+C04-02-01;Tumore maligno del pavimento orale
+C05-02-01;Tumore maligno del palato
+C06-02-01;Tumore maligno di altre e non specificate parti della bocca
+C07-02-01;Tumore maligno della parotide
+C08-02-01;Tumore maligno di altre e non specificate ghiandole salivari maggiori
+C09-02-01;Tumore maligno della tonsilla
+C10-02-01;Tumore maligno dell''orofaringe
+C11-02-01;Tumore maligno della rinofaringe
+C12-02-01;Tumore maligno del seno piriforme
+C13-02-01;Tumore maligno dell''ipofaringe
+C14-02-01;Tumore maligno di altre e mal definite sedi del labbro, della cavita'' orale e della faringe
+C15-02-02;Tumore maligno dell''esofago
+C16-02-02;Tumore maligno dello stomaco
+C17-02-02;Tumore maligno dell''intestino tenue
+C18-02-02;Tumore maligno del colon
+C19-02-02;Tumore maligno della giunzione retto sigmoidea
+C20-02-02;Tumore maligno del retto
+C21-02-02;Tumore maligno dell''ano e del canale anale
+C22-02-02;Tumore maligno del fegato e dei dotti biliari intraepatici
+C23-02-02;Tumore maligno della colecisti
+C24-02-02;Tumore maligno di altre e non specificate parti delle vie biliari
+C25-02-02;Tumore maligno del pancreas
+C26-02-02;Tumore maligno di altri e mal definiti organi dell''apparato digerente
+C30-02-03;Tumore maligno di cavita'' nasale e di orecchio medio
+C31-02-03;Tumore maligno dei seni paranasali
+C32-02-03;Tumore maligno della laringe
+C33-02-03;Tumore maligno della trachea
+C34-02-03;Tumore maligno dei bronchi e del polmone
+C37-02-03;Tumore maligno del timo
+C38-02-03;Tumore maligno del cuore, del mediastino e della pleura
+C39-02-03;Tumore maligno di altre e mal definite sedi dell''apparato respiratorio e degli organi intratoracici
+C40-02-04;Tumore maligno dell''osso e della cartilagine articolare degli arti
+C41-02-04;Tumore maligno dell''osso e della cartilagine articolare di altre e non specificate sedi
+C43-02-05;Melanoma maligno della cute
+C44-02-05;Altri tumori maligni della cute
+C45-02-06;Mesotelioma
+C46-02-06;Sarcoma di Kaposi
+C47-02-06;Tumore maligno dei nervi periferici e del sistema nervoso autonomo
+C48-02-06;Tumore maligno del retroperitoneo e peritoneo
+C49-02-06;Tumore maligno del tessuto connettivo e di altri tessuti molli
+C50-02-07;Tumori maligni della mammella
+C51-02-08;Tumore maligno della vulva
+C52-02-08;Tumore maligno della vagina
+C53-02-08;Tumore maligno della cervice uterina
+C54-02-08;Tumore maligno del corpo dell''utero
+C55-02-08;Tumore maligno dell''utero, parte non specificata
+C56-02-08;Tumore maligno dell''ovaio
+C57-02-08;Tumore maligno di altro e non specificato organo genitale femminile
+C58-02-08;Tumore maligno della placenta
+C60-02-09;Tumore maligno del pene
+C61-02-09;Tumore maligno della prostata
+C62-02-09;Tumore maligno del testicolo
+C63-02-09;Tumore maligno di altro e non specificato organo genitale maschile
+C64-02-10;Tumore maligno del rene, ad eccezione della pelvi renale
+C65-02-10;Tumore maligno della pelvi renale
+C66-02-10;Tumore maligno dell''uretere
+C67-02-10;Tumore maligno della vescica
+C68-02-10;Tumore maligno di altro e non specificato organo dell''apparato urinario
+C69-02-11;Tumore maligno dell''occhio e degli annessi oculari
+C70-02-11;Tumore maligno delle meningi
+C71-02-11;Tumore maligno dell''encefalo
+C72-02-11;Tumore maligno del midollo spinale, dei nervi cranici e di altre parti del sistema nervoso centrale
+C73-02-12;Tumore maligno della tiroide
+C74-02-12;Tumore maligno della ghiandola surrenale
+C75-02-12;Tumore maligno di altre ghiandole endocrine e di strutture correlate
+C76-02-13;Tumore maligno di altra e mal definita sede
+C77-02-13;Tumore maligno secondario e non specificato dei linfonodi
+C78-02-13;Tumore maligno secondario dell’apparato respiratorio e del digerente
+C79-02-13;Tumore maligno secondario di altre sedi
+C80-02-13;Tumore maligno di sede non specificata
+C81-02-14;Morbo di Hodgkin
+C82-02-14;Linfoma non Hodgkin follicolare (nodulare)
+C83-02-14;Linfoma non Hodgkin diffuso
+C84-02-14;Linfoma a cellule T periferiche e cutanee
+C85-02-14;Altri e non specificati tipi di linfomi non Hodgkin
+C88-02-14;Malattie maligne immunoproliferative
+C90-02-14;Mieloma multiplo e tumori plasmacellulari maligni
+C91-02-14;Leucemia linfoide
+C92-02-14;Leucemia mieloide
+C93-02-14;Leucemia monocitica
+C94-02-14;Altre leucemie di tipo cellulare specificato
+C95-02-14;Leucemia di tipo cellulare non specificato
+C96-02-14;Altro e non specificato tumore maligno del tessuto linfoide, ematopoietico e tessuti correlati
+C97-02-15;Tumori maligni di sedi indipendenti (primitive) multiple
+D00-02-16;Carcinoma in situ della cavita'' orale, dell’esofago e dello stomaco
+D01-02-16;Carcinoma in situ di altri e non specificati organi dell''apparato digerente
+D02-02-16;Carcinoma in situ dell''orecchio medio e dell''apparato respiratorio
+D03-02-16;Melanoma in situ
+D04-02-16;Carcinoma in situ della cute
+D05-02-16;Carcinoma in situ della mammella
+D06-02-16;Carcinoma in situ della cervice uterina
+D07-02-16;Carcinoma in situ di altri e non specificati organi dell''apparato genitale
+D09-02-16;Carcinoma in situ di altre e non specificate sedi
+D10-02-17;Tumore benigno della bocca e della faringe
+D11-02-17;Tumore benigno delle ghiandole salivari maggiori
+D12-02-17;Tumore benigno del colon, retto, ano e canale anale
+D13-02-17;Tumore benigno di altre e mal definite parti dell''apparato digerente
+D14-02-17;Tumore benigno dell''orecchio medio e dell''apparato respiratorio
+D15-02-17;Tumore benigno di altri e non specificati organi intratoracici
+D16-02-17;Tumore benigno dell''osso e della cartilagine articolare
+D17-02-17;Tumore lipomatoso benigno
+D18-02-17;Emangioma e linfangioma di qualsiasi sede
+D19-02-17;Tumore benigno del tessuto mesoteliale
+D20-02-17;Tumore benigno di tessuto molle del peritoneo e del retroperitoneo
+D21-02-17;Altri tumori benigni del tessuto connettivo e di altri tessuti molli
+D22-02-17;Nevi melanocitici
+D23-02-17;Altri tumori benigni della cute
+D24-02-17;Tumore benigno della mammella
+D25-02-17;Leiomioma dell''utero
+D26-02-17;Altri tumori benigni dell''utero
+D27-02-17;Tumore benigno dell''ovaio
+D28-02-17;Tumore benigno di altri e non specificati organi genitali femminili
+D29-02-17;Tumore benigno degli organi genitali maschili
+D30-02-17;Tumore benigno degli organi urinari
+D31-02-17;Tumore benigno dell''occhio e degli annessi oculari
+D32-02-17;Tumore benigno delle meningi
+D33-02-17;Tumore benigno dell''encefalo e di altre parti del sistema nervoso centrale
+D34-02-17;Tumore benigno della tiroide
+D35-02-17;Tumore benigno di altre e non specificate ghiandole endocrine
+D36-02-17;Tumore benigno di altre e non specificate sedi
+D37-02-18;Tumore di comportamento incerto o sconosciuto della cavita'' orale e degli organi dell''apparato digerente
+D38-02-18;Tumore di comportamento incerto o sconosciuto dell''orecchio medio, degli organi dell''apparato respiratorio e degli organi intratoracici
+D39-02-18;Tumore di comportamento incerto o sconosciuto degli organi genitali femminili
+D40-02-18;Tumore di comportamento incerto o sconosciuto degli organi genitali maschili
+D41-02-18;Tumore di comportamento incerto o sconosciuto degli organi dell''apparato urinario
+D42-02-18;Tumore di comportamento incerto o sconosciuto delle meningi
+D43-02-18;Tumore di comportamento incerto o sconosciuto dell''encefalo e del sistema nervoso centrale
+D44-02-18;Tumore di comportamento incerto o sconosciuto delle ghiandole endocrine
+D45-02-18;Policitemia vera
+D46-02-18;Sindromi mielodisplasiche
+D47-02-18;Altri tumori di comportamento incerto o sconosciuto del tessuto linfatico, ematopoietico e tessuti correlati
+D48-02-18;Tumore di comportamento incerto o sconosciuto di altre e non specificate sedi
+D50-03-01;Anemia da deficit di ferro
+D51-03-01;Anemia da deficit di vitamina B12
+D52-03-01;Anemia da deficit di folati
+D53-03-01;Altre anemie nutrizionali
+D55-03-02;Anemia dovuta a difetti enzimatici
+D56-03-02;Talassemia
+D57-03-02;Malattie drepanocitiche (ad emazie falciformi)
+D58-03-02;Altre anemie emolitiche ereditarie
+D59-03-02;Anemia emolitica acquisita
+D60-03-03;Aplasia pura acquisita della serie rossa (eritroblastopenia)
+D61-03-03;Altre anemie aplastiche
+D62-03-03;Anemia acuta post emorragica
+D63-03-03;Anemia in malattie croniche classificate altrove
+D64-03-03;Altre anemie
+D65-03-04;Coagulazione intravascolare disseminata (sindrome da defibrinazione)
+D66-03-04;Deficit ereditario del fattore VIII
+D67-03-04;Deficit ereditario del fattore IX
+D68-03-04;Altri difetti della coagulazione
+D69-03-04;Porpora ed altre condizioni morbose emorragiche
+D70-03-05;Agranulocitosi
+D71-03-05;Disturbi funzionali dei neutrofili polimorfonucleati
+D72-03-05;Altri disturbi dei globuli bianchi
+D73-03-05;Malattie della milza
+D74-03-05;Metaemoglobinemia
+D75-03-05;Altre malattie del sangue e degli organi ematopoietici
+D76-03-05;Alcune malattie del tessuto linforeticolare e del sistema reticoloistiocitario
+D77-03-05;Altri disturbi del sangue e degli organi ematopoietici in malattie classificate altrove
+D80-03-06;Immunodeficienza dovuta principalmente a deficit di produzione di anticorpi
+D81-03-06;Immunodeficienze combinate
+D82-03-06;Immunodeficienza associata ad altri difetti maggiori
+D83-03-06;Immunodeficienza comune variabile
+D84-03-06;Altre immunodeficienze
+D86-03-06;Sarcoidosi
+D89-03-06;Altri disturbi del sistema immunitario non classificati altrove
+E00-04-01;Sindrome da carenza di iodio congenita
+E01-04-01;Disturbi tiroidei da carenza di iodio e condizioni morbose correlate
+E02-04-01;Ipotiroidismo subclinico da carenza di iodio
+E03-04-01;Altro ipotiroidismo
+E04-04-01;Altro tipo di gozzo non tossico
+E05-04-01;Tireotossicosi (ipertiroidismo)
+E06-04-01;Tiroidite
+E07-04-01;Altri disturbi della tiroide
+E10-04-02;Diabete mellito insulino dipendente
+E11-04-02;Diabete mellito non insulino dipendente
+E12-04-02;Diabete mellito correlato a malnutrizione
+E13-04-02;Altro tipo di diabete mellito specificato
+E14-04-02;Diabete mellito non specificato
+E15-04-03;Coma ipoglicemico non diabetico
+E16-04-03;Altri disturbi della secrezione endocrina pancreatica
+E20-04-04;Ipoparatiroidismo
+E21-04-04;Iperparatiroidismo ed altri disturbi delle paratiroidi
+E22-04-04;Iperfunzione ipofisaria
+E23-04-04;Ipofunzione ed altri disturbi dell''ipofisi
+E24-04-04;Sindrome di Cushing
+E25-04-04;Sindromi adrenogenitali
+E26-04-04;Iperaldosteronismo
+E27-04-04;Altri disturbi della ghiandola surrenale
+E28-04-04;Disfunzione ovarica
+E29-04-04;Disfunzione testicolare
+E30-04-04;Disturbi della puberta'' non classificati altrove
+E31-04-04;Disfunzione plurighiandolare
+E32-04-04;Malattie del timo
+E34-04-04;Altri disturbi endocrini
+E35-04-04;Disturbi di ghiandole endocrine in malattie classificate altrove
+E40-04-05;Kwashiorkor
+E41-04-05;Marasma da denutrizione
+E42-04-05;Kwashiorkor marantico
+E43-04-05;Grave malnutrizione proteico energetica non specificata
+E44-04-05;Malnutrizione proteico energetica di grado moderato e lieve
+E45-04-05;Ritardo dello sviluppo conseguente a malnutrizione proteico energetica
+E46-04-05;Malnutrizione proteico energetica non specificata
+E50-04-06;Deficit di vitamina A
+E51-04-06;Deficit di tiamina
+E52-04-06;Deficit di niacina (pellagra)
+E53-04-06;Deficit di altre vitamine del complesso B
+E54-04-06;Deficit di acido ascorbico
+E55-04-06;Deficit di vitamina D
+E56-04-06;Altri deficit vitaminici
+E58-04-06;Deficit alimentare di calcio
+E59-04-06;Deficit alimentare di selenio
+E60-04-06;Deficit alimentare di zinco
+E61-04-06;Deficit di altri elementi nutritivi
+E63-04-06;Altre deficit nutrizionali
+E64-04-06;Sequele di malnutrizione e di altri deficit nutrizionali
+E65-04-07;Adiposita'' localizzata
+E66-04-07;Obesita''
+E67-04-07;Altre forme di iperalimentazione
+E68-04-07;Sequele dell''iperalimentazione
+E70-04-08;Disturbi del metabolismo degli aminoacidi aromatici
+E71-04-08;Disturbi del metabolismo degli aminoacidi a catena ramificata e degli acidi grassi
+E72-04-08;Altri disturbi del metabolismo degli aminoacidi
+E73-04-08;Intolleranza al lattosio
+E74-04-08;Altri disturbi del metabolismo dei carboidrati
+E75-04-08;Disturbi del metabolismo degli sfingolipidi ed altre tesaurismosi lipidiche
+E76-04-08;Disturbi del metabolismo del glicosamminoglicano
+E77-04-08;Disturbi del metabolismo delle glicoproteine
+E78-04-08;Disturbi del metabolismo delle lipoproteine ed altre dislipidemie
+E79-04-08;Disturbi del metabolismo purinico e pirimidinico
+E80-04-08;Disturbi del metabolismo porfirinico e bilirubinico
+E83-04-08;Disturbi del metabolismo dei minerali
+E84-04-08;Fibrosi cistica
+E85-04-08;Amiloidosi
+E86-04-08;Ipovolemia
+E87-04-08;Altri disturbi dei liquidi, degli elettroliti e dell’equilibrio acido base
+E88-04-08;Altri disturbi metabolici
+E89-04-08;Disturbi endocrini e metabolici iatrogeni, non classificati altrove
+E90-04-08;Disturbi nutrizionali e metabolici in malattie classificate altrove
+F00-05-01;Demenza nella malattia di Alzheimer (G30)
+F01-05-01;Demenza vascolare
+F02-05-01;Demenza in altre malattie classificate altrove
+F03-05-01;Demenza non specificata
+F04-05-01;Sindrome amnesica organica, non indotta da alcol o da altre sostanze psicoattive
+F05-05-01;Delirium non indotto da alcol o da altre sostanze psicoattive
+F06-05-01;Altri disturbi psichici dovuti a danni o disfunzioni cerebrali e a malattie somatiche
+F07-05-01;Disturbi di personalita'' e del comportamento dovuti a malattia, danno e disfunzione cerebrali
+F09-05-01;Disturbi psichici organici o sintomatici non specificati
+F10-05-02;Disturbi psichici e comportamentali dovuti all’uso di alcol
+F11-05-02;Disturbi psichici e comportamentali dovuti all’uso di oppioidi
+F12-05-02;Disturbi psichici e comportamentali dovuti all’uso di cannabinoidi
+F13-05-02;Disturbi psichici e comportamentali dovuti all’uso di sedativi o ipnotici
+F14-05-02;Disturbi psichici e comportamentali dovuti all’uso di cocaina
+F15-05-02;Disturbi psichici e comportamentali dovuti all’uso di altri stimolanti, compresa la caffeina
+F16-05-02;Disturbi psichici e comportamentali dovuti all’uso di allucinogeni
+F17-05-02;Disturbi psichici e comportamentali dovuti all’uso di tabacco
+F18-05-02;Disturbi psichici e comportamentali dovuti all’uso di solventi volatili
+F19-05-02;Disturbi psichici e comportamentali dovuti all’uso di sostanze psicoattive multiple e all’uso di altre sostanze psicoattive
+F20-05-03;Schizofrenia
+F21-05-03;Disturbo schizotipico
+F22-05-03;Disturbi deliranti persistenti
+F23-05-03;Disturbi psicotici acuti e transitori
+F24-05-03;Disturbo delirante indotto
+F25-05-03;Disturbi schizoaffettivi
+F28-05-03;Altri disturbi psicotici non organici
+F29-05-03;Psicosi non organica non specificata
+F30-05-04;Episodio maniacale
+F31-05-04;Disturbo affettivo bipolare
+F32-05-04;Episodio depressivo
+F33-05-04;Disturbo depressivo ricorrente
+F34-05-04;Disturbi persistenti dell’umore (affettivi)
+F38-05-04;Disturbi dell’umore (affettivi) di altro tipo
+F39-05-04;Disturbo dell’umore (affettivo) non specificato
+F40-05-05;Disturbi ansioso fobici
+F41-05-05;Altri disturbi d’ansia
+F42-05-05;Disturbo ossessivo compulsivo
+F43-05-05;Reazione a grave stress e disturbi dell’adattamento
+F44-05-05;Disturbi dissociativi (di conversione)
+F45-05-05;Disturbi somatoformi
+F48-05-05;Altri disturbi nevrotici
+F50-05-06;Disturbi dell’alimentazione
+F51-05-06;Disturbi del sonno non organici
+F52-05-06;Disfunzione sessuale non causata da disturbo o malattia organica
+F53-05-06;Disturbi mentali o comportamentali associati con il puerperio non classificati altrove
+F54-05-06;Fattori psicologici e comportamentali associati a disturbi o malattie classificati altrove
+F55-05-06;Abuso di sostanze che non provocano dipendenza
+F59-05-06;Sindromi comportamentali non specificate associate a disturbi fisiologici e a fattori somatici
+F60-05-07;Disturbi di personalita'' specifici
+F61-05-07;Altri disturbi di personalita'' e forme miste
+F62-05-07;Modificazione duratura della personalita'' non attribuibile a danno o malattia cerebrale
+F63-05-07;Disturbi delle abitudini e degli impulsi
+F64-05-07;Disturbi dell’identita'' sessuale
+F65-05-07;Disturbo della preferenza sessuale
+F66-05-07;Problemi psicologici e comportamentali associati con lo sviluppo e l’orientamento sessuale
+F68-05-07;Altri disturbi della personalita'' e del comportamento nell’adulto
+F69-05-07;Disturbo non specificato della personalita'' e del comportamento nell’adulto
+F70-05-08;Ritardo mentale lieve
+F71-05-08;Ritardo mentale di media gravita''
+F72-05-08;Ritardo mentale grave
+F73-05-08;Ritardo mentale profondo
+F78-05-08;Ritardo mentale di altro tipo
+F79-05-08;Ritardo mentale non specificato
+F80-05-09;Disturbi evolutivi specifici dell’eloquio e del linguaggio
+F81-05-09;Disturbi evolutivi specifici delle abilita'' scolastiche
+F82-05-09;Disturbo evolutivo specifico della funzione motoria
+F83-05-09;Disturbo evolutivo specifico misto
+F84-05-09;Disturbi evolutivi globali
+F88-05-09;Disturbo dello sviluppo psicologico di altro tipo
+F89-05-09;Disturbo dello sviluppo psicologico non specificato
+F90-05-10;Disturbi ipercinetici
+F91-05-10;Disturbi della condotta
+F92-05-10;Disturbi misti della condotta e della sfera emozionale
+F93-05-10;Disturbi della sfera emozionale con esordio caratteristico nell’infanzia
+F94-05-10;Disturbo del funzionamento sociale con esordio specifico nell’infanzia e nell’adolescenza
+F95-05-10;Disturbi a tipo tic
+F98-05-10;Altri disturbi comportamentali e della sfera emozionale con esordio abituale nell’infanzia e nell’adolescenza
+F99-05-11;Disturbo mentale S A I 
+G00-06-01;Meningite batterica non classificata altrove
+G01-06-01;Meningite in malattie batteriche classificate altrove
+G02-06-01;Meningite in altre malattie infettive e parassitarie classificate altrove
+G03-06-01;Meningite da altre e non precisate cause
+G04-06-01;Encefalite, mielite ed encefalomielite
+G05-06-01;Encefalite, mielite ed encefalomielite in malattie classificate altrove
+G06-06-01;Ascessi e granulomi intracranici ed intrarachidiani
+G07-06-01;Ascessi e granulomi intracranici ed intrarachidiani in malattie classificate altrove
+G08-06-01;Flebite e tromboflebite intracraniche ed intrarachidiane
+G09-06-01;Sequele di malattie infiammatorie del sistema nervoso centrale
+G10-06-02;Malattia di Huntington
+G11-06-02;Atassia ereditaria
+G12-06-02;Atrofia muscolare spinale e sindromi correlate
+G13-06-02;Atrofie sistemiche interessanti principalmente il sistema nervoso centrale in malattie classificate altrove
+G20-06-03;Morbo di Parkinson
+G21-06-03;Parkinsonismo secondario
+G22-06-03;Parkinsonismo in malattie classificate altrove
+G23-06-03;Altre malattie degenerative dei gangli della base
+G24-06-03;Distonia
+G25-06-03;Altri disturbi extrapiramidali e del movimento
+G26-06-03;Disturbi extrapiramidali e del movimento in malattie classificate altrove
+G30-06-04;Malattia di Alzheimer
+G31-06-04;Altre malattie degenerative del sistema nervoso non classificate altrove
+G32-06-04;Altre malattie degenerative del sistema nervoso in malattie classificate altrove
+G35-06-05;Sclerosi multipla
+G36-06-05;Altra demielinizzazione disseminata acuta
+G37-06-05;Altre malattie demielinizzanti del sistema nervoso centrale
+G40-06-06;Epilessia
+G41-06-06;Stato di male epilettico
+G43-06-06;Emicrania
+G44-06-06;Altre sindromi cefalalgiche
+G45-06-06;Attacchi cerebrovascolari ischemici transitori e sindromi correlate
+G46-06-06;Sindromi vascolari cerebrali in malattie cerebrovascolari (I60 I67)
+G47-06-06;Disturbi del sonno
+G50-06-07;Disturbi del nervo trigemino
+G51-06-07;Disturbi del nervo facciale
+G52-06-07;Disturbi di altri nervi cranici
+G53-06-07;Disturbi di nervi cranici in malattie classificate altrove
+G54-06-07;Disturbi dei plessi e delle radici nervose
+G55-06-07;Compressione delle radici e dei plessi nervosi in malattie classificate altrove
+G56-06-07;Mononeuropatie dell''arto superiore
+G57-06-07;Mononeuropatie dell''arto inferiore
+G58-06-07;Altre mononeuropatie
+G59-06-07;Mononeuropatia in malattie classificate altrove
+G60-06-08;Neuropatie idiopatiche ed ereditarie
+G61-06-08;Polineuropatia infiammatoria
+G62-06-08;Altre polineuropatie
+G63-06-08;Polineuropatia in malattie classificate altrove
+G64-06-08;Altri disturbi del sistema nervoso periferico
+G70-06-09;Miastenia grave ed altri disturbi neuromuscolari
+G71-06-09;Disturbi primitivi dei muscoli
+G72-06-09;Altre miopatie
+G73-06-09;Disturbi della giunzione neuromuscolare e dei muscoli in malattie classificate altrove
+G80-06-10;Paralisi cerebrale infantile
+G81-06-10;Emiplegia
+G82-06-10;Paraplegia e tetraplegia
+G83-06-10;Altre sindromi paralitiche
+G90-06-11;Disturbi del sistema nervoso autonomo
+G91-06-11;Idrocefalo
+G92-06-11;Encefalopatia tossica
+G93-06-11;Altri disturbi dell’encefalo
+G94-06-11;Altri disturbi dell’encefalo in malattie classificate altrove
+G95-06-11;Altre malattie del midollo spinale
+G96-06-11;Altri disturbi del sistema nervoso centrale
+G97-06-11;Disturbi iatrogeni del sistema nervoso non classificati altrove
+G98-06-11;Altri disturbi del sistema nervoso non classificati altrove
+G99-06-11;Altri disturbi del sistema nervoso in malattie classificate altrove
+H00-07-01;Orzaiolo e calazio
+H01-07-01;Altra infiammazione della palpebra
+H02-07-01;Altri disturbi delle palpebre
+H03-07-01;Disturbi delle palpebre in malattie classificate altrove
+H04-07-01;Disturbi dell''apparato lacrimale
+H05-07-01;Disturbi dell''orbita
+H06-07-01;Disturbi dell''apparato lacrimale e dell''orbita in malattie classificate altrove
+H10-07-02;Congiuntivite
+H11-07-02;Altri disturbi della congiuntiva
+H13-07-02;Disturbi della congiuntiva in malattie classificate altrove
+H15-07-03;Disturbi della sclera
+H16-07-03;Cheratite
+H17-07-03;Cicatrici ed opacita'' corneali
+H18-07-03;Altri disturbi della cornea
+H19-07-03;Disturbi della sclera e della cornea in malattie classificate altrove
+H20-07-03;Iridociclite
+H21-07-03;Altri disturbi dell''iride e del corpo ciliare
+H22-07-03;Disturbi dell''iride e del corpo ciliare in malattie classificate altrove
+H25-07-04;Cataratta senile
+H26-07-04;Altra cataratta
+H27-07-04;Altri disturbi del cristallino
+H28-07-04;Cataratta ed altri disturbi del cristallino in malattie classificate altrove
+H30-07-05;Infiammazione corioretinica
+H31-07-05;Altri disturbi della coroide
+H32-07-05;Disturbi corioretinici in malattie classificate altrove
+H33-07-05;Distacchi e rotture di retina
+H34-07-05;Occlusioni vascolari retiniche
+H35-07-05;Altri disturbi retinici
+H36-07-05;Disturbi retinici in malattie classificate altrove
+H40-07-06;Glaucoma
+H42-07-06;Glaucoma in malattie classificate altrove
+H43-07-07;Disturbi del corpo vitreo
+H44-07-07;Disturbi del globo oculare
+H45-07-07;Disturbi del corpo vitreo e del globo oculare in malattie classificate altrove
+H46-07-08;Neurite ottica
+H47-07-08;Altri disturbi del nervo ottico (II nervo cranico) e delle vie ottiche
+H48-07-08;Disturbi del nervo ottico (II nervo cranico) e delle vie ottiche in malattie classificate altrove
+H49-07-09;Strabismo paralitico
+H50-07-09;Altro strabismo
+H51-07-09;Altri disturbi dei movimenti binoculari
+H52-07-09;Vizi di rifrazione e disturbi di accomodazione
+H53-07-10;Disturbi visivi
+H54-07-10;Cecita'' e ipovisione
+H55-07-11;Nistagmo ed altri movimenti irregolari degli occhi
+H57-07-11;Altri disturbi dell''occhio e degli annessi oculari
+H58-07-11;Altri disturbi dell''occhio e degli annessi oculari in malattie classificate altrove
+H59-07-11;Disturbi post iatrogeni dell''occhio e degli annessi non classificati altrove
+H60-08-01;Otite esterna
+H61-08-01;Altri disturbi dell''orecchio esterno
+H62-08-01;Disturbi dell''orecchio esterno in malattie classificate altrove
+H65-08-02;Otite media non suppurativa
+H66-08-02;Otite media suppurativa e non specificata
+H67-08-02;Otite media in malattie classificate altrove
+H68-08-02;Infiammazione e ostruzione di tuba di Eustachio
+H69-08-02;Altri disturbi di tuba di Eustachio
+H70-08-02;Mastoidite e condizioni morbose correlate
+H71-08-02;Colesteatoma dell''orecchio medio
+H72-08-02;Perforazione della membrana timpanica
+H73-08-02;Altri disturbi della membrana timpanica
+H74-08-02;Altri disturbi dell''orecchio medio e della mastoide
+H75-08-02;Altri disturbi dell''orecchio medio e della mastoide in malattie classificate altrove
+H80-08-03;Otosclerosi
+H81-08-03;Disturbi della funzione vestibolare
+H82-08-03;Sindromi vertiginose in malattie classificate altrove
+H83-08-03;Altre malattie dell''orecchio interno
+H90-08-04;Sordita'' da difetto di trasmissione e/o neurosensoriale
+H91-08-04;Altra perdita uditiva
+H92-08-04;Otalgia e secrezione auricolare
+H93-08-04;Altri disturbi dell''orecchio non classificati altrove
+H94-08-04;Altri disturbi dell''orecchio in malattie classificate altrove
+H95-08-04;Disturbi iatrogeni dell''orecchio e dell''apofisi mastoide non classificati altrove
+I00-09-01;Reumatismo articolare acuto senza menzione di interessamento cardiaco
+I01-09-01;Reumatismo articolare acuto con interessamento cardiaco
+I02-09-01;Corea reumatica
+I05-09-02;Malattie reumatiche della valvola mitralica
+I06-09-02;Malattie reumatiche della valvola aortica
+I07-09-02;Malattie reumatiche della valvola tricuspide
+I08-09-02;Malattie valvolari multiple
+I09-09-02;Altre cardiopatie reumatiche
+I10-09-03;Ipertensione essenziale (primitiva)
+I11-09-03;Cardiopatia ipertensiva
+I12-09-03;Malattia renale ipertensiva
+I13-09-03;Malattia ipertensiva cardiaca e renale
+I15-09-03;Ipertensione secondaria
+I20-09-04;Angina pectoris
+I21-09-04;Infarto miocardico acuto
+I22-09-04;Infarto miocardico recidivante
+I23-09-04;Alcune complicanze in atto susseguenti ad infarto miocardico acuto
+I24-09-04;Altre cardiopatie ischemiche acute
+I25-09-04;Cardiopatia ischemica cronica
+I26-09-05;Embolia polmonare
+I27-09-05;Altre forme di cuore polmonare
+I28-09-05;Altre malattie di vasi polmonari
+I30-09-06;Pericardite acuta
+I31-09-06;Altre malattie del pericardio
+I32-09-06;Pericardite in malattie classificate altrove
+I33-09-06;Endocardite acuta e subacuta
+I34-09-06;Disturbi non reumatici della valvola mitralica
+I35-09-06;Disturbi non reumatici della valvola aortica
+I36-09-06;Disturbi non reumatici della (valvola) tricuspide
+I37-09-06;Disturbi della (valvola) polmonare
+I38-09-06;Endocardite, valvola non specificata
+I39-09-06;Endocardite e valvulopatie cardiache in malattie classificate altrove
+I40-09-06;Miocardite acuta
+I41-09-06;Miocardite in malattie classificate altrove
+I42-09-06;Cardiomiopatia
+I43-09-06;Cardiomiopatia in malattie classificate altrove
+I44-09-06;Blocco atrioventricolare e blocco di branca sinistra
+I45-09-06;Altri disturbi di conduzione
+I46-09-06;Arresto cardiaco
+I47-09-06;Tachicardia parossistica
+I48-09-06;Fibrillazione e flutter atriali
+I49-09-06;Altre aritmie cardiache
+I50-09-06;Insufficienza cardiaca
+I51-09-06;Complicanze di cardiopatie e malattie cardiache mal definite
+I52-09-06;Altri disturbi cardiaci in malattie classificate altrove
+I60-09-07;Emorragia subaracnoidea
+I61-09-07;Emorragia intracerebrale
+I62-09-07;Altre emorragie intracraniche non traumatiche
+I63-09-07;Infarto cerebrale
+I64-09-07;Accidente cerebrovascolare non specificato se da emorragia o da infarto
+I65-09-07;Occlusione e stenosi di arterie precerebrali, senza esiti in infarto cerebrale
+I66-09-07;Occlusione e stenosi di arterie cerebrali, senza esiti in infarto cerebrale
+I67-09-07;Altre malattie cerebrovascolari
+I68-09-07;Disturbi cerebrovascolari in malattie classificate altrove
+I69-09-07;Sequele di malattia cerebrovascolare
+I70-09-08;Aterosclerosi
+I71-09-08;Aneurisma e dissezione dell''aorta
+I72-09-08;Altro aneurisma
+I73-09-08;Altre malattie vascolari periferiche
+I74-09-08;Embolia e trombosi arteriose
+I77-09-08;Altri disturbi di arterie e arteriole
+I78-09-08;Malattie dei capillari
+I79-09-08;Disturbi delle arterie, delle arteriole e dei capillari in malattie classificate altrove
+I80-09-09;Flebite e tromboflebite
+I81-09-09;Trombosi della vena porta
+I82-09-09;Altre forme di embolia e trombosi venose
+I83-09-09;Varici (venose) degli arti inferiori
+I84-09-09;Emorroidi
+I85-09-09;Varici esofagee
+I86-09-09;Varici (venose) di altre sedi
+I87-09-09;Altri disturbi delle vene
+I88-09-09;Linfadenite non specifica
+I89-09-09;Altri disturbi non infettivi dei vasi linfatici e dei linfonodi
+I95-09-10;Ipotensione
+I97-09-10;Disturbi del sistema circolatorio successivi a procedure diagnostiche o terapeutiche, non classificati altrove
+I98-09-10;Altri disturbi del sistema circolatorio in malattie classificate altrove
+I99-09-10;Altri e non specificati disturbi del sistema circolatorio
+J00-10-01;Rinofaringite acuta (raffreddore comune)
+J01-10-01;Sinusite acuta
+J02-10-01;Faringite acuta
+J03-10-01;Tonsillite acuta
+J04-10-01;Laringite e tracheite acute
+J05-10-01;Laringite ostruttiva acuta (croup) e epiglottite
+J06-10-01;Infezioni acute di sedi multiple e non specificate delle alte vie respiratorie
+J10-10-02;Influenza, virus dell’influenza identificato
+J11-10-02;Influenza, virus non identificato
+J12-10-02;Polmonite virale non classificata altrove
+J13-10-02;Polmonite da Streptococcus pneumoniae
+J14-10-02;Polmonite da Haemophilus influenzae
+J15-10-02;Polmonite batterica non classificata altrove
+J16-10-02;Polmonite da altri microorganismi infettivi non classificata altrove
+J17-10-02;Polmonite in malattie classificate altrove
+J18-10-02;Polmonite da microorganismo non specificato
+J20-10-03;Bronchite acuta
+J21-10-03;Bronchiolite acuta
+J22-10-03;Infezione acuta delle basse vie respiratorie non specificata
+J30-10-04;Rinite allergica e vasomotoria
+J31-10-04;Rinite, rinofaringite e faringite croniche
+J32-10-04;Sinusite cronica
+J33-10-04;Polipo nasale
+J34-10-04;Altri disturbi del naso e dei seni paranasali
+J35-10-04;Malattie croniche delle tonsille e delle adenoidi
+J36-10-04;Ascesso peritonsillare
+J37-10-04;Laringite e laringotracheite croniche
+J38-10-04;Malattie delle corde vocali e della laringe non classificate altrove
+J39-10-04;Altre malattie delle alte vie respiratorie
+J40-10-05;Bronchite non specificata come acuta o cronica
+J41-10-05;Bronchite cronica semplice e mucopurulenta
+J42-10-05;Bronchite cronica non specificata
+J43-10-05;Enfisema
+J44-10-05;Altre pneumopatie ostruttive croniche
+J45-10-05;Asma
+J46-10-05;Stato di male asmatico
+J47-10-05;Bronchiolectasia
+J60-10-06;Pneumoconiosi dei lavoratori del carbone
+J61-10-06;Pneumoconiosi da asbesto (amianto) ed altre fibre minerali
+J62-10-06;Pneumoconiosi da polveri contenenti silice
+J63-10-06;Pneumoconiosi da altre polveri inorganiche
+J64-10-06;Pneumoconiosi non specificata
+J65-10-06;Pneumoconiosi associata a tubercolosi
+J66-10-06;Malattie delle vie aeree causate da polveri organiche specifiche
+J67-10-06;Polmonite da ipersensibilita'' a polveri organiche
+J68-10-06;Condizioni morbose respiratorie da inalazione di sostanze chimiche, gas, fumi e 
+J69-10-06;Polmoniti da sostanze solide o liquide
+J70-10-06;Condizioni morbose respiratorie da altri agenti esterni
+J80-10-07;Sindrome di sofferenza (distress) respiratoria(o) dell’adulto (ARDS)
+J81-10-07;Edema polmonare
+J82-10-07;Eosinofilia polmonare non classificata altrove
+J84-10-07;Altre pneumopatie interstiziali
+J85-10-08;Ascesso del polmone e del mediastino
+J86-10-08;Piotorace
+J90-10-09;Versamento pleurico non classificato altrove
+J91-10-09;Versamento pleurico in condizioni morbose classificate altrove
+J92-10-09;Placca pleurica
+J93-10-09;Pneumotorace
+J94-10-09;Altre condizioni morbose della pleura
+J95-10-10;Disturbi respiratori iatrogeni non classificati altrove
+J96-10-10;Insufficienza respiratoria non classificata altrove
+J98-10-10;Altri disturbi respiratori
+J99-10-10;Disturbi respiratori in malattie classificate altrove
+K00-11-01;Disturbi dello sviluppo e dell’eruzione dei denti
+K01-11-01;Denti inclusi ed ritenuti
+K02-11-01;Carie dentaria
+K03-11-01;Altre malattie dei tessuti duri dei denti
+K04-11-01;Malattie della polpa e dei tessuti periapicali
+K05-11-01;Gengiviti e periodontopatie
+K06-11-01;Altri disturbi della gengiva e della cresta alveolare edentula
+K07-11-01;Anomalie odontofacciali (compresa la malocclusione)
+K08-11-01;Altri disturbi dei denti e delle loro strutture di sostegno
+K09-11-01;Cisti della regione orale non classificate altrove
+K10-11-01;Altre malattie dei mascellari
+K11-11-01;Malattie delle ghiandole salivari
+K12-11-01;Stomatiti e lesioni correlate
+K13-11-01;Altre malattie delle labbra e della mucosa orale
+K14-11-01;Malattie della lingua
+K20-11-02;Esofagite
+K21-11-02;Malattia da reflusso gastroesofageo
+K22-11-02;Altre malattie dell''esofago
+K23-11-02;Disturbi dell''esofago in malattie classificate altrove
+K25-11-02;Ulcera gastrica
+K26-11-02;Ulcera duodenale
+K27-11-02;Ulcera peptica di sede non specificata
+K28-11-02;Ulcera gastrodigiunale
+K29-11-02;Gastrite e duodenite
+K30-11-02;Dispepsia
+K31-11-02;Altre malattie dello stomaco e del duodeno
+K35-11-03;Appendicite acuta
+K36-11-03;Altre forme di appendicite
+K37-11-03;Appendicite non specificata
+K38-11-03;Altre malattie dell''appendice
+K40-11-04;Ernia inguinale
+K41-11-04;Ernia femorale
+K42-11-04;Ernia ombelicale
+K43-11-04;Ernia addominale
+K44-11-04;Ernia diaframmatica
+K45-11-04;Altre ernie addominali
+K46-11-04;Ernia addominale non specificata
+K50-11-05;Morbo di Crohn (enterite regionale)
+K51-11-05;Colite ulcerosa
+K52-11-05;Altre gastroenteriti e coliti non infettive
+K55-11-06;Disturbi vascolari dell''intestino
+K56-11-06;Ileo paralitico ed ostruzione intestinale senza ernia
+K57-11-06;Malattia diverticolare dell''intestino
+K58-11-06;Sindrome dell''intestino irritabile
+K59-11-06;Altri disturbi intestinali di tipo funzionale
+K60-11-06;Ragade e fistola delle regioni anale e rettale
+K61-11-06;Ascesso delle regioni anale e rettale
+K62-11-06;Altre malattie dell''ano e del retto
+K63-11-06;Altre malattie dell''intestino
+K65-11-07;Peritonite
+K66-11-07;Altri disturbi del peritoneo
+K67-11-07;Disturbi del peritoneo in malattie infettive classificate altrove
+K70-11-08;Epatopatia alcolica
+K71-11-08;Epatopatia tossica
+K72-11-08;Insufficienza epatica non classificata altrove
+K73-11-08;Epatite cronica non classificata altrove
+K74-11-08;Fibrosi e cirrosi epatica
+K75-11-08;Altre malattie infiammatorie del fegato
+K76-11-08;Altre malattie del fegato
+K77-11-08;Disturbi epatici in malattie classificate altrove
+K80-11-09;Colelitiasi
+K81-11-09;Colecistite
+K82-11-09;Altre malattie della colecisti
+K83-11-09;Altre malattie delle vie biliari
+K85-11-09;Pancreatite acuta
+K86-11-09;Altre malattie del pancreas
+K87-11-09;Disturbi della colecisti, delle vie biliari e del pancreas in malattie classificate altrove
+K90-11-10;Malassorbimento intestinale
+K91-11-10;Disturbi iatrogeni dell''apparato digerente non classificati altrove
+K92-11-10;Altre malattie dell''apparato digerente
+K93-11-10;Disturbi di altri organi dell''apparato digerente in malattie classificate altrove
+L00-12-01;Dermatite esfoliativa infantile (stafilococcica)
+L01-12-01;Impetigine
+L02-12-01;Ascesso cutaneo, foruncolo e favo
+L03-12-01;Cellulite
+L04-12-01;Linfadenite acuta
+L05-12-01;Cisti pilonidale
+L08-12-01;Altre infezioni locali della cute e del tessuto sottocutaneo
+L10-12-02;Pemfigo
+L11-12-02;Altri disturbi acantolitici
+L12-12-02;Pemfigoide
+L13-12-02;Altre malattie bollose
+L14-12-02;Malattie bollose in malattie classificate altrove
+L20-12-03;Dermatite atopica
+L21-12-03;Dermatite seborroica
+L22-12-03;Dermatite da pannolino
+L23-12-03;Dermatite allergica da contatto
+L24-12-03;Dermatite irritativa da contatto
+L25-12-03;Dermatite da contatto non specificata
+L26-12-03;Dermatite esfoliativa
+L27-12-03;Dermatite da assunzione interna (orale, enterica o parenterale) di sostanze
+L28-12-03;Lichen simplex chronicus e prurigo
+L29-12-03;Prurito
+L30-12-03;Altre dermatiti
+L40-12-04;Psoriasi
+L41-12-04;Parapsoriasi
+L42-12-04;Pitiriasi rosea
+L43-12-04;Lichen planus
+L44-12-04;Altri disturbi papulosquamosi
+L45-12-04;Disturbi papulosquamosi in malattie classificate altrove
+L50-12-05;Orticaria
+L51-12-05;Eritema polimorfo
+L52-12-05;Eritema nodoso
+L53-12-05;Altre condizioni morbose eritematose
+L54-12-05;Eritema in malattie classificate altrove
+L55-12-06;Ustione solare
+L56-12-06;Altre alterazioni acute della cute da radiazioni ultraviolette
+L57-12-06;Alterazioni cutanee da esposizione cronica a radiazioni non ionizzanti
+L58-12-06;Radiodermite
+L59-12-06;Altri disturbi specificati della cute e del tessuto sottocutaneo da radiazioni
+L60-12-07;Disturbi delle unghie
+L62-12-07;Disturbi delle unghie in malattie classificate altrove
+L63-12-07;Alopecia areata
+L64-12-07;Alopecia androgenica
+L65-12-07;Altra forma di perdita di capelli o peli non cicatriziale
+L66-12-07;Alopecia cicatriziale (perdita di capelli o peli cicatriziale)
+L67-12-07;Anormalita'' del colore e del fusto dei capelli o dei peli
+L68-12-07;Ipertricosi
+L70-12-07;Acne
+L71-12-07;Rosacea
+L72-12-07;Cisti follicolari della cute e del tessuto sottocutaneo
+L73-12-07;Altri disturbi del follicolo pilifero
+L74-12-07;Disturbi delle ghiandole sudoripare eccrine
+L75-12-07;Disturbi delle ghiandole sudoripare apocrine
+L80-12-08;Vitiligine
+L81-12-08;Altri disturbi di pigmentazione
+L82-12-08;Cheratosi seborroica
+L83-12-08;Acanthosis nigricans
+L84-12-08;Calli e callosita''
+L85-12-08;Altre forme di ispessimento epidermico
+L86-12-08;Cheratodermia in malattie classificate altrove
+L87-12-08;Disturbi dell’eliminazione transepidermica
+L88-12-08;Pioderma gangrenoso
+L89-12-08;Ulcera da decubito
+L90-12-08;Disturbi atrofici della cute
+L91-12-08;Disturbi ipertrofici della cute
+L92-12-08;Disturbi granulomatosi della cute e del tessuto sottocutaneo
+L93-12-08;Lupus eritematoso
+L94-12-08;Altri disturbi localizzati del tessuto connettivo
+L95-12-08;Vasculite limitata alla cute, non classsificata altrove
+L97-12-08;Ulcera di arto inferiore non classificata altrove
+L98-12-08;Altri disturbi della cute e del tessuto sottocutaneo non classificati altrove
+L99-12-08;Altri disturbi della cute e del tessuto sottocutaneo in malattie classificate altrove
+M00-13-01;Artrite piogenica
+M01-13-01;Infezioni dirette delle articolazioni in malattie infettive e parassitarie classificate altrove
+M02-13-01;Artropatie reattive
+M03-13-01;Artropatie post infettive e reattive in malattie classificate altrove
+M05-13-02;Artrite reumatoide sieropositiva
+M06-13-02;Altre artriti reumatoidi
+M07-13-02;Artropatie psoriasiche ed enteropatiche
+M08-13-02;Artrite giovanile
+M09-13-02;Artrite giovanile in malattie classificate altrove
+M10-13-02;Gotta
+M11-13-02;Altre artropatie da microcristalli
+M12-13-02;Altre artropatie specifiche
+M13-13-02;Altre artriti
+M14-13-02;Artropatie in altre malattie classificate altrove
+M15-13-03;Poliartrosi
+M16-13-03;Coxartrosi (artrosi dell’anca)
+M17-13-03;Gonartrosi (artrosi del ginocchio)
+M18-13-03;Artrosi della prima articolazione carpometacarpica
+M19-13-03;Altre artrosi
+M20-13-04;Deformazioni acquisite delle dita della mano e del piede
+M21-13-04;Altre deformazioni acquisite degli arti
+M22-13-04;Disturbi della rotula
+M23-13-04;Lesione interna del ginocchio
+M24-13-04;Altre lesioni articolari specifiche
+M25-13-04;Altri disturbi articolari non classificati altrove
+M30-13-05;Panarterite nodosa e condizioni morbose correlate
+M31-13-05;Altre vasculopatie necrotizzanti
+M32-13-05;Lupus eritematoso sistemico
+M33-13-05;Dermatopolimiosite
+M34-13-05;Sclerosi sistemica
+M35-13-05;Altro interessamento sistemico del tessuto connettivo
+M36-13-05;Disturbi sistemici del tessuto connettivo in malattie classificate altrove
+M40-13-06;Cifosi e lordosi
+M41-13-06;Scoliosi
+M42-13-06;Osteocondrosi vertebrale
+M43-13-06;Altre dorsopatie deformanti
+M45-13-07;Spondilite anchilosante
+M46-13-07;Altre spondilopatie infiammatorie
+M47-13-07;Spondilosi
+M48-13-07;Altre spondilopatie
+M49-13-07;Spondilopatie in malattie classificate altrove
+M50-13-08;Disturbi dei dischi intervertebrali cervicali
+M51-13-08;Altri disturbi dei dischi intervertebrali
+M53-13-08;Altre dorsopatie non classificate altrove
+M54-13-08;Dorsalgia
+M60-13-09;Miosite
+M61-13-09;Calcificazione ed ossificazione dei muscoli
+M62-13-09;Altri disturbi muscolari
+M63-13-09;Disturbi muscolari in malattie classificate altrove
+M65-13-10;Sinovite e tenosinovite
+M66-13-10;Rottura spontanea delle sinovie e dei tendini
+M67-13-10;Altri disturbi delle sinovie e dei tendini
+M68-13-10;Disturbi delle sinovie e dei tendini in malattie classificate altrove
+M70-13-11;Malattie dei tessuti molli correlati ad uso, uso eccessivo e pressione
+M71-13-11;Altre borsopatie
+M72-13-11;Disturbi fibroblastici
+M73-13-11;Disturbi dei tessuti molli in malattie classificate altrove
+M75-13-11;Lesioni della spalla
+M76-13-11;Entesopatie dell’arto inferiore, escluso il piede
+M77-13-11;Altre entesopatie
+M79-13-11;Altri disturbi dei tessuti molli non classificati altrove
+M80-13-12;Osteoporosi con frattura patologica
+M81-13-12;Osteoporosi senza frattura patologica
+M82-13-12;Osteoporosi in malattie classificate altrove
+M83-13-12;Osteomalacia dell’adulto
+M84-13-12;Disturbi di continuita'' di osso
+M85-13-12;Altri disturbi della densita'' e della struttura delle ossa
+M86-13-13;Osteomielite
+M87-13-13;Osteonecrosi
+M88-13-13;Malattia di Paget delle ossa (osteite deformante)
+M89-13-13;Altri disturbi ossei
+M90-13-13;Osteopatie in malattie classificate altrove
+M91-13-14;Osteocondrosi giovanile dell’anca e della pelvi
+M92-13-14;Altre osteocondrosi giovanili
+M93-13-14;Altre osteocondropatie
+M94-13-14;Altri disturbi della cartilagine
+M95-13-15;Altre deformazioni acquisite del sistema osteomuscolare e del tessuto connettivo
+M96-13-15;Disturbi osteomuscolari iatrogeni non classificati altrove
+M99-13-15;Lesioni biomeccaniche non classificate altrove
+N00-14-01;Sindrome nefritica acuta
+N01-14-01;Sindrome nefritica rapidamente progressiva
+N02-14-01;Ematuria ricorrente e persistente
+N03-14-01;Sindrome nefritica cronica
+N04-14-01;Sindrome nefrosica
+N05-14-01;Sindrome nefritica non specificata
+N06-14-01;Proteinuria isolata con lesione morfologica specificata
+N07-14-01;Nefropatia ereditaria non classificata altrove
+N08-14-01;Disturbi glomerulari in malattie classificate altrove
+N10-14-02;Nefrite tubulo interstiziale acuta
+N11-14-02;Nefrite cronica tubulo interstiziale
+N12-14-02;Nefrite tubulo interstiziale non specificata se acuta o cronica
+N13-14-02;Uropatia ostruttiva e da reflusso
+N14-14-02;Condizioni morbose tubulari e tubulo interstiziali indotte da farmaci o metalli pesanti
+N15-14-02;Altre malattie renali tubulo interstiziali
+N16-14-02;Disturbi tubulo interstiziali renali in malattie classificate altrove
+N17-14-03;Insufficienza renale acuta
+N18-14-03;Insufficienza renale cronica
+N19-14-03;Insufficienza renale non specificata
+N20-14-04;Calcolosi del rene e dell’uretere
+N21-14-04;Calcolo delle basse vie urinarie
+N22-14-04;Calcolo delle vie urinarie in malattie classificate altrove
+N23-14-04;Colica renale non specificata
+N25-14-05;Disturbi risultanti da ridotta funzionalita'' dei tubuli renali
+N26-14-05;Rene grinzo non specificato
+N27-14-05;Rene piccolo da causa sconosciuta
+N28-14-05;Altri disturbi del rene e dell’uretere non classificati altrove
+N29-14-05;Altri disturbi del rene e dell’uretere in malattie classificate altrove
+N30-14-06;Cistite
+N31-14-06;Disfunzione neuromuscolare della vescica non classificata altrove
+N32-14-06;Altri disturbi della vescica
+N33-14-06;Disturbi della vescica in malattie classificate altrove
+N34-14-06;Uretrite e sindrome uretrale
+N35-14-06;Stenosi uretrale
+N36-14-06;Altri disturbi dell’uretra
+N37-14-06;Disturbi dell’uretra in malattie classificate altrove
+N39-14-06;Altri disturbi dell’apparato urinario
+N40-14-07;Iperplasia della prostata
+N41-14-07;Malattie infiammatorie della prostata
+N42-14-07;Altri disturbi della prostata
+N43-14-07;Idrocele e spermatocele
+N44-14-07;Torsione di testicolo
+N45-14-07;Orchite ed epididimite
+N46-14-07;Infertilita'' maschile
+N47-14-07;Ipertrofia prepuziale, fimosi e parafimosi
+N48-14-07;Altri disturbi del pene
+N49-14-07;Disturbi infiammatori dell’apparato genitale maschile non classificati altrove
+N50-14-07;Altri disturbi dell’apparato genitale maschile
+N51-14-07;Disturbi di organi genitali maschili in malattie classificate altrove
+N60-14-08;Displasia mammaria benigna
+N61-14-08;Disturbi infiammatori della mammella
+N62-14-08;Ipertrofia della mammella
+N63-14-08;Nodulo della mammella non specificato
+N64-14-08;Altri disturbi della mammella
+N70-14-09;Salpingite e ooforite
+N71-14-09;Malattia infiammatoria dell’utero, cervice esclusa
+N72-14-09;Malattia infiammatoria della cervice uterina
+N73-14-09;Altre malattie infiammatorie della pelvi femminile
+N74-14-09;Disturbi infiammatori della pelvi femminile in malattie classificate altrove
+N75-14-09;Malattie della ghiandola di Bartolino
+N76-14-09;Altre infiammazioni della vagina e della vulva
+N77-14-09;Ulcerazione ed infiammazione vulvovaginali in malattie classificate altrove
+N80-14-10;Endometriosi
+N81-14-10;Prolasso genitale femminile
+N82-14-10;Fistole interessanti l’apparato genitale femminile
+N83-14-10;Disturbi non infiammatori di ovaio, tube di Falloppio e legamento largo
+N84-14-10;Polipo dell’apparato genitale femminile
+N85-14-10;Altri disturbi non infiammatori dell’utero, esclusa la cervice uterina
+N86-14-10;Erosione ed ectropion della cervice uterina
+N87-14-10;Displasia della cervice dell’utero
+N88-14-10;Altri disturbi non infiammatori della cervice dell’utero
+N89-14-10;Altri disturbi non infiammatori della vagina
+N90-14-10;Altri disturbi non infiammatori della vulva e del perineo
+N91-14-10;Amenorrea, oligomenorrea ed ipomenorrea
+N92-14-10;Menorragia, polimenorrea e metrorragia
+N93-14-10;Altri sanguinamenti uterini e vaginali anormali
+N94-14-10;Dolore e altre condizioni morbose associate agli organi genitali femminili o al ciclo mestruale
+N95-14-10;Disturbi menopausali e perimenopausali
+N96-14-10;Aborto ricorrente
+N97-14-10;Infertilita'' femminile
+N98-14-10;Complicanze associate a fecondazione artificiale
+N99-14-11;Disturbi iatrogeni delle vie genitourinarie non classificate altrove
+O00-15-01;Gravidanza ectopica
+O01-15-01;Mola idatiforme
+O02-15-01;Altri prodotti anormali del concepimento
+O03-15-01;Aborto spontaneo
+O04-15-01;Aborto per ragioni mediche e legali
+O05-15-01;Altro tipo di aborto
+O06-15-01;Aborto non specificato
+O07-15-01;Tentativo fallito di aborto
+O08-15-01;Complicanze successive ad aborto e a gravidanza ectopica o molare
+O10-15-02;Ipertensione preesistente complicante la gravidanza, il parto e il puerperio
+O11-15-02;Disturbo ipertensivo preesistente con proteinuria sovrapposta
+O12-15-02;Edema e proteinuria gestazionali (indotte da gravidanza) senza ipertensione
+O13-15-02;Ipertensione gestazionale (indotta da gravidanza) senza proteinuria significativa
+O14-15-02;Ipertensione gestazionale (indotta da gravidanza) con proteinuria significativa
+O15-15-02;Eclampsia
+O16-15-02;Ipertensione materna non specificata
+O20-15-03;Emorragia nella fase iniziale di gravidanza
+O21-15-03;Iperemesi gravidica
+O22-15-03;Complicanze venose in gravidanza
+O23-15-03;Infezioni dell’apparato genitourinario in gravidanza
+O24-15-03;Diabete mellito in gravidanza
+O25-15-03;Malnutrizione in gravidanza
+O26-15-03;Assistenza prestata alla madre per altre condizioni morbose connesse soprattutto alla gravidanza
+O28-15-03;Risultati anormali riscontrati a screening prenatale della madre
+O29-15-03;Complicanze di anestesia in gravidanza
+O30-15-04;Gravidanza multipla
+O31-15-04;Complicanze specifiche di gravidanza multipla
+O32-15-04;Assistenza prestata alla madre per presentazione anomala del feto accertata o presunta
+O33-15-04;Assistenza prestata alla madre per sproporzione accertata o presunta
+O34-15-04;Assistenza prestata alla madre per anormalita'' accertata o presunta di organi pelvici
+O35-15-04;Assistenza prestata alla madre per anormalita'' o lesioni fetali accertate o sospettate
+O36-15-04;Assistenza prestata alla madre per altri problemi fetali accertati o presunti
+O40-15-04;Polidramnio(s)
+O41-15-04;Altri disturbi del liquido amniotico e delle membrane
+O42-15-04;Rottura prematura delle membrane
+O43-15-04;Disturbi placentari
+O44-15-04;Placenta previa
+O45-15-04;Distacco prematuro di placenta (abruptio placentae)
+O46-15-04;Emorragia preparto non classificata altrove
+O47-15-04;Falso travaglio di parto
+O48-15-04;Gravidanza prolungata
+O60-15-05;Parto pretermine
+O61-15-05;Tentativo fallito di induzione del travaglio di parto
+O62-15-05;Anomalie delle forze propulsive del travaglio di parto
+O63-15-05;Travaglio di parto prolungato
+O64-15-05;Distocia da posizione o presentazione anomala del feto
+O65-15-05;Distocia da anomalia pelvica della madre
+O66-15-05;Altra distocia
+O67-15-05;Travaglio e parto complicati da emorragia intraparto non classificata altrove
+O68-15-05;Travaglio e parto complicati da sofferenza (distress) fetale
+O69-15-05;Travaglio e parto complicati da anomalie del cordone ombelicale
+O70-15-05;Lacerazione perineale durante il parto
+O71-15-05;Altri traumatismi ostetrici
+O72-15-05;Emorragia postparto
+O73-15-05;Ritenzione della placenta e delle membrane senza emorragia
+O74-15-05;Complicanze di anestesia durante il travaglio e il parto
+O75-15-05;Altre complicanze del travaglio e del parto non classificate altrove
+O80-15-06;Parto singolo spontaneo
+O81-15-06;Parto singolo con applicazione di forcipe e ventosa ostetrica
+O82-15-06;Parto singolo con taglio cesareo
+O83-15-06;Altro parto singolo assistito
+O84-15-06;Parto multiplo
+O85-15-07;Sepsi puerperale
+O86-15-07;Altre infezioni puerperali
+O87-15-07;Complicanze venose durante il puerperio
+O88-15-07;Embolia ostetrica
+O89-15-07;Complicanze di anestesia durante il puerperio
+O90-15-07;Complicanze del puerperio non classificate altrove
+O91-15-07;Infezioni della mammella associate al parto
+O92-15-07;Altri disturbi della mammella e della lattazione associati al parto
+O95-15-08;Morte ostetrica da causa non specificata
+O96-15-08;Morte per qualsiasi causa ostetrica che avvenga a piu'' di 42 giorni, ma a meno di un anno, dopo il parto
+O97-15-08;Morte per sequele di cause ostetriche dirette
+O98-15-08;Malattie infettive e parassitarie materne classificabili altrove, ma complicanti la gravidanza, il parto ed il puerperio
+O99-15-08;Altre malattie della madre, classificabili altrove, ma complicanti la gravidanza, il parto ed il puerperio
+P00-16-01;Feto e neonato affetti da condizioni materne che possono non essere correlate alla gravidanza attuale
+P01-16-01;Feto e neonato affetti da complicanze materne della gravidanza
+P02-16-01;Feto e neonato affetti da complicanze della placenta, del cordone ombelicale e delle membrane
+P03-16-01;Feto e neonato affetti da altre complicanze del travaglio e del parto
+P04-16-01;Feto e neonato affetti da effetti nocivi trasmessi per via placentare o tramite il latte materno
+P05-16-02;Ritardo di crescita e malformazione del feto
+P07-16-02;Disturbi correlati a gestazione breve ed a basso peso alla nascita, non classificati altrove
+P08-16-02;Disturbi correlati a gestazione prolungata e ad elevato peso alla nascita
+P10-16-03;Lacerazioni ed emorragie intracraniche da traumi da parto
+P11-16-03;Altre lesioni del sistema nervoso centrale da trauma da parto
+P12-16-03;Trauma da parto del cuoio capelluto
+P13-16-03;Trauma da parto dello scheletro
+P14-16-03;Trauma da parto del sistema nervoso periferico
+P15-16-03;Altro trauma da parto
+P20-16-04;Ipossia intrauterina
+P21-16-04;Asfissia alla nascita
+P22-16-04;Sofferenza (distress) respiratoria(o) del neonato
+P23-16-04;Polmonite congenita
+P24-16-04;Sindrome di aspirazione neonatale
+P25-16-04;Enfisema interstiziale e condizioni morbose correlate che hanno origine nel periodo perinatale
+P26-16-04;Emorragia polmonare che ha origine nel periodo perinatale
+P27-16-04;Malattia respiratoria cronica che ha origine nel periodo perinatale
+P28-16-04;Altre condizioni morbose respiratorie che hanno origine nel periodo perinatale
+P29-16-04;Disturbi cardiovascolari che hanno origine nel periodo perinatale
+P35-16-05;Malattie virali congenite
+P36-16-05;Sepsi batterica del neonato
+P37-16-05;Altre malattie infettive e parassitarie congenite
+P38-16-05;Onfalite del neonato con o senza lieve emorragia
+P39-16-05;Altre infezioni specifiche del periodo perinatale
+P50-16-06;Perdita di sangue fetale
+P51-16-06;Emorragia ombelicale del neonato
+P52-16-06;Emorragia intracranica non traumatica del feto e del neonato
+P53-16-06;Malattia emorragica del feto e del neonato
+P54-16-06;Altre emorragie neonatali
+P55-16-06;Malattia emolitica del feto e del neonato
+P56-16-06;Idrope fetale dovuta a malattia emolitica
+P57-16-06;Ittero nucleare (kernicterus)
+P58-16-06;Ittero del neonato da altre emolisi eccessive
+P59-16-06;Ittero del neonato dovuto ad altre e non specificate cause
+P60-16-06;Coagulazione intravasale disseminata del feto e del neonato
+P61-16-06;Altri disturbi ematologici del periodo perinatale
+P70-16-07;Disturbi transitori del metabolismo dei carboidrati specifici del feto e del neonato
+P71-16-07;Disturbi transitori del metabolismo del calcio e del magnesio del neonato
+P72-16-07;Altri disturbi endocrini transitori del neonato
+P74-16-07;Altri disturbi elettrolitici e metabolici transitori del neonato
+P75-16-08;Ileo da meconio (E84 1)
+P76-16-08;Altra ostruzione intestinale del neonato
+P77-16-08;Enterocolite necrotizzante del feto e del neonato
+P78-16-08;Altri disturbi perinatali dell’apparato digerente
+P80-16-09;Ipotermia del neonato
+P81-16-09;Altri disturbi della termoregolazione del neonato
+P83-16-09;Altre condizioni morbose della cute specifiche del feto e del neonato
+P90-16-10;Convulsioni del neonato
+P91-16-10;Altri disturbi cerebrali del neonato
+P92-16-10;Problemi d’alimentazione del neonato
+P93-16-10;Reazioni ed intossicazione da farmaci somministrati al feto ed al neonato
+P94-16-10;Disturbi del tono muscolare del neonato
+P95-16-10;Morte fetale per causa non specificata
+P96-16-10;Altre condizioni morbose che hanno origine nel periodo perinatale
+Q00-17-01;Anencefalia e malformazioni similari
+Q01-17-01;Encefalocele
+Q02-17-01;Microcefalia
+Q03-17-01;Idrocefalo congenito
+Q04-17-01;Altre malformazioni congenite dell’encefalo
+Q05-17-01;Spina bifida
+Q06-17-01;Altre malformazioni congenite del midollo spinale
+Q07-17-01;Altre malformazioni congenite del sistema nervoso
+Q10-17-02;Malformazioni congenite delle palpebre, dell''apparato lacrimale e dell''orbita
+Q11-17-02;Anoftalmo, microftalmo e macroftalmo
+Q12-17-02;Malformazioni congenite del cristallino
+Q13-17-02;Malformazioni congenite del segmento anteriore dell''occhio
+Q14-17-02;Malformazioni congenite del segmento posteriore dell''occhio
+Q15-17-02;Altre malformazioni congenite dell''occhio
+Q16-17-02;Malformazioni congenite dell''orecchio causanti deficit uditivo
+Q17-17-02;Altre malformazioni congenite dell''orecchio
+Q18-17-02;Altre malformazioni congenite della faccia e del collo
+Q20-17-03;Malformazioni congenite delle cavita'' e delle connessioni cardiache
+Q21-17-03;Malformazioni congenite dei setti cardiaci
+Q22-17-03;Malformazioni congenite della valvola polmonare e della valvola tricuspide
+Q23-17-03;Malformazioni congenite della valvola aortica e della mitrale
+Q24-17-03;Altre malformazioni congenite del cuore
+Q25-17-03;Malformazioni congenite delle grandi arterie
+Q26-17-03;Malformazioni congenite dei grossi vasi venosi
+Q27-17-03;Altre malformazioni congenite del sistema vascolare periferico
+Q28-17-03;Altre malformazioni congenite dell''apparato circolatorio
+Q30-17-04;Malformazioni congenite del naso
+Q31-17-04;Malformazioni congenite della laringe
+Q32-17-04;Malformazioni congenite della trachea e dei bronchi
+Q33-17-04;Malformazioni congenite del polmone
+Q34-17-04;Altre malformazioni congenite dell''apparato respiratorio
+Q35-17-05;Schisi del palato
+Q36-17-05;Schisi del labbro
+Q37-17-05;Palatoschisi con cheiloschisi
+Q38-17-06;Altre malformazioni congenite della lingua, della bocca e della faringe
+Q39-17-06;Malformazioni congenite dell''esofago
+Q40-17-06;Altre malformazioni congenite delle vie digerenti superiori
+Q41-17-06;Assenza, atresia e stenosi congenite dell''intestino tenue
+Q42-17-06;Assenza, atresia e stenosi congenite del colon
+Q43-17-06;Altre malformazioni congenite dell''intestino
+Q44-17-06;Malformazioni congenite della colecisti, delle vie biliari e del fegato
+Q45-17-06;Altre malformazioni congenite dell''apparato digerente
+Q50-17-07;Malformazioni congenite delle ovaie, delle tube di Fallopio e dei legamenti larghi
+Q51-17-07;Malformazioni congenite dell''utero e della cervice uterina
+Q52-17-07;Altre malformazioni congenite degli organi genitali femminili
+Q53-17-07;Ritenzione testicolare
+Q54-17-07;Ipospadia
+Q55-17-07;Altre malformazioni congenite degli organi genitali maschili
+Q56-17-07;Sesso indeterminato e pseudoermafroditismo
+Q60-17-08;Agenesia renale ed altri difetti per riduzione del rene
+Q61-17-08;Malattia cistica del rene
+Q62-17-08;Anomalie ostruttive congenite del bacinetto renale e malformazioni congenite dell’uretere
+Q63-17-08;Altre malformazioni congenite del rene
+Q64-17-08;Altre malformazioni congenite dell''apparato urinario
+Q65-17-09;Deformazioni congenite dell''anca
+Q66-17-09;Deformazioni congenite dei piedi
+Q67-17-09;Deformazioni congenite osteomuscolari della testa, della faccia, della colonna vertebrale e del torace
+Q68-17-09;Altre deformazioni congenite osteomuscolari
+Q69-17-09;Polidattilia
+Q70-17-09;Sindattilia
+Q71-17-09;Malformazioni, per difetto, di arto superiore
+Q72-17-09;Malformazioni, per difetto, di arto inferiore
+Q73-17-09;Malformazione, per difetto, di arto non specificato
+Q74-17-09;Altre malformazioni congenite di arto(i)
+Q75-17-09;Altre malformazioni congenite del cranio e di ossa della faccia
+Q76-17-09;Malformazioni congenite della colonna vertebrale e della gabbia toracica
+Q77-17-09;Osteocondrodisplasia con difetti di crescita delle ossa lunghe e della colonna vertebrale
+Q78-17-09;Altre osteocondrodisplasie
+Q79-17-09;Malformazioni congenite del sistema osteomuscolare non classificate altrove
+Q80-17-10;Ittiosi congenita
+Q81-17-10;Epidermolisi bollosa
+Q82-17-10;Altre malformazioni congenite della cute
+Q83-17-10;Malformazioni congenite della mammella
+Q84-17-10;Altre malformazioni congenite del tegumento
+Q85-17-10;Facomatosi non classificate altrove
+Q86-17-10;Sindromi malformative congenite da cause esogene conosciute, non classificate altrove
+Q87-17-10;Altre sindromi malformative congenite, specificate, di apparati multipli
+Q89-17-10;Altre malformazioni congenite non classificate altrove
+Q90-17-11;Sindrome di Down
+Q91-17-11;Sindrome di Edwards e sindrome di Patau
+Q92-17-11;Altre trisomie e trisomie parziali di autosomi non classificate altrove
+Q93-17-11;Monosomie e delezioni di autosomi non classificate altrove
+Q95-17-11;Riarrangiamenti bilanciati e marcatori strutturali non classificati altrove
+Q96-17-11;Sindrome di Turner
+Q97-17-11;Altre anomalie dei cromosomi sessuali, fenotipo femminile, non classificate altrove
+Q98-17-11;Altre anomalie dei cromosomi sessuali, fenotipo maschile, non classificate altrove
+Q99-17-11;Altre anomalie dei cromosomi non classificate altrove
+R00-18-01;Anormalita'' del battito cardiaco
+R01-18-01;Soffi ed altri rumori cardiaci
+R02-18-01;Gangrena non classificata altrove
+R03-18-01;Riscontro, non diagnostico, di valore anormale di pressione sanguigna arteriosa
+R04-18-01;Emorragia delle vie respiratorie
+R05-18-01;Tosse
+R06-18-01;Anormalita'' respiratorie
+R07-18-01;Dolore alla gola e dolore toracico
+R09-18-01;Altri sintomi e segni che interessano gli apparati circolatorio e respiratorio
+R10-18-02;Dolore addominale e pelvico
+R11-18-02;Nausea e vomito
+R12-18-02;Pirosi
+R13-18-02;Disfagia
+R14-18-02;Flatulenza e condizioni morbose correlate
+R15-18-02;Incontinenza fecale
+R16-18-02;Epatomegalia e splenomegalia non classificate altrove
+R17-18-02;Ittero non specificato
+R18-18-02;Ascite
+R19-18-02;Altri sintomi e segni che interessano l''apparato digerente e l''addome
+R20-18-03;Disturbi della sensibilita'' cutanea
+R21-18-03;Rash ed altre eruzioni cutanee non specifiche
+R22-18-03;Tumefazione, massa e gonfiore, localizzati, della cute e del tessuto sottocutaneo
+R23-18-03;Altre alterazioni cutanee
+R25-18-04;Movimenti involontari anormali
+R26-18-04;Anormalita'' dell''andatura e della motilita''
+R27-18-04;Altra mancanza di coordinazione
+R29-18-04;Altri sintomi e segni che interessano il sistema nervoso ed il sistema osteomuscolare
+R30-18-05;Dolore associato alla minzione
+R31-18-05;Ematuria non specificata
+R32-18-05;Incontinenza urinaria non specificata
+R33-18-05;Ritenzione urinaria
+R34-18-05;Anuria e oliguria
+R35-18-05;Poliuria
+R36-18-05;Secrezione uretrale
+R39-18-05;Altri sintomi e segni che interessano l''apparato urinario
+R40-18-06;Sonnolenza, stupor e coma
+R41-18-06;Altri sintomi e segni che interessano le funzioni cognitive e lo stato di coscienza
+R42-18-06;Vertigine ed instabilita''
+R43-18-06;Disturbi dell''olfatto e del gusto
+R44-18-06;Altri sintomi e segni che interessano le sensazioni e le percezioni generali
+R45-18-06;Sintomi e segni che interessano lo stato emotivo
+R46-18-06;Sintomi e segni che interessano l''aspetto e il comportamento
+R47-18-07;Disturbi del linguaggio non classificati altrove
+R48-18-07;Dislessia ed altre disfunzioni simboliche non classificate altrove
+R49-18-07;Disturbi della voce
+R50-18-08;Febbre di origine sconosciuta
+R51-18-08;Cefalea
+R52-18-08;Dolore non classificato altrove
+R53-18-08;Malessere ed affaticamento
+R54-18-08;Senilita''
+R55-18-08;Sincope e collasso
+R56-18-08;Convulsioni non classificate altrove
+R57-18-08;Shock non classificato altrove
+R58-18-08;Emorragia non classificata altrove
+R59-18-08;Adenomegalia
+R60-18-08;Edema non classificato altrove
+R61-18-08;Iperidrosi
+R62-18-08;Ritardo del normale sviluppo fisiologico
+R63-18-08;Sintomi e segni che interessano l’assunzione di cibo e liquidi
+R64-18-08;Cachessia
+R68-18-08;Altri sintomi e segni generali
+R69-18-08;Cause sconosciute e non specificate di morbosita''
+R70-18-09;Aumento della velocita'' di eritrosedimentazione e anormalita'' della viscosita'' plasmatica
+R71-18-09;Anomalie dei globuli rossi
+R72-18-09;Anomalita'' dei globuli bianchi non classificate altrove
+R73-18-09;Aumento della glicemia
+R74-18-09;Tassi anormali di enzimi sierici
+R75-18-09;Messa in evidenza, con esami di laboratorio, del virus dell''immunodeficienza umana (HIV)
+R76-18-09;Altri risultati immunologici sierici anormali
+R77-18-09;Altri risultati anormali delle proteine plasmatiche
+R78-18-09;Presenza nel sangue di farmaci ed altre sostanze, normalmente assenti
+R79-18-09;Altri risultati anormali di esami chimici del sangue
+R80-18-10;Proteinuria isolata
+R81-18-10;Glicosuria
+R82-18-10;Altri risultati anormali delle urine
+R83-18-11;Risultato anormale di esame del liquido cerebrospinale
+R84-18-11;Risultati anormali di prelievo di campioni effettuato su organi delle vie respiratorie e dal torace
+R85-18-11;Risultati anormali di prelievo di campioni effettuato su organi dell''apparato digerente e della cavita'' addominale
+R86-18-11;Risultati anormali di prelievo di campioni effettuato su organi genitali maschili
+R87-18-11;Risultati anormali di prelievo di campioni effettuato su organi genitali femminili
+R89-18-11;Risultati anormali di prelievo di campioni effettuato su altri organi, apparati e tessuti
+R90-18-12;Risultati anormali di diagnostica per immagini del sistema nervoso centrale
+R91-18-12;Risultati anormali di diagnostica per immagini del polmone
+R92-18-12;Risultati anormali di diagnostica per immagini della mammella
+R93-18-12;Risultati anormali di diagnostica per immagini di altre parti del corpo
+R94-18-12;Risultati anormali di esami per studi di funzionalita''
+R95-18-13;Sindrome della morte improvvisa nell’infanzia
+R96-18-13;Altra morte improvvisa da causa sconosciuta
+R98-18-13;Morte senza assistenza
+R99-18-13;Altre mal definite e sconosciute cause di mortalita''
+S00-19-01;Traumatismo superficiale della testa
+S01-19-01;Ferita aperta della testa
+S02-19-01;Frattura del cranio e di ossa facciali
+S03-19-01;Lussazione, distorsione e distrazione di articolazioni e di legamenti della testa
+S04-19-01;Traumatismo di nervi cranici
+S05-19-01;Traumatismo dell''occhio e dell''orbita
+S06-19-01;Traumatismo intracranico
+S07-19-01;Traumatismo da schiacciamento della testa
+S08-19-01;Amputazione traumatica di parte della testa
+S09-19-01;Altri e non specificati traumatismi della testa
+S10-19-02;Traumatismo superficiale del collo
+S11-19-02;Ferita aperta del collo
+S12-19-02;Frattura del collo
+S13-19-02;Lussazione, distorsione e distrazione di articolazioni e di legamenti a livello del collo
+S14-19-02;Traumatismo di nervi e del midollo spinale a livello del collo
+S15-19-02;Traumatismo di vasi sanguigni a livello del collo
+S16-19-02;Traumatismo di muscoli e di tendini a livello del collo
+S17-19-02;Traumatismo da schiacciamento del collo
+S18-19-02;Amputazione traumatica a livello del collo
+S19-19-02;Altri e non specificati traumatismi del collo
+S20-19-03;Traumatismo superficiale del torace
+S21-19-03;Ferita aperta del torace
+S22-19-03;Frattura di costola(e), sterno e colonna toracica
+S23-19-03;Lussazione, distorsione e distrazione di articolazioni e di legamenti del torace
+S24-19-03;Traumatismo di nervi e del midollo spinale a livello del torace
+S25-19-03;Traumatismo di vasi sanguigni del torace
+S26-19-03;Traumatismo del cuore
+S27-19-03;Traumatismi di altri e non specificati organi intratoracici
+S28-19-03;Traumatismo da schiacciamento del torace e amputazione traumatica di parte del torace
+S29-19-03;Altri e non specificati traumatismi del torace
+S30-19-04;Traumatismo superficiale dell''addome, dei lombi e della pelvi
+S31-19-04;Ferita aperta dell''addome, dei lombi e della pelvi
+S32-19-04;Frattura della colonna lombare e della pelvi
+S33-19-04;Lussazione, distorsione e distrazione di articolazioni e di legamenti della colonna vertebrale lombare e della pelvi
+S34-19-04;Traumatismo di nervi e del midollo spinale lombare a livello dell''addome, dei lombi e della pelvi
+S35-19-04;Traumatismo di vasi sanguigni a livello dell''addome, dei lombi e della pelvi
+S36-19-04;Traumatismo di organi intraaddominali
+S37-19-04;Traumatismo di organi urinari e pelvici
+S38-19-04;Traumatismo da schiacciamento ed amputazione traumatica di parte dell''addome, dei lombi e della pelvi
+S39-19-04;Altri e non specificati traumatismi dell''addome, dei lombi e della pelvi
+S40-19-05;Traumatismo superficiale della spalla e del braccio
+S41-19-05;Ferita aperta della spalla e del braccio
+S42-19-05;Frattura della spalla e del braccio
+S43-19-05;Lussazione, distorsione e distrazione di articolazioni e di legamenti del cingolo scapolo omerale
+S44-19-05;Traumatismo di nervi a livello della spalla e del braccio
+S45-19-05;Traumatismo di vasi sanguigni a livello della spalla e del braccio
+S46-19-05;Traumatismo di muscoli e di tendini a livello della spalla e del braccio
+S47-19-05;Traumatismi da schiacciamento della spalla e del braccio
+S48-19-05;Amputazione traumatica della spalla e del braccio
+S49-19-05;Altri e non specificati traumatismi della spalla e del braccio
+S50-19-06;Traumatismo superficiale del gomito e dell''avambraccio
+S51-19-06;Ferita aperta dell''avambraccio
+S52-19-06;Frattura dell''avambraccio
+S53-19-06;Lussazione, distorsione e distrazione di articolazioni e di legamenti del gomito
+S54-19-06;Traumatismo di nervi a livello dell''avambraccio
+S55-19-06;Traumatismo di vasi sanguigni a livello dell''avambraccio
+S56-19-06;Traumatismo di muscoli e di tendini a livello dell''avambraccio
+S57-19-06;Traumatismo da schiacciamento dell''avambraccio
+S58-19-06;Amputazione traumatica del gomito e dell''avambraccio
+S59-19-06;Altri e non specificati traumatismi dell''avambraccio
+S60-19-07;Traumatismo superficiale del polso e della mano
+S61-19-07;Ferita aperta del polso e della mano
+S62-19-07;Frattura a livello del polso e della mano
+S63-19-07;Lussazione, distorsione e distrazione di articolazioni e di legamenti a livello del polso e della mano
+S64-19-07;Traumatismo di nervi a livello del polso e della mano
+S65-19-07;Traumatismo di vasi sanguigni a livello del polso e della mano
+S66-19-07;Traumatismo di muscoli e di tendini a livello del polso e della mano
+S67-19-07;Traumatismo da schiacciamento del polso e della mano
+S68-19-07;Amputazione traumatica del polso e della mano
+S69-19-07;Altri e non specificati traumatismi del polso e della mano
+S70-19-08;Traumatismo superficiale dell''anca e della coscia
+S71-19-08;Ferita aperta dell''anca e della coscia
+S72-19-08;Frattura del femore
+S73-19-08;Lussazione, distorsione e distrazione dell''articolazione e di legamenti dell''anca
+S74-19-08;Traumatismo di nervi a livello dell''anca e della coscia
+S75-19-08;Traumatismo di vasi sanguigni a livello dell''anca e della coscia
+S76-19-08;Traumatismo di muscoli e di tendini a livello dell''anca e della coscia
+S77-19-08;Traumatismo da schiacciamento dell''anca e della coscia
+S78-19-08;Amputazione traumatica dell''anca e della coscia
+S79-19-08;Altri e non specificati traumatismi dell''anca e della coscia
+S80-19-09;Traumatismo superficiale della gamba
+S81-19-09;Ferita aperta della gamba
+S82-19-09;Frattura della gamba, compresa la caviglia
+S83-19-09;Lussazione, distorsione e distrazione di articolazioni e di legamenti del ginocchio
+S84-19-09;Traumatismo di nervi a livello della gamba
+S85-19-09;Traumatismo di vasi sanguigni a livello della gamba
+S86-19-09;Traumatismo di muscoli e di tendini a livello della gamba
+S87-19-09;Traumatismo da schiacciamento della gamba
+S88-19-09;Amputazione traumatica della gamba
+S89-19-09;Altri e non specificati traumatismi della gamba
+S90-19-10;Traumatismo superficiale della caviglia e del piede
+S91-19-10;Ferita aperta della caviglia e del piede
+S92-19-10;Frattura del piede eccetto la caviglia
+S93-19-10;Lussazione, distorsione e distrazione di articolazioni e di legamenti a livello della caviglia e del piede
+S94-19-10;Traumatismo di nervi a livello della caviglia e del piede
+S95-19-10;Traumatismo di vasi sanguigni a livello della caviglia e del piede
+S96-19-10;Traumatismo di muscoli e di tendini a livello della caviglia e del piede
+S97-19-10;Traumatismo da schiacciamento della caviglia e del piede
+S98-19-10;Amputazione traumatica della caviglia e del piede
+S99-19-10;Altri e non specificati traumatismi della caviglia e del piede
+T00-19-11;Traumatismi superficiali interessanti regioni corporee multiple
+T01-19-11;Ferite aperte interessanti regioni corporee multiple
+T02-19-11;Fratture interessanti regioni corporee multiple
+T03-19-11;Lussazioni, distorsioni e distrazioni interessanti regioni corporee multiple
+T04-19-11;Traumatismi da schiacciamento interessanti regioni corporee multiple
+T05-19-11;Amputazioni traumatiche interessanti regioni corporee multiple
+T06-19-11;Altri traumatismi interessanti regioni corporee multiple non classificati altrove
+T07-19-11;Traumatismi multipli non specificati
+T08-19-12;Frattura della colonna vertebrale, livello non specificato
+T09-19-12;Altri traumatismi della colonna vertebrale e del tronco, livello non specificato
+T10-19-12;Frattura di arto superiore, livello non specificato
+T11-19-12;Altri traumatismi di arto superiore, livello non specificato
+T12-19-12;Frattura di arto inferiore, livello non specificato
+T13-19-12;Altri traumatismi di arto inferiore, livello non specificato
+T14-19-12;Traumatismo di regione corporea non specificata
+T15-19-13;Corpo estraneo nella parte esterna dell''occhio
+T16-19-13;Corpo estraneo nell''orecchio
+T17-19-13;Corpo estraneo nelle vie respiratorie
+T18-19-13;Corpo estraneo nell’apparato digerente
+T19-19-13;Corpo estraneo nell’apparato genitourinario
+T20-19-14;Ustione e corrosione della testa e del collo
+T21-19-14;Ustione e corrosione del tronco
+T22-19-14;Ustione e corrosione della spalla e dell''arto superiore, tranne polso e mano
+T23-19-14;Ustione e corrosione del polso e della mano
+T24-19-14;Ustione e corrosione di anca e di arto inferiore, tranne la caviglia e il piede
+T25-19-14;Ustione e corrosione della caviglia e del piede
+T26-19-15;Ustione e corrosione limitate all''occhio e agli annessi oculari
+T27-19-15;Ustione e corrosione delle vie respiratorie
+T28-19-15;Ustione e corrosione di altri organi interni
+T29-19-16;Ustioni e corrosioni di regioni corporee multiple
+T30-19-16;Ustione e corrosione, regione corporea non specificata
+T31-19-16;Ustioni classificate secondo l''estensione della superficie corporea interessata
+T32-19-16;Corrosioni classificate secondo l''estensione della superficie corporea interessata
+T33-19-17;Congelamento superficiale
+T34-19-17;Congelamento con necrosi tessutale
+T35-19-17;Congelamento interessante regioni corporee multiple e congelamento non specificato
+T36-19-18;Avvelenamento da antibiotici sistemici
+T37-19-18;Avvelenamento da altri agenti anti infettivi ed antiparassitari sistemici
+T38-19-18;Avvelenamento da ormoni e loro sostitutivi sintetici ed antagonisti non classificati altrove
+T39-19-18;Avvelenamento da analgesici non oppiacei, antipiretici e antireumatici
+T40-19-18;Avvelenamento da narcotici e psicodislettici (allucinogeni)
+T41-19-18;Avvelenamento da anestetici e gas terapeutici
+T42-19-18;Avvelenamento da farmaci antiepilettici, sedativi ipnotici e antiparkinsoniani
+T43-19-18;Avvelenamento da farmaci psicotropi non classificati altrove
+T44-19-18;Avvelenamento da farmaci agenti principalmente sul sistema nervoso autonomo
+T45-19-18;Avvelenamento da agenti ad azione principalmente sistemica e sostanze ematologiche non classificati altrove
+T46-19-18;Avvelenamento da farmaci agenti principalmente sul sistema cardiovascolare
+T47-19-18;Avvelenamento da farmaci agenti principalmente sull''apparato gastrointestinale
+T48-19-18;Avvelenamento da farmaci agenti principalmente sulla muscolatura liscia e striata e sull''apparato respiratorio
+T49-19-18;Avvelenamento da sostanze, ad uso topico, agenti principalmente sulla cute e sulle mucose e da farmaci per uso oftalmologico, otorinolaringologico ed odontoiatrico
+T50-19-18;Avvelenamento da diuretici e altri e non specificati farmaci, medicamenti e sostanze biologiche
+T51-19-19;Effetto tossico dell''alcol
+T52-19-19;Effetto tossico di solventi organici
+T53-19-19;Effetto tossico di derivati alogenati degli idrocarburi alifatici e aromatici
+T54-19-19;Effetto tossico di sostanze corrosive
+T55-19-19;Effetto tossico di saponi e detergenti
+T56-19-19;Effetto tossico di metalli
+T57-19-19;Effetto tossico di altre sostanze inorganiche
+T58-19-19;Effetto tossico del monossido di carbonio
+T59-19-19;Effetto tossico di altri gas, fumi e vapori
+T60-19-19;Effetto tossico di pesticidi
+T61-19-19;Effetto tossico di sostanze nocive ingerite con i prodotti ittici
+T62-19-19;Effetto tossico di altre sostanze nocive ingerite come cibo
+T63-19-19;Effetto tossico derivante da contatto con animali velenosi
+T64-19-19;Effetto tossico dell''aflatossina e di altre micotossine contaminanti il cibo
+T65-19-19;Effetto tossico di altre e non specificate sostanze
+T66-19-20;Effetti non specificati delle radiazioni
+T67-19-20;Effetti del calore e della luce
+T68-19-20;Ipotermia
+T69-19-20;Altri effetti di una bassa temperatura
+T70-19-20;Effetti della pressione dell''aria e dell''acqua
+T71-19-20;Asfissia
+T73-19-20;Effetti di altra privazione
+T74-19-20;Sindromi da maltrattamento
+T75-19-20;Effetti di altre cause esterne
+T78-19-20;Effetti avversi non classificati altrove
+T79-19-21;Alcune complicanze precoci di traumatismi, non classificate altrove
+T80-19-22;Complicanze successive ad infusione, trasfusione od iniezione a fini terapeutici
+T81-19-22;Complicanze di procedura diagnostiche o terapeutiche, non classificate altrove
+T82-19-22;Complicanze di dispositivi protesici, impianti ed innesti cardiaci e vascolari
+T83-19-22;Complicanze di dispositivi protesici, impianti ed innesti genitourinari
+T84-19-22;Complicanze di dispositivi, impianti ed innesti protesici interni ortopedici
+T85-19-22;Complicanze di altri dispositivi protesici, impianti ed innesti interni
+T86-19-22;Insuccesso e rigetto di trapianto di organo o tessuto
+T87-19-22;Complicanze peculiari di reimpianto ed amputazione
+T88-19-22;Altre complicanze di cure chirurgiche e mediche non classificate altrove
+T90-19-23;Sequele di traumatismi della testa
+T91-19-23;Sequele di traumatismi del collo e del tronco
+T92-19-23;Sequele di traumatismi di arto superiore
+T93-19-23;Sequele di traumatismi di arto inferiore
+T94-19-23;Sequele di traumatismi interessanti multiple e non specificate regioni corporee
+T95-19-23;Sequele di ustioni, corrosioni e congelamento
+T96-19-23;Sequele di avvelenamento da farmaci, droghe, medicamenti e sostanze biologiche
+T97-19-23;Sequele di effetti tossici di sostanze principalmente di origine non medicamentosa
+T98-19-23;Sequele di altri e non specificati effetti di cause esterne

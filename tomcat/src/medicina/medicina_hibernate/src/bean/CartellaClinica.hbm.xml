@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated 12-lug-2014 19.15.44 by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated 14-lug-2014 18.07.37 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="bean.CartellaClinica" table="cartella_clinica" schema="public">
         <id name="id" type="string">
@@ -15,7 +15,7 @@
             <column name="data_ricovero" length="13" not-null="true" />
         </property>
         <property name="dataDimissione" type="date">
-            <column name="data_dimissione" length="13" not-null="true" />
+            <column name="data_dimissione" length="13" />
         </property>
         <property name="motivo" type="string">
             <column name="motivo" length="200" not-null="true" />
