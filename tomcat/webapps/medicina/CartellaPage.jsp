@@ -105,22 +105,19 @@
 		<div style="clear:both">
 			<br><br><br>
 			<% 
+			for (i = 0; i<diagnosi.size()-1; i++ ) {
+			%>
+
+				<%= ((CartellaBean) diagnosi.get(i)).getDiagnosi_patologia() %>	</p>
+
+			<% }
 			for (i = 0; i<terapie.size()-1; i++ ) {
 			%>
 
 				<%= ((CartellaBean) terapie.get(i)).getTerapie_farmaco() %>	</p>
 
-	
-				<% } 
-			for (i = 0; i<diagnosi.size()-1; i++ ) {
-			%>
+			<%} %>
 
-				<%= ((CartellaBean) diagnosi.get(i)).getDiagnosi_patologia() %>	</p>
-	
-
-			<%} %>	
-			
-		
 			<div id="banner3" style="background-color:#3CB371;"></div>
 		</div>
 </body>

@@ -57,19 +57,19 @@ public class main {
 				dayOfYear = randBetween(1, 27);
 				
 				data_ricovero = year + "-" + mese + "-" + dayOfYear;
-
+				
 				year = randBetween(2000, 2013);
 				mese = randBetween(1, 12);
 				dayOfYear = randBetween(1, 27);
 				
 				data_dimissione = year + "-" + mese + "-" + dayOfYear;
-
+				
 				String text = year + "-" + mese + "-" + dayOfYear + id + randBetween(100, 500);
 				MessageDigest msg = MessageDigest.getInstance("MD5");
 				msg.update(text.getBytes(), 0, text.length());
 				String digest1 = new BigInteger(1, msg.digest()).toString(16);
 				idCartella = digest1.substring(0,16);
-
+				
 				prognosiid = randBetween(0, prognosilist.size()-1);
 				malattiaId = randBetween(0, malattia.size()-1);
 				
