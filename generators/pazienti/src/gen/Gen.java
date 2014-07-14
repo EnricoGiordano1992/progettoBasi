@@ -569,11 +569,14 @@ public class Gen {
 		
 		int mese = 1 + r.nextInt(12);
 		
-		String d = (r.nextInt(2013 - 1930) + 1930) + "-" + (1 + r.nextInt(11)) + "-" + (1 + r.nextInt(26));
+		String d = (randBetween(1900, 1989) + "-" + (1 + r.nextInt(11)) + "-" + (1 + r.nextInt(26)));
 		
 		return d;
 	}
 	
+	public static int randBetween(int start, int end) {
+        return start + (int)Math.round(Math.random() * (end - start));
+    }
 	
 	public static void main (String[] args) throws IOException{
 		

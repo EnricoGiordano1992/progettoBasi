@@ -17,6 +17,7 @@ cd ../
 echo copio cartelle_cliniche.sql dove serve...
 cp cartelleCliniche/cartelle_cliniche.sql ../database
 cp cartelleCliniche/cartelle_cliniche.sql terapie/terapie
+cp cartelleCliniche/cartelle_cliniche.sql sintomi_diagnosi_conferme_contraddizioni/
 
 echo genero le terapie...
 cd terapie/terapie/
@@ -27,9 +28,9 @@ echo copio le terapie dove serve...
 cp terapie/terapie/terapie.sql ../database
 
 echo genero i medici e le specializzazioni...
-cd Medico_Specializzazioni_SpecDelMedico/bin
+cd Medico_Specializzazioni_SpecDelMedico
 java -jar tuttomedico.jar
-cd ../..
+cd ../
 
 echo copio i medici e le specializzazioni...
 cp Medico_Specializzazioni_SpecDelMedico/*.sql ../database
