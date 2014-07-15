@@ -13,6 +13,11 @@
     DBMS dbms = new DBMS();
     String medico;
 
+    int error = 0;
+    
+    if (request.getAttribute("error") != null)
+    	error = Integer.parseInt((String)request.getAttribute("error"));
+    
     if (request.getParameter("user") != null)
 	    medico = (String)request.getParameter("user");
 
@@ -239,6 +244,42 @@ function checkInvio(form) {
 			</div>
 		</div>
 
+		<% if(error != 0) {
+		
+				switch(error){
+				
+				case 1: 
+				
+		%>
+				
+		<div align="center">
+			<div class="title" style="color:Crimson;width:px;border-style:outset;background-color:Cornsilk;border-color:Red;margin:1ex;font-family:Courier 10 Pitch;padding:6;">
+				<h1>Errore: <br>data della diagnosi non corretta <br>
+				(fuori dall'intervallo della data della cartella clinica)</h1>
+			</div>
+		</div>
+		
+		<%		
+					break;
+					
+				case 2:
+				case 3:
+				default:
+					
+		%>
+
+		<div align="center">
+			<div class="title">
+				<h1> Errore anomalo, reinserire la diagnosi </h1>
+			</div>
+		</div>
+		
+		
+		<%
+					break;
+				}
+		}
+		%>
 
 		<div align="center">
 			<div class="title2">

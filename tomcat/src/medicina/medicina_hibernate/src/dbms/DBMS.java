@@ -542,9 +542,10 @@ public class DBMS {
 	}
 	
 	
-	public void insertNewDiagnosi(int numargs, String id_cartella, String id_paziente, String data, 
+	public int insertNewDiagnosi(int numargs, String id_cartella, String id_paziente, String data, 
 			String id_medico, String icd10, String patologia, 
 			ArrayList<String> sintomi, ArrayList<String> tipo, ArrayList<String> intensita) throws ParseException {
+		
 		
 		Paziente paziente = getPaziente(id_paziente);
 		CartellaClinica cartella = getCartella(id_cartella);
@@ -567,11 +568,14 @@ public class DBMS {
 		d.setPatologia(patologia);
 		d.setPaziente(paziente);
 		
+		try{
         session.save(d);  
         session.getTransaction().commit(); 
-        
+		
         session.close();
-
+		}catch(Exception e){
+			return 1;
+			}
 
         
 		//popolo le tabelle conferme/contraddizioni
@@ -584,9 +588,22 @@ public class DBMS {
     		SintomiId s_id = new SintomiId(sintomi.get(i), id_cartella);
     		Sintomi s = new Sintomi(s_id, cartella, intensita.get(i), date);
 
+    		try{
 			session.save(s);
 	        session.getTransaction().commit(); 
 	        session.close();
+    		}catch(Exception e){
+    			
+    	        session.close();
+    			
+    			session = HibernateUtil.getSessionFactory().openSession();  
+    			session.beginTransaction();  
+    			
+    			session.delete(d);  
+    			session.getTransaction().commit();
+    			
+    			return 2;
+    			}
 
         	//ora posso creare la conferma/contraddizione referenziandomi al sintomo
 			session = HibernateUtil.getSessionFactory().openSession();
@@ -610,6 +627,7 @@ public class DBMS {
 				contraddizioni.setSintomi(s);
 			}
 			
+		try{	
 			if(tipo.get(i).equals("conferma"))
 				session.save(conferme);
 			else
@@ -618,8 +636,22 @@ public class DBMS {
 	        session.getTransaction().commit(); 
 	        
 	        session.close();
-        
+		}catch(Exception e){
+			
+	        session.close();
+			
+			session = HibernateUtil.getSessionFactory().openSession();  
+			session.beginTransaction();  
+			
+			session.delete(d);
+			session.delete(s);
+			session.getTransaction().commit();
+			
+			return 3;
+			}
+       
         }
+        return 0;
 
 	}
 	

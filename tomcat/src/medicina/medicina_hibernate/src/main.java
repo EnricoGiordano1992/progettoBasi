@@ -46,8 +46,8 @@ public class main extends HttpServlet {
 			if (ps.equals("")) {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
-					//Preparo il Dispatcher
-					rd = request.getRequestDispatcher("HomePage.html");
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("HomePage.html");
 
 			}			
 
@@ -55,20 +55,20 @@ public class main extends HttpServlet {
 			if (ps.equals("info")) {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
-					//Preparo il Dispatcher
-					rd = request.getRequestDispatcher("Info.jsp");
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("Info.jsp");
 
 			}			
 
 			if (ps.equals("login")) {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
-					//Preparo il Dispatcher
-					rd = request.getRequestDispatcher("Login.html");
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("Login.html");
 
 			}			
 
-			
+
 			if (ps.equals("cartella")) { 
 
 				String c = request.getParameter("cartella");
@@ -178,44 +178,47 @@ public class main extends HttpServlet {
 
 				}
 			}
-			
+
 			if(ps.equals("diagnosi")){
-				
+
 				boolean stop = false;
 				int count_stop = 0;
 				int i = 1;
-				
+
 				String medico = request.getParameter("medico");
 				String paziente = request.getParameter("paziente");
 				String data = request.getParameter("data");
 				String ICD10 = request.getParameter("ICD10");
 				String patologia = request.getParameter("patologia");
 				String cartella_clinica = request.getParameter("cartella");
-				
+
 				//prendo tutti i sintomi e la loro tipologia (conferma/contraddizione)
 				ArrayList<String> sintomi = new ArrayList<String>();
 				ArrayList<String> tipo = new ArrayList<String>();
 				ArrayList<String> intensita = new ArrayList<String>();
-				
+
 				do{
 					if(request.getParameter("sintomo" + i) != null){
-						
+
 						sintomi.add(request.getParameter("sintomo" + i));
 						tipo.add(request.getParameter("tipo" + i));
 						intensita.add(request.getParameter("intensita" + i));
-						
+
 					}
 					else 
 						count_stop++;
-					
+
 					if(count_stop >= 8)
 						stop = true;
-					
+
 					i++;
-					
+
 				}while(!stop);
-				
-				dbms.insertNewDiagnosi(sintomi.size(), cartella_clinica, paziente, data, medico, ICD10, patologia, sintomi, tipo, intensita);
+
+				int r_val = dbms.insertNewDiagnosi(sintomi.size(), cartella_clinica, paziente, data, medico, ICD10, patologia, sintomi, tipo, intensita);
+
+				if(r_val != 0)
+					request.setAttribute("error","" + r_val);
 
 				rd = request.getRequestDispatcher("DiagnosiPage.jsp");
 				
