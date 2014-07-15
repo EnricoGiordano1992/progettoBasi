@@ -36,7 +36,8 @@ public class DBMS {
 			"select c.* " +
 			"from cartella_clinica as c, paziente as p " +
 			"where c.codsan = (:codsan) " +
-			"and c.codsan = p.codsan;";
+			"and c.codsan = p.codsan "
+			+ "order by c.id ;";
 	
 	
 	String queryRischiPaziente = 
@@ -51,7 +52,8 @@ public class DBMS {
 			"from paziente as p, medico as m, diagnosi as d " +
 			"where p.codsan = (:codsan) " +
 			"and p.codsan = d.id_paziente " +
-			"and m.id = d.id_medico ;";
+			"and m.id = d.id_medico "
+			+ "order by m.id ;";
 
 	//query per la cartellapage
 	String queryCartella =
@@ -97,7 +99,8 @@ public class DBMS {
 	
 	String queryPersonale =
 			"select m.* " +
-					"from medico as m;";
+					"from medico as m "
+					+ "order by m.id ;";
 
 	//query per la patologiepage
 	String queryPatologie =
@@ -533,7 +536,7 @@ public class DBMS {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction tx = session.beginTransaction(); 
 
-		res = ( ArrayList<Paziente> ) session.createSQLQuery("select * from paziente").addEntity(Paziente.class).list();
+		res = ( ArrayList<Paziente> ) session.createSQLQuery("select * from paziente order by codsan").addEntity(Paziente.class).list();
 		tx.commit();
 		session.close();
 
