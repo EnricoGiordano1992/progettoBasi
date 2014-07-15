@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  14 JUL 2014 18:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  15 JUL 2014 23:33
 entering extended mode
  %&-line parsing enabled.
 **basi.tex
@@ -657,25 +657,25 @@ Package ifvtex Info: VTeX not detected.
 ) (./basi.aux)
 \openout1 = `basi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 23.
 
 (/usr/share/texmf-texlive/tex/generic/babel/lgrcmr.fd
 File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -743,29 +743,29 @@ oc)
 \openout5 = `basi.toc'.
 
 
-[1] <ER.png, id=55, 1146.2825pt x 721.69624pt>
+[1] <ER.png, id=56, 1146.2825pt x 721.69624pt>
 File: ER.png Graphic file (type png)
  <use ER.png> [2 <./ER.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
  [3]
-<schema_logico.png, id=67, 513.117pt x 352.6776pt>
+<schema_logico.png, id=68, 513.117pt x 352.6776pt>
 File: schema_logico.png Graphic file (type png)
  <use schema_logico.png>
-Overfull \hbox (28.18105pt too wide) in paragraph at lines 148--149
+Overfull \hbox (28.18105pt too wide) in paragraph at lines 146--147
  [] 
  []
 
 [4 <./schema_logico.png>] [5]
-<pageSchema.pdf, id=79, page=1, 597.23125pt x 845.1575pt>
+<pageSchema.pdf, id=80, page=1, 597.23125pt x 845.1575pt>
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 1>
@@ -779,7 +779,7 @@ File: pageSchema.pdf Graphic file (type pdf)
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 1> [6 <./pageSchema.pdf>]
-<pageSchema.pdf, id=106, page=2, 597.23125pt x 845.1575pt>
+<pageSchema.pdf, id=107, page=2, 597.23125pt x 845.1575pt>
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 2>
@@ -788,7 +788,7 @@ File: pageSchema.pdf Graphic file (type pdf)
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 2> [7 <./pageSchema.pdf>]
-<pageSchema.pdf, id=111, page=3, 597.23125pt x 845.1575pt>
+<pageSchema.pdf, id=112, page=3, 597.23125pt x 845.1575pt>
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 3>
@@ -797,7 +797,7 @@ File: pageSchema.pdf Graphic file (type pdf)
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 3> [8 <./pageSchema.pdf>]
-<pageSchema.pdf, id=116, page=4, 597.23125pt x 845.1575pt>
+<pageSchema.pdf, id=117, page=4, 597.23125pt x 845.1575pt>
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 4>
@@ -806,7 +806,7 @@ File: pageSchema.pdf Graphic file (type pdf)
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 4> [9 <./pageSchema.pdf>]
-<pageSchema.pdf, id=121, page=5, 597.23125pt x 845.1575pt>
+<pageSchema.pdf, id=122, page=5, 597.23125pt x 845.1575pt>
 File: pageSchema.pdf Graphic file (type pdf)
 
 <use pageSchema.pdf, page 5>
@@ -814,25 +814,26 @@ File: pageSchema.pdf Graphic file (type pdf)
  <use pageSchema.pdf, page 5>
 File: pageSchema.pdf Graphic file (type pdf)
 
-<use pageSchema.pdf, page 5> [10 <./pageSchema.pdf>] [11] (./basi.aux) ) 
+<use pageSchema.pdf, page 5> [10 <./pageSchema.pdf>] [11] [12] (./basi.aux) ) 
 Here is how much of TeX's memory you used:
- 12923 strings out of 495061
- 233704 string characters out of 1182621
- 295023 words of memory out of 3000000
- 15847 multiletter control sequences out of 15000+50000
- 5157 words of font info for 19 fonts, out of 3000000 for 9000
+ 13191 strings out of 495061
+ 235742 string characters out of 1182621
+ 313023 words of memory out of 3000000
+ 16113 multiletter control sequences out of 15000+50000
+ 5764 words of font info for 21 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 56i,16n,69p,415b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb>
-Output written on basi.pdf (12 pages, 265854 bytes).
+ 56i,16n,69p,796b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
+</
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on basi.pdf (13 pages, 301178 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

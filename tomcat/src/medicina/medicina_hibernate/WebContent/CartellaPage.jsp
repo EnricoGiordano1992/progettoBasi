@@ -88,7 +88,15 @@
 			</div>
 			<div style="float: left; width: 50%;" align="left">
 				<a class="button"
-					style="margin-top: 0px; background-color: #000000;"> <%=c.getDataDimissione()%></a>
+					style="margin-top: 0px; background-color: #000000;"> 
+					
+					<% if(c.getDataDimissione().equals("")) { %>
+						nessuna, paziente ricoverato </a>
+					
+					<%} else  {%>	
+					<%=c.getDataDimissione()%></a>
+					
+					<% } %>
 			</div>
 			<br> <br>
 			<div style="float: left; width: 50%;" align="right">
@@ -104,7 +112,15 @@
 			</div>
 			<div style="float: left; width: 50%;" align="left">
 				<a class="button"
-					style="margin-top: 0px; background-color: #000000;"> <%=c.getPrognosi()%></a>
+					style="margin-top: 0px; background-color: #000000;"> 
+					
+					<%if(c.getPrognosi().equals("")) { %>
+						non e' stata ancora decisa la prognosi </a>
+					
+					<% } else { %>
+						<%=c.getPrognosi()%></a>
+						
+					<% } %>
 			</div>
 			
 				<br> <br> <br> <br> <br> <br>

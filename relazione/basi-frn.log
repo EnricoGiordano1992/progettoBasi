@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  14 JUL 2014 18:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  15 JUL 2014 23:33
 entering extended mode
  %&-line parsing enabled.
 **basi-frn.tex
@@ -174,7 +174,7 @@ Package frontespizio Warning: Missing advisor name.
 Here is how much of TeX's memory you used:
  1515 strings out of 495061
  20245 string characters out of 1182621
- 70998 words of memory out of 3000000
+ 71073 words of memory out of 3000000
  4717 multiletter control sequences out of 15000+50000
  7906 words of font info for 28 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -184,7 +184,7 @@ Here is how much of TeX's memory you used:
 1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
 fonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on basi-frn.pdf (1 page, 57799 bytes).
+Output written on basi-frn.pdf (1 page, 58449 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
