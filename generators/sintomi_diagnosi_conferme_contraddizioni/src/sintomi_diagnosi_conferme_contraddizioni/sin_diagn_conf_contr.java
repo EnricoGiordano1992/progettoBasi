@@ -5,9 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.ObjectInputStream.GetField;
+import java.sql.Timestamp;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
@@ -66,9 +70,34 @@ public class sin_diagn_conf_contr {
 				//				gc.set(gc.DAY_OF_MONTH, randBetween(0,28));
 				String datainizio = datecartelle_in.get(i);
 				String datafine = datecartelle_fin.get(i);
-				String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
-						randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
-						randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
+
+				DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+	             Calendar cal=Calendar.getInstance();
+
+	             try {
+					cal.setTime(formatter.parse(datainizio));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	             Long value1 = cal.getTimeInMillis();
+
+	             try {
+					cal.setTime(formatter.parse(datafine));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	             Long value2 = cal.getTimeInMillis();
+
+	             long value3 = (long)(value1 + Math.random()*(value2 - value1));
+	             cal.setTimeInMillis(value3);
+	             String data = formatter.format(cal.getTime());
+	             
+				
+//				String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
+//						randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
+//						randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
 				int icdrand = randBetween(0, icd.size()-1);
 				System.out.println("conferma: " + datainizio + ".." + datafine + ":::::" + data);
 				writerdiagnosi.println("INSERT INTO DIAGNOSI VALUES ('" + pazienti.get(i) + "', '" + cartelle.get(i) + "', '" + data
@@ -99,9 +128,33 @@ public class sin_diagn_conf_contr {
 					//					gc.set(gc.DAY_OF_MONTH, randBetween(0,28));
 					String datainizio = datecartelle_in.get(i);
 					String datafine = datecartelle_fin.get(i);
-					String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
-							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
-							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
+
+					DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		             Calendar cal=Calendar.getInstance();
+
+		             try {
+						cal.setTime(formatter.parse(datainizio));
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		             Long value1 = cal.getTimeInMillis();
+
+		             try {
+						cal.setTime(formatter.parse(datafine));
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		             Long value2 = cal.getTimeInMillis();
+
+		             long value3 = (long)(value1 + Math.random()*(value2 - value1));
+		             cal.setTimeInMillis(value3);
+		             String data = formatter.format(cal.getTime());
+		             
+//					String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
+//							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
+//							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
 					System.out.println("contraddizione: " +datainizio + ".." + datafine + ":::::" + data);
 
 					int icdrand = randBetween(0, icd.size()-1);
@@ -134,6 +187,11 @@ public class sin_diagn_conf_contr {
 
 	}
 
+	private static long getRandomTimeBetweenTwoDates (long beginTime, long endTime) {
+	    long diff = endTime - beginTime;
+	    return beginTime + (long) (Math.random() * diff);
+	}
+	
 	private static void popoloDateCartelle(ArrayList<String> datecartelle_in,
 			ArrayList<String> datecartelle_fin) throws IOException {
 
@@ -153,91 +211,91 @@ public class sin_diagn_conf_contr {
 
 
 
-private static void popoloPazienti(ArrayList<String> pazienti) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("cartelle_cliniche.sql"));
-	while ((line = br.readLine()) != null) {
-		try{
-			pazienti.add(line.split("'")[11]);
-		}catch(Exception e){
-			pazienti.add(line.split("'")[9]);
+	private static void popoloPazienti(ArrayList<String> pazienti) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("cartelle_cliniche.sql"));
+		while ((line = br.readLine()) != null) {
+			try{
+				pazienti.add(line.split("'")[11]);
+			}catch(Exception e){
+				pazienti.add(line.split("'")[9]);
+			}
 		}
+		br.close(); 
 	}
-	br.close(); 
-}
-
-private static void popoloSintomidaSintomi(ArrayList<String> sintomi) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("sintomi.sql"));
-	while ((line = br.readLine()) != null)
-		sintomi.add(line.split("'")[3]);
-	br.close(); 
-}
-
-
-private static void popoloCartelledaSintomi(ArrayList<String> cartelle) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("sintomi.sql"));
-	while ((line = br.readLine()) != null)
-		cartelle.add(line.split("'")[3]);
-	br.close(); 
-}
-
-
-private static String setData() {
-
-	String res = "";
-
-	res = randBetween(1980, 2000) + "-" + randBetween(1, 12) + "-" + randBetween(1, 28);
-
-	return res;
-}
-
-private static void popoloICD10(ArrayList<String> icd) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("elenco_icd10.txt"));
-	while ((line = br.readLine()) != null)
-		icd.add(line);
-	br.close(); 
-}
-
-private static void popoloMedici(ArrayList<String> medici) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("medico.sql"));
-	while ((line = br.readLine()) != null)
-		medici.add(line.split("'")[1]);
-	br.close(); 
-}
-
-private static void popoloCartelle(ArrayList<String> cartelle ) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("cartelle_cliniche.sql"));
-	while ((line = br.readLine()) != null) {
-		cartelle.add(line.split("'")[1]);
-
-	}
-	br.close(); 
-}
-
-private static void popoloSintomi(ArrayList<String> sintomi) throws IOException {
-	String line;
-	BufferedReader br = new BufferedReader(new FileReader("elenco_sintomi.txt"));
-	while ((line = br.readLine()) != null) {
-		sintomi.add(line);
-	}
-	br.close(); 
-}
-public static int randBetween(int start, int end) {
-	return start + (int)Math.round(Math.random() * (end - start));
-}
-
-public static void dateDiagnosissime(ArrayList<String> dataDiagnosi){
-
-	String line = "";
-	try{
-		BufferedReader br = new BufferedReader(new FileReader("diagnosi.sql"));
+	
+	private static void popoloSintomidaSintomi(ArrayList<String> sintomi) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("sintomi.sql"));
 		while ((line = br.readLine()) != null)
-			dataDiagnosi.add(line.split("'")[3]);
-	}catch(Exception e){}
-}
+			sintomi.add(line.split("'")[3]);
+		br.close(); 
+	}
+	
+	
+	private static void popoloCartelledaSintomi(ArrayList<String> cartelle) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("sintomi.sql"));
+		while ((line = br.readLine()) != null)
+			cartelle.add(line.split("'")[3]);
+		br.close(); 
+	}
+	
+	
+	private static String setData() {
+	
+		String res = "";
+	
+		res = randBetween(1980, 2000) + "-" + randBetween(1, 12) + "-" + randBetween(1, 28);
+	
+		return res;
+	}
+	
+	private static void popoloICD10(ArrayList<String> icd) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("elenco_icd10.txt"));
+		while ((line = br.readLine()) != null)
+			icd.add(line);
+		br.close(); 
+	}
+	
+	private static void popoloMedici(ArrayList<String> medici) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("medico.sql"));
+		while ((line = br.readLine()) != null)
+			medici.add(line.split("'")[1]);
+		br.close(); 
+	}
+	
+	private static void popoloCartelle(ArrayList<String> cartelle ) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("cartelle_cliniche.sql"));
+		while ((line = br.readLine()) != null) {
+			cartelle.add(line.split("'")[1]);
+	
+		}
+		br.close(); 
+	}
+	
+	private static void popoloSintomi(ArrayList<String> sintomi) throws IOException {
+		String line;
+		BufferedReader br = new BufferedReader(new FileReader("elenco_sintomi.txt"));
+		while ((line = br.readLine()) != null) {
+			sintomi.add(line);
+		}
+		br.close(); 
+	}
+	public static int randBetween(int start, int end) {
+		return start + (int)Math.round(Math.random() * (end - start));
+	}
+	
+	public static void dateDiagnosissime(ArrayList<String> dataDiagnosi){
+	
+		String line = "";
+		try{
+			BufferedReader br = new BufferedReader(new FileReader("diagnosi.sql"));
+			while ((line = br.readLine()) != null)
+				dataDiagnosi.add(line.split("'")[3]);
+		}catch(Exception e){}
+	}
 }
