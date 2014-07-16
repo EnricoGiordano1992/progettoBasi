@@ -1,4 +1,4 @@
-INSERT INTO DIAGNOSI VALUES ('BXXLBR1X85L442G', '5db5ae72845205b0', '1999-03-14', 'F65', 'Disturbo della preferenza sessuale', 'MXXCRM340861');
+﻿INSERT INTO DIAGNOSI VALUES ('BXXLBR1X85L442G', '5db5ae72845205b0', '1999-03-14', 'F65', 'Disturbo della preferenza sessuale', 'MXXCRM340861');
 INSERT INTO DIAGNOSI VALUES ('BXXLBR1X85L442G', 'b33a5f3da0f81c25', '2004-11-05', 'N80', 'Endometriosi', 'RMFDNL336150');
 INSERT INTO DIAGNOSI VALUES ('BXXLBR1X85L442G', 'b33a5f3da0f81c25', '2004-12-20', 'I07', 'Malattie reumatiche della valvola tricuspide', 'RMFDNL336150');
 INSERT INTO DIAGNOSI VALUES ('BXXLBR1X85L442G', 'b33a5f3da0f81c25', '2010-08-29', 'S50', 'Traumatismo superficiale del gomito e dell''avambraccio', 'FGGPXX834279');
@@ -159,7 +159,6 @@ INSERT INTO DIAGNOSI VALUES ('RCZLXX2X52W888R', 'ac3e1afe7f0d1907', '2003-02-10'
 INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', 'f37f557b3be81f60', '2000-07-28', 'L87', 'Disturbi dell’eliminazione transepidermica', 'VXXRBR993837');
 INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', '305c99fbd6fe2be8', '1998-11-11', 'S19', 'Altri e non specificati traumatismi del collo', 'FXXNCL602333');
 INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', '305c99fbd6fe2be8', '1998-09-12', 'L81', 'Altri disturbi di pigmentazione', 'RVVBTR275151');
-INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', '305c99fbd6fe2be8', '1999-02-09', 'H83', 'Altre malattie dell''orecchio interno', 'TLLBTR933045');
 INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', '305c99fbd6fe2be8', '1999-02-09', 'H91', 'Altra perdita uditiva', 'DBBDNL698989');
 INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', '4e018625d5dc0587', '1991-11-20', 'A19', 'Tubercolosi miliare', 'FRLJSS151333');
 INSERT INTO DIAGNOSI VALUES ('NXXSMN3X65U488T', '5938080308b251ce', '1997-07-25', 'O10', 'Ipertensione preesistente complicante la gravidanza, il parto e il puerperio', 'SDDVLR793536');

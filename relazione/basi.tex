@@ -157,6 +157,27 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 \includepdf[pages=-]{pageSchema.pdf}
 
+
+
+\part{Pagine Web}
+
+\section{Homepage HTML}
+
+\section{Info JSP}
+
+\section{Login HTML}
+
+\section{PazientePage JSP}
+
+\section{CartellaPage JSP}
+
+\section{PersonalePage JSP}
+
+\section{PatologiePage JSP}
+
+\section{DiagnosiPage JSP Javascript Ajax} 
+
+
 \part{Strategie progettuali e considerazioni personali}
 
 Per rendere più realistico il database, sono stati aggiunti dei vincoli sugli attributi:
@@ -233,6 +254,20 @@ Come metodo di verifica della correttezza della progettazione per il sistema Hib
 Bisogna notare inoltre che le relazioni molti-a-molti hanno prodotto una referenza tradotta in Java con un HashSet, in modo da poter aver accesso ad ogni valore semplicemente di questo tipo di entità applicando i metodi set e get a questi HashSet. Questo si è rilevato di notevole importanza in quanto, per sapere la quantità di elementi di un certo tipo associati ad una entità, è bastato vedere la grandezza di questi HashSet utilizzando il metodo size, senza quindi fare un'ulteriore query. È stato necessario però forzare il sistema, in alcuni casi, ad avere un comportamento non ``lazy'', quindi impostando a false tale attributo nel file xml, in modo da caricare in memoria anche le istanze referenziate tramite le relazioni e quindi avere libero accesso ad esse. 
 
 \section{Ajax JSON e JQuery}
+
+Poiché si è voluta rendere facile la scelta dei pazienti e delle relative cartelle cliniche nella DiagnosiPage (per rendere sicuro e affidabile un possibile insert da parte del medico nel database), è stato deciso di utilizzare un'insieme di tecnologie che potessero rendere dinamica la scelta da parte del medico. Sono state utilizzate tre tecnogie di sviluppo web chiamate Ajax, JSON e JQuery.
+
+~
+
+Ajax è una tecnica di sviluppo software per la realizzazione di applicazioni web interattive. Consiste nel creare una servlet Java che riceve parametri da parte di una pagina web (nel nostro caso una JSP); questa servlet elabora i dati e li invia alla pagina chiamante, in modo che possa ricevere dinamicamente dati e quindi modificare il suo aspetto o comportamento.
+
+Si è voluta utilizzare questa tecnologia per rendere dinamica la selezione in un campo del form di tipo select; poiché però questi campi devono essere ``popolati'' con dati provenienti dal database, è stato necessario introdurre la tecnologia JQuery e JSON.
+
+JQuery consiste in un insieme di librerie per semplificare la programmazione web, nel nostro caso è stato utilizzato internamente ad Ajax per eseguire una query sul database e mappare in un LinkedHashMap la risposta. Per inviare poi questa risposta alla pagina web, è stato utilizzato JSON, una teconogia che consente lo scambio di dati tra architetture client-server; in questo modo si passa il risultato del calcolo della servlet alla pagina in maniera trasparente senza usare metodi doGet e doPost.
+
+~
+
+Tutto questo è visibile nella servlet ActionServlet e nell'intestazione della pagina DiagnosiPage.
 
 \end{document}
 

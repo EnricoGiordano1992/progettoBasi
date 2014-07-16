@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  15 JUL 2014 23:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  16 JUL 2014 13:44
 entering extended mode
  %&-line parsing enabled.
 **basi.tex
@@ -814,26 +814,26 @@ File: pageSchema.pdf Graphic file (type pdf)
  <use pageSchema.pdf, page 5>
 File: pageSchema.pdf Graphic file (type pdf)
 
-<use pageSchema.pdf, page 5> [10 <./pageSchema.pdf>] [11] [12] (./basi.aux) ) 
+<use pageSchema.pdf, page 5> [10 <./pageSchema.pdf>] [11] [12] [13] (./basi.aux
+) ) 
 Here is how much of TeX's memory you used:
- 13191 strings out of 495061
- 235742 string characters out of 1182621
- 313023 words of memory out of 3000000
- 16113 multiletter control sequences out of 15000+50000
+ 13192 strings out of 495061
+ 235750 string characters out of 1182621
+ 314023 words of memory out of 3000000
+ 16114 multiletter control sequences out of 15000+50000
  5764 words of font info for 21 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  56i,16n,69p,796b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-</
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on basi.pdf (13 pages, 301178 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on basi.pdf (14 pages, 310363 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
