@@ -64,7 +64,7 @@ public class main extends HttpServlet {
 				// Parametro ps assente o vuoto, visualizzo la home page del sito.
 
 				//Preparo il Dispatcher
-				rd = request.getRequestDispatcher("Login.html");
+				rd = request.getRequestDispatcher("Login.jsp");
 
 			}			
 
@@ -140,9 +140,10 @@ public class main extends HttpServlet {
 
 					p = dbms.PazienteLogin(user, password);			
 
-					if(p.equals(""))
-						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
-								"<br> <h2> <a target=\"\" href=\"?ps=login\">LOGIN</a>");//gestione errore
+					if(p.equals("")){
+						request.setAttribute("error", 10);//gestione errore
+						rd = request.getRequestDispatcher("Login.jsp");
+					}
 					else 
 						rd = request.getRequestDispatcher("PazientePage.jsp");
 
@@ -170,9 +171,10 @@ public class main extends HttpServlet {
 					else
 						p = dbms.MedicoLogin(user, password).getId();			
 
-					if(p.equals(""))
-						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +
-								"<br> <h2> <a target=\"\" href=\"?ps=login\">LOGIN</a>");//gestione errore
+					if(p.equals("")){
+						request.setAttribute("error", 20);//gestione errore
+						rd = request.getRequestDispatcher("Login.jsp");
+					}
 					else 
 						rd = request.getRequestDispatcher("DiagnosiPage.jsp");
 

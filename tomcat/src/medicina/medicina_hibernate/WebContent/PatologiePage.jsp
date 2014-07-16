@@ -23,7 +23,7 @@
 
 </head>
 
-<title>PazientePage</title>
+<title>Patologie</title>
 
 <body>
 

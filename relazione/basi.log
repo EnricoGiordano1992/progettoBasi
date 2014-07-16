@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  16 JUL 2014 13:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  17 JUL 2014 00:58
 entering extended mode
  %&-line parsing enabled.
 **basi.tex
@@ -760,7 +760,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 <schema_logico.png, id=68, 513.117pt x 352.6776pt>
 File: schema_logico.png Graphic file (type png)
  <use schema_logico.png>
-Overfull \hbox (28.18105pt too wide) in paragraph at lines 146--147
+Overfull \hbox (28.18105pt too wide) in paragraph at lines 148--149
  [] 
  []
 
@@ -814,26 +814,27 @@ File: pageSchema.pdf Graphic file (type pdf)
  <use pageSchema.pdf, page 5>
 File: pageSchema.pdf Graphic file (type pdf)
 
-<use pageSchema.pdf, page 5> [10 <./pageSchema.pdf>] [11] [12] [13] (./basi.aux
-) ) 
+<use pageSchema.pdf, page 5> [10 <./pageSchema.pdf>] [11] [12] [13] [14]
+[15] (./basi.aux) ) 
 Here is how much of TeX's memory you used:
- 13192 strings out of 495061
- 235750 string characters out of 1182621
- 314023 words of memory out of 3000000
- 16114 multiletter control sequences out of 15000+50000
- 5764 words of font info for 21 fonts, out of 3000000 for 9000
+ 13194 strings out of 495061
+ 235771 string characters out of 1182621
+ 314022 words of memory out of 3000000
+ 16115 multiletter control sequences out of 15000+50000
+ 6110 words of font info for 22 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 56i,16n,69p,796b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on basi.pdf (14 pages, 310363 bytes).
+ 56i,16n,69p,815b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on basi.pdf (16 pages, 326893 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

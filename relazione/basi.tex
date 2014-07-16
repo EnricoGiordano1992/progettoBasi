@@ -137,6 +137,8 @@ breaklines=true
 
 \end{enumerate}
 
+Per identificare il primario, è stato utilizzato l'attributo ``primario'' dell'entità ``medico'' come stringa contenente ``si'' o ``no'' a seconda che fosse primario o no. 
+
 \newpage
 
 \part{Schema Logico}
@@ -161,22 +163,76 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 \part{Pagine Web}
 
+Il sito è stato organizzato in maniera servlet-centric, in cui esiste un'unica servlet che gestisce l'apertura delle pagine web in base al parametro ``ps'' presente nella barra url. Per rendere più gradevole l'aspetto del sito, è stato creato un css unico per tutte le pagine del sito.
+
+~
+
+Per gestire il controllo errori, è stata creata una pagina chiamata ``error.jsp'', che viene richiamata in automatico ogni qual volta ci sia un'eccezione nel codice.
+
+~
+
+A differenza delle specifiche, in cui si diceva di inserire nella HomePage le informazioni della divisione ospedaliera (con le foto) e il login, è stato deciso di separare queste due sezioni in rispettive pagine web differenti (Info e Login), in modo da rendere tutto più ordinato, mentre la pagina HomePage funge solo da pagina di menù.
+
+~
+
+Non verranno riportate le query che hanno reso possibile l'acquisizione dei dati da parte del database in quanto sono presenti nel page-schema precedentemente presentato.
+
+~
+
+Infine, tramite una qualsiasi pagina si può raggiungere qualunque altra pagina (che non richieda il login) tramite la barra superiore di selezione (sotto il titolo, di colore viola).
+
 \section{Homepage HTML}
+
+Questa è la pagina principale tramite cui l'utente è in grado di selezionale ogni pagina che vuole consultare. È stata scritta in html in quanto è una pagina statica e non ha necessità di essere modificata tramite i dati del database.
 
 \section{Info JSP}
 
-\section{Login HTML}
+Questa pagina presenta delle informazioni statiche e delle immagini linkate presenti nella directory \textit{css/images}. L'unica informazione che ha reso necessario l'utilizzo di un'interrogazione al database è stata quella di ottenere il nome del primario. Per questo fatto, è stato necessario sviluppare una pagina di tipo JSP.
+
+\section{Login JSP}
+
+La pagina di Login è statica in quanto presenta sempre gli stessi form in grado di inviare alla servlet i dati per eseguire il login, però deve essere in grado di stampare un messaggio di errore quando il login non è andato a buon fine (quindi deve essere modificabile). Questi dati vengono inviati con metodo post alla servlet, in modo che non vengano visti sulla barra url; la servlet esegue una query per verificare che nome utente e password corrispondano ad almeno un'istanza nel database. Se nome utente e password corrispondono, si viene reindirizzati alla rispettiva pagina (se si esegue il login come paziente si viene reindirizzati a PazientePage, altrimenti a DiagnosiPage), altrimenti viene stampato un messaggio di errore e si viene reindirizzati nuovamente alla pagina di login.
+
+~
+
+Sono presenti quindi due form: uno per il paziente, in cui si inserisce il codice sanitario e la password, e uno per il medico, in cui si inserisce il suo identificatore (codice sanitario) e la password.
 
 \section{PazientePage JSP}
 
+La pagina personale del paziente contiene tutti i dati del paziente memorizzati nel database. La parte sinistra della pagina contiene i dati personali, mentre la parte destra contiene i dati relativi ai medici che lo hanno diagnosticato e alle sue cartelle cliniche. Le cartelle cliniche presentate rimandano alla pagina corrispondente che presenta tutti i dati associati alla cartella clinica. Per ottenere le cartelle cliniche del paziente è stata utilizzata una query (vedere page-schema) ordinando il result set per id.
+
 \section{CartellaPage JSP}
+
+Questa pagina contiene tutti i dati importanti di una cartella clinica che possono interessare al paziente. Vengono presentati in ordine: la data ricovero, la data dimissione, il motivo del ricovero, la prognosi (che può non essere presente), l'elenco di terapie somministrate durante il ricovero (farmaco prescritto, dose, posologia e inizio e fine cura) e l'elenco di tutte le diagnosi effettuate dai medici, riportando il nome del medico che l'ha effettuata, la data, la patologia diagnosticata e i sintomi che confermano o contraddicono la patologia.
+
+~
+
+Anche se non era stato specificato, nelle diagnosi sono stati riportati i sintomi che confermano e contraddicono la diagnosi.
 
 \section{PersonalePage JSP}
 
+Questa pagina contiene tutti i dati del personale medico della divisione ospedaliera.
+
+In primo piano viene presentato il primario e le sue specializzazioni (questo è stato ottenuto da una query); successivamente, in una sezione della pagina in verde (camice del chirurgo) sono presentati i medici, con la data di inizio attività, il numero di diagnosi effettuate e l'elenco delle loro specializzazioni. Ogni dato è presentato su riquadro azzurro (camice del medico di reparto). Questi dati sono ottenuti iterando sul result set ottenuto dalla query descritta nel page-schema.
+
 \section{PatologiePage JSP}
+
+In questa pagina vengono presentate tutte le patologie diagnosticate in reparto, riportando il codice ICD10 e il numero di pazienti a cui è stato diagnosticata la patologia considerata. Per ottenere questi dati, è stata eseguita la query descritta nel page-schema; ottenuto il result set, è stato utilizzato un ciclo for per presentare ogni istanza del database proveniente dal risultato della query.
 
 \section{DiagnosiPage JSP Javascript Ajax} 
 
+Questa è la pagina che contiene più codice di programmazione delle altre, poiché sono state aggiunte delle features che permettono al medico di non commettere errori nell'inserimento di una diagnosi e di rendere facile l'utilizzo di questa pagina.
+
+~
+
+Per inserire una diagnosi con i relativi sintomi, è necessario fare almeno 3 insert: uno per la diagnosi, uno per i sintomi diagnosticati e uno o più per indicare se il sintomo conferma o contraddice la diagnosi.
+
+Riguardo alla diagnosi, è necessario sapere il codice sanitario del paziente e della cartella clinica associata.
+Per rendere più facile la manipolazione di questi dati, è stato utilizzato un campo del form generale di tipo select tramite cui si può selezionare il paziente; appena si seleziona il paziente, si attiva un sottoprogramma basato su tecnologia Ajax che esegue una query per sapere l'identificatore di tutte le cartelle cliniche associate al paziente e inserire altrettanti option del successivo campo select della form. Questo rende possibile la selezione della cartella clinica senza scriverla a mano (e quindi commettere probabilmente errori).
+
+~
+
+Oltre a questo, è possibile inserire dinamicamente più sintomi per la diagnosi e anche eliminarli qualora ci fossero stati errori di inserimento. Per sviluppare questa utile feature, sono stati utilizzati varie funzioni Javascript che rendessero trasparente la memorizzazione dei dati, l'aggiunzione e l'eliminazione di questi senza creare problemi all'utilizzatore. 
 
 \part{Strategie progettuali e considerazioni personali}
 
