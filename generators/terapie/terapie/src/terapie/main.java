@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -46,7 +49,7 @@ public class main {
 			//			IDCARTELLA
 			idCartella = cartelle.get(i);
 
-			String datainizio = datecartelle_in.get(i);
+/*			String datainizio = datecartelle_in.get(i);
 			String datafine = datecartelle_fin.get(i);
 			String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
 					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
@@ -55,7 +58,67 @@ public class main {
 			String data_fine = "" + randBetween(Integer.parseInt(data.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
 					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
 					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
+*/
+			//inizio terapia
+			String datainizio = datecartelle_in.get(i);
+			String datafine = datecartelle_fin.get(i);
 
+			DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+             Calendar cal=Calendar.getInstance();
+
+             try {
+				cal.setTime(formatter.parse(datainizio));
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+             Long value1 = cal.getTimeInMillis();
+
+             try {
+				cal.setTime(formatter.parse(datafine));
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+             Long value2 = cal.getTimeInMillis();
+
+             long value3 = (long)(value1 + Math.random()*(value2 - value1));
+             cal.setTimeInMillis(value3);
+             String data = formatter.format(cal.getTime());
+
+             
+             //fine terapia
+             
+				datainizio = data;
+				datafine = datecartelle_fin.get(i);
+
+				formatter = new SimpleDateFormat("yyyy-MM-dd");
+	            cal=Calendar.getInstance();
+
+	             try {
+					cal.setTime(formatter.parse(datainizio));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	             value1 = cal.getTimeInMillis();
+
+	             try {
+					cal.setTime(formatter.parse(datafine));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	             value2 = cal.getTimeInMillis();
+
+	             value3 = (long)(value1 + Math.random()*(value2 - value1));
+	             cal.setTimeInMillis(value3);
+	             String data_fine = formatter.format(cal.getTime());
+
+             
+             
+             
+             
 			gc.set(Integer.parseInt(fine.get(i).split("-")[0]), Integer.parseInt(fine.get(i).split("-")[1])-1, Integer.parseInt(fine.get(i).split("-")[0]));
 			gc.add(Calendar.DAY_OF_MONTH, randBetween(0, 365));
 
