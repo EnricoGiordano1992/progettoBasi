@@ -61,6 +61,7 @@ public class sin_diagn_conf_contr {
 		for(int i = 0; i < cartelle.size()-1; i++){
 			int rand = randBetween(-20, 5);
 			ArrayList<Integer> elencoSintomi = new ArrayList<Integer>();
+			ArrayList<String> data_r = new ArrayList<String>();
 			if(rand <= 1){
 				int sintomirand = randBetween(0, sintomi.size()-1);
 				writersintomi.println("INSERT INTO SINTOMI VALUES ('" + cartelle.get(i) + "', '" + sintomi.get(sintomirand) + 
@@ -93,6 +94,31 @@ public class sin_diagn_conf_contr {
 	             long value3 = (long)(value1 + Math.random()*(value2 - value1));
 	             cal.setTimeInMillis(value3);
 	             String data = formatter.format(cal.getTime());
+	             while(data_r.contains(data)){
+	            	 formatter = new SimpleDateFormat("yyyy-MM-dd");
+		             cal=Calendar.getInstance();
+
+		             try {
+						cal.setTime(formatter.parse(datainizio));
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		             value1 = cal.getTimeInMillis();
+
+		             try {
+						cal.setTime(formatter.parse(datafine));
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		             value2 = cal.getTimeInMillis();
+
+		             value3 = (long)(value1 + Math.random()*(value2 - value1));
+		             cal.setTimeInMillis(value3);
+		             data = formatter.format(cal.getTime());
+	             }
+	             data_r.add(data);
 	             
 				
 //				String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
@@ -151,7 +177,31 @@ public class sin_diagn_conf_contr {
 		             long value3 = (long)(value1 + Math.random()*(value2 - value1));
 		             cal.setTimeInMillis(value3);
 		             String data = formatter.format(cal.getTime());
-		             
+		             while(data_r.contains(data)){
+		            	 formatter = new SimpleDateFormat("yyyy-MM-dd");
+			             cal=Calendar.getInstance();
+
+			             try {
+							cal.setTime(formatter.parse(datainizio));
+						} catch (ParseException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+			             value1 = cal.getTimeInMillis();
+
+			             try {
+							cal.setTime(formatter.parse(datafine));
+						} catch (ParseException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+			             value2 = cal.getTimeInMillis();
+
+			             value3 = (long)(value1 + Math.random()*(value2 - value1));
+			             cal.setTimeInMillis(value3);
+			             data = formatter.format(cal.getTime());
+		             }
+		             data_r.add(data);
 //					String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
 //							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
 //							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
