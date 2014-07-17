@@ -134,7 +134,7 @@ public class main extends HttpServlet {
 					user = request.getParameter("user");
 					password = request.getParameter("password");
 
-					p = dbms.PazienteLogin(user, password);			
+					p = dbms.PazienteLogin(user, password);
 
 					if(p.equals(""))
 						out.print("<br> <h1>Errore: utente o password non corretti</h1>" +

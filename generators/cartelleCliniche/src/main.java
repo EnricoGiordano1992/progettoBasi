@@ -5,9 +5,14 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.Random;
 
 
 public class main {
@@ -21,7 +26,7 @@ public class main {
 		ArrayList<String> ids = new ArrayList<String>();
 		ArrayList<String> prognosilist = new ArrayList<String>();
 		ArrayList<String> malattia = new ArrayList<String>();
-		String line, idCartella, data_ricovero, data_dimissione, motivo, prognosi, codsan;
+		String line, idCartella, motivo, prognosi, codsan;
 		BufferedReader br = new BufferedReader(new FileReader("paziente.sql"));
 		while ((line = br.readLine()) != null) {
 			ids.add(line.split("'")[1]);
@@ -44,27 +49,98 @@ public class main {
 		tipologia.add(" persistente ");
 		tipologia.add(" cronico ");
 
-		
-		
 		int year, dayOfYear, prognosiid, malattiaId, mese;
 		GregorianCalendar gc = new GregorianCalendar();
 		for(String id : ids){
 			int n_cart = randBetween(1, 10);
+			
+			DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+			Calendar cal=Calendar.getInstance();
+			Random rnd = new Random(System.currentTimeMillis());
+		    int LENGHT = 6;
+			StringBuilder sb = new StringBuilder(LENGHT);
+	        for (int i = 0; i < LENGHT; i++) {
+	            sb.append(id.charAt(rnd.nextInt(id.length())));
+	        }
+//			System.out.println("id = " + id);
+//			System.out.println("sb = " + sb.toString());
+			
+			String result = "";
+			for(int i = 0; i < sb.length(); ++i) {
+			     char c = sb.charAt(i);
+			     if (Character.isLetter(c)) {
+			         result += (c - 0x0041 + 101);
+			     } else if (Character.isDigit(c)) {
+			         result += c;
+			     }
+			}
+//			System.out.println("rs = " + result);
+
+			Random random = new Random(Long.parseLong(result.trim()));
+			//set min = data che uso per la cartella
+			String min = "1990-1-1";
+
 			for(int i = 0; i < n_cart; i++){
-				
-				year = randBetween(1990, 1999);
-				mese = randBetween(1, 12);
-				dayOfYear = randBetween(1, 27);
-				
-				data_ricovero = year + "-" + mese + "-" + dayOfYear;
 
-				year = randBetween(2000, 2013);
-				mese = randBetween(1, 12);
-				dayOfYear = randBetween(1, 27);
-				
-				data_dimissione = year + "-" + mese + "-" + dayOfYear;
+	            try {
+					cal.setTime(formatter.parse(min));
+//	            	cal.setTime(formatter.parse("1990-1-1"));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	            long value1 = cal.getTimeInMillis();
 
-				String text = year + "-" + mese + "-" + dayOfYear + id + randBetween(100, 500);
+	            try {
+					cal.setTime(formatter.parse("2013-12-31"));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	            long value2 = cal.getTimeInMillis();
+
+	            long value3 = (long)(value1 + random.nextDouble()*(value2 - value1));
+	            value3 = (long)(value1 + random.nextDouble()*(value2 - value1));
+	            value3 = (long)(value1 + random.nextDouble()*(value2 - value1));
+	            cal.setTimeInMillis(value3);
+	            String data_ricovero = formatter.format(cal.getTime());
+	            min = data_ricovero;
+//				year = randBetween(1990, 1999);
+//				mese = randBetween(1, 12);
+//				dayOfYear = randBetween(1, 27);
+//				
+//				data_ricovero = year + "-" + mese + "-" + dayOfYear;
+
+	            try {
+					cal.setTime(formatter.parse(min));
+//	            	cal.setTime(formatter.parse("1990-1-1"));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	            value1 = cal.getTimeInMillis();
+
+	            try {
+					cal.setTime(formatter.parse("2013-12-31"));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	            value2 = cal.getTimeInMillis();
+
+	            value3 = (long)(value1 + random.nextDouble()*(value2 - value1));
+	            value3 = (long)(value1 + random.nextDouble()*(value2 - value1));
+	            value3 = (long)(value1 + random.nextDouble()*(value2 - value1));
+	            cal.setTimeInMillis(value3);
+	            String data_dimissione = formatter.format(cal.getTime());
+	            min = data_dimissione;
+//				year = randBetween(2000, 2013);
+//				mese = randBetween(1, 12);
+//				dayOfYear = randBetween(1, 27);
+//				
+//				data_dimissione = year + "-" + mese + "-" + dayOfYear;
+
+				String text = data_dimissione + id + randBetween(100, 500);
 				MessageDigest msg = MessageDigest.getInstance("MD5");
 				msg.update(text.getBytes(), 0, text.length());
 				String digest1 = new BigInteger(1, msg.digest()).toString(16);
@@ -74,15 +150,19 @@ public class main {
 				malattiaId = randBetween(0, malattia.size()-1);
 				
 				int tipo = randBetween(0, tipologia.size() - 1);
-				
-				if(!prognosilist.get(prognosiid).equals(""))
-					if(!prognosilist.get(prognosiid).equals("Riservata"))
-						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + prognosilist.get(prognosiid) + tipologia.get(tipo) + "', '" +malattia.get(malattiaId)  + " guaribile in giorni " + randBetween(1, 200) + "', '" + id + "');");
+				if (data_ricovero.equals(data_dimissione)){
+//					System.out.println("data_dimissione = " + data_dimissione + "\ndata_ricovero = " + data_ricovero);
+				}
+				else{
+					if(!prognosilist.get(prognosiid).equals(""))
+						if(!prognosilist.get(prognosiid).equals("Riservata"))
+							System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + prognosilist.get(prognosiid) + tipologia.get(tipo) + "', '" +malattia.get(malattiaId)  + " guaribile in giorni " + randBetween(1, 200) + "', '" + id + "');");
+						else
+							System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + "dolore generalizzato" + tipologia.get(tipo) + "', '" + prognosilist.get(prognosiid) + "', '" + id + "');");
+									
 					else
-						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + "dolore generalizzato" + tipologia.get(tipo) + "', '" + prognosilist.get(prognosiid) + "', '" + id + "');");
-								
-				else
-					System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + malattia.get(malattiaId) + "', NULL, '" + id + "');");
+						System.out.println("INSERT INTO CARTELLA_CLINICA VALUES ('" + idCartella + "', '" + data_ricovero + "', '" + data_dimissione + "', '" + malattia.get(malattiaId) + "', NULL, '" + id + "');");
+				}
 			}
 		}
 	}
