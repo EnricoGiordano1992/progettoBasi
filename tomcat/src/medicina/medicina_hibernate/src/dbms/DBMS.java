@@ -34,17 +34,15 @@ public class DBMS {
 	
 	String queryCartellaDelPaziente =
 			"select c.* " +
-			"from cartella_clinica as c, paziente as p " +
+			"from cartella_clinica as c  " +
 			"where c.codsan = (:codsan) " +
-			"and c.codsan = p.codsan "
-			+ "order by c.id ;";
+			"order by c.id ;";
 	
 	
 	String queryRischiPaziente = 
 			"select r.* " +
-			"from paziente as p, rischi_paziente as r " +
-			"where p.codsan = (:codsan) " +
-			"and p.codsan = r.id_paziente; ";
+			"from rischi_paziente as r " +
+			"where r.id_paziente = (:codsan) ;";
 	
 	
 	String queryMediciDelPaziente =
@@ -63,18 +61,14 @@ public class DBMS {
 	
 	String queryTerapieDellaCartella =
 			"select t.* " +
-					"from cartella_clinica as c, terapie as t " +
-					"where c.id = (:id) " +
-					"and c.id = t.id_cartella ; ";
+					"from terapie as t " +
+					"where t.id_cartella = (:id); ";
 
 	
 	String queryDiagnosiDellaCartella =
-			"select d.*, m.* " +
-			"from cartella_clinica as c, diagnosi as d, paziente as p, medico as m " +
-			"where c.id = (:id) " +
-			"and p.codsan = d.id_paziente " +
-			"and p.codsan = c.codsan " +
-			"and d.id_medico = m.id ;";
+			"select d.* " +
+			"from diagnosi as d " +
+			"where d.id_cartella = (:id); ";
 	
 	String queryConfermeDellaDiagnosi = 
 			"select c.* "
@@ -565,7 +559,7 @@ public class DBMS {
 		session.beginTransaction();
 
         Diagnosi d = new Diagnosi();
-		d.setId(new DiagnosiId(paziente.getCodsan(), date, id_cartella));
+		d.setId(new DiagnosiId(paziente.getCodsan(), date, id_cartella, id_medico));
 		d.setIcd10(icd10);
 		d.setMedico(medico);
 		d.setPatologia(patologia);
@@ -615,7 +609,7 @@ public class DBMS {
 			if(tipo.get(i).equals("conferma")){
 				conferme.setDiagnosi(d);
 				
-				ConfermeId c_id = new ConfermeId(s_id.getIdCartella(), sintomi.get(i), id_paziente, date, id_cartella);
+				ConfermeId c_id = new ConfermeId(s_id.getIdCartella(), sintomi.get(i), id_paziente, date, id_cartella, id_medico);
 				conferme.setId(c_id);
 				
 				conferme.setSintomi(s);
@@ -624,7 +618,7 @@ public class DBMS {
 			else{
 				contraddizioni.setDiagnosi(d);
 				
-				ContraddizioniId c_id = new ContraddizioniId(s_id.getIdCartella(), sintomi.get(i), id_paziente, date, id_cartella);
+				ContraddizioniId c_id = new ContraddizioniId(s_id.getIdCartella(), sintomi.get(i), id_paziente, date, id_cartella, id_medico);
 				contraddizioni.setId(c_id);
 				
 				contraddizioni.setSintomi(s);

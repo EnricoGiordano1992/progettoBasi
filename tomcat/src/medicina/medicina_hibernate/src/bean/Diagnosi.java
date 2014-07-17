@@ -1,6 +1,6 @@
 package bean;
 
-// Generated 14-lug-2014 18.07.36 by Hibernate Tools 3.4.0.CR1
+// Generated 17-lug-2014 12.59.14 by Hibernate Tools 3.4.0.CR1
 
 import java.util.HashSet;
 import java.util.Set;
@@ -23,10 +23,11 @@ public class Diagnosi implements java.io.Serializable {
 	}
 
 	public Diagnosi(DiagnosiId id, CartellaClinica cartellaClinica,
-			Paziente paziente, String icd10, String patologia) {
+			Paziente paziente, Medico medico, String icd10, String patologia) {
 		this.id = id;
 		this.cartellaClinica = cartellaClinica;
 		this.paziente = paziente;
+		this.medico = medico;
 		this.icd10 = icd10;
 		this.patologia = patologia;
 	}

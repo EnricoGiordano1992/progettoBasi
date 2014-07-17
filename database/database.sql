@@ -15,6 +15,7 @@ drop function controlla_data (date, varchar(30));
 drop function controlla_data_cartella ( DATE, VARCHAR(30) );
 drop function controlla_data_cartella_ricoverodimissioni ( DATE, DATE );
 drop function controlla_data_terapie ( DATE, DATE, VARCHAR(30) );
+drop function controlla_sovrapposizione_cartelle ( VARCHAR(30), DATE, DATE );
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------                                   ----------------------------------------------------------------
@@ -61,6 +62,26 @@ CREATE TABLE CARTELLA_CLINICA (
 
     PRIMARY KEY(ID)
 );
+
+
+CREATE FUNCTION controlla_sovrapposizione_cartelle ( id_paz VARCHAR(30), data_in DATE, data_fin DATE )
+RETURNS VARCHAR(5)
+AS
+$BODY$
+BEGIN
+	--controllo che ci sia almeno una cartella clinica
+	IF EXISTS ( select id from cartella_clinica) then
+		IF EXISTS (select id from cartella_clinica as c where codsan = id_paz and data_in < data_dimissione ) then
+	    		return 'True';
+	    	end IF; 
+	end if;
+	
+	    return 'False';
+    
+END;$BODY$ LANGUAGE 'plpgsql';
+
+ALTER TABLE CARTELLA_CLINICA ADD CONSTRAINT check_sovrapposizione CHECK (controlla_sovrapposizione_cartelle(CODSAN, DATA_RICOVERO, DATA_DIMISSIONE) = 'False');
+
 
 
 CREATE FUNCTION controlla_data_cartella ( data_c DATE, codsan_q VARCHAR(30) )
@@ -241,7 +262,7 @@ CREATE TABLE DIAGNOSI (
     PATOLOGIA           VARCHAR(200)     NOT NULL,
     ID_MEDICO           VARCHAR(30)     REFERENCES MEDICO(ID) ON DELETE CASCADE ON UPDATE CASCADE,
 
-    PRIMARY KEY (ID_PAZIENTE, DATA, ID_CARTELLA)
+    PRIMARY KEY (ID_PAZIENTE, DATA, ID_CARTELLA, ID_MEDICO)
 
     
 );
@@ -283,9 +304,10 @@ CREATE TABLE CONFERME (
     ID_PAZIENTE         VARCHAR(30)     NOT NULL,
     DATA                DATE            NOT NULL,
     ID_CARTELLA         VARCHAR(30)     NOT NULL,
+    ID_MEDICO		VARCHAR(30)	NOT NULL,
 
     FOREIGN KEY(ID_SINTOMO, N_SINT) REFERENCES SINTOMI(ID_CARTELLA, NOME) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY(ID_PAZIENTE, DATA, ID_CARTELLA ) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA, ID_CARTELLA) ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY(ID_PAZIENTE, DATA, ID_CARTELLA, ID_MEDICO) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA, ID_CARTELLA, ID_MEDICO) ON DELETE CASCADE ON UPDATE CASCADE
 
 );
 
@@ -306,9 +328,10 @@ CREATE TABLE CONTRADDIZIONI (
     ID_PAZIENTE         VARCHAR(30)     NOT NULL,
     DATA                DATE            NOT NULL,
     ID_CARTELLA         VARCHAR(30)     NOT NULL,
+    ID_MEDICO		VARCHAR(30)	NOT NULL,
 
     FOREIGN KEY(ID_SINTOMO, N_SINT) REFERENCES SINTOMI(ID_CARTELLA, NOME) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY(ID_PAZIENTE, DATA, ID_CARTELLA ) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA, ID_CARTELLA) ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY(ID_PAZIENTE, DATA, ID_CARTELLA, ID_MEDICO) REFERENCES DIAGNOSI(ID_PAZIENTE, DATA, ID_CARTELLA, ID_MEDICO) ON DELETE CASCADE ON UPDATE CASCADE
 
 );
 

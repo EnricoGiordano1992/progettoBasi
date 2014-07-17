@@ -15,12 +15,12 @@ import java.util.Random;
 public class main {
 
 	public static void main(String[] args) throws IOException {
-		
+
 		ArrayList<String> datecartelle_in = new ArrayList<String>();
 		ArrayList<String> datecartelle_fin = new ArrayList<String>();
 		popoloDateCartelle(datecartelle_in, datecartelle_fin);
 
-		
+
 		ArrayList<String> cartelle = new ArrayList<String>();
 		ArrayList<String> farmaci = new ArrayList<String>();
 		ArrayList<String> inizio = new ArrayList<String>();
@@ -45,106 +45,100 @@ public class main {
 		br.close();
 		GregorianCalendar gc = new GregorianCalendar();
 		String idCartella, _inizio, _fine, frequenza, dose, farmaco;
-		for(int i = 0; i<cartelle.size()-1; i++){
-			//			IDCARTELLA
-			idCartella = cartelle.get(i);
+		for(int i = 0; i<cartelle.size(); i++){
 
-/*			String datainizio = datecartelle_in.get(i);
-			String datafine = datecartelle_fin.get(i);
-			String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
-					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
-					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
+			int j = 0;
+			while(j++ < new Random().nextInt(4)){
+				//			IDCARTELLA
+				idCartella = cartelle.get(i);
 
-			String data_fine = "" + randBetween(Integer.parseInt(data.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
-					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
-					randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
-*/
-			//inizio terapia
-			String datainizio = datecartelle_in.get(i);
-			String datafine = datecartelle_fin.get(i);
 
-			DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-             Calendar cal=Calendar.getInstance();
+				//inizio terapia
+				String datainizio = datecartelle_in.get(i);
+				String datafine = datecartelle_fin.get(i);
 
-             try {
-				cal.setTime(formatter.parse(datainizio));
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-             Long value1 = cal.getTimeInMillis();
+				DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+				Calendar cal=Calendar.getInstance();
 
-             try {
-				cal.setTime(formatter.parse(datafine));
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-             Long value2 = cal.getTimeInMillis();
-
-             long value3 = (long)(value1 + Math.random()*(value2 - value1));
-             cal.setTimeInMillis(value3);
-             String data = formatter.format(cal.getTime());
-
-             
-             //fine terapia
-             
-				datainizio = data;
-				datafine = datecartelle_fin.get(i);
-
-				formatter = new SimpleDateFormat("yyyy-MM-dd");
-	            cal=Calendar.getInstance();
-
-	             try {
+				try {
 					cal.setTime(formatter.parse(datainizio));
 				} catch (ParseException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-	             value1 = cal.getTimeInMillis();
+				Long value1 = cal.getTimeInMillis();
 
-	             try {
+				try {
 					cal.setTime(formatter.parse(datafine));
 				} catch (ParseException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-	             value2 = cal.getTimeInMillis();
+				Long value2 = cal.getTimeInMillis();
 
-	             value3 = (long)(value1 + Math.random()*(value2 - value1));
-	             cal.setTimeInMillis(value3);
-	             String data_fine = formatter.format(cal.getTime());
+				long value3 = (long)(value1 + Math.random()*(value2 - value1));
+				cal.setTimeInMillis(value3);
+				String data = formatter.format(cal.getTime());
 
-             
-             
-             
-             
-			gc.set(Integer.parseInt(fine.get(i).split("-")[0]), Integer.parseInt(fine.get(i).split("-")[1])-1, Integer.parseInt(fine.get(i).split("-")[0]));
-			gc.add(Calendar.DAY_OF_MONTH, randBetween(0, 365));
 
-			//			INIZIO TERAPIA
-			_inizio = gc.get(Calendar.YEAR) + "-" + (gc.get(Calendar.MONTH)+1) + "-" + gc.get(Calendar.DAY_OF_MONTH);
+				//fine terapia
 
-			gc.add(Calendar.DAY_OF_MONTH, randBetween(0, 1000));
+				datainizio = data;
+				datafine = datecartelle_fin.get(i);
 
-			//			FINE TERAPIA
-			_fine = gc.get(Calendar.YEAR) + "-" + (gc.get(Calendar.MONTH)+1) + "-" + gc.get(Calendar.DAY_OF_MONTH);
+				formatter = new SimpleDateFormat("yyyy-MM-dd");
+				cal=Calendar.getInstance();
 
-			//			FREQUENZA
-			frequenza = String.valueOf(randBetween(1, 8));
+				try {
+					cal.setTime(formatter.parse(datainizio));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				value1 = cal.getTimeInMillis();
 
-			//			DOSE
-			dose = String.valueOf(randBetween(1,50));
-			if(randBetween(0, 1) == 1)
-				dose = dose + ".5";
-			else
-				dose = dose + ".0";
+				try {
+					cal.setTime(formatter.parse(datafine));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				value2 = cal.getTimeInMillis();
 
-			//			FARMACO
-			farmaco = farmaci.get(randBetween(0, farmaci.size()-1));
+				value3 = (long)(value1 + Math.random()*(value2 - value1));
+				cal.setTimeInMillis(value3);
+				String data_fine = formatter.format(cal.getTime());
 
-			System.out.println("INSERT INTO TERAPIE VALUES ('" + idCartella + "', '" + data + "', '" + data_fine + "', '" + frequenza + "', '" + dose + "', '" + farmaco +"');");
 
+
+
+
+				gc.set(Integer.parseInt(fine.get(i).split("-")[0]), Integer.parseInt(fine.get(i).split("-")[1])-1, Integer.parseInt(fine.get(i).split("-")[0]));
+				gc.add(Calendar.DAY_OF_MONTH, randBetween(0, 365));
+
+				//			INIZIO TERAPIA
+				_inizio = gc.get(Calendar.YEAR) + "-" + (gc.get(Calendar.MONTH)+1) + "-" + gc.get(Calendar.DAY_OF_MONTH);
+
+				gc.add(Calendar.DAY_OF_MONTH, randBetween(0, 1000));
+
+				//			FINE TERAPIA
+				_fine = gc.get(Calendar.YEAR) + "-" + (gc.get(Calendar.MONTH)+1) + "-" + gc.get(Calendar.DAY_OF_MONTH);
+
+				//			FREQUENZA
+				frequenza = String.valueOf(randBetween(1, 8));
+
+				//			DOSE
+				dose = String.valueOf(randBetween(1,50));
+				if(randBetween(0, 1) == 1)
+					dose = dose + ".5";
+				else
+					dose = dose + ".0";
+
+				//			FARMACO
+				farmaco = farmaci.get(randBetween(0, farmaci.size()-1));
+
+				System.out.println("INSERT INTO TERAPIE VALUES ('" + idCartella + "', '" + data + "', '" + data_fine + "', '" + frequenza + "', '" + dose + "', '" + farmaco +"');");
+			}
 		}
 	}
 	public static int randBetween(int start, int end) {

@@ -166,7 +166,7 @@
 					
 					medico:  
 					<%= diagnosi.get(i).getMedico().getNome() %> <%= diagnosi.get(i).getMedico().getCognome() %><br>
-					patologia: <%=diagnosi.get(i).getPatologia() %><br>
+ 					patologia: <%=diagnosi.get(i).getPatologia() %><br>
 					ICD10: <%=diagnosi.get(i).getIcd10() %><br>
 					<br><br>
 					sintomi che confermano la patologia: <%=diagnosi.get(i).getConfermes().size() %><br><br>

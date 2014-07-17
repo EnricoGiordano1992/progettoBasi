@@ -41,13 +41,13 @@ breaklines=true
 \part{Progettazione Concettuale}
 
 \vfill
-    \begin{center}
+ \begin{center}
 	
 \centerline{
-    %\centering
-    \includegraphics[scale=0.45]{ER.png}
+ %\centering
+ \includegraphics[scale=0.45]{ER.png}
 }
-    \end{center}
+ \end{center}
 \vfill
 \newpage
 {\large Elenco delle relazioni:}\newline
@@ -142,12 +142,12 @@ Per identificare il primario, è stato utilizzato l'attributo ``primario'' dell'
 \newpage
 
 \part{Schema Logico}
-    \begin{center}
+ \begin{center}
 
-    \centering
-    \includegraphics[scale=0.9]{schema_logico.png}
+ \centering
+ \includegraphics[scale=0.9]{schema_logico.png}
 
-    \end{center}
+ \end{center}
 
 Questo schema logico rappresenta una visione globale sull'elenco dei vari attributi, sulle chiavi primarie (attributi sottolineati) e sulle relazione tra di essi (i riquadri attorno al nome dell'attributo e la relativa freccia che punta alla relazione).
 
@@ -159,7 +159,67 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 \includepdf[pages=-]{pageSchema.pdf}
 
+\part{Struttura dell'applicazione web}
 
+\section{Moduli}
+L'applicativo è distribuito secondo lo standard mvc2:
+
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
+\item Model: comprende la classe DBMS.java e tutte le classi che descrivono i vari DataBean. DBMS.java si occupa di interrogare il DB e di manipolare i dati al suo interno. La comunicazione con Main.java avviene tramite DataBean in ambo le direzioni. Questa parte è distribuita nelle directory ``bean'' e ``dbms'';
+\item Control: comprende la sola classe Main.java, che non è altro che la servlet centrale che si occupa di ricevere tutte le richieste GET e POST, di richiedere a 
+DBMS.java tutte le informazioni di cui si ha bisogno, e di inoltrare quest'ultime insieme alla richiesta HTTP alla pagina JSP appropriata.
+\item View: comprende tutte le pagine JSP, le librerie javascript usate, le immagini e le foto. Si trova nella cartella ``WebContent''.
+
+\end{itemize}
+
+~
+
+Per java ogni interrogazione o manipolazione di dati SQL sono singole transizioni. Se si desidera effettuare una transizione composta da più query è necessario disabilitare l'autocommit ed impostare il livello di isolamento della transizione. Inoltre bisogna gestire esplicitamente il commit e il rollback. Se la transizione accede ad una risorsa non disponibile, allora java lanciera un eccezione ed è compito del programmatore far ricominciare dall'inizio l'intera transizione. Il livello di isolamento più rigido è SERIALIZABLE.
+
+~
+
+Il context tomcat del sito WEB è ``medicina\_hibernate'', mentre il path relativo da context per raggiungere la 
+servlet Main è ``home''. La porta per del server è 8080. Quindi l'URL per una richiesta HTTP al 
+server sarà del tipo:
+
+~
+
+$http://localhost:8080/medicina\_hibernate/home$
+
+\part{Gestione richieste}
+
+La servlet centrale identifica e gestisce le richieste HTTP sulla base che esse siano GET o POST e 
+dipendentemente dal valore del parametro ps passato nella richiesta.
+Per le richieste GET, ps può assumere i seguenti valori:
+
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
+
+\item null, si rimanda alla HomePage;
+
+\item info, si rimanda alla pagina di informazioni;
+
+\item login, si rimanda alla pagina di login;
+
+\item cartella, si rimanda alla pagina CartellaPage;
+
+\item patologie, si rimanda alla pagina PatologiePage;
+
+\item personale, si rimanda alla pagina del personale medico (PersonalePage). 
+
+\end{itemize}
+
+
+Per le richieste di tipo POST (invio valori da un form), ps può assumere i seguenti valori:
+
+\begin{itemize}[leftmargin=0.5cm, topsep=0.25cm, itemsep=0.2cm]
+
+\item paziente, si esegue il login per il paziente;
+
+\item medico, si esegue il login per il medico;
+
+\item diagnosi, si esegue l'insert per la diagnosi.
+
+\end{itemize}
 
 \part{Pagine Web}
 
@@ -189,6 +249,10 @@ Questa è la pagina principale tramite cui l'utente è in grado di selezionale o
 
 Questa pagina presenta delle informazioni statiche e delle immagini linkate presenti nella directory \textit{css/images}. L'unica informazione che ha reso necessario l'utilizzo di un'interrogazione al database è stata quella di ottenere il nome del primario. Per questo fatto, è stato necessario sviluppare una pagina di tipo JSP.
 
+~
+
+Passaggio di parametri: nessuno.
+
 \section{Login JSP}
 
 La pagina di Login è statica in quanto presenta sempre gli stessi form in grado di inviare alla servlet i dati per eseguire il login, però deve essere in grado di stampare un messaggio di errore quando il login non è andato a buon fine (quindi deve essere modificabile). Questi dati vengono inviati con metodo post alla servlet, in modo che non vengano visti sulla barra url; la servlet esegue una query per verificare che nome utente e password corrispondano ad almeno un'istanza nel database. Se nome utente e password corrispondono, si viene reindirizzati alla rispettiva pagina (se si esegue il login come paziente si viene reindirizzati a PazientePage, altrimenti a DiagnosiPage), altrimenti viene stampato un messaggio di errore e si viene reindirizzati nuovamente alla pagina di login.
@@ -197,9 +261,31 @@ La pagina di Login è statica in quanto presenta sempre gli stessi form in grado
 
 Sono presenti quindi due form: uno per il paziente, in cui si inserisce il codice sanitario e la password, e uno per il medico, in cui si inserisce il suo identificatore (codice sanitario) e la password.
 
+
+~
+
+Passaggio di parametri: 
+
+\begin{lstlisting}[language=java]
+	 if (request.getAttribute("error") != null)
+ 		error = ((Integer)request.getAttribute("error"));
+\end{lstlisting}
+
 \section{PazientePage JSP}
 
 La pagina personale del paziente contiene tutti i dati del paziente memorizzati nel database. La parte sinistra della pagina contiene i dati personali, mentre la parte destra contiene i dati relativi ai medici che lo hanno diagnosticato e alle sue cartelle cliniche. Le cartelle cliniche presentate rimandano alla pagina corrispondente che presenta tutti i dati associati alla cartella clinica. Per ottenere le cartelle cliniche del paziente è stata utilizzata una query (vedere page-schema) ordinando il result set per id.
+
+
+~
+
+Passaggio di parametri: 
+
+\begin{lstlisting}[language=java]
+ if (request.getParameter("user") != null)
+	 paziente = (String)request.getParameter("user");
+
+\end{lstlisting}
+
 
 \section{CartellaPage JSP}
 
@@ -209,15 +295,35 @@ Questa pagina contiene tutti i dati importanti di una cartella clinica che posso
 
 Anche se non era stato specificato, nelle diagnosi sono stati riportati i sintomi che confermano e contraddicono la diagnosi.
 
+~
+
+Passaggio di parametri: 
+
+\begin{lstlisting}[language=java]
+	if (request.getParameter("cartella") != null)
+		cartella = (String) request.getParameter("cartella");
+
+\end{lstlisting}
+
 \section{PersonalePage JSP}
 
 Questa pagina contiene tutti i dati del personale medico della divisione ospedaliera.
 
 In primo piano viene presentato il primario e le sue specializzazioni (questo è stato ottenuto da una query); successivamente, in una sezione della pagina in verde (camice del chirurgo) sono presentati i medici, con la data di inizio attività, il numero di diagnosi effettuate e l'elenco delle loro specializzazioni. Ogni dato è presentato su riquadro azzurro (camice del medico di reparto). Questi dati sono ottenuti iterando sul result set ottenuto dalla query descritta nel page-schema.
 
+~
+
+Passaggio di parametri: nessuno.
+
+
 \section{PatologiePage JSP}
 
 In questa pagina vengono presentate tutte le patologie diagnosticate in reparto, riportando il codice ICD10 e il numero di pazienti a cui è stato diagnosticata la patologia considerata. Per ottenere questi dati, è stata eseguita la query descritta nel page-schema; ottenuto il result set, è stato utilizzato un ciclo for per presentare ogni istanza del database proveniente dal risultato della query.
+
+~
+
+Passaggio di parametri: nessuno.
+
 
 \section{DiagnosiPage JSP Javascript Ajax} 
 
@@ -233,6 +339,20 @@ Per rendere più facile la manipolazione di questi dati, è stato utilizzato un 
 ~
 
 Oltre a questo, è possibile inserire dinamicamente più sintomi per la diagnosi e anche eliminarli qualora ci fossero stati errori di inserimento. Per sviluppare questa utile feature, sono stati utilizzati varie funzioni Javascript che rendessero trasparente la memorizzazione dei dati, l'aggiunzione e l'eliminazione di questi senza creare problemi all'utilizzatore. 
+
+~
+
+Parametri passati: 
+\begin{lstlisting}[language=java]
+    if (request.getAttribute("error") != null)
+    	error = Integer.parseInt((String)request.getAttribute("error"));
+    
+    if (request.getParameter("user") != null)
+	    medico = (String)request.getParameter("user");
+
+    else if (request.getParameter("medico") != null)
+	    medico = (String)request.getParameter("medico");
+\end{lstlisting}
 
 \part{Strategie progettuali e considerazioni personali}
 
@@ -262,7 +382,7 @@ Considerazioni personali e strategie adottate durante lo sviluppo del progetto:
 \item Utilizzo del metodo Hibernate durante la realizzazione del progetto in modo tale da poter semplificare le query, tenendo presente che esse restituivano tanti valori nidificati a cui ci si poteva raggiungere tramite superchiavi;
 \item Durante la creazione della pagina relativa alle diagnosi (DiagnosiPage) il campo delle cartelle cliniche viene popolato tramite uno script ajax-json-jquery a seconda del paziente selezionato, in modo tale da evitare l'inserimento manuale di una cartella clinica potenzialmente errata;
 \item Per la realizzazione generale della pagina web che gestisce l'intero progetto ci siamo sentiti di renderla più gradevole graficalmente inserendo uno stile di impaginazione html in formato css;
-\item ECLIPSE pls!
+\item È stato utilizzato come ambiente di sviluppo Eclipse, in quanto garantiva il controllo degli errori una buona velocità di programmazione.
 
 \end{itemize}
 
@@ -287,7 +407,7 @@ Oltre agli attributi e agli identificatori, si è deciso di associare la classe 
 
 Come esempio pratico, la classe CartellaClinica ha i seguenti attributi:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=java]
 
 	private String id;
 	private Paziente paziente;

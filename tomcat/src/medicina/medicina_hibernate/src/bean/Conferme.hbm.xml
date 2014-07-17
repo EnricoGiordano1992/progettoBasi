@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated 14-lug-2014 18.07.37 by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated 17-lug-2014 12.59.15 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="bean.Conferme" table="conferme" schema="public">
         <composite-id name="id" class="bean.ConfermeId">
@@ -20,15 +20,19 @@
             <key-property name="idCartella" type="string">
                 <column name="id_cartella" length="30" />
             </key-property>
+            <key-property name="idMedico" type="string">
+                <column name="id_medico" length="30" />
+            </key-property>
         </composite-id>
-        <many-to-one name="sintomi" class="bean.Sintomi" update="false" insert="false" fetch="select">
-            <column name="id_sintomo" length="200" not-null="true" />
-            <column name="n_sint" length="30" not-null="true" />
-        </many-to-one>
         <many-to-one name="diagnosi" class="bean.Diagnosi" update="false" insert="false" fetch="select">
             <column name="id_paziente" length="30" not-null="true" />
             <column name="data" length="13" not-null="true" />
             <column name="id_cartella" length="30" not-null="true" />
+            <column name="id_medico" length="30" not-null="true" />
+        </many-to-one>
+        <many-to-one name="sintomi" class="bean.Sintomi" update="false" insert="false" fetch="select">
+            <column name="id_sintomo" length="200" not-null="true" />
+            <column name="n_sint" length="30" not-null="true" />
         </many-to-one>
     </class>
 </hibernate-mapping>

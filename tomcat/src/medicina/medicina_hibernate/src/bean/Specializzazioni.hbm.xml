@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated 14-lug-2014 18.07.37 by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated 17-lug-2014 12.59.15 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="bean.Specializzazioni" table="specializzazioni" schema="public">
         <id name="nome" type="string">

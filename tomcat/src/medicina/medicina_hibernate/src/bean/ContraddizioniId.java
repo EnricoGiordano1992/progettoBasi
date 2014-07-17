@@ -1,6 +1,6 @@
 package bean;
 
-// Generated 14-lug-2014 18.07.36 by Hibernate Tools 3.4.0.CR1
+// Generated 17-lug-2014 12.59.14 by Hibernate Tools 3.4.0.CR1
 
 import java.util.Date;
 
@@ -14,17 +14,19 @@ public class ContraddizioniId implements java.io.Serializable {
 	private String idPaziente;
 	private Date data;
 	private String idCartella;
+	private String idMedico;
 
 	public ContraddizioniId() {
 	}
 
 	public ContraddizioniId(String idSintomo, String NSint, String idPaziente,
-			Date data, String idCartella) {
+			Date data, String idCartella, String idMedico) {
 		this.idSintomo = idSintomo;
 		this.NSint = NSint;
 		this.idPaziente = idPaziente;
 		this.data = data;
 		this.idCartella = idCartella;
+		this.idMedico = idMedico;
 	}
 
 	public String getIdSintomo() {
@@ -67,6 +69,14 @@ public class ContraddizioniId implements java.io.Serializable {
 		this.idCartella = idCartella;
 	}
 
+	public String getIdMedico() {
+		return this.idMedico;
+	}
+
+	public void setIdMedico(String idMedico) {
+		this.idMedico = idMedico;
+	}
+
 	public boolean equals(Object other) {
 		if ((this == other))
 			return true;
@@ -92,7 +102,11 @@ public class ContraddizioniId implements java.io.Serializable {
 				&& ((this.getIdCartella() == castOther.getIdCartella()) || (this
 						.getIdCartella() != null
 						&& castOther.getIdCartella() != null && this
-						.getIdCartella().equals(castOther.getIdCartella())));
+						.getIdCartella().equals(castOther.getIdCartella())))
+				&& ((this.getIdMedico() == castOther.getIdMedico()) || (this
+						.getIdMedico() != null
+						&& castOther.getIdMedico() != null && this
+						.getIdMedico().equals(castOther.getIdMedico())));
 	}
 
 	public int hashCode() {
@@ -112,6 +126,8 @@ public class ContraddizioniId implements java.io.Serializable {
 				* result
 				+ (getIdCartella() == null ? 0 : this.getIdCartella()
 						.hashCode());
+		result = 37 * result
+				+ (getIdMedico() == null ? 0 : this.getIdMedico().hashCode());
 		return result;
 	}
 
