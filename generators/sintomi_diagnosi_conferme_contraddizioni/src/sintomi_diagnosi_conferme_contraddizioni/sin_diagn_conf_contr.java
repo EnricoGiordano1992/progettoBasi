@@ -94,7 +94,8 @@ public class sin_diagn_conf_contr {
 	             long value3 = (long)(value1 + Math.random()*(value2 - value1));
 	             cal.setTimeInMillis(value3);
 	             String data = formatter.format(cal.getTime());
-	             while(data_r.contains(data)){
+	             int iii = 0;
+	             while(data_r.contains(data) && iii++ < 10){
 	            	 formatter = new SimpleDateFormat("yyyy-MM-dd");
 		             cal=Calendar.getInstance();
 
@@ -117,6 +118,9 @@ public class sin_diagn_conf_contr {
 		             value3 = (long)(value1 + Math.random()*(value2 - value1));
 		             cal.setTimeInMillis(value3);
 		             data = formatter.format(cal.getTime());
+	             }
+	             if (iii == 10){
+	            	 break;
 	             }
 	             data_r.add(data);
 	             
@@ -177,7 +181,8 @@ public class sin_diagn_conf_contr {
 		             long value3 = (long)(value1 + Math.random()*(value2 - value1));
 		             cal.setTimeInMillis(value3);
 		             String data = formatter.format(cal.getTime());
-		             while(data_r.contains(data)){
+		             int iii = 0;
+		             while(data_r.contains(data) && iii++ < 10){
 		            	 formatter = new SimpleDateFormat("yyyy-MM-dd");
 			             cal=Calendar.getInstance();
 
@@ -201,7 +206,11 @@ public class sin_diagn_conf_contr {
 			             cal.setTimeInMillis(value3);
 			             data = formatter.format(cal.getTime());
 		             }
+		             if (iii == 10){
+		            	 break;
+		             }
 		             data_r.add(data);
+		             
 //					String data = "" + randBetween(Integer.parseInt(datainizio.split("-")[0]), Integer.parseInt(datafine.split("-")[0])) + "-" + 
 //							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1])), Math.max(Integer.parseInt(datainizio.split("-")[1]), Integer.parseInt(datafine.split("-")[1]))) + "-" +  
 //							randBetween(Math.min(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])), Math.max(Integer.parseInt(datainizio.split("-")[2]), Integer.parseInt(datafine.split("-")[2])));  
