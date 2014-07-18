@@ -234,16 +234,15 @@ public class sin_diagn_conf_contr {
 								"');");
 						int conferma = randBetween(0, 1);
 						if(conferma==1){
-							if(conferma==1){
-								writerconferme.println("INSERT INTO CONFERME VALUES ('" + cartelle.get(i) + "', '" +
-										sintomi.get(random) + "', '" + pazienti.get(i) + "', '" + data + "', '" + 
-										cartelle.get(i) + "', '" + medicooo + "');");
-							}else{
-								writercontraddizioni.println("INSERT INTO CONTRADDIZIONI VALUES ('" + cartelle.get(i) + "', '" +
-										sintomi.get(random) + "', '" + pazienti.get(i) + "', '" + data + "', '" + 
-										cartelle.get(i) + "', '" + medicooo +  "');");
-							}
+							writerconferme.println("INSERT INTO CONFERME VALUES ('" + cartelle.get(i) + "', '" +
+									sintomi.get(random) + "', '" + pazienti.get(i) + "', '" + data + "', '" + 
+									cartelle.get(i) + "', '" + medicooo + "');");
+						}else{
+							writercontraddizioni.println("INSERT INTO CONTRADDIZIONI VALUES ('" + cartelle.get(i) + "', '" +
+									sintomi.get(random) + "', '" + pazienti.get(i) + "', '" + data + "', '" + 
+									cartelle.get(i) + "', '" + medicooo +  "');");
 						}
+						
 					}
 					--rand;
 				}
