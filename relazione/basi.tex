@@ -7,6 +7,7 @@
 \usepackage{verbatim}
 \usepackage{tikz}
 \usepackage{pdfpages}
+\usepackage{color}
 \usetikzlibrary{arrows,shadows} % for pgf-umlsd
 \usepackage[underline=true,rounded corners=false]{pgf-umlsd}
 \usepackage{enumitem}
@@ -156,9 +157,221 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 \newpage
 \part{Page Schema}
-
+\begin{comment}
 \includepdf[pages=-]{pageSchema.pdf}
+\end{comment}
+\begin{lstlisting}
+`\textbf{page-schema Homepage unique (}`
+	informazioni: link (info, *InfoPage.jsp);
+	personale_medico: link (personale, *PersonalePage.jsp);
+	patologie: link (patologie, *PatologiePage.jsp);
+	login: link (login, *Login.html);
+`\textbf{);}`
 
+`\textbf{page-schema InfoPage unique (}`
+	primario: String;
+	informazioni: text;
+	foto: list_of(data[]);
+`\textbf{);}`
+
+`\textbf{DB to page-schema InfoPage (}`
+	primario: `\color{blue}{select *}` 
+		  `\color{blue}{from medico as m}`
+		  `\color{blue}{where m.primario = 'si';}`
+`\textbf{);}`
+
+`\textbf{page-schema LoginPage unique (}`
+	login_paziente: form(
+		login: text;
+		pw: password;
+		invia: submit();
+	);
+	login_medico: form(
+		login: text;
+		pw: password;
+		invia: submit();
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema LoginPage (}`
+	login_cliente:
+		if(	`\color{blue}{select *}`
+			`\color{blue}{from paziente as p}`
+			`\color{blue}{where p.codsan = ?codsan?}`
+			`\color{blue}{and p.psw = ?psw?}`
+		)
+		then *PazientePage else *LoginPage
+		end;
+
+	login_medico:
+		if(	`\color{blue}{select m.*}`
+			`\color{blue}{from medico as m}`
+			`\color{blue}{where m.id = ?id?}`
+			`\color{blue}{and m.psw = ?psw?}`
+		)
+		then *DiagnosiPage else *LoginPage
+		end;
+`\textbf{);}`
+\end{lstlisting}
+\newpage
+\begin{lstlisting}
+`\textbf{page-schema PazientePage  (}`
+	dati: (
+		codice_sanitario: string;
+		nome: string;
+		cognome: string;
+		data_nascita: string;
+		via: string;
+		civico: string;
+		);
+
+	cartelle_cliniche: list of(
+		link(cartella clinica, *CartellaPage);
+		);
+
+	fattori_rischio: string;
+
+	elenco_medici: list of(
+		nome: string;
+		cognome: string;
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema PazientePage (}`
+	dati: 	`\color{blue}{select p.*}`
+		`\color{blue}{from paziente as p}`
+		`\color{blue}{where p.codsan = ?codsan?}`
+	
+	cartelle_cliniche: 
+			`\color{blue}{select c.*}`
+			`\color{blue}{from cartella_clinica as c, paziente as p}`
+			`\color{blue}{where c.codsan = ?codsan?}`
+			`\color{blue}{and c.codsan = ?codsan?}`
+
+	fattori_rischio: 
+			`\color{blue}{select r.*}`
+			`\color{blue}{from paziente as p, rischi_paziente as r}`
+			`\color{blue}{where p.codsan = (:codsan)}`
+			`\color{blue}{and p.codsan = r.id_paziente}`
+
+	elenco_medici: 	
+			`\color{blue}{select distinct m.}`
+			`\color{blue}{from paziente as p, medico as m, diagnosi as d}`
+			`\color{blue}{where p.codsan = ?codsan)?}`
+			`\color{blue}{and p.codsan = d.id_paziente}`
+			`\color{blue}{and m.id = d.id_medico}`
+`\textbf{);}`
+\end{lstlisting}
+\newpage
+\begin{lstlisting}
+`\textbf{page-schema CartellaPage (}`
+	dati: (
+		ID: string;
+		dataRic: string;
+		motivo: string;
+		prognosi: string;
+	);
+	diagnosi: list of (
+		medico: (
+			nome_medico: string;
+			cognome_medico: string;
+		);
+		data: date;
+		patologia: string;
+		icd10: string;
+		conferme: list of (
+			sintomi: string;
+			);
+		contraddizioni: list of (
+			sintomi: string;
+			);
+	);
+	terapie: list of (
+		farmaco: string;
+		dose: float;
+		posologia: string;
+		inizio cura: date;
+		fine cura: date;
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema CartellaPage (}`
+	dati:	
+		`\color{blue}{select c.*}`
+		`\color{blue}{from cartella_clinica as c, paziente as p}`
+		`\color{blue}{where c.id = ?id?}`
+
+	terapie: 
+		`\color{blue}{select t.*}`
+		`\color{blue}{from cartella_clinica as c, terapie as t}`
+		`\color{blue}{where c.id = ?id?}`
+		`\color{blue}{and c.id = t.id_cartella}`
+
+	diagnosi:
+		`\color{blue}{select d.*, m.*}`
+		`\color{blue}{from cartella_clinica as c, diagnosi as d,}`
+		`\color{blue}{paziente as p, medico as m}`
+		`\color{blue}{where c.id = ?id?}`
+		`\color{blue}{and p.codsan = d.id_paziente}`
+		`\color{blue}{and p.codsan = c.codsan}`
+		`\color{blue}{and d.id_medico = m.id}`
+
+	terapie:
+		`\color{blue}{select t.*}`
+		`\color{blue}{from cartella_clinica as c, terapie as t}`
+		`\color{blue}{where c.id = ?id?}`
+		`\color{blue}{and c.id = t.id_cartella}`
+`\textbf{);}`
+\end{lstlisting}
+\newpage
+\begin{lstlisting}
+`\textbf{page-schema PatologiePage (}`
+	patologie: text;
+`\textbf{);}`
+
+`\textbf{DB to page-schema PatologiePage (}`
+	patologie: 	
+		`\color{blue}{select d.*}`
+		`\color{blue}{from diagnosi as d}`
+`\textbf{);}`
+
+`\textbf{page-schema PersonalePage (}`
+	dati: text;
+	numero pazienti: int;
+`\textbf{);}`
+
+`\textbf{DB to page-schema PersonalePage (}`
+	dati: 	
+		`\color{blue}{select d.*}`
+		`\color{blue}{from diagnosi as d}`
+
+	numero pazienti:
+		`\color{blue}{select count(*)}`
+		`\color{blue}{from diagnosi}`
+		`\color{blue}{where patologia = (:patologia)}` 
+		`\color{blue}{and icd10 = (:icd10)}`
+		`\color{blue}{group by icd10, patologia}`
+`\textbf{);}`
+
+`\textbf{page-schema DiagnosiPage (}`
+	new_diagnosi: form (
+		paziente: string;
+		cartella clinica: string;
+		data: date;
+		ICD10: string;
+		sintomi: list of (string);
+		tipologia: list of (string);
+	);
+`\textbf{);}`
+
+`\textbf{DB to page-schema DiagnosiPage (}`
+	new_diagnosi: `\emph{INSERT INTO DIAGNOSI;}`	
+	new_sintomi: `\emph{INSERT INTO SINTOMI;}`
+	new_conferme: `\emph{INSERT INTO CONFERME;}`
+	new_contraddizioni: `\emph{INSERT INTO CONTRADDIZIONI;}`	
+`\textbf{);}`
+\end{lstlisting}
+\newpage
 \part{Struttura dell'applicazione web}
 
 \section{Moduli}
