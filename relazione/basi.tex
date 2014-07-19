@@ -244,22 +244,22 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 	
 	cartelle_cliniche: 
 			`\color{blue}{select c.*}`
-			`\color{blue}{from cartella_clinica as c, paziente as p}`
+			`\color{blue}{from cartella\_clinica as c, paziente as p}`
 			`\color{blue}{where c.codsan = ?codsan?}`
 			`\color{blue}{and c.codsan = ?codsan?}`
 
 	fattori_rischio: 
 			`\color{blue}{select r.*}`
-			`\color{blue}{from paziente as p, rischi_paziente as r}`
+			`\color{blue}{from paziente as p, rischi\_paziente as r}`
 			`\color{blue}{where p.codsan = (:codsan)}`
-			`\color{blue}{and p.codsan = r.id_paziente}`
+			`\color{blue}{and p.codsan = r.id\_paziente}`
 
 	elenco_medici: 	
 			`\color{blue}{select distinct m.}`
 			`\color{blue}{from paziente as p, medico as m, diagnosi as d}`
 			`\color{blue}{where p.codsan = ?codsan)?}`
-			`\color{blue}{and p.codsan = d.id_paziente}`
-			`\color{blue}{and m.id = d.id_medico}`
+			`\color{blue}{and p.codsan = d.id\_paziente}`
+			`\color{blue}{and m.id = d.id\_medico}`
 `\textbf{);}`
 \end{lstlisting}
 \newpage
@@ -298,29 +298,29 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 `\textbf{DB to page-schema CartellaPage (}`
 	dati:	
 		`\color{blue}{select c.*}`
-		`\color{blue}{from cartella_clinica as c, paziente as p}`
+		`\color{blue}{from cartella\_clinica as c, paziente as p}`
 		`\color{blue}{where c.id = ?id?}`
 
 	terapie: 
 		`\color{blue}{select t.*}`
-		`\color{blue}{from cartella_clinica as c, terapie as t}`
+		`\color{blue}{from cartella\_clinica as c, terapie as t}`
 		`\color{blue}{where c.id = ?id?}`
-		`\color{blue}{and c.id = t.id_cartella}`
+		`\color{blue}{and c.id = t.id\_cartella}`
 
 	diagnosi:
 		`\color{blue}{select d.*, m.*}`
-		`\color{blue}{from cartella_clinica as c, diagnosi as d,}`
+		`\color{blue}{from cartella\_clinica as c, diagnosi as d,}`
 		`\color{blue}{paziente as p, medico as m}`
 		`\color{blue}{where c.id = ?id?}`
-		`\color{blue}{and p.codsan = d.id_paziente}`
+		`\color{blue}{and p.codsan = d.id\_paziente}`
 		`\color{blue}{and p.codsan = c.codsan}`
-		`\color{blue}{and d.id_medico = m.id}`
+		`\color{blue}{and d.id\_medico = m.id}`
 
 	terapie:
 		`\color{blue}{select t.*}`
-		`\color{blue}{from cartella_clinica as c, terapie as t}`
+		`\color{blue}{from cartella\_clinica as c, terapie as t}`
 		`\color{blue}{where c.id = ?id?}`
-		`\color{blue}{and c.id = t.id_cartella}`
+		`\color{blue}{and c.id = t.id\_cartella}`
 `\textbf{);}`
 \end{lstlisting}
 \newpage
