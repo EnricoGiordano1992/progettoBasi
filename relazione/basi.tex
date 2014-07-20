@@ -244,22 +244,22 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 	
 	cartelle_cliniche: 
 			`\color{blue}{select c.*}`
-			`\color{blue}{from cartella\_clinica as c, paziente as p}`
+			`\color{blue}{from cartella\_clinica as c}`
 			`\color{blue}{where c.codsan = ?codsan?}`
-			`\color{blue}{and c.codsan = ?codsan?}`
+			`\color{blue}{order by c.id ;}`
 
 	fattori_rischio: 
 			`\color{blue}{select r.*}`
-			`\color{blue}{from paziente as p, rischi\_paziente as r}`
-			`\color{blue}{where p.codsan = (:codsan)}`
-			`\color{blue}{and p.codsan = r.id\_paziente}`
+			`\color{blue}{from rischi\_paziente as r}`
+			`\color{blue}{where r.id\_paziente = ?codsan?}`
 
 	elenco_medici: 	
 			`\color{blue}{select distinct m.}`
 			`\color{blue}{from paziente as p, medico as m, diagnosi as d}`
-			`\color{blue}{where p.codsan = ?codsan)?}`
+			`\color{blue}{where p.codsan = ?codsan?}`
 			`\color{blue}{and p.codsan = d.id\_paziente}`
 			`\color{blue}{and m.id = d.id\_medico}`
+			`\color{blue}{order by m.id ;}`
 `\textbf{);}`
 \end{lstlisting}
 \newpage
@@ -303,54 +303,71 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 	terapie: 
 		`\color{blue}{select t.*}`
-		`\color{blue}{from cartella\_clinica as c, terapie as t}`
-		`\color{blue}{where c.id = ?id?}`
-		`\color{blue}{and c.id = t.id\_cartella}`
+		`\color{blue}{from terapie as t}`
+		`\color{blue}{where t.id\_cartella = ?id?;}`
 
 	diagnosi:
-		`\color{blue}{select d.*, m.*}`
-		`\color{blue}{from cartella\_clinica as c, diagnosi as d,}`
-		`\color{blue}{paziente as p, medico as m}`
-		`\color{blue}{where c.id = ?id?}`
-		`\color{blue}{and p.codsan = d.id\_paziente}`
-		`\color{blue}{and p.codsan = c.codsan}`
-		`\color{blue}{and d.id\_medico = m.id}`
+		`\color{blue}{select d.* }`
+		`\color{blue}{from diagnosi as d }`
+		`\color{blue}{where d.id\_cartella = ?id? }`
 
 	terapie:
 		`\color{blue}{select t.*}`
-		`\color{blue}{from cartella\_clinica as c, terapie as t}`
-		`\color{blue}{where c.id = ?id?}`
-		`\color{blue}{and c.id = t.id\_cartella}`
+		`\color{blue}{from terapie as t }`
+		`\color{blue}{where t.id\_cartella = ?id?}`
 `\textbf{);}`
 \end{lstlisting}
 \newpage
 \begin{lstlisting}
 `\textbf{page-schema PatologiePage (}`
 	patologie: text;
+	numero pazienti: int;
 `\textbf{);}`
 
 `\textbf{DB to page-schema PatologiePage (}`
 	patologie: 	
 		`\color{blue}{select d.*}`
 		`\color{blue}{from diagnosi as d}`
-`\textbf{);}`
-
-`\textbf{page-schema PersonalePage (}`
-	dati: text;
-	numero pazienti: int;
-`\textbf{);}`
-
-`\textbf{DB to page-schema PersonalePage (}`
-	dati: 	
-		`\color{blue}{select d.*}`
-		`\color{blue}{from diagnosi as d}`
-
+		
 	numero pazienti:
 		`\color{blue}{select count(*)}`
 		`\color{blue}{from diagnosi}`
-		`\color{blue}{where patologia = (:patologia)}` 
-		`\color{blue}{and icd10 = (:icd10)}`
+		`\color{blue}{where patologia = ?patologia?}` 
+		`\color{blue}{and icd10 = ?icd10?}`
 		`\color{blue}{group by icd10, patologia}`
+		
+`\textbf{);}`
+
+`\textbf{page-schema PersonalePage (}`
+	primario: text;
+	specializzazioni\_primario: text;
+	
+	elenco\_medici: list of( medici:text;
+				 specializzazioni: text;
+				 pazienti_diagnosticati: int;
+				 );
+`\textbf{);}`
+
+`\textbf{DB to page-schema PersonalePage (}`
+	primario: 	
+		`\color{blue}{select * }`
+		`\color{blue}{from medico as m }`
+		`\color{blue}{where m.primario = 'si';}`
+		
+	specializzazioni\_primario: 
+		`\color{blue}{select * }`
+		`\color{blue}{from spec\_del\_medico as s }`
+		`\color{blue}{where s.id\_medico = ?id\_medico? ;}`
+
+	elenco\_medici:
+		`\color{blue}{select m.* }`
+		`\color{blue}{from medico as m }`
+		`\color{blue}{order by m.id ;}` 
+
+		`\color{blue}{select * }`
+		`\color{blue}{from spec\_del\_medico as s }`
+		`\color{blue}{where s.id\_medico = ?id\_medico? ;}`
+
 `\textbf{);}`
 
 `\textbf{page-schema DiagnosiPage (}`
@@ -391,13 +408,13 @@ Per java ogni interrogazione o manipolazione di dati SQL sono singole transizion
 
 ~
 
-Il context tomcat del sito WEB è ``medicina\_hibernate'', mentre il path relativo da context per raggiungere la 
+Il context tomcat del sito WEB è ``medicina'', mentre il path relativo da context per raggiungere la 
 servlet Main è ``home''. La porta per del server è 8080. Quindi l'URL per una richiesta HTTP al 
 server sarà del tipo:
 
 ~
 
-$http://localhost:8080/medicina\_hibernate/home$
+$http://localhost:8080/medicina/home$
 
 \part{Gestione richieste}
 

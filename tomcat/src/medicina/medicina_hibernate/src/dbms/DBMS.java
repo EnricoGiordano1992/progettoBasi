@@ -56,7 +56,7 @@ public class DBMS {
 	//query per la cartellapage
 	String queryCartella =
 			"select c.* " +
-					"from cartella_clinica as c, paziente as p " +
+					"from cartella_clinica as c " +
 					"where c.id = (:id) ;";
 	
 	String queryTerapieDellaCartella =
