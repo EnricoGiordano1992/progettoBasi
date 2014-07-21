@@ -39,6 +39,82 @@ breaklines=true
 
 \newpage
 
+\part{Testo dell'elaborato}
+\emph{\textbf{\Large{Requisiti}}}
+
+\noindent
+\emph{\textbf{\large{Base di dati}}}
+
+\noindent
+Si vuole progettare un sistema informativo per gestire le cartelle cliniche di una divisione ospedaliera. Ogni cartella clinica è caratterizzata dall'indicazione del paziente a cui fa riferimento, dalla data di ricovero, dalla data di dimissione, dal motivo del ricovero e dalla prognosi effettuata al termine del ricovero. Ogni cartella clinica è dotata di un codice indentificativo univoco.\par
+\noindent
+Per ogni paziente sono memorizzati: il codice sanitario univoco (login), una password, il cognome, il nome, la data di nascita, il luogo di nascita, l'indirizzo di residenza (via, civico, cap, città, provincia). Per ogni paziente è possibile memorizzare gli eventuali fattori di rischio presenti (anche più d'uno).\par
+\noindent
+Nella cartella clinica si tiene traccia di tutto quanto succede al paziente considerato. In particolare, si registrano le terapie somministrate, caratterizzate da: farmaco somministrato, dose, frequenza giornaliera, data di inizio e data di fine della terapia stessa. Vengono registrati, poi, tutti i sintomi dichiarati dal paziente nel corso del ricovero: i sintomi sono caratterizzati dal nome, dall'intensità, dalla data di insorgenza, dalla durata (non specificata per i sintomi in corso).\par
+\noindent
+Infine vengono registrate le diagnosi effettuate dai medici sui pazienti: ogni diagnosi è caratterizzata dal paziente considerato, dalla data in cui la diagnosi è effettuata, dal medico che l'ha effettuata, dalla codifica univoca ICD10 della patologia individuata (ICD10 è una classificazione internazionale delle patologie adottata in numerosi stati e organizzazioni sanitarie), e dal nome della patologia individuata. Ogni diagnosi è legata ai sintomi che la confermano e ai sintomi contraddittori, che, invece, potrebbero mettere in discussione la diagnosi considerata. Possono esserci più diagnosi su un paziente nella stessa cartella clinica.\par
+\noindent
+Per ogni medico si registra: il cognome, il nome, l'elenco delle specializzazioni, data di inizio attività, una matricola univoca (login) e una password. Tra i medici si indica anche il primario della divisione.\newline
+\newline
+\emph{\textbf{\large{Sito web}}}
+
+\noindent
+Le informazioni contenute nella base di dati devono essere presentate in un sito web. Tale sito deve essere stutturato in schemi di pagina come di seguito descritto; è possibile estendere la struttura aggiungendo ulteriori schemi di pagina che mostrano ulteriori dettagli:
+\noindent
+\begin{itemize}[leftmargin=0.75cm, labelsep= 0.5cm]
+
+\item \textbf{HomePage}, dove si riporta:
+	\begin{itemize}[leftmargin=1.5cm, labelsep= 0.5cm, label=$\circ$]
+
+	\item La presentazione della divisione ospedaliera
+	\item Varie foto della divisione
+	\item Il nome e il cognome del primario
+	\item Una form che richiede login e password del paziente per l'accesso alle pagine riservate \textbf{(PazientePage)}
+	\item Un link statico al personale medico \textbf{(PersonalePage)}
+	\item Un link statico alle patologie diagnosticate \textbf{(PatologiePage)}
+	\item Una form che richiede login e password per l'inserimento delle diagnosi da parte dei medici \textbf{(DiagnosiPage)}
+
+	\end{itemize}
+\item \textbf{PazientePage}, dove si mostrano tutti i dati del paziente, compresi i fattori di rischio e l'elenco delle sue cartelle cliniche riportando: il codice identificativo, la data del ricovero e l'eventuale data di dimissione. Il codice è un link verso lo schema di pagina \textbf{CartellaPage}. L'elenco dei medici che hanno fatto diagnosi sul paziente nei vari ricoveri riportando il nome e il cognome del medico.
+\item \textbf{CartellaPage}, dove si mostrano tutti i dati di una cartella: codice univoco, data di ricovero, data di eventuale dimissione, motivo del ricovero ed eventuale prognosi effettuata al temine del ricovero. L'elenco di tutte le terapie (riportare tutti i dati) ed elenco delle diagnosi (ripostare tutti i dati compreso il nome e cognome del medico).
+\item \textbf{PersonalePage}, dove si riporta in evidenza il cognome e nome del primario con l'elenco delle sue specializzazioni. A seguire si riporta l'elenco di tutti i medici indicando: nome, cognome, data inizio attività, elenco delle specializzazioni e numero delle diagnosi eseguite.
+\item \textbf{PatologiePage}, dove si riporta l'elenco di tutti i codici ICD10 delle patologie diagnosticate nella divisione e per ogni codice il numero di paziente a cui tale patologia è stata diagnosticata.
+\item \textbf{DiagnosiPage}, dove si riporta una form per l'inserimento di una diagnosi da parte di un medico. Si deve consentire al medico di selezionare tra i sintomi inseriti quelli che confermano e quelli che eventualmente invece contraddicono la diagnosi effettuata.\\
+\end{itemize}\par
+
+\noindent
+\emph{\textbf{\Large{Requisiti}}}\par
+
+\noindent
+L'attività di progetto e sviluppo deve produrre i seguenti risultati:\par
+\begin{enumerate}
+\item La documentazione dell'attività di progettazione costituita da:
+\begin{enumerate}
+\item Il progetto della base di dati:
+\begin{enumerate}
+\item Progetto concettuale (documento che include lo schema Entità Relazioni)
+\item Progetto logico (script SQL per la generazione della base di dati su Postgresql)
+\item Popolamento della base di dati (script SQL che esegue alcuni inserimenti di dati significativi)
+\end{enumerate}
+\item Il progetto del sito web contrato sui dati:
+\begin{enumerate}
+\item Progettazione logica (documento che presenta gli schemi di pagina del sito usando il linguaggio di specifica presentato a lezione)
+\item Struttura dell'applicazione web (documento che descrive l'articolazione in moduli del software)
+\end{enumerate}
+\end{enumerate}
+\item Codice JAVA funzionante e strutturato secondo l'architettura MVC2 servlet-centric (Servlet, JSP e classi JAVA che costituiscono l'applicazione sviluppata e funzionante come context di Tomcat). Si richiede l'applicazione di Hibernate.
+\item La base di dati generata e popolata sul database (dblabXXX) di Postgresql.
+\end{enumerate}
+
+\noindent
+\emph{\textbf{\Large{Scadenze per la consegna del progetto}}}
+
+\noindent
+Il progetto deve essere completato entro la fine di settembre 2014 e deve essere presentato in una delle date fissate dal docente in corrispondenza degli appelli di basi di dati.\par
+\noindent
+L'intenzione di consegnare il progetto va comunicata al docente mediante iscrizione all'appello corrispondente.
+
+\newpage
 \part{Progettazione Concettuale}
 
 \vfill
@@ -157,9 +233,6 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 \newpage
 \part{Page Schema}
-\begin{comment}
-\includepdf[pages=-]{pageSchema.pdf}
-\end{comment}
 \begin{lstlisting}
 `\textbf{page-schema Homepage unique (}`
 	informazioni: link (info, *InfoPage.jsp);
@@ -193,7 +266,10 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 	);
 `\textbf{);}`
 
-`\textbf{DB to page-schema LoginPage (}`
+`\textbf{DB to page-schema LoginPage}`
+	`\textbf{parameters(error)}`
+	`\textbf{(}`
+
 	login_cliente:
 		if(	`\color{blue}{select *}`
 			`\color{blue}{from paziente as p}`
@@ -215,7 +291,8 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 \end{lstlisting}
 \newpage
 \begin{lstlisting}
-`\textbf{page-schema PazientePage  (}`
+`\textbf{page-schema PazientePage (}`
+
 	dati: (
 		codice_sanitario: string;
 		nome: string;
@@ -237,7 +314,10 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 	);
 `\textbf{);}`
 
-`\textbf{DB to page-schema PazientePage (}`
+`\textbf{DB to page-schema PazientePage}`
+	`\textbf{parameters(user)}`
+	`\textbf{(}`
+
 	dati: 	`\color{blue}{select p.*}`
 		`\color{blue}{from paziente as p}`
 		`\color{blue}{where p.codsan = ?codsan?}`
@@ -295,7 +375,10 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 	);
 `\textbf{);}`
 
-`\textbf{DB to page-schema CartellaPage (}`
+`\textbf{DB to page-schema CartellaPage}`
+	`\textbf{parameters(cartella)}`
+	`\textbf{(}`
+
 	dati:	
 		`\color{blue}{select c.*}`
 		`\color{blue}{from cartella\_clinica as c, paziente as p}`
@@ -382,7 +465,10 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 	);
 `\textbf{);}`
 
-`\textbf{DB to page-schema DiagnosiPage (}`
+`\textbf{DB to page-schema DiagnosiPage}`
+	`\textbf{parameters(error, user, medico)}`
+	`\textbf{(}`
+
 	new_diagnosi: `\emph{INSERT INTO DIAGNOSI;}`	
 	new_sintomi: `\emph{INSERT INTO SINTOMI;}`
 	new_conferme: `\emph{INSERT INTO CONFERME;}`
