@@ -47,6 +47,7 @@ var arrayCheckContraddizione = new Array();
 var arrayIntensitaB = new Array();
 var arrayIntensitaM = new Array();
 var arrayIntensitaA = new Array();
+var arrayDurata = new Array();
 
 function aggiornaString (stringa, pos) {
 
@@ -74,6 +75,7 @@ function deletePos(pos) {
 	arrayIntensitaB[pos] = null;
 	arrayIntensitaM[pos] = null;
 	arrayIntensitaA[pos] = null;
+	arrayDurata[pos] = null;
 	
 }
 
@@ -89,6 +91,13 @@ function aggiornaIntensita(stringa, pos) {
 		arrayIntensitaA[pos] = "selected ='selected' ";
 	
 }
+
+
+function aggiornaDurata(stringa, pos) {
+
+	arrayDurata[pos] = "value = '" + stringa.value + "'";
+}
+
 
 function AggiungiRiga(){
 	var numero_righe = j++;
@@ -108,7 +117,8 @@ function AggiungiRiga(){
 			   "<option value='bassa' " + arrayIntensitaB[k] + " > bassa " +
 			   "<option value='media' " + arrayIntensitaM[k] + "> media " +
 			   "<option value='alta' " + arrayIntensitaA[k] + "> alta " +
-				"</select>";
+				"</select><br>" +
+				"Durata "+k+":<br> <input type=\"text\" "+arrayDurata[k]+" id=data name=\"durata"+k+"\" onkeyup='aggiornaDurata(this, " + k + ")' /><br>";
 
 		}
 		// Aggiorno il contenuto del box che conterrà gli elementi aggiunti
@@ -136,7 +146,8 @@ function EliminaRiga(riga){
 				   "<option value='bassa' " + arrayIntensitaB[k] + " > bassa " +
 				   "<option value='media' " + arrayIntensitaM[k] + "> media " +
 				   "<option value='alta' " + arrayIntensitaA[k] + "> alta " +
-					"</select>";
+					"</select><br>" +
+					"Durata "+k+":<br> <input type=\"text\" "+arrayDurata[k]+" id=data name=\"durata"+k+"\" onkeyup='aggiornaDurata(this, " + k + ")' /><br>";
 				}
 			else
 				deletePos(k);
@@ -156,7 +167,7 @@ function checkInvio(form) {
 		    
 		for(var i=0,max=form.elements.length;i<max;++i){
 			if(form.elements[i].type.toLowerCase()=='text' &&
-			!form.elements[i].value){
+			!form.elements[i].value && !form.elements[i].id.toLowerCase()=='data' ){
 				alert("Il campo "+form.elements[i].name+" non puo' essere vuoto!");
 				form.elements[i].focus();
 				return false;
@@ -322,7 +333,8 @@ function checkInvio(form) {
 					   <option value="media" > media
 					   <option value="alta" > alta
 						</select> 
-					<br> 
+					<br>
+					Durata 1:<br> <input type="text" id=data name="durata1" /><br>  
 					<div id='box_righe'>
 						<!-- Box che conterrà le righe aggiunte. Inizialmente vuoto! -->
 					</div> 

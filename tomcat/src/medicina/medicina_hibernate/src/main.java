@@ -198,6 +198,7 @@ public class main extends HttpServlet {
 				ArrayList<String> sintomi = new ArrayList<String>();
 				ArrayList<String> tipo = new ArrayList<String>();
 				ArrayList<String> intensita = new ArrayList<String>();
+				ArrayList<Integer> durata = new ArrayList<Integer>();
 
 				do{
 					if(request.getParameter("sintomo" + i) != null){
@@ -205,6 +206,11 @@ public class main extends HttpServlet {
 						sintomi.add(request.getParameter("sintomo" + i));
 						tipo.add(request.getParameter("tipo" + i));
 						intensita.add(request.getParameter("intensita" + i));
+						
+						if(request.getParameter("durata"+i) == "")
+							durata.add(0);
+						else
+							durata.add(Integer.parseInt(request.getParameter("durata" + i)));
 
 					}
 					else 
@@ -217,7 +223,7 @@ public class main extends HttpServlet {
 
 				}while(!stop);
 
-				int r_val = dbms.insertNewDiagnosi(sintomi.size(), cartella_clinica, paziente, data, medico, ICD10, patologia, sintomi, tipo, intensita);
+				int r_val = dbms.insertNewDiagnosi(sintomi.size(), cartella_clinica, paziente, data, medico, ICD10, patologia, sintomi, tipo, intensita, durata);
 
 				if(r_val != 0)
 					request.setAttribute("error","" + r_val);

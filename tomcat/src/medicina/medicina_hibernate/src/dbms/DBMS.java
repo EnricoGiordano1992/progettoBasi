@@ -541,7 +541,7 @@ public class DBMS {
 	
 	public int insertNewDiagnosi(int numargs, String id_cartella, String id_paziente, String data, 
 			String id_medico, String icd10, String patologia, 
-			ArrayList<String> sintomi, ArrayList<String> tipo, ArrayList<String> intensita) throws ParseException {
+			ArrayList<String> sintomi, ArrayList<String> tipo, ArrayList<String> intensita, ArrayList<Integer> durata) throws ParseException {
 		
 		
 		Paziente paziente = getPaziente(id_paziente);
@@ -584,7 +584,10 @@ public class DBMS {
 
     		SintomiId s_id = new SintomiId(sintomi.get(i), id_cartella);
     		Sintomi s = new Sintomi(s_id, cartella, intensita.get(i), date);
-
+    		
+    		if(durata.get(i) != 0)
+    			s.setDurata(durata.get(i));
+    		
     		try{
 			session.save(s);
 	        session.getTransaction().commit(); 
