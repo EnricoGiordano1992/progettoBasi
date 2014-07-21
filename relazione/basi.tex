@@ -340,9 +340,9 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 
 `\textbf{page-schema PersonalePage (}`
 	primario: text;
-	specializzazioni\_primario: text;
+	specializzazioni_primario: text;
 	
-	elenco\_medici: list of( medici:text;
+	elenco_medici: list of( medici:text;
 				 specializzazioni: text;
 				 pazienti_diagnosticati: int;
 				 );
@@ -354,12 +354,12 @@ Per generare questi script, sono stati creati dei programmi in grado di generare
 		`\color{blue}{from medico as m }`
 		`\color{blue}{where m.primario = 'si';}`
 		
-	specializzazioni\_primario: 
+	specializzazioni_primario: 
 		`\color{blue}{select * }`
 		`\color{blue}{from spec\_del\_medico as s }`
 		`\color{blue}{where s.id\_medico = ?id\_medico? ;}`
 
-	elenco\_medici:
+	elenco_medici:
 		`\color{blue}{select m.* }`
 		`\color{blue}{from medico as m }`
 		`\color{blue}{order by m.id ;}` 
