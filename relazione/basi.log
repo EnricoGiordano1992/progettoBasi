@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  21 JUL 2014 18:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.26)  21 JUL 2014 23:53
 entering extended mode
  %&-line parsing enabled.
 **basi.tex
@@ -743,66 +743,77 @@ oc)
 \openout5 = `basi.toc'.
 
 
-[1] <ER.png, id=56, 1146.2825pt x 721.69624pt>
-File: ER.png Graphic file (type png)
- <use ER.png> [2 <./ER.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
- [3]
-<schema_logico.png, id=68, 508.7808pt x 349.7868pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 69.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[3] <ER.png, id=65, 1146.2825pt x 721.69624pt>
+File: ER.png Graphic file (type png)
+ <use ER.png> [4 <./ER.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+[5] <schema_logico.png, id=75, 508.7808pt x 349.7868pt>
 File: schema_logico.png Graphic file (type png)
- <use schema_logico.png>
-Overfull \hbox (24.27849pt too wide) in paragraph at lines 149--150
+
+<use schema_logico.png>
+Overfull \hbox (24.27849pt too wide) in paragraph at lines 225--226
  [] 
  []
 
-[4 <./schema_logico.png>]
+[6 <./schema_logico.png>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
- [5] [6] [7] [8] [9]
-Overfull \hbox (5.87564pt too wide) in paragraph at lines 399--400
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 238.
+ [7] [8] [9] [10] [11]
+Overfull \hbox (5.87564pt too wide) in paragraph at lines 485--486
 []\OT1/cmr/m/n/10 Model: com-prende la classe DBMS.java e tutte le clas-si che 
 de-scrivono i vari DataBean. DBMS.java
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 418.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 418.
-[10] [11] (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+[12] [13] (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-) [12]
-[13] [14] [15] (./basi.aux) ) 
+) [14]
+[15] [16] [17] (./basi.aux) ) 
 Here is how much of TeX's memory you used:
- 13310 strings out of 495061
- 237105 string characters out of 1182621
- 354420 words of memory out of 3000000
- 16226 multiletter control sequences out of 15000+50000
- 7018 words of font info for 25 fonts, out of 3000000 for 9000
+ 13322 strings out of 495061
+ 237331 string characters out of 1182621
+ 355420 words of memory out of 3000000
+ 16237 multiletter control sequences out of 15000+50000
+ 8095 words of font info for 28 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  56i,8n,69p,815b,1594s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on basi.pdf (16 pages, 303218 bytes).
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on basi.pdf (18 pages, 322591 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
+ 156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
